@@ -56,6 +56,11 @@ Detalles:
 - **Fórmulas**: HTML y Unicode (`x²`, `√`, `·`, `<sup>`, `<sub>`). Si alguna vez hace falta KaTeX, copiarlo dentro del proyecto, nunca por CDN.
 - **i18n**: textos en `js/textos.js` y `js/temario.js`. Otro idioma = otra copia traducida de esos archivos.
 - **Accesibilidad**: navegación con teclado, foco visible, contraste AA, objetivos táctiles de 44px o más, `prefers-reduced-motion`, `lang="es"`, textos alternativos. Íconos en SVG, nunca emojis.
+  - Bordes de campos y botones con contraste de 3:1 o más (token `--borde-control`). Nada que deba leerse por debajo de `.9rem`.
+  - Encabezados sin saltos: H1 título, H2 secciones (los pone `app.js`) y, dentro de `explicacion`, `ejemplo` y `vidaReal`, solo `<h3>`.
+  - En fórmulas clave, preferir `x²`/`x³` (Unicode, se leen "al cuadrado") sobre `<sup>`, o dar la lectura con `aria-label`.
+  - Texto en otro idioma dentro de una lección (Inglés, Mandarín): envolverlo en `<span lang="en">` o `<span lang="zh">` para que el lector de pantalla use la voz correcta.
+  - Ejercicios: cada campo se describe con su enunciado (`aria-describedby`), marca `aria-invalid` al fallar y la retroalimentación se reanuncia aunque el texto se repita. No enlazar a `#id` dentro de la página: el ruteo por hash lo tomaría como ruta.
 
 ## Estructura de una lección
 Cada lección sigue el mismo orden:
@@ -86,20 +91,38 @@ L('Porcentajes', {
 });
 ```
 3. Escribir las respuestas numéricas como la operación (`450 * 40 / 15`) en vez del resultado, para que no haya errores de cálculo.
-4. Usar `${F(3, 4)}` para fracciones apiladas y `<sup>` para exponentes. Clases útiles en el HTML: `.nota`, `.pasos-ej`, `.resultado`, `.tabla-wrap`.
+4. Usar `${F(3, 4)}` para fracciones apiladas. Para exponentes, preferir los caracteres Unicode (`x²`, `x³`, `10⁶`), que los lectores de pantalla leen bien ("x al cuadrado"); usar `<sup>` solo cuando no exista el carácter, como en `x<sup>n</sup>`. Clases útiles en el HTML: `.nota`, `.pasos-ej`, `.resultado`, `.tabla-wrap`.
 5. Las respuestas `numero` aceptan cualquier valor equivalente (`0,5`, `1/2`, `3×10^5`). Si lo que se evalúa es la *forma* (por ejemplo, una fracción simplificada), preguntar por un dato concreto (el numerador) en lugar del valor.
 6. **`expresion`** compara el *valor* de la expresión escrita contra `respuesta` en varios puntos (parser propio, sin `eval`). Así, `3x+5`, `5 + 3*x` y `x·3+5` valen lo mismo. `variables` es `['x']` por defecto. Con `simplificar: true`, la respuesta además no puede tener más números o letras que la esperada, ni paréntesis si la esperada no los tiene; así, copiar el enunciado no cuenta como correcto. Usar esta opción en todo ejercicio de "simplifica", "desarrolla" o "multiplica". Las respuestas `numero` y `expresion` pueden llevar un prefijo como `x =`, `y =`, `f(x) =`, `f′(x) =` o `f′(2) =` (constante `PREFIJO` en `js/ejercicios.js`).
 7. **Gráficas**: `${G({ x: [-5, 5], y: [-5, 5], funciones: [{ f: (x) => 2 * x + 1, etiqueta: 'y = 2x + 1', serie: 0 }], puntos: [{ x: 0, y: 1, etiqueta: '(0, 1)' }], descripcion: '…' })}`, con `const G = window.grafica`. Genera un SVG en línea: funciona offline, respeta el tema y sale en blanco y negro al imprimir. `descripcion` es obligatoria, porque es lo que leen los lectores de pantalla. `serie` (0 a 2) fija el color; úsala para que dos trazos de la misma curva compartan estilo. Las gráficas se pueden poner dentro de `opciones` y en enunciados, y la clase `.dos-graficas` pone dos lado a lado.
    Para figuras geométricas: `proporcional: true` (misma escala en x e y, así un cuadrado se ve cuadrado), `ejes: false` (sin cuadrícula) y `figuras: [...]` con `{ tipo: 'poligono', puntos, abierto?, relleno? }`, `{ tipo: 'circulo', x, y, r }`, `{ tipo: 'linea', desde, hasta, punteada? }` (aristas ocultas, alturas), `{ tipo: 'angulo', x, y, desde, hasta, r?, etiqueta? }` (arco en grados, contra las manecillas del reloj) y `{ tipo: 'texto', x, y, texto }`. Las figuras usan un solo color salvo que se indique `serie`, y se recortan al área de la gráfica (los textos no). Para curvas con tramos verticales (hipérbola, circunferencia como función) es mejor una polilínea paramétrica (`poligono` con `abierto: true`) que `funciones`. Ver los helpers `fig`, `raya`, `oculta` y `txt` en `lecciones/matematicas/geometria.js`.
    Gráficas de datos: ver los helpers `barras`, `histograma` y `pastel` en `lecciones/matematicas/estadistica.js` (figuras con `solido: true` y `nombres: false`). Colores de series: tokens `--serie-1/2/3` en `estilos.css` (paleta categórica validada con la skill dataviz para el tema oscuro). Máximo 3 series o sectores; si hay más, usar barras o agrupar en "Otros". Las leyendas usan texto neutro con una muestra de color, y los valores se rotulan directamente.
    En ejercicios con π, usar `tolerancia` del 0.2% (π ≈ 3.14 desvía solo 0.05%; deja margen para redondear a un decimal).
-8. Comprobar las URLs de las fuentes (deben responder 200) y ejecutar `node verificar.js`.
+8. **Accesibilidad del contenido** (además de lo que ya resuelve el motor):
+   - Dentro de `explicacion`, `ejemplo` y `vidaReal`, solo subtítulos `<h3>`, nunca `<h2>` ni `<h4>`, para no romper el orden de encabezados.
+   - Toda gráfica lleva una `descripcion` que diga lo que muestra (los valores o la forma), no solo "una gráfica".
+   - El significado nunca depende solo del color: nombra cada curva o serie ("la recta y = 2x + 1"), no "la azul".
+   - Las tablas llevan `<th>` en la fila o columna de encabezado.
+   - Texto en otro idioma: `<span lang="en">` o `<span lang="zh">`.
+   - No poner enlaces internos `href="#algo"`, porque el ruteo por hash los toma como página. Los enlaces externos (fuentes) sí van.
+   - Sin emojis, ni como íconos ni como decoración.
+9. Comprobar las URLs de las fuentes (deben responder 200) y ejecutar `node verificar.js`.
 
 ### Auditoría obligatoria al terminar cada unidad
 Al terminar de crear una unidad, lanzar un subagente con el modelo **Sonnet** (más barato) que audite el archivo de la unidad completo:
 - **Exactitud del contenido**: definiciones, reglas, ejemplos y datos correctos y sin ambigüedades, según fuentes fiables.
 - **Ejercicios**: rehacer cada cálculo de forma independiente. La respuesta, la pista y la solución deben coincidir entre sí y con el enunciado; las opciones deben tener exactamente una correcta; no debe haber respuestas equivalentes que el validador rechace injustamente o respuestas incorrectas que acepte.
 - **Pedagogía**: no usar conceptos que no se hayan visto en lecciones previas sin explicarlos; tono y redacción según la sección "Tono y redacción del contenido".
+- **Accesibilidad**: que cada lección cumpla el punto 8 de "Formato de lección":
+  - solo `<h3>` dentro de las secciones;
+  - `descripcion` útil en cada gráfica;
+  - nada que dependa solo del color;
+  - `<th>` en las tablas;
+  - `lang` en el texto de otro idioma;
+  - sin enlaces `#` internos ni emojis;
+  - exponentes con caracteres Unicode cuando existan.
+
+  Si la unidad agrega componentes o estilos nuevos, revisar también el anillo de foco visible, el contraste de 3:1 en bordes de controles y que nada de lo que se lee mida menos de `.9rem`.
 - **Claridad**: que cada lección cumpla "Cómo explicar" y esté al nivel de las "Lecciones de referencia". Debe abrir con algo conocido, dar el porqué de cada regla, leer las fórmulas con palabras, usar vocabulario para 10 a 12 años y frases completas, y respetar la extensión. "Vida real" no debe usar términos que la lección aún no ha definido. Señala los pasajes telegráficos o que dan algo por sabido.
 
 El subagente corrige directamente lo que esté mal y reporta cada cambio. Después ejecutar `node verificar.js` y `./empaquetar.sh`.

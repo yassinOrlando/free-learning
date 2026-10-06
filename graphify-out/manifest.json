@@ -50,24 +50,24 @@
     "semantic_hash": "0d3ae516c62b4703cd47e2a7a30abe3c"
   },
   "js/app.js": {
-    "mtime": 1791310953.349954,
-    "ast_hash": "8f3734816f9bab110b9b3fe98f0d401b",
-    "semantic_hash": "8f3734816f9bab110b9b3fe98f0d401b"
+    "mtime": 1791328133.2759,
+    "ast_hash": "4be0da8029c29e0e005b0d6c9f3af88c",
+    "semantic_hash": "4be0da8029c29e0e005b0d6c9f3af88c"
   },
   "js/ejercicios.js": {
-    "mtime": 1791308470.3931947,
-    "ast_hash": "d952b62d1ae9428504de3fe8d10e2b87",
-    "semantic_hash": "d952b62d1ae9428504de3fe8d10e2b87"
+    "mtime": 1791328133.2765484,
+    "ast_hash": "be32733c9affb2fd69eddfcabc87caae",
+    "semantic_hash": "be32733c9affb2fd69eddfcabc87caae"
   },
   "js/temario.js": {
-    "mtime": 1791308381.4250965,
-    "ast_hash": "f143b8f9d7f5aa9ea3f31c437688ab4c",
-    "semantic_hash": "f143b8f9d7f5aa9ea3f31c437688ab4c"
+    "mtime": 1791327721.5006862,
+    "ast_hash": "f8247e063ea8d0713c8e6ad4a1c83598",
+    "semantic_hash": "f8247e063ea8d0713c8e6ad4a1c83598"
   },
   "js/textos.js": {
-    "mtime": 1791272245.4164977,
-    "ast_hash": "ff414f8902771f7d9b5e2896e1acd8b6",
-    "semantic_hash": "ff414f8902771f7d9b5e2896e1acd8b6"
+    "mtime": 1791328133.276099,
+    "ast_hash": "cfef53c97b491b7ce1ad8155cef27540",
+    "semantic_hash": "cfef53c97b491b7ce1ad8155cef27540"
   },
   "lecciones/matematicas/aritmetica.js": {
     "mtime": 1791323201.6205635,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791311336.5963795,
-    "ast_hash": "fcc03192c80e9da11e4fecec8fda20df",
-    "semantic_hash": "fcc03192c80e9da11e4fecec8fda20df"
+    "mtime": 1791328311.7892256,
+    "ast_hash": "afbfe5823f8cb7455f41e472c5ef0487",
+    "semantic_hash": "afbfe5823f8cb7455f41e472c5ef0487"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -143,5 +143,15 @@
     "mtime": 1791323291.328967,
     "ast_hash": "c00234a63044c64f4984d03bfee72d1d",
     "semantic_hash": "c00234a63044c64f4984d03bfee72d1d"
+  },
+  "lecciones/fisica/bases.js": {
+    "mtime": 1791327810.44341,
+    "ast_hash": "2b98798390c9f79eedfa8fcee3fa4ee0",
+    "semantic_hash": "2b98798390c9f79eedfa8fcee3fa4ee0"
+  },
+  "README.md": {
+    "mtime": 1791326095.480191,
+    "ast_hash": "342799987112104a0f95fe4e77fb4c79",
+    "semantic_hash": "342799987112104a0f95fe4e77fb4c79"
   }
 }

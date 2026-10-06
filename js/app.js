@@ -195,6 +195,8 @@
     dibujar();
     alert(T.reiniciado);
   });
+  // El salto no debe tocar el hash: el router lo tomaría como una ruta y borraría la lección.
+  document.querySelector('.saltar').addEventListener('click', (e) => { e.preventDefault(); principal.focus(); });
   window.addEventListener('hashchange', dibujar);
   dibujar();
 })();

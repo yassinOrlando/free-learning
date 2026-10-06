@@ -291,22 +291,23 @@
     contenedor.innerHTML = ejercicios.map((ej, i) => {
       const id = `ej${i}`;
       const campo = ej.tipo === 'opciones'
-        ? `<fieldset class="opciones"><legend class="oculto">${T.tuRespuesta}</legend>${ej.opciones.map((o, j) => `
+        ? `<fieldset class="opciones" aria-describedby="${id}-e ${id}-r"><legend class="oculto">${T.tuRespuesta}</legend>${ej.opciones.map((o, j) => `
             <label class="opcion"><input type="radio" name="${id}" value="${j}"> <span>${o}</span></label>`).join('')}
           </fieldset>`
         : `<label class="campo"><span>${T.tuRespuesta}</span>
-            <input type="text" name="${id}" autocomplete="off" autocapitalize="off" spellcheck="false" ${ej.tipo === 'numero' ? 'inputmode="decimal"' : ''}>
-            ${ej.tipo === 'expresion' ? `<small>${T.ayudaExpresion}</small>` : ''}</label>`;
+            <input type="text" name="${id}" autocomplete="off" autocapitalize="off" spellcheck="false" ${ej.tipo === 'numero' ? 'inputmode="decimal"' : ''}
+              aria-describedby="${id}-e${ej.tipo === 'expresion' ? ` ${id}-a` : ''} ${id}-r">
+            ${ej.tipo === 'expresion' ? `<small id="${id}-a">${T.ayudaExpresion}</small>` : ''}</label>`;
       return `
-        <article class="ejercicio" data-i="${i}">
-          <h3>${T.ejercicio} ${i + 1}</h3>
-          <div class="enunciado">${ej.enunciado}</div>
+        <article class="ejercicio" data-i="${i}" aria-labelledby="${id}-t">
+          <h3 id="${id}-t">${T.ejercicio} ${i + 1}</h3>
+          <div class="enunciado" id="${id}-e">${ej.enunciado}</div>
           <div class="linea-respuesta" aria-hidden="true"></div>
           <form novalidate>
             ${campo}
             <button type="submit" class="boton">${T.comprobar}</button>
           </form>
-          <p class="retro" aria-live="polite"></p>
+          <p class="retro" id="${id}-r" aria-live="polite"></p>
           <details class="ayuda"><summary>${T.verPista}</summary><div>${ej.pista}</div></details>
           <details class="ayuda solucion" hidden><summary>${T.verSolucion}</summary><div>${ej.solucion}</div></details>
         </article>`;
@@ -317,22 +318,29 @@
       const ej = ejercicios[i];
       const form = art.querySelector('form');
       const retro = art.querySelector('.retro');
+      const control = form.querySelector('fieldset') || form.querySelector('input');
+      // aria-live solo habla si el texto cambia: vaciarlo primero hace que se anuncie también un segundo "Todavía no".
+      const avisar = (clase, texto) => {
+        retro.className = clase;
+        retro.textContent = '';
+        requestAnimationFrame(() => { retro.textContent = texto; });
+      };
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         const valor = ej.tipo === 'opciones'
           ? form.querySelector('input:checked')?.value
           : form.querySelector('input').value;
         if (valor === undefined || String(valor).trim() === '') {
-          retro.className = 'retro';
-          retro.textContent = T.escribeRespuesta;
+          avisar('retro', T.escribeRespuesta);
           return;
         }
         const bien = esCorrecta(ej, valor);
         art.classList.toggle('correcto', bien);
         art.classList.toggle('incorrecto', !bien);
-        retro.className = `retro ${bien ? 'retro--bien' : 'retro--mal'}`;
+        control.setAttribute('aria-invalid', String(!bien));
         const soloForma = !bien && ej.tipo === 'expresion' && expresionesIguales(valor, ej.respuesta, ej.variables);
-        retro.textContent = bien ? T.correcto : soloForma ? T.faltaSimplificar : T.incorrecto;
+        avisar(`retro ${bien ? 'retro--bien' : 'retro--mal'}`,
+          bien ? T.correcto : `${soloForma ? T.faltaSimplificar : T.incorrecto} ${T.solucionDisponible}`);
         if (!bien) art.querySelector('.solucion').hidden = false;
         if (bien && !resueltos.has(i)) {
           resueltos.add(i);

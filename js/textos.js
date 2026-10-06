@@ -41,6 +41,7 @@ window.TEXTOS = {
   correcto: '¡Correcto!',
   incorrecto: 'Todavía no. Revisa tu procedimiento e inténtalo otra vez.',
   escribeRespuesta: 'Escribe o elige una respuesta primero.',
+  solucionDisponible: 'Si quieres, ya puedes ver la solución.',
   faltaSimplificar: 'Vas bien: tu expresión es equivalente, pero todavía se puede simplificar o desarrollar más.',
   ayudaExpresion: 'Usa ^ para potencias (x^2) y * o nada para multiplicar (3x, 2(x+1)).',
   comoUsarTitulo: 'Cómo usar Free Learning en tu computadora',

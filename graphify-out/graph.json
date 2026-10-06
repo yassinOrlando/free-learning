@@ -4,31 +4,42 @@
   "graph": {
     "hyperedges": [
       {
-        "id": "lesson_writing_standard",
-        "label": "Lesson writing standard",
+        "id": "claude_accesibilidad_tres_lugares",
+        "label": "Accessibility rules across technical decisions, content format and audit",
         "nodes": [
-          "claude_como_explicar",
-          "claude_reference_lessons",
-          "claude_tone",
-          "claude_audit_claridad"
+          "claude_accesibilidad",
+          "claude_acc_contenido",
+          "claude_auditoria_accesibilidad"
         ],
         "relation": "form",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
+        "confidence_score": 1.0,
         "source_file": "CLAUDE.md"
       },
       {
-        "id": "unit_quality_loop",
-        "label": "Unit authoring and audit loop",
+        "id": "claude_calidad_explicacion",
+        "label": "Explanation quality standard",
         "nodes": [
-          "claude_lesson_format",
-          "claude_audit",
+          "claude_como_explicar",
+          "claude_lecciones_referencia",
+          "claude_auditoria_claridad"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "CLAUDE.md"
+      },
+      {
+        "id": "claude_flujo_entrega",
+        "label": "Delivery flow: audit, verify, package",
+        "nodes": [
+          "claude_auditoria",
           "verificar",
-          "empaquetar"
+          "empaquetar_sh"
         ],
         "relation": "participate_in",
         "confidence": "EXTRACTED",
-        "confidence_score": 0.95,
+        "confidence_score": 1.0,
         "source_file": "CLAUDE.md"
       },
       {
@@ -57,20 +68,6 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": ".claude/skills/ui-ux-pro-max/SKILL.md"
-      },
-      {
-        "id": "lesson_loading_pipeline",
-        "label": "Lesson data loading pipeline",
-        "nodes": [
-          "js_temario",
-          "lecciones_unit_files",
-          "js_ejercicios_registrarleccion",
-          "js_app"
-        ],
-        "relation": "participate_in",
-        "confidence": "INFERRED",
-        "confidence_score": 0.85,
-        "source_file": "CLAUDE.md"
       }
     ]
   },
@@ -96,7 +93,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "bm25",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25"
@@ -930,18 +927,6 @@
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_react_contract"
     },
     {
-      "label": "_check_reasoning_contract()",
-      "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
-      "source_location": "L331",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "Validaci\u00f3n de datos de la skill",
-      "norm_label": "_check_reasoning_contract()",
-      "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_reasoning_contract"
-    },
-    {
       "label": "_check_stack_freshness_contract()",
       "file_type": "code",
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
@@ -1213,7 +1198,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "acepta()",
       "id": "verificar_acepta"
     },
@@ -1225,7 +1210,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "expr()",
       "id": "verificar_expr"
     },
@@ -1237,7 +1222,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "falla()",
       "id": "verificar_falla"
     },
@@ -1249,7 +1234,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "rechaza()",
       "id": "verificar_rechaza"
     },
@@ -1261,7 +1246,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "simp()",
       "id": "verificar_simp"
     },
@@ -1272,10 +1257,10 @@
       "source_location": "L273",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_escorrecta",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "escorrecta()",
-      "id": "js_ejercicios_escorrecta"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "escorrecta()"
     },
     {
       "label": "expresionesIguales()",
@@ -1284,10 +1269,10 @@
       "source_location": "L250",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_expresionesiguales",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "expresionesiguales()",
-      "id": "js_ejercicios_expresionesiguales"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "expresionesiguales()"
     },
     {
       "label": "grafica()",
@@ -1296,10 +1281,10 @@
       "source_location": "L32",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_grafica",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "grafica()",
-      "id": "js_ejercicios_grafica"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "grafica()"
     },
     {
       "label": "montar()",
@@ -1308,10 +1293,10 @@
       "source_location": "L289",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_montar",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "montar()",
-      "id": "js_ejercicios_montar"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "montar()"
     },
     {
       "label": "normalizarNumero()",
@@ -1320,10 +1305,10 @@
       "source_location": "L141",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_normalizarnumero",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "normalizarnumero()",
-      "id": "js_ejercicios_normalizarnumero"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "normalizarnumero()"
     },
     {
       "label": "parsearExpresion()",
@@ -1332,10 +1317,10 @@
       "source_location": "L191",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_parsearexpresion",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "parsearexpresion()",
-      "id": "js_ejercicios_parsearexpresion"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "parsearexpresion()"
     },
     {
       "label": "registrarLeccion()",
@@ -1344,10 +1329,10 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
+      "id": "js_ejercicios_registrarleccion",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "registrarleccion()",
-      "id": "js_ejercicios_registrarleccion"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "registrarleccion()"
     },
     {
       "label": "barras()",
@@ -1356,10 +1341,10 @@
       "source_location": "L12",
       "_callable": true,
       "_origin": "ast",
-      "id": "lecciones_matematicas_estadistica_barras",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "barras()"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "barras()",
+      "id": "lecciones_matematicas_estadistica_barras"
     },
     {
       "label": "histograma()",
@@ -1368,10 +1353,10 @@
       "source_location": "L22",
       "_callable": true,
       "_origin": "ast",
-      "id": "lecciones_matematicas_estadistica_histograma",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "histograma()"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "histograma()",
+      "id": "lecciones_matematicas_estadistica_histograma"
     },
     {
       "label": "pastel()",
@@ -1380,10 +1365,10 @@
       "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
-      "id": "lecciones_matematicas_estadistica_pastel",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "pastel()"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "pastel()",
+      "id": "lecciones_matematicas_estadistica_pastel"
     },
     {
       "label": "._apply_reasoning()",
@@ -1554,13 +1539,181 @@
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_dial"
     },
     {
+      "label": "apply_decision_rules()",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L101",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "apply_decision_rules()",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_apply_decision_rules"
+    },
+    {
+      "label": "_object_without_duplicates()",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "_object_without_duplicates()",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates"
+    },
+    {
+      "label": "parse_decision_rules()",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L67",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "parse_decision_rules()",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_parse_decision_rules"
+    },
+    {
+      "label": "_validate_action()",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "_validate_action()",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_validate_action"
+    },
+    {
+      "label": "_check_reasoning_contract()",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/validate_data.py",
+      "source_location": "L331",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "_check_reasoning_contract()",
+      "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_reasoning_contract"
+    },
+    {
+      "label": "cargarMateria()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L27",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_cargarmateria",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "cargarmateria()"
+    },
+    {
+      "label": "completar()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_completar",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "completar()"
+    },
+    {
+      "label": "dibujar()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L141",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_dibujar",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "dibujar()"
+    },
+    {
+      "label": "leer()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_leer",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "leer()"
+    },
+    {
+      "label": "reiniciar()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_reiniciar",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "reiniciar()"
+    },
+    {
+      "label": "vistaComoUsar()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L179",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_vistacomousar",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "vistacomousar()"
+    },
+    {
+      "label": "vistaInicio()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_vistainicio",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "vistainicio()"
+    },
+    {
+      "label": "vistaLeccion()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L96",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_vistaleccion",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "vistaleccion()"
+    },
+    {
+      "label": "vistaMateria()",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "js_app_vistamateria",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "vistamateria()"
+    },
+    {
       "label": ".fit()",
       "file_type": "code",
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L302",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": ".fit()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_fit"
@@ -1572,7 +1725,7 @@
       "source_location": "L285",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": ".__init__()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_init"
@@ -1584,7 +1737,7 @@
       "source_location": "L323",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": ".score()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_score"
@@ -1596,7 +1749,7 @@
       "source_location": "L296",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": ".tokenize()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_tokenize"
@@ -1608,166 +1761,10 @@
       "source_location": "L345",
       "_callable": true,
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": ".vocabulary()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_vocabulary"
-    },
-    {
-      "label": "cargarMateria()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L27",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "cargarmateria()",
-      "id": "js_app_cargarmateria"
-    },
-    {
-      "label": "completar()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L13",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "completar()",
-      "id": "js_app_completar"
-    },
-    {
-      "label": "dibujar()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L141",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "dibujar()",
-      "id": "js_app_dibujar"
-    },
-    {
-      "label": "leer()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L10",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "leer()",
-      "id": "js_app_leer"
-    },
-    {
-      "label": "reiniciar()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L20",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "reiniciar()",
-      "id": "js_app_reiniciar"
-    },
-    {
-      "label": "vistaComoUsar()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L179",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "vistacomousar()",
-      "id": "js_app_vistacomousar"
-    },
-    {
-      "label": "vistaInicio()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L46",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "vistainicio()",
-      "id": "js_app_vistainicio"
-    },
-    {
-      "label": "vistaLeccion()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L96",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "vistaleccion()",
-      "id": "js_app_vistaleccion"
-    },
-    {
-      "label": "vistaMateria()",
-      "file_type": "code",
-      "source_file": "js/app.js",
-      "source_location": "L68",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "vistamateria()",
-      "id": "js_app_vistamateria"
-    },
-    {
-      "label": "apply_decision_rules()",
-      "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L101",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "apply_decision_rules()",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_apply_decision_rules"
-    },
-    {
-      "label": "_object_without_duplicates()",
-      "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L58",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "_object_without_duplicates()",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates"
-    },
-    {
-      "label": "parse_decision_rules()",
-      "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L67",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "parse_decision_rules()",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_parse_decision_rules"
-    },
-    {
-      "label": "_validate_action()",
-      "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L87",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "_validate_action()",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_validate_action"
     },
     {
       "label": "core.py",
@@ -2320,15 +2317,26 @@
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_998"
     },
     {
+      "label": "bases.js",
+      "file_type": "code",
+      "source_file": "lecciones/fisica/bases.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_fisica_bases",
+      "community": 10,
+      "community_name": "Lecciones de F\u00edsica: bases",
+      "norm_label": "bases.js"
+    },
+    {
       "label": "algebra.js",
       "file_type": "code",
       "source_file": "lecciones/matematicas/algebra.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_algebra",
       "community": 11,
       "community_name": "Lecciones de \u00c1lgebra",
-      "norm_label": "algebra.js"
+      "norm_label": "algebra.js",
+      "id": "lecciones_matematicas_algebra"
     },
     {
       "label": "calculo.js",
@@ -2336,10 +2344,10 @@
       "source_file": "lecciones/matematicas/calculo.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_calculo",
       "community": 12,
       "community_name": "Lecciones de C\u00e1lculo",
-      "norm_label": "calculo.js"
+      "norm_label": "calculo.js",
+      "id": "lecciones_matematicas_calculo"
     },
     {
       "label": "geometria-analitica.js",
@@ -2347,10 +2355,10 @@
       "source_file": "lecciones/matematicas/geometria-analitica.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_geometria_analitica",
       "community": 13,
       "community_name": "Lecciones de Geometr\u00eda anal\u00edtica",
-      "norm_label": "geometria-analitica.js"
+      "norm_label": "geometria-analitica.js",
+      "id": "lecciones_matematicas_geometria_analitica"
     },
     {
       "label": "trigonometria.js",
@@ -2358,10 +2366,10 @@
       "source_file": "lecciones/matematicas/trigonometria.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_trigonometria",
       "community": 14,
       "community_name": "Lecciones de Trigonometr\u00eda",
-      "norm_label": "trigonometria.js"
+      "norm_label": "trigonometria.js",
+      "id": "lecciones_matematicas_trigonometria"
     },
     {
       "label": "validate_data.py",
@@ -2408,67 +2416,15 @@
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_806"
     },
     {
-      "label": "empaquetar.sh",
-      "file_type": "code",
-      "source_file": "empaquetar.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "file"
-      },
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "empaquetar.sh",
-      "id": "empaquetar"
-    },
-    {
-      "label": "empaquetar.sh script",
-      "file_type": "code",
-      "source_file": "empaquetar.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "bash_entrypoint"
-      },
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "empaquetar.sh script",
-      "id": "empaquetar_sh__entry"
-    },
-    {
-      "label": "temario.js",
-      "file_type": "code",
-      "source_file": "js/temario.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "temario.js",
-      "id": "js_temario"
-    },
-    {
-      "label": "textos.js",
-      "file_type": "code",
-      "source_file": "js/textos.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "textos.js",
-      "id": "js_textos"
-    },
-    {
       "label": "aritmetica.js",
       "file_type": "code",
       "source_file": "lecciones/matematicas/aritmetica.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_aritmetica",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "aritmetica.js"
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "aritmetica.js",
+      "id": "lecciones_matematicas_aritmetica"
     },
     {
       "label": "funciones.js",
@@ -2476,10 +2432,10 @@
       "source_file": "lecciones/matematicas/funciones.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_funciones",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "funciones.js"
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "funciones.js",
+      "id": "lecciones_matematicas_funciones"
     },
     {
       "label": "verificar.js",
@@ -2488,7 +2444,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "verificar.js",
       "id": "verificar"
     },
@@ -2499,7 +2455,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "assert",
       "id": "verificar_assert"
     },
@@ -2510,7 +2466,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "entemario",
       "id": "verificar_entemario"
     },
@@ -2521,7 +2477,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "fig",
       "id": "verificar_fig"
     },
@@ -2532,7 +2488,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "path",
       "id": "verificar_path"
     },
@@ -2543,7 +2499,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
+      "community_name": "Principios y est\u00e1ndar de lecciones",
       "norm_label": "svg",
       "id": "verificar_svg"
     },
@@ -2553,10 +2509,10 @@
       "source_file": "js/ejercicios.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "js_ejercicios",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "ejercicios.js",
-      "id": "js_ejercicios"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "ejercicios.js"
     },
     {
       "label": "estadistica.js",
@@ -2564,10 +2520,10 @@
       "source_file": "lecciones/matematicas/estadistica.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_estadistica",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "estadistica.js"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "estadistica.js",
+      "id": "lecciones_matematicas_estadistica"
     },
     {
       "label": "geometria.js",
@@ -2575,10 +2531,21 @@
       "source_file": "lecciones/matematicas/geometria.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_matematicas_geometria",
       "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "geometria.js"
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "geometria.js",
+      "id": "lecciones_matematicas_geometria"
+    },
+    {
+      "label": "reasoning_contract.py",
+      "file_type": "code",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "reasoning_contract.py",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract"
     },
     {
       "label": "Drop \"avoid dark mode\" advice once dark mode is the resolved answer.",
@@ -2691,12 +2658,67 @@
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_91"
     },
     {
+      "label": "Return deterministic mutations and an audit trail; never execute data.",
+      "file_type": "rationale",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L102",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "return deterministic mutations and an audit trail; never execute data.",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_102"
+    },
+    {
+      "label": "Parse the canonical condition -> action-array representation.",
+      "file_type": "rationale",
+      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Clase DesignSystemGenerator",
+      "norm_label": "parse the canonical condition -> action-array representation.",
+      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_68"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "js/app.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "js_app",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "app.js"
+    },
+    {
+      "label": "temario.js",
+      "file_type": "code",
+      "source_file": "js/temario.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "js_temario",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "temario.js"
+    },
+    {
+      "label": "textos.js",
+      "file_type": "code",
+      "source_file": "js/textos.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "js_textos",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "textos.js"
+    },
+    {
       "label": "BM25 ranking algorithm for text search",
       "file_type": "rationale",
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L283",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "bm25 ranking algorithm for text search",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_283"
@@ -2707,7 +2729,7 @@
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L297",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "lowercase, normalize synonyms, split, remove punctuation, filter stopwords",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_297"
@@ -2718,7 +2740,7 @@
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L303",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "build bm25 index from documents",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_303"
@@ -2729,7 +2751,7 @@
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L324",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "score all documents against query",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_324"
@@ -2740,549 +2762,40 @@
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
       "source_location": "L346",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "community_name": "Ranking BM25",
       "norm_label": "all indexed terms, for suggestion/typo-recovery purposes.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_346"
     },
     {
-      "label": "app.js",
+      "label": "empaquetar.sh",
       "file_type": "code",
-      "source_file": "js/app.js",
+      "source_file": "empaquetar.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
       "_origin": "ast",
-      "community": 8,
-      "community_name": "App: rutas, vistas y progreso",
-      "norm_label": "app.js",
-      "id": "js_app"
+      "community": 9,
+      "community_name": "Empaquetado (zip)",
+      "norm_label": "empaquetar.sh",
+      "id": "empaquetar"
     },
     {
-      "label": "reasoning_contract.py",
+      "label": "empaquetar.sh script",
       "file_type": "code",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source_file": "empaquetar.sh",
       "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
       "_origin": "ast",
       "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "reasoning_contract.py",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract"
-    },
-    {
-      "label": "Return deterministic mutations and an audit trail; never execute data.",
-      "file_type": "rationale",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L102",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "return deterministic mutations and an audit trail; never execute data.",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_102"
-    },
-    {
-      "label": "Parse the canonical condition -> action-array representation.",
-      "file_type": "rationale",
-      "source_file": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
-      "source_location": "L68",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "Contrato de razonamiento de la skill",
-      "norm_label": "parse the canonical condition -> action-array representation.",
-      "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_68"
-    },
-    {
-      "label": "Accesibilidad",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "community_name": "Accesibilidad",
-      "norm_label": "accesibilidad",
-      "_origin": "semantic",
-      "id": "claude_accessibility"
-    },
-    {
-      "label": "Lecci\u00f3n \"Porcentajes\" (referencia)",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "leccion \"porcentajes\" (referencia)",
-      "_origin": "semantic",
-      "id": "lecciones_matematicas_aritmetica_porcentajes"
-    },
-    {
-      "label": "Lecci\u00f3n \"Funci\u00f3n lineal y pendiente\" (referencia)",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "leccion \"funcion lineal y pendiente\" (referencia)",
-      "_origin": "semantic",
-      "id": "lecciones_matematicas_funciones_funcion_lineal_y_pendiente"
-    },
-    {
-      "label": "lecciones/<materia>/<unidad>.js",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "lecciones/<materia>/<unidad>.js",
-      "_origin": "semantic",
-      "id": "lecciones_unit_files"
-    },
-    {
-      "label": "Auditor\u00eda obligatoria al terminar cada unidad (subagente Sonnet)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "auditoria obligatoria al terminar cada unidad (subagente sonnet)",
-      "_origin": "semantic",
-      "id": "claude_audit"
-    },
-    {
-      "label": "Criterio de auditor\u00eda: Claridad",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "criterio de auditoria: claridad",
-      "_origin": "semantic",
-      "id": "claude_audit_claridad"
-    },
-    {
-      "label": "C\u00f3mo explicar (writing guide, lector de 10 a 12 a\u00f1os)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "como explicar (writing guide, lector de 10 a 12 anos)",
-      "_origin": "semantic",
-      "id": "claude_como_explicar"
-    },
-    {
-      "label": "Free learning (local-first educational site)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "free learning (local-first educational site)",
-      "_origin": "semantic",
-      "id": "claude_free_learning"
-    },
-    {
-      "label": "i18n (texts from translation files)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "i18n (texts from translation files)",
-      "_origin": "semantic",
-      "id": "claude_i18n"
-    },
-    {
-      "label": "Lecciones de referencia (est\u00e1ndar de calidad)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "lecciones de referencia (estandar de calidad)",
-      "_origin": "semantic",
-      "id": "claude_reference_lessons"
-    },
-    {
-      "label": "Alcance (basic/intermediate education, ES only, EN/ZH levels)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "alcance (basic/intermediate education, es only, en/zh levels)",
-      "_origin": "semantic",
-      "id": "claude_scope"
-    },
-    {
-      "label": "speechSynthesis pronunciation",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "speechsynthesis pronunciation",
-      "_origin": "semantic",
-      "id": "claude_speech_synthesis"
-    },
-    {
-      "label": "Tono y redacci\u00f3n del contenido",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "tono y redaccion del contenido",
-      "_origin": "semantic",
-      "id": "claude_tone"
-    },
-    {
-      "label": "Secci\u00f3n \u00bfPara qu\u00e9 sirve en la vida real? (antes de la explicaci\u00f3n)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "seccion \u00bfpara que sirve en la vida real? (antes de la explicacion)",
-      "_origin": "semantic",
-      "id": "claude_vida_real"
-    },
-    {
-      "label": "CLAUDE.md (Free learning project instructions)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "claude.md (free learning project instructions)",
-      "_origin": "semantic",
-      "id": "claude"
-    },
-    {
-      "label": "T\u00e9cnicas de las lecciones de referencia (experiencia antes del nombre, s\u00edmbolo en palabras, etc.)",
-      "file_type": "rationale",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "community_name": "Instrucciones y est\u00e1ndar de redacci\u00f3n",
-      "norm_label": "tecnicas de las lecciones de referencia (experiencia antes del nombre, simbolo en palabras, etc.)",
-      "_origin": "semantic",
-      "id": "claude_reference_techniques"
-    },
-    {
-      "label": "estilos.css",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "estilos.css",
-      "_origin": "semantic",
-      "id": "estilos_css"
-    },
-    {
-      "label": "PREFIJO constant",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "prefijo constant",
-      "_origin": "semantic",
-      "id": "js_ejercicios_prefijo"
-    },
-    {
-      "label": "slug()",
-      "file_type": "code",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "slug()",
-      "_origin": "semantic",
-      "id": "js_ejercicios_slug"
-    },
-    {
-      "label": "Fuentes de contenido (Khan, OpenStax, CK-12, PhET)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "fuentes de contenido (khan, openstax, ck-12, phet)",
-      "_origin": "semantic",
-      "id": "claude_content_sources"
-    },
-    {
-      "label": "Estilo visual editorial",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "estilo visual editorial",
-      "_origin": "semantic",
-      "id": "claude_editorial_style"
-    },
-    {
-      "label": "Tipos de ejercicio (numero, opciones, texto, expresion)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "tipos de ejercicio (numero, opciones, texto, expresion)",
-      "_origin": "semantic",
-      "id": "claude_exercise_types"
-    },
-    {
-      "label": "Validaci\u00f3n de expresion (parser propio, simplificar)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "validacion de expresion (parser propio, simplificar)",
-      "_origin": "semantic",
-      "id": "claude_expresion_validation"
-    },
-    {
-      "label": "F\u00f3rmulas HTML/Unicode (KaTeX only local)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "formulas html/unicode (katex only local)",
-      "_origin": "semantic",
-      "id": "claude_formulas"
-    },
-    {
-      "label": "Gr\u00e1ficas SVG en l\u00ednea (window.grafica, figuras, series)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "graficas svg en linea (window.grafica, figuras, series)",
-      "_origin": "semantic",
-      "id": "claude_graph_figures"
-    },
-    {
-      "label": "Formato de lecci\u00f3n (c\u00f3digo) L(...)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "formato de leccion (codigo) l(...)",
-      "_origin": "semantic",
-      "id": "claude_lesson_format"
-    },
-    {
-      "label": "Estructura de una lecci\u00f3n (objetivo, vida real, explicaci\u00f3n, ejemplo, ejercicios, fuentes)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "estructura de una leccion (objetivo, vida real, explicacion, ejemplo, ejercicios, fuentes)",
-      "_origin": "semantic",
-      "id": "claude_lesson_structure"
-    },
-    {
-      "label": "PDF export (window.print + @media print)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "pdf export (window.print + @media print)",
-      "_origin": "semantic",
-      "id": "claude_pdf_export"
-    },
-    {
-      "label": "Progreso (localStorage, window.Progreso)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "progreso (localstorage, window.progreso)",
-      "_origin": "semantic",
-      "id": "claude_progreso"
-    },
-    {
-      "label": "Requerimientos (zero install, offline, dark, PDF, progress, zip)",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "requerimientos (zero install, offline, dark, pdf, progress, zip)",
-      "_origin": "semantic",
-      "id": "claude_requirements"
-    },
-    {
-      "label": "ui-ux-pro-max skill",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "ui-ux-pro-max skill",
-      "_origin": "semantic",
-      "id": "claude_skill_ui_ux_pro_max"
-    },
-    {
-      "label": "Ejercicios estilo SQLBolt",
-      "file_type": "concept",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "ejercicios estilo sqlbolt",
-      "_origin": "semantic",
-      "id": "claude_sqlbolt_exercises"
-    },
-    {
-      "label": "Restricciones de file:// (no modules, fetch, JSON, CDN)",
-      "file_type": "rationale",
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 4,
-      "community_name": "Reglas t\u00e9cnicas y de contenido",
-      "norm_label": "restricciones de file:// (no modules, fetch, json, cdn)",
-      "_origin": "semantic",
-      "id": "claude_file_protocol_constraints"
+      "community_name": "Empaquetado (zip)",
+      "norm_label": "empaquetar.sh script",
+      "id": "empaquetar_sh__entry"
     },
     {
       "label": "index.html SPA shell",
@@ -3293,7 +2806,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "index.html spa shell",
       "_origin": "semantic",
@@ -3308,7 +2821,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "js/app.js",
       "_origin": "semantic",
@@ -3323,7 +2836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "js/ejercicios.js",
       "_origin": "semantic",
@@ -3338,7 +2851,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "js/temario.js",
       "_origin": "semantic",
@@ -3353,7 +2866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "js/textos.js",
       "_origin": "semantic",
@@ -3368,7 +2881,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "light/dark mode contrast rules",
       "_origin": "semantic",
@@ -3383,7 +2896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "no emoji as structural icons (use svg)",
       "_origin": "semantic",
@@ -3398,7 +2911,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "accessibility rules (wcag, contrast, focus, reduced motion)",
       "_origin": "semantic",
@@ -3413,7 +2926,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "rule categories by priority (10 categories)",
       "_origin": "semantic",
@@ -3428,7 +2941,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "pro rules and pre-delivery checklist",
       "_origin": "semantic",
@@ -3443,7 +2956,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "quick reference full rule set",
       "_origin": "semantic",
@@ -3458,7 +2971,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "ui/ux pro max skill",
       "_origin": "semantic",
@@ -3473,7 +2986,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "leeme.txt usage instructions",
       "_origin": "semantic",
@@ -3488,7 +3001,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "design system generation (master.md + page overrides)",
       "_origin": "semantic",
@@ -3503,11 +3016,703 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "community_name": "Reglas de dise\u00f1o de la skill",
       "norm_label": "classic (non-module) scripts for file:// opening",
       "_origin": "semantic",
       "id": "index_html_classic_scripts"
+    },
+    {
+      "label": "empaquetar.sh",
+      "file_type": "code",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "empaquetar_sh",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "empaquetar.sh"
+    },
+    {
+      "label": "Scope: basic and secondary education, English and Mandarin only, Spanish UI",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_alcance",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "scope: basic and secondary education, english and mandarin only, spanish ui"
+    },
+    {
+      "label": "Mandatory unit audit by Sonnet subagent",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_auditoria",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "mandatory unit audit by sonnet subagent"
+    },
+    {
+      "label": "Audit criterion: Claridad",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_auditoria_claridad",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "audit criterion: claridad"
+    },
+    {
+      "label": "Como explicar (teaching guidelines, reader aged 10-12)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_como_explicar",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "como explicar (teaching guidelines, reader aged 10-12)"
+    },
+    {
+      "label": "Lesson structure (objetivo, vida real, explicacion, ejemplo, ejercicios, fuentes)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_estructura_leccion",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "lesson structure (objetivo, vida real, explicacion, ejemplo, ejercicios, fuentes)"
+    },
+    {
+      "label": "Trusted content sources (Khan, OpenStax, CK-12, PhET, Wikipedia)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_fuentes",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "trusted content sources (khan, openstax, ck-12, phet, wikipedia)"
+    },
+    {
+      "label": "Lesson Funcion lineal y pendiente",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_leccion_funcion_lineal",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "lesson funcion lineal y pendiente"
+    },
+    {
+      "label": "Lesson Porcentajes",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_leccion_porcentajes",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "lesson porcentajes"
+    },
+    {
+      "label": "Lecciones de referencia (quality standard)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_lecciones_referencia",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "lecciones de referencia (quality standard)"
+    },
+    {
+      "label": "Requirements (zero install, laptop first, dark theme, PDF, progress, zip)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_requerimientos",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "requirements (zero install, laptop first, dark theme, pdf, progress, zip)"
+    },
+    {
+      "label": "Tone and writing rules",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_tono",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "tone and writing rules"
+    },
+    {
+      "label": "Vida real section (read before explanation, no undefined terms)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_vida_real",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "vida real section (read before explanation, no undefined terms)"
+    },
+    {
+      "label": "README: lesson shape",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_como_es_leccion",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "readme: lesson shape"
+    },
+    {
+      "label": "README: contributing (pure HTML/CSS/JS, run verificar and empaquetar)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_contribuir",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "readme: contributing (pure html/css/js, run verificar and empaquetar)"
+    },
+    {
+      "label": "Matematicas (64 lessons ready)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_matematicas",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "matematicas (64 lessons ready)"
+    },
+    {
+      "label": "Other subjects (coming soon)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_otras_materias",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "other subjects (coming soon)"
+    },
+    {
+      "label": "README: curriculum table",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_temario",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "readme: curriculum table"
+    },
+    {
+      "label": "Free Learning project",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_free_learning",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "free learning project"
+    },
+    {
+      "label": "README: Free Learning overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_free_learning",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "readme: free learning overview"
+    },
+    {
+      "label": "Zero install via file:// double click",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Anyone without technical knowledge must be able to use the site by opening index.html.",
+      "id": "claude_cero_instalacion",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "zero install via file:// double click"
+    },
+    {
+      "label": "file:// restrictions (no modules, fetch, json, CDN)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Browsers block modules, fetch and json on local files, so data lives in classic .js files assigning to window; all resources local for offline use.",
+      "id": "claude_file_restricciones",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "file:// restrictions (no modules, fetch, json, cdn)"
+    },
+    {
+      "label": "Free forever, no accounts/ads/tracking (love letter to humanity)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Education is a privilege; the site explains concepts simply so anyone can understand.",
+      "id": "claude_mision",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "free forever, no accounts/ads/tracking (love letter to humanity)"
+    },
+    {
+      "label": "Why it exists: free forever, for anyone, offline, reliable content",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Education is a privilege; the site is a love letter to humanity.",
+      "id": "readme_por_que_existe",
+      "community": 3,
+      "community_name": "Principios y est\u00e1ndar de lecciones",
+      "norm_label": "why it exists: free forever, for anyone, offline, reliable content"
+    },
+    {
+      "label": "estilos.css",
+      "file_type": "code",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "estilos_css",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "estilos.css"
+    },
+    {
+      "label": "tipografia/ Atkinson Hyperlegible",
+      "file_type": "code",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "tipografia_atkinson",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "tipografia/ atkinson hyperlegible"
+    },
+    {
+      "label": "Accesibilidad del contenido (lesson format item 8)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_contenido",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "accesibilidad del contenido (lesson format item 8)"
+    },
+    {
+      "label": "Control borders 3:1 contrast (--borde-control), min .9rem",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_contraste_bordes",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "control borders 3:1 contrast (--borde-control), min .9rem"
+    },
+    {
+      "label": "Graph descripcion must state values/shape; meaning not color-only",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_descripcion_grafica",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "graph descripcion must state values/shape; meaning not color-only"
+    },
+    {
+      "label": "Exercise a11y: aria-describedby, aria-invalid, feedback re-announced, no # links",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_ejercicios",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "exercise a11y: aria-describedby, aria-invalid, feedback re-announced, no # links"
+    },
+    {
+      "label": "Heading order: H1 title, H2 sections by app.js, H3 inside content",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_encabezados",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "heading order: h1 title, h2 sections by app.js, h3 inside content"
+    },
+    {
+      "label": "Prefer Unicode exponents over sup (screen readers)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_formulas",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "prefer unicode exponents over sup (screen readers)"
+    },
+    {
+      "label": "lang attribute spans for en/zh text",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_acc_lang",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "lang attribute spans for en/zh text"
+    },
+    {
+      "label": "Accesibilidad (technical decisions)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_accesibilidad",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "accesibilidad (technical decisions)"
+    },
+    {
+      "label": "Audit criterion: Accesibilidad",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_auditoria_accesibilidad",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "audit criterion: accesibilidad"
+    },
+    {
+      "label": "Editorial visual style",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_estilo_editorial",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "editorial visual style"
+    },
+    {
+      "label": "expresion validator with simplificar option",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_expresion_simplificar",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "expresion validator with simplificar option"
+    },
+    {
+      "label": "Lesson code format (L(title, {...}))",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_formato_leccion",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "lesson code format (l(title, {...}))"
+    },
+    {
+      "label": "Graphs via window.grafica (inline SVG)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_graficas",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "graphs via window.grafica (inline svg)"
+    },
+    {
+      "label": "Subjects list (11 materias)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_materias",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "subjects list (11 materias)"
+    },
+    {
+      "label": "PDF export via print and @media print",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_pdf",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "pdf export via print and @media print"
+    },
+    {
+      "label": "ui-ux-pro-max skill",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_skill_ui_ux",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "ui-ux-pro-max skill"
+    },
+    {
+      "label": "speechSynthesis for pronunciation",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Native system voices work offline and avoid recording audio; fall back to pinyin/transcription.",
+      "id": "claude_speechsynthesis",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "speechsynthesis for pronunciation"
+    },
+    {
+      "label": "SQLBolt-style interactive exercises",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": "https://sqlbolt.com/",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_sqlbolt",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "sqlbolt-style interactive exercises"
+    },
+    {
+      "label": "Exercise types: numero, opciones, texto, expresion",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_tipos_ejercicio",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "exercise types: numero, opciones, texto, expresion"
+    },
+    {
+      "label": "No internal #id links (hash routing conflict)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Hash routing would interpret an in-page #id link as a route.",
+      "id": "claude_no_enlaces_hash",
+      "community": 4,
+      "community_name": "Reglas de accesibilidad",
+      "norm_label": "no internal #id links (hash routing conflict)"
+    },
+    {
+      "label": "lecciones/<materia>/<unidad>.js",
+      "file_type": "code",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_lecciones_dir",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "lecciones/<materia>/<unidad>.js"
+    },
+    {
+      "label": "i18n via textos.js and temario.js copies",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_i18n",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "i18n via textos.js and temario.js copies"
+    },
+    {
+      "label": "Progress in localStorage (Progreso API)",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "claude_progreso",
+      "community": 6,
+      "community_name": "App: rutas, vistas y progreso",
+      "norm_label": "progress in localstorage (progreso api)"
     }
   ],
   "links": [
@@ -5355,9 +5560,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_completar",
-      "target": "js_app_leer"
+      "target": "js_app_leer",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5367,9 +5572,9 @@
       "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_dibujar",
-      "target": "js_app_cargarmateria"
+      "target": "js_app_cargarmateria",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5379,9 +5584,9 @@
       "source_location": "L151",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_dibujar",
-      "target": "js_app_vistainicio"
+      "target": "js_app_vistainicio",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5391,9 +5596,9 @@
       "source_location": "L152",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_dibujar",
-      "target": "js_app_vistacomousar"
+      "target": "js_app_vistacomousar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5403,9 +5608,9 @@
       "source_location": "L153",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_dibujar",
-      "target": "js_app_vistamateria"
+      "target": "js_app_vistamateria",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5415,9 +5620,9 @@
       "source_location": "L154",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app_dibujar",
-      "target": "js_app_vistaleccion"
+      "target": "js_app_vistaleccion",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5427,9 +5632,9 @@
       "source_location": "L275",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios_escorrecta",
-      "target": "js_ejercicios_expresionesiguales"
+      "target": "js_ejercicios_expresionesiguales",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5439,9 +5644,9 @@
       "source_location": "L279",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios_escorrecta",
-      "target": "js_ejercicios_normalizarnumero"
+      "target": "js_ejercicios_normalizarnumero",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5451,33 +5656,33 @@
       "source_location": "L251",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios_expresionesiguales",
-      "target": "js_ejercicios_parsearexpresion"
+      "target": "js_ejercicios_parsearexpresion",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/ejercicios.js",
-      "source_location": "L330",
+      "source_location": "L337",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios_montar",
-      "target": "js_ejercicios_escorrecta"
+      "target": "js_ejercicios_escorrecta",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "js/ejercicios.js",
-      "source_location": "L334",
+      "source_location": "L341",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios_montar",
-      "target": "js_ejercicios_expresionesiguales"
+      "target": "js_ejercicios_expresionesiguales",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6789,9 +6994,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_leer"
+      "target": "js_app_leer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6800,9 +7005,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_completar"
+      "target": "js_app_completar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6811,9 +7016,9 @@
       "source_location": "L141",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_dibujar"
+      "target": "js_app_dibujar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6822,9 +7027,9 @@
       "source_location": "L179",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_vistacomousar"
+      "target": "js_app_vistacomousar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6833,9 +7038,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_reiniciar"
+      "target": "js_app_reiniciar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6844,9 +7049,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_cargarmateria"
+      "target": "js_app_cargarmateria",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6855,9 +7060,9 @@
       "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_vistainicio"
+      "target": "js_app_vistainicio",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6866,9 +7071,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_vistamateria"
+      "target": "js_app_vistamateria",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6877,9 +7082,9 @@
       "source_location": "L96",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_app",
-      "target": "js_app_vistaleccion"
+      "target": "js_app_vistaleccion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6888,9 +7093,9 @@
       "source_location": "L141",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios",
-      "target": "js_ejercicios_normalizarnumero"
+      "target": "js_ejercicios_normalizarnumero",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6899,9 +7104,9 @@
       "source_location": "L191",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios",
-      "target": "js_ejercicios_parsearexpresion"
+      "target": "js_ejercicios_parsearexpresion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6910,9 +7115,9 @@
       "source_location": "L250",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios",
-      "target": "js_ejercicios_expresionesiguales"
+      "target": "js_ejercicios_expresionesiguales",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6921,9 +7126,9 @@
       "source_location": "L273",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios",
-      "target": "js_ejercicios_escorrecta"
+      "target": "js_ejercicios_escorrecta",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6932,9 +7137,9 @@
       "source_location": "L289",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "js_ejercicios",
-      "target": "js_ejercicios_montar"
+      "target": "js_ejercicios_montar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6943,9 +7148,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "lecciones_matematicas_estadistica",
-      "target": "lecciones_matematicas_estadistica_barras",
-      "confidence_score": 1.0
+      "target": "lecciones_matematicas_estadistica_barras"
     },
     {
       "relation": "contains",
@@ -6954,9 +7159,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "lecciones_matematicas_estadistica",
-      "target": "lecciones_matematicas_estadistica_histograma",
-      "confidence_score": 1.0
+      "target": "lecciones_matematicas_estadistica_histograma"
     },
     {
       "relation": "contains",
@@ -6965,9 +7170,9 @@
       "source_location": "L30",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "lecciones_matematicas_estadistica",
-      "target": "lecciones_matematicas_estadistica_pastel",
-      "confidence_score": 1.0
+      "target": "lecciones_matematicas_estadistica_pastel"
     },
     {
       "relation": "contains",
@@ -8027,83 +8232,6 @@
       "target": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates"
     },
     {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit",
-      "target": "empaquetar"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit",
-      "target": "verificar"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "empaquetar",
-      "target": "verificar"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_free_learning",
-      "target": "claude_requirements"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_free_learning",
-      "target": "claude_scope"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_structure",
-      "target": "claude_lesson_format"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_scope",
-      "target": "claude_i18n"
-    },
-    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8159,61 +8287,6 @@
       "target": "claude_skills_ui_ux_pro_max_skill_priority_categories"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_speech_synthesis",
-      "target": "claude_scope"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_sqlbolt_exercises",
-      "target": "claude_exercise_types"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_expresion_validation",
-      "target": "js_ejercicios"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_graph_figures",
-      "target": "js_ejercicios_grafica"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_file_protocol_constraints",
-      "target": "claude_requirements"
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -8223,336 +8296,6 @@
       "_origin": "semantic",
       "source": "index_html_classic_scripts",
       "target": "index_html"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude",
-      "target": "claude_free_learning"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit",
-      "target": "claude_audit_claridad"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit",
-      "target": "claude_tone"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit",
-      "target": "lecciones_unit_files"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit_claridad",
-      "target": "claude_como_explicar"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit_claridad",
-      "target": "claude_reference_lessons"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_audit_claridad",
-      "target": "claude_vida_real"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_como_explicar",
-      "target": "claude_reference_lessons"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_exercise_types",
-      "target": "claude_expresion_validation"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_graph_figures",
-      "target": "lecciones_matematicas_estadistica"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_graph_figures",
-      "target": "lecciones_matematicas_geometria"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_i18n",
-      "target": "js_temario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_i18n",
-      "target": "js_textos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_format",
-      "target": "claude_exercise_types"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_format",
-      "target": "claude_formulas"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_format",
-      "target": "claude_graph_figures"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_format",
-      "target": "js_temario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_format",
-      "target": "lecciones_unit_files"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_structure",
-      "target": "claude_content_sources"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_structure",
-      "target": "claude_sqlbolt_exercises"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_lesson_structure",
-      "target": "claude_vida_real"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_pdf_export",
-      "target": "estilos_css"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_progreso",
-      "target": "js_ejercicios_slug"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_reference_lessons",
-      "target": "claude_reference_techniques"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_reference_lessons",
-      "target": "lecciones_matematicas_aritmetica_porcentajes"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_reference_lessons",
-      "target": "lecciones_matematicas_funciones_funcion_lineal_y_pendiente"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_requirements",
-      "target": "claude_editorial_style"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_requirements",
-      "target": "claude_pdf_export"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_requirements",
-      "target": "claude_progreso"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_requirements",
-      "target": "claude_skill_ui_ux_pro_max"
     },
     {
       "relation": "references",
@@ -8586,28 +8329,6 @@
       "_origin": "semantic",
       "source": "claude_skills_ui_ux_pro_max_skill",
       "target": "claude_skills_ui_ux_pro_max_references_quick_reference"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_tone",
-      "target": "claude_como_explicar"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "index_html",
-      "target": "js_app"
     },
     {
       "relation": "references",
@@ -8657,122 +8378,12 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "js_app",
-      "target": "js_temario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "js_app",
-      "target": "lecciones_unit_files"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "js_ejercicios",
-      "target": "js_ejercicios_prefijo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "js_ejercicios",
-      "target": "js_ejercicios_slug"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "js_temario",
-      "target": "lecciones_unit_files"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "lecciones_matematicas_aritmetica_porcentajes",
-      "target": "lecciones_matematicas_aritmetica"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "lecciones_matematicas_funciones_funcion_lineal_y_pendiente",
-      "target": "lecciones_matematicas_funciones"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "LEEME.txt",
       "source_location": null,
       "weight": 1.0,
       "_origin": "semantic",
       "source": "leeme_txt",
       "target": "index_html"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "verificar",
-      "target": "js_temario"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_graph_figures",
-      "target": "estilos_css"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_progreso",
-      "target": "js_app"
     },
     {
       "relation": "conceptually_related_to",
@@ -8786,36 +8397,713 @@
       "target": "claude_skills_ui_ux_pro_max_references_quick_reference_accessibility"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_vida_real",
-      "target": "claude_como_explicar"
+      "source": "claude_auditoria",
+      "target": "empaquetar_sh"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria",
+      "target": "verificar"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "empaquetar_sh",
+      "target": "verificar"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_contribuir",
+      "target": "empaquetar_sh"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_contribuir",
+      "target": "verificar"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_contenido",
+      "target": "claude_acc_encabezados"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_contenido",
+      "target": "claude_accesibilidad"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_descripcion_grafica",
+      "target": "claude_graficas"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_fuentes",
+      "target": "claude_estructura_leccion"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_speechsynthesis",
+      "target": "claude_materias"
     },
     {
       "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_editorial_style",
+      "source": "claude_formato_leccion",
+      "target": "claude_estructura_leccion"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_tipos_ejercicio",
+      "target": "claude_sqlbolt"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "estilos_css",
+      "target": "claude_pdf"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_app",
+      "target": "claude_progreso"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_ejercicios",
+      "target": "claude_expresion_simplificar"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_ejercicios",
+      "target": "claude_graficas"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_ejercicios",
+      "target": "claude_tipos_ejercicio"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_temario",
+      "target": "claude_i18n"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_textos",
+      "target": "claude_i18n"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_cero_instalacion",
+      "target": "claude_requerimientos"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_no_enlaces_hash",
+      "target": "claude_acc_ejercicios"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_contenido",
+      "target": "claude_acc_descripcion_grafica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_contraste_bordes",
       "target": "estilos_css"
     },
     {
-      "relation": "implements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_encabezados",
+      "target": "js_app"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_accesibilidad",
+      "target": "claude_acc_contraste_bordes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_accesibilidad",
+      "target": "claude_acc_ejercicios"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_accesibilidad",
+      "target": "claude_acc_encabezados"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_accesibilidad",
+      "target": "claude_acc_formulas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_accesibilidad",
+      "target": "claude_acc_lang"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria",
+      "target": "claude_auditoria_accesibilidad"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria",
+      "target": "claude_auditoria_claridad"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria_accesibilidad",
+      "target": "claude_acc_contenido"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria_accesibilidad",
+      "target": "claude_acc_contraste_bordes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria_claridad",
+      "target": "claude_como_explicar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_auditoria_claridad",
+      "target": "claude_lecciones_referencia"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_estilo_editorial",
+      "target": "tipografia_atkinson"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_estructura_leccion",
+      "target": "claude_vida_real"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_formato_leccion",
+      "target": "claude_acc_contenido"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_formato_leccion",
+      "target": "claude_graficas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_formato_leccion",
+      "target": "claude_tipos_ejercicio"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_formato_leccion",
+      "target": "js_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_free_learning",
+      "target": "claude_alcance"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_free_learning",
+      "target": "claude_mision"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_free_learning",
+      "target": "claude_requerimientos"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_graficas",
+      "target": "estilos_css"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_graficas",
+      "target": "lecciones_matematicas_estadistica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_graficas",
+      "target": "lecciones_matematicas_geometria"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_leccion_funcion_lineal",
+      "target": "lecciones_matematicas_funciones"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_leccion_porcentajes",
+      "target": "lecciones_matematicas_aritmetica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_lecciones_referencia",
+      "target": "claude_leccion_funcion_lineal"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_lecciones_referencia",
+      "target": "claude_leccion_porcentajes"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_materias",
+      "target": "js_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_tono",
+      "target": "claude_como_explicar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_app",
+      "target": "claude_lecciones_dir"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_temario",
+      "target": "claude_lecciones_dir"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_contribuir",
+      "target": "claude_free_learning"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_free_learning",
+      "target": "readme_como_es_leccion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_free_learning",
+      "target": "readme_contribuir"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_free_learning",
+      "target": "readme_por_que_existe"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_free_learning",
+      "target": "readme_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_temario",
+      "target": "js_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_temario",
+      "target": "readme_matematicas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_temario",
+      "target": "readme_otras_materias"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "verificar",
+      "target": "js_temario"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_acc_lang",
+      "target": "claude_speechsynthesis"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_app",
+      "target": "js_ejercicios"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_por_que_existe",
+      "target": "claude_como_explicar"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_como_explicar",
+      "target": "claude_vida_real"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_estilo_editorial",
+      "target": "claude_skill_ui_ux"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_matematicas",
+      "target": "lecciones_matematicas_aritmetica"
+    },
+    {
+      "relation": "calls",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "claude_sqlbolt_exercises",
+      "source": "verificar",
       "target": "js_ejercicios"
     },
     {
@@ -8825,9 +9113,8 @@
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "lecciones_matematicas_aritmetica",
-      "target": "lecciones_unit_files"
+      "source": "claude_acc_ejercicios",
+      "target": "js_ejercicios"
     },
     {
       "relation": "implements",
@@ -8836,9 +9123,18 @@
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "lecciones_matematicas_funciones",
-      "target": "lecciones_unit_files"
+      "source": "claude_estilo_editorial",
+      "target": "estilos_css"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "claude_file_restricciones",
+      "target": "claude_cero_instalacion"
     },
     {
       "relation": "references",
@@ -8847,38 +9143,88 @@
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 1.0,
-      "_origin": "semantic",
-      "source": "verificar",
-      "target": "js_ejercicios"
+      "source": "index_html",
+      "target": "js_app"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_app",
+      "target": "js_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "js_app",
+      "target": "js_textos"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_como_es_leccion",
+      "target": "claude_estructura_leccion"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_por_que_existe",
+      "target": "claude_mision"
     }
   ],
   "hyperedges": [
     {
-      "id": "lesson_writing_standard",
-      "label": "Lesson writing standard",
+      "id": "claude_accesibilidad_tres_lugares",
+      "label": "Accessibility rules across technical decisions, content format and audit",
       "nodes": [
-        "claude_como_explicar",
-        "claude_reference_lessons",
-        "claude_tone",
-        "claude_audit_claridad"
+        "claude_accesibilidad",
+        "claude_acc_contenido",
+        "claude_auditoria_accesibilidad"
       ],
       "relation": "form",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
       "source_file": "CLAUDE.md"
     },
     {
-      "id": "unit_quality_loop",
-      "label": "Unit authoring and audit loop",
+      "id": "claude_calidad_explicacion",
+      "label": "Explanation quality standard",
       "nodes": [
-        "claude_lesson_format",
-        "claude_audit",
+        "claude_como_explicar",
+        "claude_lecciones_referencia",
+        "claude_auditoria_claridad"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "claude_flujo_entrega",
+      "label": "Delivery flow: audit, verify, package",
+      "nodes": [
+        "claude_auditoria",
         "verificar",
-        "empaquetar"
+        "empaquetar_sh"
       ],
       "relation": "participate_in",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.95,
+      "confidence_score": 1.0,
       "source_file": "CLAUDE.md"
     },
     {
@@ -8907,20 +9253,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".claude/skills/ui-ux-pro-max/SKILL.md"
-    },
-    {
-      "id": "lesson_loading_pipeline",
-      "label": "Lesson data loading pipeline",
-      "nodes": [
-        "js_temario",
-        "lecciones_unit_files",
-        "js_ejercicios_registrarleccion",
-        "js_app"
-      ],
-      "relation": "participate_in",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "CLAUDE.md"
     }
-  ]
+  ],
+  "built_at_commit": "aac410b4e1874ac0a71057e13eb55071a51bf0bc"
 }

@@ -97,7 +97,7 @@ window.TEMARIO = [
     descripcion: 'Por qué las cosas se mueven, caen, se calientan, suenan y brillan.',
     color: '#A78BFA',
     unidades: [
-      { titulo: 'Bases de la física', lecciones: [
+      { titulo: 'Bases de la física', archivo: 'lecciones/fisica/bases.js', lecciones: [
         'Qué es la física y el método científico',
         'Magnitudes y el Sistema Internacional de Unidades',
         'Conversión de unidades',
