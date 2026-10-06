@@ -1,0 +1,19 @@
+FREE LEARNING
+Aprende lo esencial, gratis y para siempre.
+
+CÓMO ABRIR EL SITIO
+1. Si aún está comprimido (.zip), descomprímelo:
+   - Windows: clic derecho sobre el archivo > "Extraer todo".
+   - Mac: doble clic sobre el archivo.
+   - Linux: clic derecho > "Extraer aquí".
+2. Entra a la carpeta "free-learning".
+3. Haz doble clic en el archivo "index.html".
+   Se abrirá en tu navegador (Chrome, Firefox, Edge o Safari). Listo.
+
+No necesitas instalar nada ni tener internet.
+
+BUENO SABER
+- Tu progreso se guarda en el navegador que uses. Si cambias de navegador
+  o borras los datos de navegación, empezará desde cero.
+- No muevas ni borres archivos de esta carpeta.
+- Puedes copiar esta carpeta y compartirla con quien quieras. Es libre.

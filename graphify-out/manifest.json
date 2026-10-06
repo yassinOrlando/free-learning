@@ -1,0 +1,147 @@
+{
+  ".claude/skills/ui-ux-pro-max/data/catalog-summary.json": {
+    "mtime": 1791267637.9421813,
+    "ast_hash": "6185a0fc8447d487988074b7f4eb4219",
+    "semantic_hash": "6185a0fc8447d487988074b7f4eb4219"
+  },
+  ".claude/skills/ui-ux-pro-max/data/data-provenance.json": {
+    "mtime": 1791267637.939464,
+    "ast_hash": "4f0fbe5f16c919f87170d6f493fad5e3",
+    "semantic_hash": "4f0fbe5f16c919f87170d6f493fad5e3"
+  },
+  ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json": {
+    "mtime": 1791267637.9418666,
+    "ast_hash": "c6f70c775c4b6ac26441cf1b0022ad71",
+    "semantic_hash": "c6f70c775c4b6ac26441cf1b0022ad71"
+  },
+  ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json": {
+    "mtime": 1791267637.9416492,
+    "ast_hash": "933217ce321daf2458d12c41e5f19cb1",
+    "semantic_hash": "933217ce321daf2458d12c41e5f19cb1"
+  },
+  ".claude/skills/ui-ux-pro-max/scripts/core.py": {
+    "mtime": 1791267637.9320848,
+    "ast_hash": "e6ca88523a7e0da644f3be0ca250b2be",
+    "semantic_hash": "e6ca88523a7e0da644f3be0ca250b2be"
+  },
+  ".claude/skills/ui-ux-pro-max/scripts/design_system.py": {
+    "mtime": 1791267637.922825,
+    "ast_hash": "a93a39562922b44b2dc8963daa606678",
+    "semantic_hash": "a93a39562922b44b2dc8963daa606678"
+  },
+  ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py": {
+    "mtime": 1791267637.9323137,
+    "ast_hash": "e03944fe11a921f4c13687774c97b09a",
+    "semantic_hash": "e03944fe11a921f4c13687774c97b09a"
+  },
+  ".claude/skills/ui-ux-pro-max/scripts/search.py": {
+    "mtime": 1791267637.9325454,
+    "ast_hash": "c2ffc3e122e88c4855b857c118fe362d",
+    "semantic_hash": "c2ffc3e122e88c4855b857c118fe362d"
+  },
+  ".claude/skills/ui-ux-pro-max/scripts/validate_data.py": {
+    "mtime": 1791267637.9327936,
+    "ast_hash": "0c5a3a29c6dc39190be1a0f2baca2a1c",
+    "semantic_hash": "0c5a3a29c6dc39190be1a0f2baca2a1c"
+  },
+  "empaquetar.sh": {
+    "mtime": 1791270062.775136,
+    "ast_hash": "0d3ae516c62b4703cd47e2a7a30abe3c",
+    "semantic_hash": "0d3ae516c62b4703cd47e2a7a30abe3c"
+  },
+  "js/app.js": {
+    "mtime": 1791310953.349954,
+    "ast_hash": "8f3734816f9bab110b9b3fe98f0d401b",
+    "semantic_hash": "8f3734816f9bab110b9b3fe98f0d401b"
+  },
+  "js/ejercicios.js": {
+    "mtime": 1791308470.3931947,
+    "ast_hash": "d952b62d1ae9428504de3fe8d10e2b87",
+    "semantic_hash": "d952b62d1ae9428504de3fe8d10e2b87"
+  },
+  "js/temario.js": {
+    "mtime": 1791308381.4250965,
+    "ast_hash": "f143b8f9d7f5aa9ea3f31c437688ab4c",
+    "semantic_hash": "f143b8f9d7f5aa9ea3f31c437688ab4c"
+  },
+  "js/textos.js": {
+    "mtime": 1791272245.4164977,
+    "ast_hash": "ff414f8902771f7d9b5e2896e1acd8b6",
+    "semantic_hash": "ff414f8902771f7d9b5e2896e1acd8b6"
+  },
+  "lecciones/matematicas/aritmetica.js": {
+    "mtime": 1791323201.6205635,
+    "ast_hash": "1204aaeb36c095fb06006ca76b99f0fd",
+    "semantic_hash": "1204aaeb36c095fb06006ca76b99f0fd"
+  },
+  "verificar.js": {
+    "mtime": 1791308452.8096516,
+    "ast_hash": "38ca25dd99b7ebacff47100857743886",
+    "semantic_hash": "38ca25dd99b7ebacff47100857743886"
+  },
+  ".claude/skills/ui-ux-pro-max/SKILL.md": {
+    "mtime": 1791267637.9331253,
+    "ast_hash": "b2a5611353ca5d5e270d14ec701b3f02",
+    "semantic_hash": "b2a5611353ca5d5e270d14ec701b3f02"
+  },
+  ".claude/skills/ui-ux-pro-max/references/pro-rules.md": {
+    "mtime": 1791267637.922254,
+    "ast_hash": "42a2b0964fc17b5bf72078d292ae34db",
+    "semantic_hash": "42a2b0964fc17b5bf72078d292ae34db"
+  },
+  ".claude/skills/ui-ux-pro-max/references/quick-reference.md": {
+    "mtime": 1791267637.921897,
+    "ast_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2",
+    "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
+  },
+  "CLAUDE.md": {
+    "mtime": 1791311336.5963795,
+    "ast_hash": "fcc03192c80e9da11e4fecec8fda20df",
+    "semantic_hash": "fcc03192c80e9da11e4fecec8fda20df"
+  },
+  "LEEME.txt": {
+    "mtime": 1791267948.9586005,
+    "ast_hash": "8b4cfc9232e1340e6cfbaed4d57692c9",
+    "semantic_hash": "8b4cfc9232e1340e6cfbaed4d57692c9"
+  },
+  "index.html": {
+    "mtime": 1791268883.8633792,
+    "ast_hash": "35de09cccf26d56480bdaebf0287e47a",
+    "semantic_hash": "35de09cccf26d56480bdaebf0287e47a"
+  },
+  "lecciones/matematicas/algebra.js": {
+    "mtime": 1791323126.0151525,
+    "ast_hash": "5171596925b3c6b069e0e6f11a396202",
+    "semantic_hash": "5171596925b3c6b069e0e6f11a396202"
+  },
+  "lecciones/matematicas/calculo.js": {
+    "mtime": 1791323527.0633903,
+    "ast_hash": "9f1edecbd5b3f340e9f4d5a5cf46ad85",
+    "semantic_hash": "9f1edecbd5b3f340e9f4d5a5cf46ad85"
+  },
+  "lecciones/matematicas/estadistica.js": {
+    "mtime": 1791324454.6965034,
+    "ast_hash": "a0c9db2b31f9566d9ad50b59c48bef64",
+    "semantic_hash": "a0c9db2b31f9566d9ad50b59c48bef64"
+  },
+  "lecciones/matematicas/funciones.js": {
+    "mtime": 1791323208.1978056,
+    "ast_hash": "fb836d8e135f59617c1381e2b4d98b95",
+    "semantic_hash": "fb836d8e135f59617c1381e2b4d98b95"
+  },
+  "lecciones/matematicas/geometria-analitica.js": {
+    "mtime": 1791324484.4207063,
+    "ast_hash": "ae0957870c0fa507779cc9562bd5e2ca",
+    "semantic_hash": "ae0957870c0fa507779cc9562bd5e2ca"
+  },
+  "lecciones/matematicas/geometria.js": {
+    "mtime": 1791323280.9598322,
+    "ast_hash": "8237c5080eec9fd52f69102a53d4b1a6",
+    "semantic_hash": "8237c5080eec9fd52f69102a53d4b1a6"
+  },
+  "lecciones/matematicas/trigonometria.js": {
+    "mtime": 1791323291.328967,
+    "ast_hash": "c00234a63044c64f4984d03bfee72d1d",
+    "semantic_hash": "c00234a63044c64f4984d03bfee72d1d"
+  }
+}
