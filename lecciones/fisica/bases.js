@@ -250,7 +250,7 @@
         <li>Los ceros al principio no cuentan. En 0.0045 m hay solo 2 cifras: los ceros nada más indican dónde va el punto. De hecho, esa misma medida se escribe 4.5 mm, sin ningún cero.</li>
         <li>Los ceros al final, después del punto, sí cuentan. Escribir 3.40 kg dice que mediste hasta las centésimas y salió 0. Si no lo hubieras medido, escribirías 3.4 kg.</li>
       </ul>
-      <p>Un número como 1500 sin punto es confuso: no se sabe si los ceros se midieron. La notación científica, que viste en Matemáticas, lo aclara: 1.5 × 10<sup>3</sup> tiene 2 cifras y 1.500 × 10<sup>3</sup> tiene 4.</p>
+      <p>Un número como 1500 sin punto es confuso: no se sabe si los ceros se midieron. La notación científica, que viste en Matemáticas, lo aclara: 1.5 × 10³ tiene 2 cifras y 1.500 × 10³ tiene 4.</p>
       <h3>¿Cuántas cifras dejo al multiplicar?</h3>
       <p>Un resultado no puede ser más preciso que el dato menos preciso que usaste. Por eso, al multiplicar o dividir, el resultado lleva tantas cifras significativas como el dato que tenga menos. Si un rectángulo mide 4.2 cm por 3.15 cm, la calculadora da 13.23 cm². Pero 4.2 solo tiene 2 cifras, así que el área se escribe 13 cm².</p>
       <h3>¿Qué tan lejos quedé?</h3>
@@ -302,8 +302,8 @@
   // ------------------------------------------------------------------
   const CAMINO = G({ x: [0, 5], y: [0, 5], proporcional: true, figuras: [
     ...flecha([0, 0], [3, 0]), ...flecha([3, 0], [3, 4]), ...flecha([0, 0], [3, 4], 1),
-    txt(1.5, 0.35, '3 al este'), txt(3.9, 2, '4 al norte'), txt(0.9, 2.4, '5'),
-  ], descripcion: 'Una flecha de 3 cuadros hacia la derecha (este) y, desde su punta, otra de 4 cuadros hacia arriba (norte). Una tercera flecha, de otro color, va directo del inicio a la punta final y mide 5 cuadros: es la resultante.' });
+    txt(1.5, 0.35, '3 al este'), txt(3.9, 2, '4 al norte'), txt(0.2, 2.6, 'resultante: 5'),
+  ], descripcion: 'Una flecha de 3 cuadros hacia la derecha (este) y, desde su punta, otra de 4 cuadros hacia arriba (norte). La flecha resultante va en diagonal, directo del inicio a la punta final, y mide 5 cuadros.' });
 
   L('Vectores: magnitud y dirección', {
     objetivo: 'Distinguir magnitudes escalares de vectoriales, representar un vector con una flecha y sumar vectores que van en la misma dirección, en direcciones opuestas o en ángulo recto.',

@@ -136,10 +136,12 @@
   // --- Validación ---
 
   // Convierte lo que escribió la persona en los números que pudo haber querido decir.
-  // Acepta: 0.5  .5  0,5  1/2  1 1/2  -3  −3  25%  1,000  1 000  3e5  3×10^5
+  // Acepta: 0.5  .5  0,5  1/2  1 1/2  -3  −3  25%  1,000  1 000  3e5  3×10^5  3×10⁵
   // "1,500" es ambiguo (1.5 o 1500): se devuelven ambos y basta con que uno sea correcto.
   function normalizarNumero(texto) {
-    let s = String(texto).trim().replace(/[−–]/g, '-').replace(PREFIJO, '').replace(/%$/, '').trim();
+    let s = String(texto).trim().replace(/[−–]/g, '-').replace(PREFIJO, '').replace(/%$/, '').trim()
+      // Exponentes en superíndice (10⁻¹⁹) se leen como 10^-19.
+      .replace(/[⁺⁻]?[⁰¹²³⁴⁵⁶⁷⁸⁹]+/g, (m) => '^' + [...m].map((c) => (c === '⁻' ? '-' : c === '⁺' ? '' : '⁰¹²³⁴⁵⁶⁷⁸⁹'.indexOf(c))).join(''));
     if (!s) return [];
 
     const mixto = s.match(/^(-?)(\d+)\s+(\d+)\s*\/\s*(\d+)$/);

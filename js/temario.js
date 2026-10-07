@@ -104,7 +104,7 @@ window.TEMARIO = [
         'Cifras significativas y errores de medición',
         'Vectores: magnitud y dirección',
       ]},
-      { titulo: 'Movimiento (cinemática)', lecciones: [
+      { titulo: 'Movimiento (cinemática)', archivo: 'lecciones/fisica/movimiento.js', lecciones: [
         'Posición, distancia y desplazamiento',
         'Rapidez y velocidad',
         'Movimiento rectilíneo uniforme',
@@ -113,7 +113,7 @@ window.TEMARIO = [
         'Tiro parabólico',
         'Movimiento circular',
       ]},
-      { titulo: 'Fuerzas (dinámica)', lecciones: [
+      { titulo: 'Fuerzas (dinámica)', archivo: 'lecciones/fisica/fuerzas.js', lecciones: [
         'Qué es una fuerza',
         'Primera ley de Newton: inercia',
         'Segunda ley de Newton: F = m·a',
@@ -122,7 +122,7 @@ window.TEMARIO = [
         'Fricción',
         'Gravitación universal',
       ]},
-      { titulo: 'Trabajo y energía', lecciones: [
+      { titulo: 'Trabajo y energía', archivo: 'lecciones/fisica/energia.js', lecciones: [
         'Trabajo mecánico',
         'Energía cinética y potencial',
         'Conservación de la energía',
@@ -130,14 +130,14 @@ window.TEMARIO = [
         'Máquinas simples: palancas y poleas',
         'Cantidad de movimiento y choques',
       ]},
-      { titulo: 'Fluidos', lecciones: [
+      { titulo: 'Fluidos', archivo: 'lecciones/fisica/fluidos.js', lecciones: [
         'Densidad',
         'Presión',
         'Principio de Pascal',
         'Principio de Arquímedes: por qué flotan los barcos',
         'Fluidos en movimiento: principio de Bernoulli',
       ]},
-      { titulo: 'Calor y temperatura', lecciones: [
+      { titulo: 'Calor y temperatura', archivo: 'lecciones/fisica/calor.js', lecciones: [
         'Temperatura y escalas',
         'Calor y calor específico',
         'Conducción, convección y radiación',
@@ -145,7 +145,7 @@ window.TEMARIO = [
         'Dilatación térmica',
         'Leyes de la termodinámica',
       ]},
-      { titulo: 'Ondas, sonido y luz', lecciones: [
+      { titulo: 'Ondas, sonido y luz', archivo: 'lecciones/fisica/ondas.js', lecciones: [
         'Qué es una onda',
         'El sonido',
         'Efecto Doppler',
@@ -154,7 +154,7 @@ window.TEMARIO = [
         'Refracción y lentes',
         'El color',
       ]},
-      { titulo: 'Electricidad y magnetismo', lecciones: [
+      { titulo: 'Electricidad y magnetismo', archivo: 'lecciones/fisica/electricidad.js', lecciones: [
         'Carga eléctrica',
         'Ley de Coulomb',
         'Corriente, voltaje y resistencia',
@@ -164,7 +164,7 @@ window.TEMARIO = [
         'Imanes y magnetismo',
         'Electromagnetismo e inducción',
       ]},
-      { titulo: 'Física moderna', lecciones: [
+      { titulo: 'Física moderna', archivo: 'lecciones/fisica/moderna.js', lecciones: [
         'El átomo y la radiactividad',
         'Introducción a la relatividad',
         'Introducción a la física cuántica',

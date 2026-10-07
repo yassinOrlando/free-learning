@@ -55,14 +55,14 @@
     "semantic_hash": "4be0da8029c29e0e005b0d6c9f3af88c"
   },
   "js/ejercicios.js": {
-    "mtime": 1791328133.2765484,
-    "ast_hash": "be32733c9affb2fd69eddfcabc87caae",
-    "semantic_hash": "be32733c9affb2fd69eddfcabc87caae"
+    "mtime": 1791390036.998224,
+    "ast_hash": "e4ebf58fd55b7144c8c6437dc83bae08",
+    "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791327721.5006862,
-    "ast_hash": "f8247e063ea8d0713c8e6ad4a1c83598",
-    "semantic_hash": "f8247e063ea8d0713c8e6ad4a1c83598"
+    "mtime": 1791389841.6613574,
+    "ast_hash": "d17fde6e971a7ca5e22704160b7f57dc",
+    "semantic_hash": "d17fde6e971a7ca5e22704160b7f57dc"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -75,9 +75,9 @@
     "semantic_hash": "1204aaeb36c095fb06006ca76b99f0fd"
   },
   "verificar.js": {
-    "mtime": 1791308452.8096516,
-    "ast_hash": "38ca25dd99b7ebacff47100857743886",
-    "semantic_hash": "38ca25dd99b7ebacff47100857743886"
+    "mtime": 1791390038.0315857,
+    "ast_hash": "e14f8efdc9a76dfacaeaf322127f3451",
+    "semantic_hash": "e14f8efdc9a76dfacaeaf322127f3451"
   },
   ".claude/skills/ui-ux-pro-max/SKILL.md": {
     "mtime": 1791267637.9331253,
@@ -145,13 +145,53 @@
     "semantic_hash": "c00234a63044c64f4984d03bfee72d1d"
   },
   "lecciones/fisica/bases.js": {
-    "mtime": 1791327810.44341,
-    "ast_hash": "2b98798390c9f79eedfa8fcee3fa4ee0",
-    "semantic_hash": "2b98798390c9f79eedfa8fcee3fa4ee0"
+    "mtime": 1791344489.6461039,
+    "ast_hash": "08d078ccabb52a97e3ab751a2d7ab52f",
+    "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
     "mtime": 1791326095.480191,
     "ast_hash": "342799987112104a0f95fe4e77fb4c79",
     "semantic_hash": "342799987112104a0f95fe4e77fb4c79"
+  },
+  "lecciones/fisica/calor.js": {
+    "mtime": 1791388288.0931761,
+    "ast_hash": "6ca26af0c384e71bac0ec3dbaecbb238",
+    "semantic_hash": "6ca26af0c384e71bac0ec3dbaecbb238"
+  },
+  "lecciones/fisica/electricidad.js": {
+    "mtime": 1791389475.996809,
+    "ast_hash": "ab8f17bc5dead61d3153ad8e548d4b06",
+    "semantic_hash": "ab8f17bc5dead61d3153ad8e548d4b06"
+  },
+  "lecciones/fisica/energia.js": {
+    "mtime": 1791346296.8841488,
+    "ast_hash": "198fcce9dd89dac2d2d767da3ef9d21d",
+    "semantic_hash": "198fcce9dd89dac2d2d767da3ef9d21d"
+  },
+  "lecciones/fisica/fluidos.js": {
+    "mtime": 1791346926.035369,
+    "ast_hash": "86c77b03bf3dcdd3b16d2102ca091d42",
+    "semantic_hash": "86c77b03bf3dcdd3b16d2102ca091d42"
+  },
+  "lecciones/fisica/fuerzas.js": {
+    "mtime": 1791345736.6559637,
+    "ast_hash": "ccfe9b528ac4256fda1933b020e18f37",
+    "semantic_hash": "ccfe9b528ac4256fda1933b020e18f37"
+  },
+  "lecciones/fisica/moderna.js": {
+    "mtime": 1791389932.9148219,
+    "ast_hash": "0ac95c4633805564c4d075ae7fff21e8",
+    "semantic_hash": "0ac95c4633805564c4d075ae7fff21e8"
+  },
+  "lecciones/fisica/movimiento.js": {
+    "mtime": 1791345152.756811,
+    "ast_hash": "7e7f97c5f0b7633cf281c987b03bdd13",
+    "semantic_hash": "7e7f97c5f0b7633cf281c987b03bdd13"
+  },
+  "lecciones/fisica/ondas.js": {
+    "mtime": 1791388913.6562998,
+    "ast_hash": "43c838e5b13cc2e140a2dc9ff7367184",
+    "semantic_hash": "43c838e5b13cc2e140a2dc9ff7367184"
   }
 }
