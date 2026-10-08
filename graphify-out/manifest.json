@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791424379.5889852,
-    "ast_hash": "cc21fe4414639cd7915ddb0f84868d6f",
-    "semantic_hash": "cc21fe4414639cd7915ddb0f84868d6f"
+    "mtime": 1791442678.6911323,
+    "ast_hash": "c021bde868bf621a6f5e0d89b41b8b6b",
+    "semantic_hash": "c021bde868bf621a6f5e0d89b41b8b6b"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -243,5 +243,40 @@
     "mtime": 1791424475.0042465,
     "ast_hash": "eb06cca57f15b250e0da70376642b813",
     "semantic_hash": "eb06cca57f15b250e0da70376642b813"
+  },
+  "lecciones/ciencias-naturales/cuerpo-humano.js": {
+    "mtime": 1791430948.8500576,
+    "ast_hash": "056ea751fdada990c8bf3776edef9bbe",
+    "semantic_hash": "056ea751fdada990c8bf3776edef9bbe"
+  },
+  "lecciones/ciencias-naturales/ecologia.js": {
+    "mtime": 1791433395.8351412,
+    "ast_hash": "1c8b03bdb74f7cc80960f47155137b86",
+    "semantic_hash": "1c8b03bdb74f7cc80960f47155137b86"
+  },
+  "lecciones/ciencias-naturales/herencia.js": {
+    "mtime": 1791432614.827415,
+    "ast_hash": "b3265c9951225dce86ae5af3faa9c301",
+    "semantic_hash": "b3265c9951225dce86ae5af3faa9c301"
+  },
+  "lecciones/ciencias-naturales/salud.js": {
+    "mtime": 1791431772.6167526,
+    "ast_hash": "812e591dbeb77ceabaae8342a8715ba5",
+    "semantic_hash": "812e591dbeb77ceabaae8342a8715ba5"
+  },
+  "lecciones/ciencias-naturales/seres-vivos.js": {
+    "mtime": 1791426299.5774515,
+    "ast_hash": "d8f5c0ac69c6835ace48ec79ab005bda",
+    "semantic_hash": "d8f5c0ac69c6835ace48ec79ab005bda"
+  },
+  "lecciones/ciencias-naturales/tierra.js": {
+    "mtime": 1791442208.412294,
+    "ast_hash": "1dd91cb24876d11906fc8aa42495ae4c",
+    "semantic_hash": "1dd91cb24876d11906fc8aa42495ae4c"
+  },
+  "lecciones/ciencias-naturales/universo.js": {
+    "mtime": 1791442838.9180484,
+    "ast_hash": "e9d07bafb9f387b27c4dff44127eead4",
+    "semantic_hash": "e9d07bafb9f387b27c4dff44127eead4"
   }
 }

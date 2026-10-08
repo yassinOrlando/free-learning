@@ -249,14 +249,14 @@ window.TEMARIO = [
     descripcion: 'Los seres vivos, tu cuerpo, el planeta y el universo.',
     color: '#4ADE80',
     unidades: [
-      { titulo: 'Los seres vivos', lecciones: [
+      { titulo: 'Los seres vivos', archivo: 'lecciones/ciencias-naturales/seres-vivos.js', lecciones: [
         'Qué distingue a un ser vivo',
         'La célula',
         'Célula animal y célula vegetal',
         'Clasificación de los seres vivos',
         'Microorganismos: bacterias, virus y hongos',
       ]},
-      { titulo: 'El cuerpo humano', lecciones: [
+      { titulo: 'El cuerpo humano', archivo: 'lecciones/ciencias-naturales/cuerpo-humano.js', lecciones: [
         'Sistema digestivo',
         'Sistema respiratorio',
         'Sistema circulatorio',
@@ -265,7 +265,7 @@ window.TEMARIO = [
         'Sistema reproductor y sexualidad responsable',
         'Huesos y músculos',
       ]},
-      { titulo: 'Salud', lecciones: [
+      { titulo: 'Salud', archivo: 'lecciones/ciencias-naturales/salud.js', lecciones: [
         'Nutrición y alimentación equilibrada',
         'Cómo leer una etiqueta nutricional',
         'Sueño y actividad física',
@@ -273,13 +273,13 @@ window.TEMARIO = [
         'Adicciones',
         'Primeros auxilios básicos',
       ]},
-      { titulo: 'Herencia y evolución', lecciones: [
+      { titulo: 'Herencia y evolución', archivo: 'lecciones/ciencias-naturales/herencia.js', lecciones: [
         'ADN, genes y cromosomas',
         'Herencia: las leyes de Mendel',
         'Mutaciones',
         'Evolución y selección natural',
       ]},
-      { titulo: 'Ecología', lecciones: [
+      { titulo: 'Ecología', archivo: 'lecciones/ciencias-naturales/ecologia.js', lecciones: [
         'Ecosistemas',
         'Cadenas y redes alimentarias',
         'Ciclos del agua, el carbono y el nitrógeno',
@@ -288,14 +288,14 @@ window.TEMARIO = [
         'Cambio climático',
         'Consumo responsable y reciclaje',
       ]},
-      { titulo: 'La Tierra', lecciones: [
+      { titulo: 'La Tierra', archivo: 'lecciones/ciencias-naturales/tierra.js', lecciones: [
         'Capas de la Tierra',
         'Placas tectónicas, sismos y volcanes',
         'Rocas y minerales',
         'Atmósfera, clima y tiempo',
         'Qué hacer ante desastres naturales',
       ]},
-      { titulo: 'El universo', lecciones: [
+      { titulo: 'El universo', archivo: 'lecciones/ciencias-naturales/universo.js', lecciones: [
         'El sistema solar',
         'Movimientos de la Tierra: días, años y estaciones',
         'Fases de la Luna y eclipses',
