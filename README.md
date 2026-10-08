@@ -27,11 +27,12 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 | Materia | Unidades | Estado |
 |---|---|---|
 | Matemáticas | Aritmética, Álgebra, Funciones, Geometría, Trigonometría, Geometría analítica, Estadística y probabilidad, Introducción al cálculo | 64 lecciones listas |
-| Física | Bases, Movimiento, Fuerzas, Trabajo y energía, Fluidos, Calor, Ondas, sonido y luz, Electricidad y magnetismo, Física moderna | Próximamente |
-| Química | Materia, Átomo, Tabla periódica, Enlaces, Nomenclatura, Reacciones, Estequiometría, Disoluciones y ácidos, Química orgánica, Química en la vida diaria | Próximamente |
+| Física | Bases, Movimiento, Fuerzas, Trabajo y energía, Fluidos, Calor, Ondas, sonido y luz, Electricidad y magnetismo, Física moderna | 54 lecciones listas |
+| Química | Materia, Átomo, Tabla periódica, Enlaces, Nomenclatura, Reacciones, Estequiometría, Disoluciones y ácidos, Química orgánica, Química en la vida diaria | 44 lecciones listas |
 | Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | Próximamente |
-| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito y deudas, Bancos y seguridad, Inversión, Proteger tu futuro | Próximamente |
+| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito y deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | Próximamente |
 | Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | Próximamente |
+| Autosuficiencia | Bases, Agua, Huerto y jardinería, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad | Próximamente |
 | Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | Próximamente |
 | Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
 | Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, IA y sociedad | Próximamente |

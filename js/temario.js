@@ -177,7 +177,7 @@ window.TEMARIO = [
     descripcion: 'De qué está hecho todo y cómo se transforma.',
     color: '#34D399',
     unidades: [
-      { titulo: 'La materia', lecciones: [
+      { titulo: 'La materia', archivo: 'lecciones/quimica/materia.js', lecciones: [
         'Qué es la química',
         'Propiedades de la materia',
         'Estados de agregación',
@@ -185,58 +185,58 @@ window.TEMARIO = [
         'Métodos de separación de mezclas',
         'Cambios físicos y químicos',
       ]},
-      { titulo: 'El átomo', lecciones: [
+      { titulo: 'El átomo', archivo: 'lecciones/quimica/atomo.js', lecciones: [
         'Modelos atómicos a través de la historia',
         'Protones, neutrones y electrones',
         'Número atómico y masa atómica',
         'Isótopos',
         'Configuración electrónica',
       ]},
-      { titulo: 'La tabla periódica', lecciones: [
+      { titulo: 'La tabla periódica', archivo: 'lecciones/quimica/tabla.js', lecciones: [
         'Cómo está organizada la tabla periódica',
         'Grupos y periodos',
         'Metales, no metales y metaloides',
         'Propiedades periódicas',
       ]},
-      { titulo: 'Enlaces químicos', lecciones: [
+      { titulo: 'Enlaces químicos', archivo: 'lecciones/quimica/enlaces.js', lecciones: [
         'Regla del octeto y estructuras de Lewis',
         'Enlace iónico',
         'Enlace covalente',
         'Enlace metálico',
         'Fuerzas intermoleculares',
       ]},
-      { titulo: 'Nomenclatura inorgánica', lecciones: [
+      { titulo: 'Nomenclatura inorgánica', archivo: 'lecciones/quimica/nomenclatura.js', lecciones: [
         'Óxidos',
         'Hidróxidos',
         'Ácidos',
         'Sales',
       ]},
-      { titulo: 'Reacciones químicas', lecciones: [
+      { titulo: 'Reacciones químicas', archivo: 'lecciones/quimica/reacciones.js', lecciones: [
         'Ecuaciones químicas',
         'Balanceo por tanteo',
         'Tipos de reacciones',
         'Oxidación y reducción',
         'Velocidad de reacción',
       ]},
-      { titulo: 'Estequiometría', lecciones: [
+      { titulo: 'Estequiometría', archivo: 'lecciones/quimica/estequiometria.js', lecciones: [
         'El mol',
         'Masa molar',
         'Cálculos estequiométricos',
         'Reactivo limitante y rendimiento',
       ]},
-      { titulo: 'Disoluciones, ácidos y bases', lecciones: [
+      { titulo: 'Disoluciones, ácidos y bases', archivo: 'lecciones/quimica/disoluciones.js', lecciones: [
         'Soluto y disolvente',
         'Concentración: porcentaje y molaridad',
         'Ácidos y bases',
         'El pH',
       ]},
-      { titulo: 'Química orgánica', lecciones: [
+      { titulo: 'Química orgánica', archivo: 'lecciones/quimica/organica.js', lecciones: [
         'El carbono, base de la vida',
         'Hidrocarburos',
         'Grupos funcionales',
         'Polímeros y plásticos',
       ]},
-      { titulo: 'Química en la vida diaria', lecciones: [
+      { titulo: 'Química en la vida diaria', archivo: 'lecciones/quimica/vida-diaria.js', lecciones: [
         'La química de los alimentos',
         'Productos de limpieza: cuáles nunca mezclar',
         'Química y medio ambiente',
@@ -359,6 +359,20 @@ window.TEMARIO = [
         'Impuestos básicos',
         'Grandes compras: auto y vivienda',
       ]},
+      { titulo: 'Cómo prepararse para una crisis o una depresión', lecciones: [
+        'Qué es una crisis económica',
+        'Recesión y depresión: en qué se diferencian',
+        'Crisis históricas y lo que nos enseñaron',
+        'Señales de alerta de una crisis',
+        'Qué pasa con los empleos, los precios y los ahorros en una crisis',
+        'Un fondo de emergencia para tiempos difíciles',
+        'Reducir deudas antes de que llegue la crisis',
+        'Diversificar ingresos y habilidades',
+        'Proteger tu dinero de la inflación y la devaluación',
+        'Presupuesto de crisis: recortar sin perder lo esencial',
+        'Errores comunes en una crisis: pánico, fraudes y ventas de remate',
+        'Salir adelante: reconstruir después de la crisis',
+      ]},
     ],
   },
   {
@@ -403,6 +417,81 @@ window.TEMARIO = [
         'De la idea al negocio',
         'Modelo de negocio',
         'Finanzas de un pequeño negocio',
+      ]},
+    ],
+  },
+  {
+    id: 'autosuficiencia',
+    nombre: 'Autosuficiencia',
+    descripcion: 'Agua, comida, energía, salud y vivienda: lo necesario para valerte por ti mismo en la ciudad o en el campo.',
+    color: '#A3E635',
+    unidades: [
+      { titulo: 'Bases de la autosuficiencia', lecciones: [
+        'Qué es ser autosuficiente (y qué no)',
+        'Necesidades básicas: agua, comida, refugio y energía',
+        'Empezar poco a poco: autosuficiencia en la ciudad y en el campo',
+      ]},
+      { titulo: 'Agua', lecciones: [
+        'Cuánta agua necesitas',
+        'Captar agua de lluvia',
+        'Purificar agua: hervir, cloro y desinfección solar',
+        'Filtros caseros: qué quitan y qué no',
+        'Almacenar agua de forma segura',
+      ]},
+      { titulo: 'Huerto y jardinería', lecciones: [
+        'El suelo y la composta',
+        'Germinar semillas y trasplantar',
+        'Riego eficiente',
+        'Huerto en macetas y balcones',
+        'Calendario de siembra y rotación de cultivos',
+        'Plagas: control sin venenos peligrosos',
+        'Guardar tus propias semillas',
+      ]},
+      { titulo: 'Alimentos', lecciones: [
+        'Árboles frutales y plantas perennes',
+        'Gallinas y animales pequeños',
+        'Conservar alimentos: secado, fermentado y encurtido',
+        'Envasado seguro y el riesgo del botulismo',
+        'Cocinar con poca energía',
+      ]},
+      { titulo: 'Fuego y calor', lecciones: [
+        'Cómo funciona el fuego: el triángulo del fuego',
+        'Encender y mantener un fuego con seguridad',
+        'Estufas eficientes y el peligro del humo dentro de casa',
+        'Prevenir y apagar incendios',
+      ]},
+      { titulo: 'Energía', lecciones: [
+        'Cuánta electricidad usas',
+        'Paneles solares: cómo funcionan',
+        'Baterías y almacenamiento',
+        'Energía eólica e hidráulica a pequeña escala',
+        'Calentador solar de agua',
+        'Seguridad eléctrica en instalaciones caseras',
+      ]},
+      { titulo: 'Vivienda digna y autosuficiente', lecciones: [
+        'Qué hace digna a una vivienda',
+        'Orientación, sol y ventilación',
+        'Aislamiento térmico: fresca en verano y tibia en invierno',
+        'Materiales locales: adobe, bambú y tierra',
+        'Baño seco y aprovechamiento de aguas grises',
+        'Manejo de residuos en casa',
+        'Vivienda autosuficiente en la ciudad',
+        'Vivienda autosuficiente en el campo',
+      ]},
+      { titulo: 'Salud y primeros auxilios', lecciones: [
+        'Botiquín básico',
+        'Primeros auxilios: heridas, quemaduras y torceduras',
+        'Suero oral casero contra la deshidratación',
+        'Remedios caseros con evidencia científica',
+        'Remedios populares que no funcionan o son peligrosos',
+        'Cuándo buscar ayuda médica sin demora',
+      ]},
+      { titulo: 'Habilidades y comunidad', lecciones: [
+        'Herramientas básicas y reparaciones',
+        'Coser y remendar ropa',
+        'Orientarse sin GPS',
+        'Plan familiar de emergencias',
+        'Trueque y ayuda mutua',
       ]},
     ],
   },

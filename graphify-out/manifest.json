@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791389841.6613574,
-    "ast_hash": "d17fde6e971a7ca5e22704160b7f57dc",
-    "semantic_hash": "d17fde6e971a7ca5e22704160b7f57dc"
+    "mtime": 1791424379.5889852,
+    "ast_hash": "cc21fe4414639cd7915ddb0f84868d6f",
+    "semantic_hash": "cc21fe4414639cd7915ddb0f84868d6f"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791328311.7892256,
-    "ast_hash": "afbfe5823f8cb7455f41e472c5ef0487",
-    "semantic_hash": "afbfe5823f8cb7455f41e472c5ef0487"
+    "mtime": 1791403176.4900043,
+    "ast_hash": "9c6c27c913492f3e7afd7f68da6d39e6",
+    "semantic_hash": "9c6c27c913492f3e7afd7f68da6d39e6"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -150,9 +150,9 @@
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1791326095.480191,
-    "ast_hash": "342799987112104a0f95fe4e77fb4c79",
-    "semantic_hash": "342799987112104a0f95fe4e77fb4c79"
+    "mtime": 1791424685.4297335,
+    "ast_hash": "f5bc2c56c236a0ca2bd9ae8a39bc30df",
+    "semantic_hash": "f5bc2c56c236a0ca2bd9ae8a39bc30df"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
@@ -193,5 +193,55 @@
     "mtime": 1791388913.6562998,
     "ast_hash": "43c838e5b13cc2e140a2dc9ff7367184",
     "semantic_hash": "43c838e5b13cc2e140a2dc9ff7367184"
+  },
+  "lecciones/quimica/atomo.js": {
+    "mtime": 1791398731.169035,
+    "ast_hash": "4635775839751b746a37d3f6706779cb",
+    "semantic_hash": "4635775839751b746a37d3f6706779cb"
+  },
+  "lecciones/quimica/disoluciones.js": {
+    "mtime": 1791404516.3880334,
+    "ast_hash": "25c48ed8147a722d97f1fd9a1e9a8b8e",
+    "semantic_hash": "25c48ed8147a722d97f1fd9a1e9a8b8e"
+  },
+  "lecciones/quimica/enlaces.js": {
+    "mtime": 1791400734.3177884,
+    "ast_hash": "6890d0907cdc3d93a15b1f0657508483",
+    "semantic_hash": "6890d0907cdc3d93a15b1f0657508483"
+  },
+  "lecciones/quimica/estequiometria.js": {
+    "mtime": 1791402323.322128,
+    "ast_hash": "30ae86b9a7dd0bd23fbb5f3ffdcf9dd0",
+    "semantic_hash": "30ae86b9a7dd0bd23fbb5f3ffdcf9dd0"
+  },
+  "lecciones/quimica/materia.js": {
+    "mtime": 1791393145.4776032,
+    "ast_hash": "1607d97f7cc0f019e5959382e8e2d23b",
+    "semantic_hash": "1607d97f7cc0f019e5959382e8e2d23b"
+  },
+  "lecciones/quimica/nomenclatura.js": {
+    "mtime": 1791401206.315749,
+    "ast_hash": "7fab3cf3f9596308bb3143dcf3ea74cb",
+    "semantic_hash": "7fab3cf3f9596308bb3143dcf3ea74cb"
+  },
+  "lecciones/quimica/organica.js": {
+    "mtime": 1791424151.06036,
+    "ast_hash": "f4865a4c8b2665b930eca38754fb8fe5",
+    "semantic_hash": "f4865a4c8b2665b930eca38754fb8fe5"
+  },
+  "lecciones/quimica/reacciones.js": {
+    "mtime": 1791401805.9378717,
+    "ast_hash": "2190df54163e7a05299df8ff9c2a4688",
+    "semantic_hash": "2190df54163e7a05299df8ff9c2a4688"
+  },
+  "lecciones/quimica/tabla.js": {
+    "mtime": 1791399507.9521472,
+    "ast_hash": "bcd3073a3ac65412e1bc39b1cee7e911",
+    "semantic_hash": "bcd3073a3ac65412e1bc39b1cee7e911"
+  },
+  "lecciones/quimica/vida-diaria.js": {
+    "mtime": 1791424475.0042465,
+    "ast_hash": "eb06cca57f15b250e0da70376642b813",
+    "semantic_hash": "eb06cca57f15b250e0da70376642b813"
   }
 }

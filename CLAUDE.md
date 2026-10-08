@@ -14,7 +14,7 @@ Esta es una carta de amor a la humanidad: en un mundo en el que la educación es
 ## Materias
 El temario completo (materias, unidades y lecciones en orden) vive en `js/temario.js`, que es la única fuente de verdad: el sitio se dibuja a partir de él. No duplicarlo en otros archivos.
 
-Materias: Matemáticas, Física, Química, Ciencias naturales, Finanzas personales, Finanzas y economía, Ofimática, Lectura, Inteligencia artificial, Inglés, Mandarín.
+Materias: Matemáticas, Física, Química, Ciencias naturales, Finanzas personales, Finanzas y economía, Autosuficiencia, Ofimática, Lectura, Inteligencia artificial, Inglés, Mandarín.
 
 Para pronunciación en Inglés y Mandarín usar la API nativa `speechSynthesis` (voces del sistema, funciona sin internet en la mayoría de equipos) en lugar de grabar audios. Si el equipo no tiene voz para ese idioma, el ejercicio debe seguir siendo usable sin audio (mostrar pinyin o transcripción). <!-- TODO: aclarar qué significa "JEV" (venía junto a "IA y LLMs") -->
 
