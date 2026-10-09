@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791572305.5404449,
-    "ast_hash": "ec16828f8c7d886ae418db05b3eb26ab",
-    "semantic_hash": "ec16828f8c7d886ae418db05b3eb26ab"
+    "mtime": 1791587832.995149,
+    "ast_hash": "14866ce8bb8211d839c141ae5b32e3c0",
+    "semantic_hash": "14866ce8bb8211d839c141ae5b32e3c0"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791444797.1932888,
-    "ast_hash": "a0ac83e9722a1a180a448f491ed17778",
-    "semantic_hash": "a0ac83e9722a1a180a448f491ed17778"
+    "mtime": 1791586812.4055734,
+    "ast_hash": "b40dd7aee741f92c3bf88ba09ab56ef8",
+    "semantic_hash": "b40dd7aee741f92c3bf88ba09ab56ef8"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -393,5 +393,70 @@
     "mtime": 1791569649.1232023,
     "ast_hash": "3660dc3a625294afc9c68ea97b206f6e",
     "semantic_hash": "3660dc3a625294afc9c68ea97b206f6e"
+  },
+  ".claude/herramientas/citas.js": {
+    "mtime": 1791587877.4958022,
+    "ast_hash": "b6979abe66d463ca9e99604b6d1e587c",
+    "semantic_hash": "b6979abe66d463ca9e99604b6d1e587c"
+  },
+  ".claude/herramientas/render.js": {
+    "mtime": 1791586250.5229342,
+    "ast_hash": "9c0a58b952011e91d791ef06bb1beb44",
+    "semantic_hash": "9c0a58b952011e91d791ef06bb1beb44"
+  },
+  ".claude/herramientas/revisar.js": {
+    "mtime": 1791586250.5201707,
+    "ast_hash": "92097aff5e47b3520946c2455058e57a",
+    "semantic_hash": "92097aff5e47b3520946c2455058e57a"
+  },
+  ".claude/trabajo/ia/que-es/antes-auditoria.js": {
+    "mtime": 1791587871.058458,
+    "ast_hash": "cb9871e846e3dd618dcd9c6536d903a7",
+    "semantic_hash": "cb9871e846e3dd618dcd9c6536d903a7"
+  },
+  "lecciones/ia/que-es.js": {
+    "mtime": 1791588225.553098,
+    "ast_hash": "e3596dcf36f341357bd27ad6675ad2cd",
+    "semantic_hash": "e3596dcf36f341357bd27ad6675ad2cd"
+  },
+  ".claude/agents/auditor.md": {
+    "mtime": 1791586216.9657087,
+    "ast_hash": "bfa0c746f054fbc661b6593e0f1fb588",
+    "semantic_hash": "bfa0c746f054fbc661b6593e0f1fb588"
+  },
+  ".claude/agents/constructor.md": {
+    "mtime": 1791586216.963396,
+    "ast_hash": "d80bc7699efcd06100df1c78e3f8279d",
+    "semantic_hash": "d80bc7699efcd06100df1c78e3f8279d"
+  },
+  ".claude/agents/investigador.md": {
+    "mtime": 1791586216.9608262,
+    "ast_hash": "212c06059bbfd4856ec1c7ee4394eb62",
+    "semantic_hash": "212c06059bbfd4856ec1c7ee4394eb62"
+  },
+  ".claude/docs/auditoria.md": {
+    "mtime": 1791586167.4888442,
+    "ast_hash": "774c467cfb7340413319b84c91e4f953",
+    "semantic_hash": "774c467cfb7340413319b84c91e4f953"
+  },
+  ".claude/docs/contenido.md": {
+    "mtime": 1791586140.8934498,
+    "ast_hash": "d613853d25fbc053d9ac8913f878069c",
+    "semantic_hash": "d613853d25fbc053d9ac8913f878069c"
+  },
+  ".claude/docs/flujo-unidad.md": {
+    "mtime": 1791586193.5953388,
+    "ast_hash": "462fdeab78fe55c6faf1a445c2c980c9",
+    "semantic_hash": "462fdeab78fe55c6faf1a445c2c980c9"
+  },
+  ".claude/docs/formato-leccion.md": {
+    "mtime": 1791586140.8935597,
+    "ast_hash": "f6896bb15473bfb39eb03f9aeac2cd64",
+    "semantic_hash": "f6896bb15473bfb39eb03f9aeac2cd64"
+  },
+  ".claude/docs/fuentes.md": {
+    "mtime": 1791587693.5668762,
+    "ast_hash": "454deefa22020eba5972e00fe2fe8758",
+    "semantic_hash": "454deefa22020eba5972e00fe2fe8758"
   }
 }

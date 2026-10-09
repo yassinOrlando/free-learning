@@ -284,7 +284,7 @@ window.TEMARIO = [
     descripcion: 'Qué es la IA, cómo funcionan los modelos de lenguaje y cómo usarlos con criterio.',
     color: '#22D3EE',
     unidades: [
-      { titulo: 'Qué es la IA', lecciones: [
+      { titulo: 'Qué es la IA', archivo: 'lecciones/ia/que-es.js', lecciones: [
         'Qué es la inteligencia artificial',
         'Breve historia de la IA',
         'La IA en tu vida diaria',
@@ -302,6 +302,7 @@ window.TEMARIO = [
         'Contexto y memoria',
         'Alucinaciones: cuando la IA inventa',
         'Qué puede y qué no puede hacer',
+        'Modelos de decisión: IA que elige en lugar de escribir',
       ]},
       { titulo: 'Usar la IA bien', lecciones: [
         'Escribir instrucciones claras',
