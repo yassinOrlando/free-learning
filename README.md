@@ -32,14 +32,14 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 | Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | 39 lecciones listas |
 | Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | Próximamente |
 | Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | Próximamente |
-| Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad | 106 lecciones listas |
+| Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad, Software libre | 112 lecciones listas |
 | Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | Próximamente |
 | Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
 | Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | Próximamente |
 | Inglés | Niveles A1, A2 y B1 | Próximamente |
 | Mandarín | HSK 1, 2 y 3 | Próximamente |
 
-En total hay 307 lecciones listas en cinco materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
+En total hay 313 lecciones listas en cinco materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
 
 ## Para quien quiera contribuir
 

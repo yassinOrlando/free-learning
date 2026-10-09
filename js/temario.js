@@ -139,6 +139,14 @@ window.TEMARIO = [
         'Plan familiar de emergencias',
         'Trueque y ayuda mutua',
       ]},
+      { titulo: 'Software libre', archivo: 'lecciones/autosuficiencia/software.js', lecciones: [
+        'Qué es el software libre',
+        'Por qué usar software libre',
+        'Linux: un sistema operativo libre',
+        'Ofimática, internet y comunicación libres',
+        'Diseño, foto, audio y video libres',
+        'Instalar software libre con seguridad',
+      ]},
     ],
   },
   {
@@ -147,13 +155,13 @@ window.TEMARIO = [
     descripcion: 'Cómo administrar tu dinero, ahorrar, evitar deudas malas y hacer crecer lo que tienes.',
     color: '#FBBF24',
     unidades: [
-      { titulo: 'Tú y el dinero', lecciones: [
+      { titulo: 'Tú y el dinero', archivo: 'lecciones/finanzas-personales/dinero.js', lecciones: [
         'Qué es el dinero',
         'Ingresos y gastos',
         'Necesidades y deseos',
-        'Cómo leer tu recibo de nómina',
+        'Cómo leer tu recibo de sueldo',
       ]},
-      { titulo: 'Presupuesto', lecciones: [
+      { titulo: 'Presupuesto', archivo: 'lecciones/finanzas-personales/presupuesto.js', lecciones: [
         'Hacer tu primer presupuesto',
         'La regla 50/30/20',
         'Registrar y revisar tus gastos',

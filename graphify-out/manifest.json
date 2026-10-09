@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791512340.7941482,
-    "ast_hash": "1d809958223b5621ac6d6700bc70b99d",
-    "semantic_hash": "1d809958223b5621ac6d6700bc70b99d"
+    "mtime": 1791529926.7763085,
+    "ast_hash": "dbe63ce39bc7a5abba87fa97854868ab",
+    "semantic_hash": "dbe63ce39bc7a5abba87fa97854868ab"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -150,9 +150,9 @@
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1791512398.0121782,
-    "ast_hash": "707985b4a5eadccfca7909afcd4d05d1",
-    "semantic_hash": "707985b4a5eadccfca7909afcd4d05d1"
+    "mtime": 1791530039.9628808,
+    "ast_hash": "c9da356fc6575d15d2720a7bea316f46",
+    "semantic_hash": "c9da356fc6575d15d2720a7bea316f46"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
@@ -338,5 +338,20 @@
     "mtime": 1791501766.3346686,
     "ast_hash": "6056ba7138fc26191febb910a2b358f3",
     "semantic_hash": "6056ba7138fc26191febb910a2b358f3"
+  },
+  "lecciones/autosuficiencia/software.js": {
+    "mtime": 1791530147.3234315,
+    "ast_hash": "0070f3288de9b9e8020bcec41e0075c1",
+    "semantic_hash": "0070f3288de9b9e8020bcec41e0075c1"
+  },
+  "lecciones/finanzas-personales/dinero.js": {
+    "mtime": 1791513862.1313753,
+    "ast_hash": "442fedb39740876afa16645f9f0ec8fa",
+    "semantic_hash": "442fedb39740876afa16645f9f0ec8fa"
+  },
+  "lecciones/finanzas-personales/presupuesto.js": {
+    "mtime": 1791519055.598508,
+    "ast_hash": "391b66008ae898ea809f19f170a24551",
+    "semantic_hash": "391b66008ae898ea809f19f170a24551"
   }
 }
