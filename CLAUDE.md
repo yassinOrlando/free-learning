@@ -143,6 +143,8 @@ Usar solo recursos fiables y de acceso gratuito, y citarlos en cada lección. Ej
 - Wikipedia (solo como apoyo, contrastada con otra fuente)
 - Sitios oficiales de educación financiera de bancos centrales y organismos públicos
 
+Se aceptan fuentes en otro idioma (sobre todo inglés) siempre que la fuente y la información sean fiables y de calidad: organismos oficiales, universidades públicas, servicios de extensión agrícola. Se traducen y se redactan con palabras propias, y en `fuentes` el nombre lleva "(en inglés)" para que el lector sepa en qué idioma está. Si existe una versión oficial en español, se prefiere esa.
+
 No copiar texto literal: redactar con palabras propias y respetar las licencias (muchas son CC BY, que exige atribución).
 
 ## Tono y redacción del contenido

@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791442678.6911323,
-    "ast_hash": "c021bde868bf621a6f5e0d89b41b8b6b",
-    "semantic_hash": "c021bde868bf621a6f5e0d89b41b8b6b"
+    "mtime": 1791512340.7941482,
+    "ast_hash": "1d809958223b5621ac6d6700bc70b99d",
+    "semantic_hash": "1d809958223b5621ac6d6700bc70b99d"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791403176.4900043,
-    "ast_hash": "9c6c27c913492f3e7afd7f68da6d39e6",
-    "semantic_hash": "9c6c27c913492f3e7afd7f68da6d39e6"
+    "mtime": 1791444797.1932888,
+    "ast_hash": "a0ac83e9722a1a180a448f491ed17778",
+    "semantic_hash": "a0ac83e9722a1a180a448f491ed17778"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -150,9 +150,9 @@
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1791424685.4297335,
-    "ast_hash": "f5bc2c56c236a0ca2bd9ae8a39bc30df",
-    "semantic_hash": "f5bc2c56c236a0ca2bd9ae8a39bc30df"
+    "mtime": 1791512398.0121782,
+    "ast_hash": "707985b4a5eadccfca7909afcd4d05d1",
+    "semantic_hash": "707985b4a5eadccfca7909afcd4d05d1"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
@@ -278,5 +278,65 @@
     "mtime": 1791442838.9180484,
     "ast_hash": "e9d07bafb9f387b27c4dff44127eead4",
     "semantic_hash": "e9d07bafb9f387b27c4dff44127eead4"
+  },
+  "lecciones/autosuficiencia/agua.js": {
+    "mtime": 1791445554.9125319,
+    "ast_hash": "26188da14d6caed2e2b2df885cfe8d12",
+    "semantic_hash": "26188da14d6caed2e2b2df885cfe8d12"
+  },
+  "lecciones/autosuficiencia/alimentos.js": {
+    "mtime": 1791493803.4519641,
+    "ast_hash": "c8e94cec42b6be34522215cdc74351bc",
+    "semantic_hash": "c8e94cec42b6be34522215cdc74351bc"
+  },
+  "lecciones/autosuficiencia/bases.js": {
+    "mtime": 1791444274.38769,
+    "ast_hash": "bb47521f78e30e55f387335ff603f0be",
+    "semantic_hash": "bb47521f78e30e55f387335ff603f0be"
+  },
+  "lecciones/autosuficiencia/cultivos.js": {
+    "mtime": 1791476798.3936813,
+    "ast_hash": "8dcd6a9276173d516037fb1c1775fc1f",
+    "semantic_hash": "8dcd6a9276173d516037fb1c1775fc1f"
+  },
+  "lecciones/autosuficiencia/energia.js": {
+    "mtime": 1791511421.4212887,
+    "ast_hash": "921944116a0895bb699e8c059df27f14",
+    "semantic_hash": "921944116a0895bb699e8c059df27f14"
+  },
+  "lecciones/autosuficiencia/fuego.js": {
+    "mtime": 1791495774.370228,
+    "ast_hash": "baf8837cf66803ce5816878b55c45af2",
+    "semantic_hash": "baf8837cf66803ce5816878b55c45af2"
+  },
+  "lecciones/autosuficiencia/guardar-semillas.js": {
+    "mtime": 1791480156.5425706,
+    "ast_hash": "02b8f72aaead1c78532c5acc71a27428",
+    "semantic_hash": "02b8f72aaead1c78532c5acc71a27428"
+  },
+  "lecciones/autosuficiencia/habilidades.js": {
+    "mtime": 1791512481.7789068,
+    "ast_hash": "2c95bac5882e847f0dc070d73378a204",
+    "semantic_hash": "2c95bac5882e847f0dc070d73378a204"
+  },
+  "lecciones/autosuficiencia/huerto.js": {
+    "mtime": 1791446669.2051287,
+    "ast_hash": "a1d615a47035cfe4664e6fa0fbe37e37",
+    "semantic_hash": "a1d615a47035cfe4664e6fa0fbe37e37"
+  },
+  "lecciones/autosuficiencia/salud.js": {
+    "mtime": 1791511681.5138924,
+    "ast_hash": "bd8a03eae69b4aa3c43e319b6f0ef505",
+    "semantic_hash": "bd8a03eae69b4aa3c43e319b6f0ef505"
+  },
+  "lecciones/autosuficiencia/semillas.js": {
+    "mtime": 1791474173.7581348,
+    "ast_hash": "1661a09f4824a3833701557220be1d02",
+    "semantic_hash": "1661a09f4824a3833701557220be1d02"
+  },
+  "lecciones/autosuficiencia/vivienda.js": {
+    "mtime": 1791501766.3346686,
+    "ast_hash": "6056ba7138fc26191febb910a2b358f3",
+    "semantic_hash": "6056ba7138fc26191febb910a2b358f3"
   }
 }

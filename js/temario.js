@@ -9,12 +9,12 @@ window.TEMARIO = [
     descripcion: 'Agua, comida, energía, salud y vivienda: lo necesario para valerte por ti mismo en la ciudad o en el campo.',
     color: '#A3E635',
     unidades: [
-      { titulo: 'Bases de la autosuficiencia', lecciones: [
+      { titulo: 'Bases de la autosuficiencia', archivo: 'lecciones/autosuficiencia/bases.js', lecciones: [
         'Qué es ser autosuficiente (y qué no)',
         'Necesidades básicas: agua, comida, refugio y energía',
         'Empezar poco a poco: autosuficiencia en la ciudad y en el campo',
       ]},
-      { titulo: 'Agua', lecciones: [
+      { titulo: 'Agua', archivo: 'lecciones/autosuficiencia/agua.js', lecciones: [
         'Cuánta agua necesitas',
         'Fuentes de agua: lluvia, pozos, ríos y manantiales',
         'Cómo saber si el agua puede estar contaminada',
@@ -24,7 +24,7 @@ window.TEMARIO = [
         'Almacenar agua de forma segura',
         'Ahorrar y reutilizar agua en casa',
       ]},
-      { titulo: 'El suelo y el huerto', lecciones: [
+      { titulo: 'El suelo y el huerto', archivo: 'lecciones/autosuficiencia/huerto.js', lecciones: [
         'Qué necesitan las plantas: luz, agua, aire y nutrientes',
         'El suelo y la composta',
         'Lombricomposta y abonos verdes',
@@ -37,7 +37,7 @@ window.TEMARIO = [
         'Plagas: control sin venenos peligrosos',
         'Enfermedades de las plantas: prevenirlas y reconocerlas',
       ]},
-      { titulo: 'Semillas y germinación', lecciones: [
+      { titulo: 'Semillas y germinación', archivo: 'lecciones/autosuficiencia/semillas.js', lecciones: [
         'Qué es una semilla y qué necesita para germinar',
         'Tipos de semilla: criollas, híbridas y de polinización abierta',
         'Prueba de germinación: cuántas de tus semillas sirven',
@@ -48,7 +48,7 @@ window.TEMARIO = [
         'Siembra directa: qué semillas van directo a la tierra',
         'Esquejes, tubérculos y otras formas de multiplicar plantas',
       ]},
-      { titulo: 'Cultivos básicos', lecciones: [
+      { titulo: 'Cultivos básicos', archivo: 'lecciones/autosuficiencia/cultivos.js', lecciones: [
         'Cultivar maíz',
         'Cultivar frijol',
         'Cultivar calabaza',
@@ -65,7 +65,7 @@ window.TEMARIO = [
         'Cultivar hierbas aromáticas y medicinales',
         'Cosechar en el momento justo',
       ]},
-      { titulo: 'Guardar tus propias semillas', lecciones: [
+      { titulo: 'Guardar tus propias semillas', archivo: 'lecciones/autosuficiencia/guardar-semillas.js', lecciones: [
         'Por qué guardar tus propias semillas',
         'Polinización: cómo evitar que tus semillas se crucen',
         'Elegir las mejores plantas para sacar semilla',
@@ -78,7 +78,7 @@ window.TEMARIO = [
         'Guardar semillas de papa, ajo y otros tubérculos',
         'Bancos e intercambio comunitario de semillas',
       ]},
-      { titulo: 'Alimentos', lecciones: [
+      { titulo: 'Alimentos', archivo: 'lecciones/autosuficiencia/alimentos.js', lecciones: [
         'Comer bien con lo que cultivas',
         'Proteínas sin carne: combinar cereales y leguminosas',
         'Nixtamalizar maíz y hacer tortillas',
@@ -92,13 +92,13 @@ window.TEMARIO = [
         'Cocinar con poca energía',
         'Evitar el desperdicio de comida',
       ]},
-      { titulo: 'Fuego y calor', lecciones: [
+      { titulo: 'Fuego y calor', archivo: 'lecciones/autosuficiencia/fuego.js', lecciones: [
         'Cómo funciona el fuego: el triángulo del fuego',
         'Encender y mantener un fuego con seguridad',
         'Estufas eficientes y el peligro del humo dentro de casa',
         'Prevenir y apagar incendios',
       ]},
-      { titulo: 'Energía', lecciones: [
+      { titulo: 'Energía', archivo: 'lecciones/autosuficiencia/energia.js', lecciones: [
         'Cuánta electricidad usas',
         'Ahorrar energía en casa',
         'Paneles solares: cómo funcionan',
@@ -110,7 +110,7 @@ window.TEMARIO = [
         'Leña y carbón: usarlos sin acabar con el bosque',
         'Seguridad eléctrica en instalaciones caseras',
       ]},
-      { titulo: 'Vivienda digna y autosuficiente', lecciones: [
+      { titulo: 'Vivienda digna y autosuficiente', archivo: 'lecciones/autosuficiencia/vivienda.js', lecciones: [
         'Qué hace digna a una vivienda',
         'Orientación, sol y ventilación',
         'Aislamiento térmico: fresca en verano y tibia en invierno',
@@ -120,7 +120,7 @@ window.TEMARIO = [
         'Vivienda autosuficiente en la ciudad',
         'Vivienda autosuficiente en el campo',
       ]},
-      { titulo: 'Salud y primeros auxilios', lecciones: [
+      { titulo: 'Salud y primeros auxilios', archivo: 'lecciones/autosuficiencia/salud.js', lecciones: [
         'Higiene y saneamiento para prevenir enfermedades',
         'Lavado de manos y manejo seguro de alimentos',
         'Botiquín básico',
@@ -132,7 +132,7 @@ window.TEMARIO = [
         'Prevenir picaduras y mordeduras de animales',
         'Cuándo buscar ayuda médica sin demora',
       ]},
-      { titulo: 'Habilidades y comunidad', lecciones: [
+      { titulo: 'Habilidades y comunidad', archivo: 'lecciones/autosuficiencia/habilidades.js', lecciones: [
         'Herramientas básicas y reparaciones',
         'Coser y remendar ropa',
         'Orientarse sin GPS',
@@ -170,13 +170,26 @@ window.TEMARIO = [
         'Inflación: por qué todo sube de precio',
         'Tasa nominal y tasa real',
       ]},
-      { titulo: 'Crédito y deudas', lecciones: [
+      { titulo: 'Crédito', lecciones: [
         'Qué es un crédito',
         'Tarjetas de crédito y la trampa del pago mínimo',
         'El costo total de un crédito',
         'Historial crediticio',
         'Cómo comparar préstamos',
-        'Salir de deudas: métodos bola de nieve y avalancha',
+      ]},
+      { titulo: 'Deudas', lecciones: [
+        'Qué es una deuda y cuándo se vuelve un problema',
+        'Deuda buena y deuda mala',
+        'Cómo evitar una deuda',
+        'Señales de que tienes demasiadas deudas',
+        'Haz la lista de todas tus deudas',
+        'Método bola de nieve',
+        'Método avalancha',
+        'Bola de nieve o avalancha: cuál elegir',
+        'Negociar con tus acreedores',
+        'Consolidar deudas: cuándo conviene y cuándo no',
+        'Préstamos abusivos, gota a gota y cobranza ilegal',
+        'Salir de deudas y no volver a caer',
       ]},
       { titulo: 'Bancos y seguridad', lecciones: [
         'Tipos de cuentas bancarias',

@@ -9,7 +9,7 @@ En un mundo en el que la educación es un privilegio, este sitio quiere ser una 
 - **Gratis para siempre.** Sin cuentas, sin anuncios y sin rastreo.
 - **Para cualquier persona.** Se escribe para alguien de 10 a 12 años o para un adulto que nunca vio el tema. No se da nada por sabido.
 - **Funciona sin internet.** Descargas el `.zip`, abres `index.html` con doble clic y listo. No hace falta instalar nada.
-- **Contenido confiable.** Se basa en fuentes gratuitas y reconocidas (Khan Academy, OpenStax, CK-12, PhET), que se citan en cada lección.
+- **Contenido confiable.** Se basa en fuentes gratuitas y reconocidas, como Khan Academy, OpenStax, CK-12, PhET, la Organización Mundial de la Salud, MedlinePlus y los servicios de extensión de universidades públicas, que se citan en cada lección.
 
 ## Cómo es una lección
 
@@ -29,17 +29,17 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 | Matemáticas | Aritmética, Álgebra, Funciones, Geometría, Trigonometría, Geometría analítica, Estadística y probabilidad, Introducción al cálculo | 64 lecciones listas |
 | Física | Bases, Movimiento, Fuerzas, Trabajo y energía, Fluidos, Calor, Ondas, sonido y luz, Electricidad y magnetismo, Física moderna | 54 lecciones listas |
 | Química | Materia, Átomo, Tabla periódica, Enlaces, Nomenclatura, Reacciones, Estequiometría, Disoluciones y ácidos, Química orgánica, Química en la vida diaria | 44 lecciones listas |
-| Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | Próximamente |
-| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito y deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | Próximamente |
+| Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | 39 lecciones listas |
+| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | Próximamente |
 | Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | Próximamente |
-| Autosuficiencia | Bases, Agua, Huerto y jardinería, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad | Próximamente |
+| Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad | 106 lecciones listas |
 | Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | Próximamente |
 | Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
-| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, IA y sociedad | Próximamente |
+| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | Próximamente |
 | Inglés | Niveles A1, A2 y B1 | Próximamente |
 | Mandarín | HSK 1, 2 y 3 | Próximamente |
 
-La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
+En total hay 307 lecciones listas en cinco materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
 
 ## Para quien quiera contribuir
 
