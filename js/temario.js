@@ -167,25 +167,25 @@ window.TEMARIO = [
         'Registrar y revisar tus gastos',
         'Gastos hormiga',
       ]},
-      { titulo: 'Ahorro', lecciones: [
+      { titulo: 'Ahorro', archivo: 'lecciones/finanzas-personales/ahorro.js', lecciones: [
         'Por qué ahorrar',
         'Fondo de emergencia',
         'Metas de ahorro',
       ]},
-      { titulo: 'Interés e inflación', lecciones: [
+      { titulo: 'Interés e inflación', archivo: 'lecciones/finanzas-personales/interes.js', lecciones: [
         'Interés simple',
         'Interés compuesto: la fuerza del tiempo',
         'Inflación: por qué todo sube de precio',
         'Tasa nominal y tasa real',
       ]},
-      { titulo: 'Crédito', lecciones: [
+      { titulo: 'Crédito', archivo: 'lecciones/finanzas-personales/credito.js', lecciones: [
         'Qué es un crédito',
         'Tarjetas de crédito y la trampa del pago mínimo',
         'El costo total de un crédito',
         'Historial crediticio',
         'Cómo comparar préstamos',
       ]},
-      { titulo: 'Deudas', lecciones: [
+      { titulo: 'Deudas', archivo: 'lecciones/finanzas-personales/deudas.js', lecciones: [
         'Qué es una deuda y cuándo se vuelve un problema',
         'Deuda buena y deuda mala',
         'Cómo evitar una deuda',
@@ -199,25 +199,25 @@ window.TEMARIO = [
         'Préstamos abusivos, gota a gota y cobranza ilegal',
         'Salir de deudas y no volver a caer',
       ]},
-      { titulo: 'Bancos y seguridad', lecciones: [
+      { titulo: 'Bancos y seguridad', archivo: 'lecciones/finanzas-personales/bancos.js', lecciones: [
         'Tipos de cuentas bancarias',
         'Banca en línea y pagos digitales',
         'Fraudes comunes y cómo evitarlos',
         'Esquemas piramidales y promesas de dinero fácil',
       ]},
-      { titulo: 'Inversión', lecciones: [
+      { titulo: 'Inversión', archivo: 'lecciones/finanzas-personales/inversion.js', lecciones: [
         'Riesgo y rendimiento',
         'Diversificación',
         'Instrumentos de inversión: deuda, fondos y acciones',
         'Invertir a largo plazo',
       ]},
-      { titulo: 'Proteger tu futuro', lecciones: [
+      { titulo: 'Proteger tu futuro', archivo: 'lecciones/finanzas-personales/futuro.js', lecciones: [
         'Seguros: para qué sirven',
         'Retiro y pensiones',
         'Impuestos básicos',
         'Grandes compras: auto y vivienda',
       ]},
-      { titulo: 'Cómo prepararse para una crisis o una depresión', lecciones: [
+      { titulo: 'Cómo prepararse para una crisis o una depresión', archivo: 'lecciones/finanzas-personales/crisis.js', lecciones: [
         'Qué es una crisis económica',
         'Recesión y depresión: en qué se diferencian',
         'Crisis históricas y lo que nos enseñaron',

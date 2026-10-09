@@ -114,7 +114,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "designsystemgenerator",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator"
     },
@@ -127,7 +127,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "bm25",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25"
     },
@@ -139,7 +139,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_contains_phrase()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_contains_phrase"
     },
@@ -151,7 +151,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "detect_domain()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_detect_domain"
     },
@@ -163,7 +163,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_domain_keywords()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_domain_keywords"
     },
@@ -175,7 +175,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_exact_match_diagnostic()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_exact_match_diagnostic"
     },
@@ -187,7 +187,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_exact_row_identity()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_exact_row_identity"
     },
@@ -199,7 +199,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_exact_stack_identifier()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_exact_stack_identifier"
     },
@@ -211,7 +211,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_file_signature()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_file_signature"
     },
@@ -223,7 +223,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_get_bm25()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_get_bm25"
     },
@@ -235,7 +235,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_legacy_successor_guidance()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_legacy_successor_guidance"
     },
@@ -247,7 +247,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_load_csv()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_load_csv"
     },
@@ -259,7 +259,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_load_csv_snapshot()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_load_csv_snapshot"
     },
@@ -271,7 +271,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_load_product_keywords()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_load_product_keywords"
     },
@@ -283,7 +283,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_load_rows_or_empty()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_load_rows_or_empty"
     },
@@ -295,7 +295,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_normalize()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_normalize"
     },
@@ -307,7 +307,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_passes_threshold()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_passes_threshold"
     },
@@ -319,7 +319,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_project_row()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_project_row"
     },
@@ -331,7 +331,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_query_coverage()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_query_coverage"
     },
@@ -343,7 +343,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_rewrite_query_for_domain()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rewrite_query_for_domain"
     },
@@ -355,7 +355,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_row_identities()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_row_identities"
     },
@@ -367,7 +367,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "search()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_search"
     },
@@ -379,7 +379,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_search_csv()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_search_csv"
     },
@@ -391,7 +391,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_search_csv_detailed()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_search_csv_detailed"
     },
@@ -403,7 +403,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "search_stack()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_search_stack"
     },
@@ -415,7 +415,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_stack_query_requests_legacy()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_stack_query_requests_legacy"
     },
@@ -427,7 +427,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_stack_row_filter()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_stack_row_filter"
     },
@@ -439,7 +439,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_style_identity()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_style_identity"
     },
@@ -451,7 +451,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_style_search_destination()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_style_search_destination"
     },
@@ -463,7 +463,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_suggest_identities()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_suggest_identities"
     },
@@ -475,7 +475,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_suggest_terms()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_suggest_terms"
     },
@@ -487,7 +487,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "_valid_max_results()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_valid_max_results"
     },
@@ -499,7 +499,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "format_output()",
       "id": "claude_skills_ui_ux_pro_max_scripts_search_format_output"
     },
@@ -511,7 +511,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "ansi_ljust()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_ansi_ljust"
     },
@@ -523,7 +523,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_button_outline_text_color()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_button_outline_text_color"
     },
@@ -535,7 +535,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_contrast_ratio()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_contrast_ratio"
     },
@@ -547,7 +547,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_derive_dark_palette()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_derive_dark_palette"
     },
@@ -559,7 +559,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_detect_page_type()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_detect_page_type"
     },
@@ -571,7 +571,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format_ascii_box()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box"
     },
@@ -583,7 +583,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format_markdown()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_format_markdown"
     },
@@ -595,7 +595,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format_master_md()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_format_master_md"
     },
@@ -607,7 +607,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format_page_override_md()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md"
     },
@@ -619,7 +619,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "generate_design_system()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_generate_design_system"
     },
@@ -631,7 +631,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_generate_intelligent_overrides()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides"
     },
@@ -643,7 +643,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "hex_to_ansi()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_hex_to_ansi"
     },
@@ -655,7 +655,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_mode_support_labels()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_mode_support_labels"
     },
@@ -667,7 +667,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_palette_is_dark()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_palette_is_dark"
     },
@@ -679,7 +679,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "persist_design_system()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_persist_design_system"
     },
@@ -691,7 +691,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_query_wants_dark()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_query_wants_dark"
     },
@@ -703,7 +703,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_relative_luminance()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_relative_luminance"
     },
@@ -715,7 +715,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_resolve_color_mode()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_color_mode"
     },
@@ -727,7 +727,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "safe_slug()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_safe_slug"
     },
@@ -739,7 +739,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "section_header()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_section_header"
     },
@@ -751,7 +751,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_select_palette_for_mode()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_select_palette_for_mode"
     },
@@ -763,7 +763,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_style_is_dark_primary()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_style_is_dark_primary"
     },
@@ -775,7 +775,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "_write_persisted_file()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_write_persisted_file"
     },
@@ -871,7 +871,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "Statistics chart helpers",
+      "community_name": "estadistica.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_matematicas_estadistica_barras"
     },
@@ -883,7 +883,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "Statistics chart helpers",
+      "community_name": "estadistica.js chart helpers",
       "norm_label": "histograma()",
       "id": "lecciones_matematicas_estadistica_histograma"
     },
@@ -895,7 +895,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "Statistics chart helpers",
+      "community_name": "estadistica.js chart helpers",
       "norm_label": "pastel()",
       "id": "lecciones_matematicas_estadistica_pastel"
     },
@@ -906,10 +906,10 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "id": "lecciones_finanzas_personales_presupuesto_barras",
       "community": 17,
-      "community_name": "Chart helper presupuesto.js",
-      "norm_label": "barras()"
+      "community_name": "presupuesto.js chart helpers",
+      "norm_label": "barras()",
+      "id": "lecciones_finanzas_personales_presupuesto_barras"
     },
     {
       "label": "pastel()",
@@ -918,10 +918,10 @@
       "source_location": "L31",
       "_callable": true,
       "_origin": "ast",
-      "id": "lecciones_finanzas_personales_presupuesto_pastel",
       "community": 17,
-      "community_name": "Chart helper presupuesto.js",
-      "norm_label": "pastel()"
+      "community_name": "presupuesto.js chart helpers",
+      "norm_label": "pastel()",
+      "id": "lecciones_finanzas_personales_presupuesto_pastel"
     },
     {
       "label": "barras()",
@@ -931,7 +931,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 19,
-      "community_name": "Chart helper agua.js",
+      "community_name": "agua.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_autosuficiencia_agua_barras"
     },
@@ -943,7 +943,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_catalog_date()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_catalog_date"
     },
@@ -955,7 +955,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_app_interface_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_app_interface_contract"
     },
@@ -967,7 +967,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_catalog_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_catalog_contract"
     },
@@ -979,7 +979,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_catalog_summary()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_catalog_summary"
     },
@@ -991,7 +991,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_chart_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_chart_contract"
     },
@@ -1003,7 +1003,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_color_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_color_contract"
     },
@@ -1015,7 +1015,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_core_data_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_core_data_contract"
     },
@@ -1027,7 +1027,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_file()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_file"
     },
@@ -1039,7 +1039,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_font_catalog()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_font_catalog"
     },
@@ -1051,7 +1051,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_icon_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_icon_contract"
     },
@@ -1063,7 +1063,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_landing_claims()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_landing_claims"
     },
@@ -1075,7 +1075,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_motion_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_motion_contract"
     },
@@ -1087,7 +1087,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_phosphor_catalog()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_phosphor_catalog"
     },
@@ -1099,7 +1099,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_provenance()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_provenance"
     },
@@ -1111,7 +1111,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_react_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_react_contract"
     },
@@ -1123,7 +1123,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_reasoning_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_reasoning_contract"
     },
@@ -1135,7 +1135,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_stack_freshness_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_stack_freshness_contract"
     },
@@ -1147,7 +1147,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_style_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_style_contract"
     },
@@ -1159,7 +1159,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_typography_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_typography_contract"
     },
@@ -1171,7 +1171,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_check_ux_contract()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_ux_contract"
     },
@@ -1183,7 +1183,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_configured_font_names()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_configured_font_names"
     },
@@ -1195,7 +1195,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "contrast_ratio()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_contrast_ratio"
     },
@@ -1207,7 +1207,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_declared_weights()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_declared_weights"
     },
@@ -1219,7 +1219,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_font_families()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_font_families"
     },
@@ -1231,7 +1231,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_font_names()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_font_names"
     },
@@ -1243,7 +1243,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_imported_weights()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_imported_weights"
     },
@@ -1255,7 +1255,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_load_catalog_json()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_load_catalog_json"
     },
@@ -1267,7 +1267,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "main()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_main"
     },
@@ -1279,7 +1279,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_read_rows()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_read_rows"
     },
@@ -1291,7 +1291,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_relative_luminance()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_relative_luminance"
     },
@@ -1303,7 +1303,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_split()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_split"
     },
@@ -1315,7 +1315,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_catalog_source_key()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_catalog_source_key"
     },
@@ -1327,7 +1327,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_confidence()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_confidence"
     },
@@ -1339,7 +1339,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_dataset_source_key()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_dataset_source_key"
     },
@@ -1351,7 +1351,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_date()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_date"
     },
@@ -1363,7 +1363,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_google_fonts_exclusion_source()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_google_fonts_exclusion_source"
     },
@@ -1375,7 +1375,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "_valid_provenance_source()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_provenance_source"
     },
@@ -1387,7 +1387,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "validate()",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_validate"
     },
@@ -1399,7 +1399,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 20,
-      "community_name": "Chart helper guardar-semillas.js",
+      "community_name": "guardar-semillas.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_autosuficiencia_guardar_semillas_barras"
     },
@@ -1411,7 +1411,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 21,
-      "community_name": "Chart helper semillas.js",
+      "community_name": "semillas.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_autosuficiencia_semillas_barras"
     },
@@ -1423,7 +1423,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 22,
-      "community_name": "Chart helper cuerpo-humano.js",
+      "community_name": "cuerpo-humano.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_ciencias_naturales_cuerpo_humano_barras"
     },
@@ -1435,7 +1435,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 23,
-      "community_name": "Chart helper ecologia.js",
+      "community_name": "ecologia.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_ciencias_naturales_ecologia_barras"
     },
@@ -1447,7 +1447,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 24,
-      "community_name": "Chart helper herencia.js",
+      "community_name": "herencia.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_ciencias_naturales_herencia_barras"
     },
@@ -1459,7 +1459,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "Chart helper ciencias-naturales/salud.js",
+      "community_name": "ciencias-naturales/salud.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_ciencias_naturales_salud_barras"
     },
@@ -1471,21 +1471,45 @@
       "_callable": true,
       "_origin": "ast",
       "community": 26,
-      "community_name": "Chart helper seres-vivos.js",
+      "community_name": "seres-vivos.js chart helpers",
       "norm_label": "barras()",
       "id": "lecciones_ciencias_naturales_seres_vivos_barras"
     },
     {
       "label": "barras()",
       "file_type": "code",
-      "source_file": "lecciones/quimica/vida-diaria.js",
-      "source_location": "L16",
+      "source_file": "lecciones/finanzas-personales/credito.js",
+      "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
+      "id": "lecciones_finanzas_personales_credito_barras",
       "community": 27,
-      "community_name": "Chart helper vida-diaria.js",
-      "norm_label": "barras()",
-      "id": "lecciones_quimica_vida_diaria_barras"
+      "community_name": "credito.js chart helpers",
+      "norm_label": "barras()"
+    },
+    {
+      "label": "barras()",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/crisis.js",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_crisis_barras",
+      "community": 28,
+      "community_name": "crisis.js chart helpers",
+      "norm_label": "barras()"
+    },
+    {
+      "label": "barras()",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/deudas.js",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_deudas_barras",
+      "community": 29,
+      "community_name": "deudas.js chart helpers",
+      "norm_label": "barras()"
     },
     {
       "label": "._apply_reasoning()",
@@ -1495,7 +1519,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._apply_reasoning()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning"
     },
@@ -1507,7 +1531,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._build_style_lookup()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_build_style_lookup"
     },
@@ -1519,7 +1543,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._extract_results()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results"
     },
@@ -1531,7 +1555,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._find_reasoning_rule()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule"
     },
@@ -1543,7 +1567,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": ".generate()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate"
     },
@@ -1555,7 +1579,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": ".__init__()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_init"
     },
@@ -1567,7 +1591,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._load_landing_patterns()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_landing_patterns"
     },
@@ -1579,7 +1603,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._load_reasoning()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning"
     },
@@ -1591,7 +1615,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._load_styles()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_styles"
     },
@@ -1603,7 +1627,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._multi_domain_search()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search"
     },
@@ -1615,7 +1639,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._resolve_style()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_resolve_style"
     },
@@ -1627,7 +1651,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "._select_best_match()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match"
     },
@@ -1639,7 +1663,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "_filter_anti_patterns_for_mode()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_filter_anti_patterns_for_mode"
     },
@@ -1651,7 +1675,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "_resolve_dial()",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_dial"
     },
@@ -1663,7 +1687,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "apply_decision_rules()",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_apply_decision_rules"
     },
@@ -1675,7 +1699,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "_object_without_duplicates()",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates"
     },
@@ -1687,7 +1711,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "parse_decision_rules()",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_parse_decision_rules"
     },
@@ -1699,9 +1723,33 @@
       "_callable": true,
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "_validate_action()",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_validate_action"
+    },
+    {
+      "label": "barras()",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/interes.js",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_interes_barras",
+      "community": 30,
+      "community_name": "interes.js chart helpers",
+      "norm_label": "barras()"
+    },
+    {
+      "label": "barras()",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/vida-diaria.js",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "vida-diaria.js chart helpers",
+      "norm_label": "barras()",
+      "id": "lecciones_quimica_vida_diaria_barras"
     },
     {
       "label": ".fit()",
@@ -1711,7 +1759,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": ".fit()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_fit"
     },
@@ -1723,7 +1771,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": ".__init__()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_init"
     },
@@ -1735,7 +1783,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": ".score()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_score"
     },
@@ -1747,7 +1795,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": ".tokenize()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_tokenize"
     },
@@ -1759,7 +1807,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": ".vocabulary()",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_bm25_vocabulary"
     },
@@ -1771,7 +1819,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "acepta()",
       "id": "verificar_acepta"
     },
@@ -1783,7 +1831,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "expr()",
       "id": "verificar_expr"
     },
@@ -1795,7 +1843,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "falla()",
       "id": "verificar_falla"
     },
@@ -1807,7 +1855,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "rechaza()",
       "id": "verificar_rechaza"
     },
@@ -1819,7 +1867,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "simp()",
       "id": "verificar_simp"
     },
@@ -1831,7 +1879,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "cargarmateria()",
       "id": "js_app_cargarmateria"
     },
@@ -1843,7 +1891,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "completar()",
       "id": "js_app_completar"
     },
@@ -1855,7 +1903,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "dibujar()",
       "id": "js_app_dibujar"
     },
@@ -1867,7 +1915,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "leer()",
       "id": "js_app_leer"
     },
@@ -1879,7 +1927,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "reiniciar()",
       "id": "js_app_reiniciar"
     },
@@ -1891,7 +1939,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "vistacomousar()",
       "id": "js_app_vistacomousar"
     },
@@ -1903,7 +1951,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "vistainicio()",
       "id": "js_app_vistainicio"
     },
@@ -1915,7 +1963,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "vistaleccion()",
       "id": "js_app_vistaleccion"
     },
@@ -1927,9 +1975,492 @@
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "vistamateria()",
       "id": "js_app_vistamateria"
+    },
+    {
+      "label": "CK-12",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "ck-12",
+      "_origin": "ast",
+      "id": "readme_ck_12"
+    },
+    {
+      "label": "Khan Academy",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "khan academy",
+      "_origin": "ast",
+      "id": "readme_khan_academy"
+    },
+    {
+      "label": "MedlinePlus",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "medlineplus",
+      "_origin": "ast",
+      "id": "readme_medlineplus"
+    },
+    {
+      "label": "Organizaci\u00f3n Mundial de la Salud",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "organizacion mundial de la salud",
+      "_origin": "ast",
+      "id": "readme_oms"
+    },
+    {
+      "label": "OpenStax",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "openstax",
+      "_origin": "ast",
+      "id": "readme_openstax"
+    },
+    {
+      "label": "PhET",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "phet",
+      "_origin": "ast",
+      "id": "readme_phet"
+    },
+    {
+      "label": "Contenido confiable con fuentes citadas",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 13,
+      "community_name": "Trusted content sources",
+      "norm_label": "contenido confiable con fuentes citadas",
+      "_origin": "ast",
+      "id": "readme_contenido_confiable"
+    },
+    {
+      "label": "Estructura de una lecci\u00f3n (6 secciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "estructura de una leccion (6 secciones)",
+      "_origin": "ast",
+      "id": "readme_estructura_de_leccion"
+    },
+    {
+      "label": "Imprimir o guardar lecci\u00f3n en PDF",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "imprimir o guardar leccion en pdf",
+      "_origin": "ast",
+      "id": "readme_imprimir_pdf"
+    },
+    {
+      "label": "Licencia MIT",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "licencia mit",
+      "_origin": "ast",
+      "id": "readme_licencia_mit"
+    },
+    {
+      "label": "Progreso guardado en el navegador",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "progreso guardado en el navegador",
+      "_origin": "ast",
+      "id": "readme_progreso_en_navegador"
+    },
+    {
+      "label": "Ejercicios interactivos estilo SQLBolt",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "ejercicios interactivos estilo sqlbolt",
+      "_origin": "ast",
+      "id": "readme_sqlbolt_style_exercises"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "claude.md",
+      "_origin": "ast",
+      "id": "claude"
+    },
+    {
+      "label": "Free Learning",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "free learning",
+      "_origin": "ast",
+      "id": "readme_free_learning"
+    },
+    {
+      "label": "Carta de amor a la humanidad",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "La educaci\u00f3n es un privilegio; el sitio explica de forma ordenada, simple y clara para que cualquiera entienda.",
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "carta de amor a la humanidad",
+      "_origin": "ast",
+      "id": "readme_carta_de_amor_a_la_humanidad"
+    },
+    {
+      "label": "Funciona sin internet (zip + index.html)",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Cero instalaci\u00f3n: descargar el zip y abrir index.html con doble clic.",
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "funciona sin internet (zip + index.html)",
+      "_origin": "ast",
+      "id": "readme_funciona_sin_internet"
+    },
+    {
+      "label": "Gratis para siempre (sin cuentas, anuncios ni rastreo)",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "gratis para siempre (sin cuentas, anuncios ni rastreo)",
+      "_origin": "ast",
+      "id": "readme_gratis_para_siempre"
+    },
+    {
+      "label": "HTML, CSS y JavaScript puro sin dependencias",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "html, css y javascript puro sin dependencias",
+      "_origin": "ast",
+      "id": "readme_html_css_js_puro"
+    },
+    {
+      "label": "Lector objetivo de 10 a 12 a\u00f1os",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": "L10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Escrito para ni\u00f1os de 10-12 o adultos que nunca vieron el tema; no se da nada por sabido.",
+      "community": 4,
+      "community_name": "Project mission and packaging",
+      "norm_label": "lector objetivo de 10 a 12 anos",
+      "_origin": "ast",
+      "id": "readme_lector_objetivo_10_12"
+    },
+    {
+      "label": "Autosuficiencia (112 lecciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "autosuficiencia (112 lecciones)",
+      "_origin": "ast",
+      "id": "readme_autosuficiencia"
+    },
+    {
+      "label": "Ciencias naturales (39 lecciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "ciencias naturales (39 lecciones)",
+      "_origin": "ast",
+      "id": "readme_ciencias_naturales"
+    },
+    {
+      "label": "Finanzas personales (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "finanzas personales (proximamente)",
+      "_origin": "ast",
+      "id": "readme_finanzas_personales"
+    },
+    {
+      "label": "Finanzas y econom\u00eda (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "finanzas y economia (proximamente)",
+      "_origin": "ast",
+      "id": "readme_finanzas_y_economia"
+    },
+    {
+      "label": "F\u00edsica (54 lecciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "fisica (54 lecciones)",
+      "_origin": "ast",
+      "id": "readme_fisica"
+    },
+    {
+      "label": "Ingl\u00e9s A1-B1 (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "ingles a1-b1 (proximamente)",
+      "_origin": "ast",
+      "id": "readme_ingles"
+    },
+    {
+      "label": "Inteligencia artificial (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "inteligencia artificial (proximamente)",
+      "_origin": "ast",
+      "id": "readme_inteligencia_artificial"
+    },
+    {
+      "label": "Lectura (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "lectura (proximamente)",
+      "_origin": "ast",
+      "id": "readme_lectura"
+    },
+    {
+      "label": "Mandar\u00edn HSK 1-3 (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "mandarin hsk 1-3 (proximamente)",
+      "_origin": "ast",
+      "id": "readme_mandarin"
+    },
+    {
+      "label": "Matem\u00e1ticas (64 lecciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "matematicas (64 lecciones)",
+      "_origin": "ast",
+      "id": "readme_matematicas"
+    },
+    {
+      "label": "Ofim\u00e1tica (pr\u00f3ximamente)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "ofimatica (proximamente)",
+      "_origin": "ast",
+      "id": "readme_ofimatica"
+    },
+    {
+      "label": "Qu\u00edmica (44 lecciones)",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "quimica (44 lecciones)",
+      "_origin": "ast",
+      "id": "readme_quimica"
+    },
+    {
+      "label": "Temario (tabla de materias y estado)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 6,
+      "community_name": "Temario and subjects",
+      "norm_label": "temario (tabla de materias y estado)",
+      "_origin": "ast",
+      "id": "readme_temario"
     },
     {
       "label": "core.py",
@@ -1938,7 +2469,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "core.py",
       "id": "claude_skills_ui_ux_pro_max_scripts_core"
     },
@@ -1949,7 +2480,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "search.py",
       "id": "claude_skills_ui_ux_pro_max_scripts_search"
     },
@@ -1960,7 +2491,7 @@
       "source_location": "L274",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "apply longest-first synonym substitution at token boundaries.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_274"
     },
@@ -1971,7 +2502,7 @@
       "source_location": "L364",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "return rows and the verified signature of the bytes they came from.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_364"
     },
@@ -1982,7 +2513,7 @@
       "source_location": "L382",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "load csv rows from a stable, signature-verified snapshot.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_382"
     },
@@ -1993,7 +2524,7 @@
       "source_location": "L387",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "fitted index with cache identity covering fields and scorer version.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_387"
     },
@@ -2004,7 +2535,7 @@
       "source_location": "L417",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "calibrated search returning results, index, and internal diagnostics.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_417"
     },
@@ -2015,7 +2546,7 @@
       "source_location": "L467",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "backward-compatible internal search tuple used by existing callers/tests.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_467"
     },
@@ -2026,7 +2557,7 @@
       "source_location": "L484",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "nearest known vocabulary terms for a query that returned 0 hits, so the caller...",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_484"
     },
@@ -2037,7 +2568,7 @@
       "source_location": "L505",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "suggest complete public identities so a retry can bypass score thresholds.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_505"
     },
@@ -2048,7 +2579,7 @@
       "source_location": "L526",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "return non-empty public identities from ordinary and alias fields.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_526"
     },
@@ -2059,7 +2590,7 @@
       "source_location": "L539",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "return high-signal product labels/aliases, never every corpus keyword.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_539"
     },
@@ -2070,7 +2601,7 @@
       "source_location": "L596",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "apply only explicit, semantic rewrites for routing-only vocabulary.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_596"
     },
@@ -2081,7 +2612,7 @@
       "source_location": "L629",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "auto-detect the most relevant domain from query. matches are weighted by...",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_629"
     },
@@ -2092,7 +2623,7 @@
       "source_location": "L665",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "resolve an explicit style identity without opening generic variant ranking.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_665"
     },
@@ -2103,7 +2634,7 @@
       "source_location": "L696",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "return one row whose stable public identity exactly matches the query.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_696"
     },
@@ -2114,7 +2645,7 @@
       "source_location": "L706",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "load rows for optional identity routing, leaving search to report i/o errors.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_706"
     },
@@ -2125,7 +2656,7 @@
       "source_location": "L737",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "resolve a deprecated in-domain alias, or expose a cross-domain redirect.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_737"
     },
@@ -2136,7 +2667,7 @@
       "source_location": "L756",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "main search function with auto-domain detection",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_756"
     },
@@ -2147,7 +2678,7 @@
       "source_location": "L849",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "whether a stack query explicitly targets an older framework generation.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_849"
     },
@@ -2158,7 +2689,7 @@
       "source_location": "L889",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "choose one coherent applicability generation for stack retrieval.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_889"
     },
@@ -2169,7 +2700,7 @@
       "source_location": "L926",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "resolve a standalone api identifier even when its bm25 idf is low.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_926"
     },
@@ -2180,7 +2711,7 @@
       "source_location": "L939",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "prefer the explicit successor row for a brand-new app on legacy-only stacks.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_939"
     },
@@ -2191,7 +2722,7 @@
       "source_location": "L952",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "search stack-specific guidelines",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_952"
     },
@@ -2202,7 +2733,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "community": 0,
-      "community_name": "UI search core (skill)",
+      "community_name": "UI skill search core",
       "norm_label": "format results for claude consumption (token-optimized)",
       "id": "claude_skills_ui_ux_pro_max_scripts_search_rationale_45"
     },
@@ -2213,7 +2744,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "design_system.py",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system"
     },
@@ -2224,7 +2755,7 @@
       "source_location": "",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "path",
       "id": "path"
     },
@@ -2235,7 +2766,7 @@
       "source_location": "L1022",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "persist design system to design-system/<project>/ folder using master +...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1022"
     },
@@ -2246,7 +2777,7 @@
       "source_location": "L1102",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format design system as master.md with hierarchical override logic.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1102"
     },
@@ -2257,7 +2788,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "wcag relative luminance of a #rrggbb string, or none if unparseable.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_130"
     },
@@ -2268,7 +2799,7 @@
       "source_location": "L1407",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format a page-specific override file with intelligent ai-generated content.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1407"
     },
@@ -2279,7 +2810,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "true when a colors.csv row's background is a dark surface.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_148"
     },
@@ -2290,7 +2821,7 @@
       "source_location": "L1516",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "generate intelligent overrides based on page type using layered search. uses...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1516"
     },
@@ -2301,7 +2832,7 @@
       "source_location": "L154",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "wcag contrast ratio for two hex colors, or none if either is invalid.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_154"
     },
@@ -2312,7 +2843,7 @@
       "source_location": "L1622",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "detect page type from context and search results.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1622"
     },
@@ -2323,7 +2854,7 @@
       "source_location": "L165",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "true when a styles.csv row describes itself as dark-first.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_165"
     },
@@ -2334,7 +2865,7 @@
       "source_location": "L181",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "true when the query explicitly asks for a dark theme.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_181"
     },
@@ -2345,7 +2876,7 @@
       "source_location": "L187",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "resolve the mode the rest of the output has to agree with.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_187"
     },
@@ -2356,7 +2887,7 @@
       "source_location": "L194",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "keep product brand tokens while deriving accessible dark surfaces.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_194"
     },
@@ -2367,7 +2898,7 @@
       "source_location": "L222",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "pick the highest-ranked palette matching the resolved mode. only the dark case...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_222"
     },
@@ -2378,7 +2909,7 @@
       "source_location": "L258",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "light/dark support labels that agree with the product's anti-patterns. a light...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_258"
     },
@@ -2389,7 +2920,7 @@
       "source_location": "L274",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "primary for outline-button text when it is readable, else the foreground.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_274"
     },
@@ -2400,7 +2931,7 @@
       "source_location": "L637",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "convert hex color to ansi true color swatch (\u2588\u2588) with fallback.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_637"
     },
@@ -2411,7 +2942,7 @@
       "source_location": "L651",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "like str.ljust but accounts for zero-width ansi escape sequences.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_651"
     },
@@ -2422,7 +2953,7 @@
       "source_location": "L659",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "create a unicode section separator: \u251c\u2500\u2500\u2500 name \u2500\u2500\u2500...\u2524",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_659"
     },
@@ -2433,7 +2964,7 @@
       "source_location": "L666",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format design system as unicode box with ansi color swatches.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_666"
     },
@@ -2444,7 +2975,7 @@
       "source_location": "L818",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "format design system as markdown.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_818"
     },
@@ -2455,7 +2986,7 @@
       "source_location": "L948",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "main entry point for design system generation. args: query: search query (e.g.,...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_948"
     },
@@ -2466,7 +2997,7 @@
       "source_location": "L987",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "slugify a name into a single safe path segment. only [a-z0-9_-] survives; every...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_987"
     },
@@ -2477,7 +3008,7 @@
       "source_location": "L998",
       "_origin": "ast",
       "community": 1,
-      "community_name": "Design system generator",
+      "community_name": "Design system formatter",
       "norm_label": "write fully to a temp file, then publish atomically.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_998"
     },
@@ -2499,7 +3030,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 15,
-      "community_name": "Statistics chart helpers",
+      "community_name": "estadistica.js chart helpers",
       "norm_label": "estadistica.js",
       "id": "lecciones_matematicas_estadistica"
     },
@@ -2509,10 +3040,10 @@
       "source_file": "lecciones/finanzas-personales/presupuesto.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_finanzas_personales_presupuesto",
       "community": 17,
-      "community_name": "Chart helper presupuesto.js",
-      "norm_label": "presupuesto.js"
+      "community_name": "presupuesto.js chart helpers",
+      "norm_label": "presupuesto.js",
+      "id": "lecciones_finanzas_personales_presupuesto"
     },
     {
       "label": "agua.js",
@@ -2521,7 +3052,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 19,
-      "community_name": "Chart helper agua.js",
+      "community_name": "agua.js chart helpers",
       "norm_label": "agua.js",
       "id": "lecciones_autosuficiencia_agua"
     },
@@ -2532,7 +3063,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "validate_data.py",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data"
     },
@@ -2543,7 +3074,7 @@
       "source_location": "L1004",
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "return every semantic data problem without terminating the process.",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_1004"
     },
@@ -2554,7 +3085,7 @@
       "source_location": "L158",
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "return wcag contrast for two opaque six-digit srgb colors.",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_158"
     },
@@ -2565,7 +3096,7 @@
       "source_location": "L806",
       "_origin": "ast",
       "community": 2,
-      "community_name": "Data validation scripts",
+      "community_name": "Skill data validation",
       "norm_label": "validate curated-stack applicability and official high-impact sources.",
       "id": "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_806"
     },
@@ -2576,7 +3107,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 20,
-      "community_name": "Chart helper guardar-semillas.js",
+      "community_name": "guardar-semillas.js chart helpers",
       "norm_label": "guardar-semillas.js",
       "id": "lecciones_autosuficiencia_guardar_semillas"
     },
@@ -2587,7 +3118,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 21,
-      "community_name": "Chart helper semillas.js",
+      "community_name": "semillas.js chart helpers",
       "norm_label": "semillas.js",
       "id": "lecciones_autosuficiencia_semillas"
     },
@@ -2598,7 +3129,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 22,
-      "community_name": "Chart helper cuerpo-humano.js",
+      "community_name": "cuerpo-humano.js chart helpers",
       "norm_label": "cuerpo-humano.js",
       "id": "lecciones_ciencias_naturales_cuerpo_humano"
     },
@@ -2609,7 +3140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 23,
-      "community_name": "Chart helper ecologia.js",
+      "community_name": "ecologia.js chart helpers",
       "norm_label": "ecologia.js",
       "id": "lecciones_ciencias_naturales_ecologia"
     },
@@ -2620,7 +3151,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 24,
-      "community_name": "Chart helper herencia.js",
+      "community_name": "herencia.js chart helpers",
       "norm_label": "herencia.js",
       "id": "lecciones_ciencias_naturales_herencia"
     },
@@ -2631,7 +3162,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 25,
-      "community_name": "Chart helper ciencias-naturales/salud.js",
+      "community_name": "ciencias-naturales/salud.js chart helpers",
       "norm_label": "ciencias-naturales/salud.js",
       "id": "lecciones_ciencias_naturales_salud"
     },
@@ -2642,42 +3173,42 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 26,
-      "community_name": "Chart helper seres-vivos.js",
+      "community_name": "seres-vivos.js chart helpers",
       "norm_label": "seres-vivos.js",
       "id": "lecciones_ciencias_naturales_seres_vivos"
     },
     {
-      "label": "vida-diaria.js",
+      "label": "credito.js",
       "file_type": "code",
-      "source_file": "lecciones/quimica/vida-diaria.js",
+      "source_file": "lecciones/finanzas-personales/credito.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "lecciones_finanzas_personales_credito",
       "community": 27,
-      "community_name": "Chart helper vida-diaria.js",
-      "norm_label": "vida-diaria.js",
-      "id": "lecciones_quimica_vida_diaria"
+      "community_name": "credito.js chart helpers",
+      "norm_label": "credito.js"
     },
     {
-      "label": "textos.js",
+      "label": "crisis.js",
       "file_type": "code",
-      "source_file": "js/textos.js",
+      "source_file": "lecciones/finanzas-personales/crisis.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "lecciones_finanzas_personales_crisis",
       "community": 28,
-      "community_name": "Lesson file textos.js",
-      "norm_label": "textos.js",
-      "id": "js_textos"
+      "community_name": "crisis.js chart helpers",
+      "norm_label": "crisis.js"
     },
     {
-      "label": "alimentos.js",
+      "label": "deudas.js",
       "file_type": "code",
-      "source_file": "lecciones/autosuficiencia/alimentos.js",
+      "source_file": "lecciones/finanzas-personales/deudas.js",
       "source_location": "L1",
       "_origin": "ast",
+      "id": "lecciones_finanzas_personales_deudas",
       "community": 29,
-      "community_name": "Lesson file alimentos.js",
-      "norm_label": "alimentos.js",
-      "id": "lecciones_autosuficiencia_alimentos"
+      "community_name": "deudas.js chart helpers",
+      "norm_label": "deudas.js"
     },
     {
       "label": "reasoning_contract.py",
@@ -2686,7 +3217,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "reasoning_contract.py",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract"
     },
@@ -2697,7 +3228,7 @@
       "source_location": "L247",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "drop \"avoid dark mode\" advice once dark mode is the resolved answer.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_247"
     },
@@ -2708,7 +3239,7 @@
       "source_location": "L284",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "generates design system recommendations from aggregated searches.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_284"
     },
@@ -2719,7 +3250,7 @@
       "source_location": "L293",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "load reasoning rules from csv.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_293"
     },
@@ -2730,7 +3261,7 @@
       "source_location": "L346",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "execute searches across multiple domains.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_346"
     },
@@ -2741,7 +3272,7 @@
       "source_location": "L383",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "find matching reasoning rule for a category.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_383"
     },
@@ -2752,7 +3283,7 @@
       "source_location": "L391",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "apply reasoning rules to search results.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_391"
     },
@@ -2763,7 +3294,7 @@
       "source_location": "L434",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "select best matching result based on priority keywords.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_434"
     },
@@ -2774,7 +3305,7 @@
       "source_location": "L471",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "extract results list from search result dict.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_471"
     },
@@ -2785,7 +3316,7 @@
       "source_location": "L476",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "generate complete design system recommendation. variance/motion/density are...",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_476"
     },
@@ -2796,7 +3327,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "bucket a 1-10 dial value into its tier config. returns none if value is none.",
       "id": "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_91"
     },
@@ -2807,7 +3338,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "return deterministic mutations and an audit trail; never execute data.",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_102"
     },
@@ -2818,9 +3349,53 @@
       "source_location": "L68",
       "_origin": "ast",
       "community": 3,
-      "community_name": "Design system class",
+      "community_name": "Design system generator",
       "norm_label": "parse the canonical condition -> action-array representation.",
       "id": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_68"
+    },
+    {
+      "label": "interes.js",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/interes.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_interes",
+      "community": 30,
+      "community_name": "interes.js chart helpers",
+      "norm_label": "interes.js"
+    },
+    {
+      "label": "vida-diaria.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/vida-diaria.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "vida-diaria.js chart helpers",
+      "norm_label": "vida-diaria.js",
+      "id": "lecciones_quimica_vida_diaria"
+    },
+    {
+      "label": "textos.js",
+      "file_type": "code",
+      "source_file": "js/textos.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "textos.js lessons",
+      "norm_label": "textos.js",
+      "id": "js_textos"
+    },
+    {
+      "label": "alimentos.js",
+      "file_type": "code",
+      "source_file": "lecciones/autosuficiencia/alimentos.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "alimentos.js lessons",
+      "norm_label": "alimentos.js",
+      "id": "lecciones_autosuficiencia_alimentos"
     },
     {
       "label": "autosuficiencia/bases.js",
@@ -2828,8 +3403,8 @@
       "source_file": "lecciones/autosuficiencia/bases.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 30,
-      "community_name": "Lesson file autosuficiencia/bases.js",
+      "community": 34,
+      "community_name": "autosuficiencia/bases.js lessons",
       "norm_label": "autosuficiencia/bases.js",
       "id": "lecciones_autosuficiencia_bases"
     },
@@ -2839,8 +3414,8 @@
       "source_file": "lecciones/autosuficiencia/cultivos.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 31,
-      "community_name": "Lesson file cultivos.js",
+      "community": 35,
+      "community_name": "cultivos.js lessons",
       "norm_label": "cultivos.js",
       "id": "lecciones_autosuficiencia_cultivos"
     },
@@ -2850,8 +3425,8 @@
       "source_file": "lecciones/autosuficiencia/energia.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 32,
-      "community_name": "Lesson file autosuficiencia/energia.js",
+      "community": 36,
+      "community_name": "autosuficiencia/energia.js lessons",
       "norm_label": "autosuficiencia/energia.js",
       "id": "lecciones_autosuficiencia_energia"
     },
@@ -2861,8 +3436,8 @@
       "source_file": "lecciones/autosuficiencia/fuego.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 33,
-      "community_name": "Lesson file fuego.js",
+      "community": 37,
+      "community_name": "fuego.js lessons",
       "norm_label": "fuego.js",
       "id": "lecciones_autosuficiencia_fuego"
     },
@@ -2872,8 +3447,8 @@
       "source_file": "lecciones/autosuficiencia/habilidades.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 34,
-      "community_name": "Lesson file habilidades.js",
+      "community": 38,
+      "community_name": "habilidades.js lessons",
       "norm_label": "habilidades.js",
       "id": "lecciones_autosuficiencia_habilidades"
     },
@@ -2883,54 +3458,10 @@
       "source_file": "lecciones/autosuficiencia/huerto.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 35,
-      "community_name": "Lesson file huerto.js",
+      "community": 39,
+      "community_name": "huerto.js lessons",
       "norm_label": "huerto.js",
       "id": "lecciones_autosuficiencia_huerto"
-    },
-    {
-      "label": "autosuficiencia/salud.js",
-      "file_type": "code",
-      "source_file": "lecciones/autosuficiencia/salud.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 36,
-      "community_name": "Lesson file autosuficiencia/salud.js",
-      "norm_label": "autosuficiencia/salud.js",
-      "id": "lecciones_autosuficiencia_salud"
-    },
-    {
-      "label": "software.js",
-      "file_type": "code",
-      "source_file": "lecciones/autosuficiencia/software.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "lecciones_autosuficiencia_software",
-      "community": 37,
-      "community_name": "Lesson file software.js",
-      "norm_label": "software.js"
-    },
-    {
-      "label": "vivienda.js",
-      "file_type": "code",
-      "source_file": "lecciones/autosuficiencia/vivienda.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 38,
-      "community_name": "Lesson file vivienda.js",
-      "norm_label": "vivienda.js",
-      "id": "lecciones_autosuficiencia_vivienda"
-    },
-    {
-      "label": "tierra.js",
-      "file_type": "code",
-      "source_file": "lecciones/ciencias-naturales/tierra.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 39,
-      "community_name": "Lesson file tierra.js",
-      "norm_label": "tierra.js",
-      "id": "lecciones_ciencias_naturales_tierra"
     },
     {
       "label": "empaquetar.sh",
@@ -2943,7 +3474,7 @@
       },
       "_origin": "ast",
       "community": 4,
-      "community_name": "Exercise engine",
+      "community_name": "Project mission and packaging",
       "norm_label": "empaquetar.sh",
       "id": "empaquetar"
     },
@@ -2958,9 +3489,53 @@
       },
       "_origin": "ast",
       "community": 4,
-      "community_name": "Exercise engine",
+      "community_name": "Project mission and packaging",
       "norm_label": "empaquetar.sh script",
       "id": "empaquetar_sh__entry"
+    },
+    {
+      "label": "autosuficiencia/salud.js",
+      "file_type": "code",
+      "source_file": "lecciones/autosuficiencia/salud.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "autosuficiencia/salud.js lessons",
+      "norm_label": "autosuficiencia/salud.js",
+      "id": "lecciones_autosuficiencia_salud"
+    },
+    {
+      "label": "software.js",
+      "file_type": "code",
+      "source_file": "lecciones/autosuficiencia/software.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "software.js lessons",
+      "norm_label": "software.js",
+      "id": "lecciones_autosuficiencia_software"
+    },
+    {
+      "label": "vivienda.js",
+      "file_type": "code",
+      "source_file": "lecciones/autosuficiencia/vivienda.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "vivienda.js lessons",
+      "norm_label": "vivienda.js",
+      "id": "lecciones_autosuficiencia_vivienda"
+    },
+    {
+      "label": "tierra.js",
+      "file_type": "code",
+      "source_file": "lecciones/ciencias-naturales/tierra.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 43,
+      "community_name": "tierra.js lessons",
+      "norm_label": "tierra.js",
+      "id": "lecciones_ciencias_naturales_tierra"
     },
     {
       "label": "universo.js",
@@ -2968,10 +3543,32 @@
       "source_file": "lecciones/ciencias-naturales/universo.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 40,
-      "community_name": "Lesson file universo.js",
+      "community": 44,
+      "community_name": "universo.js lessons",
       "norm_label": "universo.js",
       "id": "lecciones_ciencias_naturales_universo"
+    },
+    {
+      "label": "ahorro.js",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/ahorro.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_ahorro",
+      "community": 45,
+      "community_name": "ahorro.js lessons",
+      "norm_label": "ahorro.js"
+    },
+    {
+      "label": "bancos.js",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/bancos.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_bancos",
+      "community": 46,
+      "community_name": "bancos.js lessons",
+      "norm_label": "bancos.js"
     },
     {
       "label": "dinero.js",
@@ -2979,10 +3576,32 @@
       "source_file": "lecciones/finanzas-personales/dinero.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "lecciones_finanzas_personales_dinero",
-      "community": 41,
-      "community_name": "Lesson file dinero.js",
-      "norm_label": "dinero.js"
+      "community": 47,
+      "community_name": "dinero.js lessons",
+      "norm_label": "dinero.js",
+      "id": "lecciones_finanzas_personales_dinero"
+    },
+    {
+      "label": "futuro.js",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/futuro.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_futuro",
+      "community": 48,
+      "community_name": "futuro.js lessons",
+      "norm_label": "futuro.js"
+    },
+    {
+      "label": "inversion.js",
+      "file_type": "code",
+      "source_file": "lecciones/finanzas-personales/inversion.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "lecciones_finanzas_personales_inversion",
+      "community": 49,
+      "community_name": "inversion.js lessons",
+      "norm_label": "inversion.js"
     },
     {
       "label": "fisica/bases.js",
@@ -2990,8 +3609,8 @@
       "source_file": "lecciones/fisica/bases.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 42,
-      "community_name": "Lesson file fisica/bases.js",
+      "community": 50,
+      "community_name": "fisica/bases.js lessons",
       "norm_label": "fisica/bases.js",
       "id": "lecciones_fisica_bases"
     },
@@ -3001,8 +3620,8 @@
       "source_file": "lecciones/fisica/calor.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 43,
-      "community_name": "Lesson file calor.js",
+      "community": 51,
+      "community_name": "calor.js lessons",
       "norm_label": "calor.js",
       "id": "lecciones_fisica_calor"
     },
@@ -3012,8 +3631,8 @@
       "source_file": "lecciones/fisica/electricidad.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 44,
-      "community_name": "Lesson file electricidad.js",
+      "community": 52,
+      "community_name": "electricidad.js lessons",
       "norm_label": "electricidad.js",
       "id": "lecciones_fisica_electricidad"
     },
@@ -3023,8 +3642,8 @@
       "source_file": "lecciones/fisica/energia.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 45,
-      "community_name": "Lesson file fisica/energia.js",
+      "community": 53,
+      "community_name": "fisica/energia.js lessons",
       "norm_label": "fisica/energia.js",
       "id": "lecciones_fisica_energia"
     },
@@ -3034,8 +3653,8 @@
       "source_file": "lecciones/fisica/fluidos.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 46,
-      "community_name": "Lesson file fluidos.js",
+      "community": 54,
+      "community_name": "fluidos.js lessons",
       "norm_label": "fluidos.js",
       "id": "lecciones_fisica_fluidos"
     },
@@ -3045,8 +3664,8 @@
       "source_file": "lecciones/fisica/fuerzas.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 47,
-      "community_name": "Lesson file fuerzas.js",
+      "community": 55,
+      "community_name": "fuerzas.js lessons",
       "norm_label": "fuerzas.js",
       "id": "lecciones_fisica_fuerzas"
     },
@@ -3056,8 +3675,8 @@
       "source_file": "lecciones/fisica/moderna.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 48,
-      "community_name": "Lesson file moderna.js",
+      "community": 56,
+      "community_name": "moderna.js lessons",
       "norm_label": "moderna.js",
       "id": "lecciones_fisica_moderna"
     },
@@ -3067,8 +3686,8 @@
       "source_file": "lecciones/fisica/movimiento.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 49,
-      "community_name": "Lesson file movimiento.js",
+      "community": 57,
+      "community_name": "movimiento.js lessons",
       "norm_label": "movimiento.js",
       "id": "lecciones_fisica_movimiento"
     },
@@ -3078,8 +3697,8 @@
       "source_file": "lecciones/fisica/ondas.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 50,
-      "community_name": "Lesson file ondas.js",
+      "community": 58,
+      "community_name": "ondas.js lessons",
       "norm_label": "ondas.js",
       "id": "lecciones_fisica_ondas"
     },
@@ -3089,98 +3708,10 @@
       "source_file": "lecciones/matematicas/algebra.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 51,
-      "community_name": "Lesson file algebra.js",
+      "community": 59,
+      "community_name": "algebra.js lessons",
       "norm_label": "algebra.js",
       "id": "lecciones_matematicas_algebra"
-    },
-    {
-      "label": "aritmetica.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/aritmetica.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 52,
-      "community_name": "Lesson file aritmetica.js",
-      "norm_label": "aritmetica.js",
-      "id": "lecciones_matematicas_aritmetica"
-    },
-    {
-      "label": "calculo.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/calculo.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 53,
-      "community_name": "Lesson file calculo.js",
-      "norm_label": "calculo.js",
-      "id": "lecciones_matematicas_calculo"
-    },
-    {
-      "label": "funciones.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/funciones.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 54,
-      "community_name": "Lesson file funciones.js",
-      "norm_label": "funciones.js",
-      "id": "lecciones_matematicas_funciones"
-    },
-    {
-      "label": "geometria.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/geometria.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 55,
-      "community_name": "Lesson file geometria.js",
-      "norm_label": "geometria.js",
-      "id": "lecciones_matematicas_geometria"
-    },
-    {
-      "label": "geometria-analitica.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/geometria-analitica.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 56,
-      "community_name": "Lesson file geometria-analitica.js",
-      "norm_label": "geometria-analitica.js",
-      "id": "lecciones_matematicas_geometria_analitica"
-    },
-    {
-      "label": "trigonometria.js",
-      "file_type": "code",
-      "source_file": "lecciones/matematicas/trigonometria.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 57,
-      "community_name": "Lesson file trigonometria.js",
-      "norm_label": "trigonometria.js",
-      "id": "lecciones_matematicas_trigonometria"
-    },
-    {
-      "label": "atomo.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/atomo.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 58,
-      "community_name": "Lesson file atomo.js",
-      "norm_label": "atomo.js",
-      "id": "lecciones_quimica_atomo"
-    },
-    {
-      "label": "disoluciones.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/disoluciones.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "Lesson file disoluciones.js",
-      "norm_label": "disoluciones.js",
-      "id": "lecciones_quimica_disoluciones"
     },
     {
       "label": "temario.js",
@@ -3190,8 +3721,96 @@
       "_origin": "ast",
       "id": "js_temario",
       "community": 6,
-      "community_name": "Free Learning project spec",
+      "community_name": "Temario and subjects",
       "norm_label": "temario.js"
+    },
+    {
+      "label": "aritmetica.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/aritmetica.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 60,
+      "community_name": "aritmetica.js lessons",
+      "norm_label": "aritmetica.js",
+      "id": "lecciones_matematicas_aritmetica"
+    },
+    {
+      "label": "calculo.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/calculo.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 61,
+      "community_name": "calculo.js lessons",
+      "norm_label": "calculo.js",
+      "id": "lecciones_matematicas_calculo"
+    },
+    {
+      "label": "funciones.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/funciones.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 62,
+      "community_name": "funciones.js lessons",
+      "norm_label": "funciones.js",
+      "id": "lecciones_matematicas_funciones"
+    },
+    {
+      "label": "geometria.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/geometria.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 63,
+      "community_name": "geometria.js lessons",
+      "norm_label": "geometria.js",
+      "id": "lecciones_matematicas_geometria"
+    },
+    {
+      "label": "geometria-analitica.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/geometria-analitica.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 64,
+      "community_name": "geometria-analitica.js lessons",
+      "norm_label": "geometria-analitica.js",
+      "id": "lecciones_matematicas_geometria_analitica"
+    },
+    {
+      "label": "trigonometria.js",
+      "file_type": "code",
+      "source_file": "lecciones/matematicas/trigonometria.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 65,
+      "community_name": "trigonometria.js lessons",
+      "norm_label": "trigonometria.js",
+      "id": "lecciones_matematicas_trigonometria"
+    },
+    {
+      "label": "atomo.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/atomo.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 66,
+      "community_name": "atomo.js lessons",
+      "norm_label": "atomo.js",
+      "id": "lecciones_quimica_atomo"
+    },
+    {
+      "label": "disoluciones.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/disoluciones.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 67,
+      "community_name": "disoluciones.js lessons",
+      "norm_label": "disoluciones.js",
+      "id": "lecciones_quimica_disoluciones"
     },
     {
       "label": "enlaces.js",
@@ -3199,8 +3818,8 @@
       "source_file": "lecciones/quimica/enlaces.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 60,
-      "community_name": "Lesson file enlaces.js",
+      "community": 68,
+      "community_name": "enlaces.js lessons",
       "norm_label": "enlaces.js",
       "id": "lecciones_quimica_enlaces"
     },
@@ -3210,65 +3829,10 @@
       "source_file": "lecciones/quimica/estequiometria.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
-      "community_name": "Lesson file estequiometria.js",
+      "community": 69,
+      "community_name": "estequiometria.js lessons",
       "norm_label": "estequiometria.js",
       "id": "lecciones_quimica_estequiometria"
-    },
-    {
-      "label": "materia.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/materia.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "Lesson file materia.js",
-      "norm_label": "materia.js",
-      "id": "lecciones_quimica_materia"
-    },
-    {
-      "label": "nomenclatura.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/nomenclatura.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 63,
-      "community_name": "Lesson file nomenclatura.js",
-      "norm_label": "nomenclatura.js",
-      "id": "lecciones_quimica_nomenclatura"
-    },
-    {
-      "label": "organica.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/organica.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 64,
-      "community_name": "Lesson file organica.js",
-      "norm_label": "organica.js",
-      "id": "lecciones_quimica_organica"
-    },
-    {
-      "label": "reacciones.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/reacciones.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "Lesson file reacciones.js",
-      "norm_label": "reacciones.js",
-      "id": "lecciones_quimica_reacciones"
-    },
-    {
-      "label": "tabla.js",
-      "file_type": "code",
-      "source_file": "lecciones/quimica/tabla.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 66,
-      "community_name": "Lesson file tabla.js",
-      "norm_label": "tabla.js",
-      "id": "lecciones_quimica_tabla"
     },
     {
       "label": "BM25 ranking algorithm for text search",
@@ -3277,7 +3841,7 @@
       "source_location": "L283",
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "bm25 ranking algorithm for text search",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_283"
     },
@@ -3288,7 +3852,7 @@
       "source_location": "L297",
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "lowercase, normalize synonyms, split, remove punctuation, filter stopwords",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_297"
     },
@@ -3299,7 +3863,7 @@
       "source_location": "L303",
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "build bm25 index from documents",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_303"
     },
@@ -3310,7 +3874,7 @@
       "source_location": "L324",
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "score all documents against query",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_324"
     },
@@ -3321,9 +3885,64 @@
       "source_location": "L346",
       "_origin": "ast",
       "community": 7,
-      "community_name": "BM25 search ranking",
+      "community_name": "BM25 text search",
       "norm_label": "all indexed terms, for suggestion/typo-recovery purposes.",
       "id": "claude_skills_ui_ux_pro_max_scripts_core_rationale_346"
+    },
+    {
+      "label": "materia.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/materia.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 70,
+      "community_name": "materia.js lessons",
+      "norm_label": "materia.js",
+      "id": "lecciones_quimica_materia"
+    },
+    {
+      "label": "nomenclatura.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/nomenclatura.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 71,
+      "community_name": "nomenclatura.js lessons",
+      "norm_label": "nomenclatura.js",
+      "id": "lecciones_quimica_nomenclatura"
+    },
+    {
+      "label": "organica.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/organica.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 72,
+      "community_name": "organica.js lessons",
+      "norm_label": "organica.js",
+      "id": "lecciones_quimica_organica"
+    },
+    {
+      "label": "reacciones.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/reacciones.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 73,
+      "community_name": "reacciones.js lessons",
+      "norm_label": "reacciones.js",
+      "id": "lecciones_quimica_reacciones"
+    },
+    {
+      "label": "tabla.js",
+      "file_type": "code",
+      "source_file": "lecciones/quimica/tabla.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 74,
+      "community_name": "tabla.js lessons",
+      "norm_label": "tabla.js",
+      "id": "lecciones_quimica_tabla"
     },
     {
       "label": "verificar.js",
@@ -3332,7 +3951,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "verificar.js",
       "id": "verificar"
     },
@@ -3343,7 +3962,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "assert",
       "id": "verificar_assert"
     },
@@ -3354,7 +3973,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "entemario",
       "id": "verificar_entemario"
     },
@@ -3365,7 +3984,7 @@
       "source_location": "L51",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "fig",
       "id": "verificar_fig"
     },
@@ -3376,7 +3995,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "path",
       "id": "verificar_path"
     },
@@ -3387,7 +4006,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "community": 8,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson verifier",
       "norm_label": "svg",
       "id": "verificar_svg"
     },
@@ -3398,7 +4017,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 9,
-      "community_name": "App routing and progress",
+      "community_name": "App routing and views",
       "norm_label": "app.js",
       "id": "js_app"
     },
@@ -3412,7 +4031,7 @@
       "author": null,
       "contributor": null,
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "index.html (single page, hash routes)",
       "_origin": "semantic",
       "id": "claude_index_html"
@@ -3427,7 +4046,7 @@
       "author": null,
       "contributor": null,
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "js/app.js (hash routing, views, lazy lesson loading, progress)",
       "_origin": "semantic",
       "id": "claude_js_app"
@@ -3442,7 +4061,7 @@
       "author": null,
       "contributor": null,
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "js/temario.js (window.temario, single source of truth)",
       "_origin": "semantic",
       "id": "claude_js_temario"
@@ -3458,7 +4077,7 @@
       "contributor": null,
       "rationale": "Wrapped in try/catch so the site keeps working without progress",
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "progreso (localstorage free-learning:progreso:v1)",
       "_origin": "semantic",
       "id": "claude_progreso_localstorage"
@@ -3473,7 +4092,7 @@
       "author": null,
       "contributor": null,
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "temario status table (307 lessons ready in five subjects)",
       "_origin": "semantic",
       "id": "readme_temario_status"
@@ -3488,7 +4107,7 @@
       "author": null,
       "contributor": null,
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "free learning (project spec)",
       "_origin": "semantic",
       "id": "claude_free_learning"
@@ -3504,7 +4123,7 @@
       "contributor": null,
       "rationale": "Non-technical users open index.html by double click; therefore no modules, import, fetch, JSON or CDN; data in classic .js files assigned to window",
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "cero instalacion (file:// protocol)",
       "_origin": "semantic",
       "id": "claude_cero_instalacion_file_protocol"
@@ -3520,7 +4139,7 @@
       "contributor": null,
       "rationale": "Free forever, no accounts/ads/tracking, works offline; education as a right, not a privilege",
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "local-first, frontend-only",
       "_origin": "semantic",
       "id": "claude_local_first_frontend_only"
@@ -3536,7 +4155,7 @@
       "contributor": null,
       "rationale": "Education as a love letter to humanity in a world where it is a privilege",
       "community": 10,
-      "community_name": "App routing and progress",
+      "community_name": "Local-first architecture",
       "norm_label": "por que existe (gratis, para cualquiera, offline, confiable)",
       "_origin": "semantic",
       "id": "readme_por_que_existe"
@@ -3551,7 +4170,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "empaquetar.sh (builds descargar/free-learning.zip)",
       "_origin": "semantic",
       "id": "claude_empaquetar_sh"
@@ -3566,7 +4185,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "js/ejercicios.js (exercise engine, slug, registrarleccion, fraccion)",
       "_origin": "semantic",
       "id": "claude_js_ejercicios"
@@ -3581,7 +4200,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "lecciones/<materia>/<unidad>.js",
       "_origin": "semantic",
       "id": "claude_lecciones_unit_files"
@@ -3596,7 +4215,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "verificar.js (automatic lesson/validator check)",
       "_origin": "semantic",
       "id": "claude_verificar_js"
@@ -3611,7 +4230,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "estructura de una leccion (objetivo, vida real, explicacion, ejemplo, ejercicios, fuentes)",
       "_origin": "semantic",
       "id": "claude_estructura_leccion"
@@ -3626,7 +4245,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "exercise type expresion (custom parser, no eval, simplificar)",
       "_origin": "semantic",
       "id": "claude_expresion_validator"
@@ -3641,7 +4260,7 @@
       "author": null,
       "contributor": null,
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "fuentes fiables y gratuitas (khan academy, openstax, ck-12, phet)",
       "_origin": "semantic",
       "id": "claude_fuentes_fiables"
@@ -3657,7 +4276,7 @@
       "contributor": null,
       "rationale": "Practice right after reading, on the same page, with immediate tolerant validation, hint and solution",
       "community": 11,
-      "community_name": "Lesson verifier (verificar.js)",
+      "community_name": "Lesson format and engine docs",
       "norm_label": "ejercicios estilo sqlbolt",
       "_origin": "semantic",
       "id": "claude_sqlbolt_style_exercises"
@@ -3672,7 +4291,7 @@
       "author": null,
       "contributor": null,
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "accesibilidad (aa, foco visible, h3, lang, speechsynthesis fallback)",
       "_origin": "semantic",
       "id": "claude_accesibilidad"
@@ -3687,7 +4306,7 @@
       "author": null,
       "contributor": null,
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "auditoria obligatoria por unidad (subagente sonnet)",
       "_origin": "semantic",
       "id": "claude_auditoria_unidad"
@@ -3703,7 +4322,7 @@
       "contributor": null,
       "rationale": "Offline, theme-aware, prints in black and white; descripcion mandatory for screen readers",
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "window.grafica (g) inline svg charts",
       "_origin": "semantic",
       "id": "claude_grafica_svg"
@@ -3718,7 +4337,7 @@
       "author": null,
       "contributor": null,
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "lecciones de referencia: porcentajes y funcion lineal y pendiente",
       "_origin": "semantic",
       "id": "claude_lecciones_referencia"
@@ -3733,7 +4352,7 @@
       "author": null,
       "contributor": null,
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "speechsynthesis for english/mandarin pronunciation",
       "_origin": "semantic",
       "id": "claude_speechsynthesis"
@@ -3749,7 +4368,7 @@
       "contributor": null,
       "rationale": "Like a good teacher at your side: start from the familiar, why before how, read formulas aloud",
       "community": 14,
-      "community_name": "Free Learning project spec",
+      "community_name": "Accessibility and writing rules",
       "norm_label": "como explicar (lector de 10 a 12 anos)",
       "_origin": "semantic",
       "id": "claude_como_explicar"
@@ -3764,7 +4383,7 @@
       "author": null,
       "contributor": null,
       "community": 16,
-      "community_name": "Estilo visual editorial (Crimson Pro, Atkinson Hyperlegible, ocre) / estilos.css (tokens, dark theme, print)",
+      "community_name": "Editorial visual style",
       "norm_label": "estilos.css (tokens, dark theme, print)",
       "_origin": "semantic",
       "id": "claude_estilos_css"
@@ -3779,7 +4398,7 @@
       "author": null,
       "contributor": null,
       "community": 16,
-      "community_name": "Estilo visual editorial (Crimson Pro, Atkinson Hyperlegible, ocre) / estilos.css (tokens, dark theme, print)",
+      "community_name": "Editorial visual style",
       "norm_label": "estilo visual editorial (crimson pro, atkinson hyperlegible, ocre)",
       "_origin": "semantic",
       "id": "claude_estilo_editorial"
@@ -3794,7 +4413,7 @@
       "author": null,
       "contributor": null,
       "community": 16,
-      "community_name": "Estilo visual editorial (Crimson Pro, Atkinson Hyperlegible, ocre) / estilos.css (tokens, dark theme, print)",
+      "community_name": "Editorial visual style",
       "norm_label": "pdf export via window.print + @media print",
       "_origin": "semantic",
       "id": "claude_pdf_export_print"
@@ -3809,7 +4428,7 @@
       "author": null,
       "contributor": null,
       "community": 18,
-      "community_name": "i18n planned (texts only in textos.js / temario.js) / js/textos.js (window.TEXTOS)",
+      "community_name": "i18n texts",
       "norm_label": "js/textos.js (window.textos)",
       "_origin": "semantic",
       "id": "claude_js_textos"
@@ -3824,7 +4443,7 @@
       "author": null,
       "contributor": null,
       "community": 18,
-      "community_name": "i18n planned (texts only in textos.js / temario.js) / js/textos.js (window.TEXTOS)",
+      "community_name": "i18n texts",
       "norm_label": "i18n planned (texts only in textos.js / temario.js)",
       "_origin": "semantic",
       "id": "claude_i18n"
@@ -3839,7 +4458,7 @@
       "author": null,
       "contributor": null,
       "community": 4,
-      "community_name": "Exercise engine",
+      "community_name": "Project mission and packaging",
       "norm_label": "mit license",
       "_origin": "semantic",
       "id": "readme_mit_license"
@@ -3854,7 +4473,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "index.html spa shell",
       "_origin": "semantic",
       "id": "index_html"
@@ -3869,7 +4488,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "js/app.js",
       "_origin": "semantic",
       "id": "index_html_js_app"
@@ -3884,7 +4503,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "js/ejercicios.js",
       "_origin": "semantic",
       "id": "index_html_js_ejercicios"
@@ -3899,7 +4518,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "js/temario.js",
       "_origin": "semantic",
       "id": "index_html_js_temario"
@@ -3914,7 +4533,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "js/textos.js",
       "_origin": "semantic",
       "id": "index_html_js_textos"
@@ -3929,7 +4548,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "light/dark mode contrast rules",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_references_pro_rules_dark_mode_contrast"
@@ -3944,7 +4563,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "no emoji as structural icons (use svg)",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_references_pro_rules_no_emoji_icons"
@@ -3959,7 +4578,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "accessibility rules (wcag, contrast, focus, reduced motion)",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_references_quick_reference_accessibility"
@@ -3974,7 +4593,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "rule categories by priority (10 categories)",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_skill_priority_categories"
@@ -3989,7 +4608,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "pro rules and pre-delivery checklist",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_references_pro_rules"
@@ -4004,7 +4623,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "quick reference full rule set",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_references_quick_reference"
@@ -4019,7 +4638,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "ui/ux pro max skill",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_skill"
@@ -4034,7 +4653,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "leeme.txt usage instructions",
       "_origin": "semantic",
       "id": "leeme_txt"
@@ -4049,7 +4668,7 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "design system generation (master.md + page overrides)",
       "_origin": "semantic",
       "id": "claude_skills_ui_ux_pro_max_skill_design_system_workflow"
@@ -4064,461 +4683,10 @@
       "author": null,
       "contributor": null,
       "community": 5,
-      "community_name": "App routing and progress",
+      "community_name": "UI/UX rules checklist",
       "norm_label": "classic (non-module) scripts for file:// opening",
       "_origin": "semantic",
       "id": "index_html_classic_scripts"
-    },
-    {
-      "label": "CK-12",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_ck_12",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "ck-12"
-    },
-    {
-      "label": "Khan Academy",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_khan_academy",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "khan academy"
-    },
-    {
-      "label": "MedlinePlus",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_medlineplus",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "medlineplus"
-    },
-    {
-      "label": "Organizaci\u00f3n Mundial de la Salud",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_oms",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "organizacion mundial de la salud"
-    },
-    {
-      "label": "OpenStax",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_openstax",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "openstax"
-    },
-    {
-      "label": "PhET",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_phet",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "phet"
-    },
-    {
-      "label": "Contenido confiable con fuentes citadas",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_contenido_confiable",
-      "community": 13,
-      "community_name": "README: subjects and sources",
-      "norm_label": "contenido confiable con fuentes citadas"
-    },
-    {
-      "label": "Estructura de una lecci\u00f3n (6 secciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L14",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_estructura_de_leccion",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "estructura de una leccion (6 secciones)"
-    },
-    {
-      "label": "Imprimir o guardar lecci\u00f3n en PDF",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L23",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_imprimir_pdf",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "imprimir o guardar leccion en pdf"
-    },
-    {
-      "label": "Licencia MIT",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L48",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_licencia_mit",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "licencia mit"
-    },
-    {
-      "label": "Progreso guardado en el navegador",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L23",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_progreso_en_navegador",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "progreso guardado en el navegador"
-    },
-    {
-      "label": "Ejercicios interactivos estilo SQLBolt",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_sqlbolt_style_exercises",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "ejercicios interactivos estilo sqlbolt"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L46",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "claude",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "claude.md"
-    },
-    {
-      "label": "Free Learning",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_free_learning",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "free learning"
-    },
-    {
-      "label": "Carta de amor a la humanidad",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "La educaci\u00f3n es un privilegio; el sitio explica de forma ordenada, simple y clara para que cualquiera entienda.",
-      "id": "readme_carta_de_amor_a_la_humanidad",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "carta de amor a la humanidad"
-    },
-    {
-      "label": "Funciona sin internet (zip + index.html)",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L11",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Cero instalaci\u00f3n: descargar el zip y abrir index.html con doble clic.",
-      "id": "readme_funciona_sin_internet",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "funciona sin internet (zip + index.html)"
-    },
-    {
-      "label": "Gratis para siempre (sin cuentas, anuncios ni rastreo)",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L9",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_gratis_para_siempre",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "gratis para siempre (sin cuentas, anuncios ni rastreo)"
-    },
-    {
-      "label": "HTML, CSS y JavaScript puro sin dependencias",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L46",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_html_css_js_puro",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "html, css y javascript puro sin dependencias"
-    },
-    {
-      "label": "Lector objetivo de 10 a 12 a\u00f1os",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": "L10",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "rationale": "Escrito para ni\u00f1os de 10-12 o adultos que nunca vieron el tema; no se da nada por sabido.",
-      "id": "readme_lector_objetivo_10_12",
-      "community": 4,
-      "community_name": "Exercise engine",
-      "norm_label": "lector objetivo de 10 a 12 anos"
-    },
-    {
-      "label": "Autosuficiencia (112 lecciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L35",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_autosuficiencia",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "autosuficiencia (112 lecciones)"
-    },
-    {
-      "label": "Ciencias naturales (39 lecciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L32",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_ciencias_naturales",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "ciencias naturales (39 lecciones)"
-    },
-    {
-      "label": "Finanzas personales (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_finanzas_personales",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "finanzas personales (proximamente)"
-    },
-    {
-      "label": "Finanzas y econom\u00eda (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L34",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_finanzas_y_economia",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "finanzas y economia (proximamente)"
-    },
-    {
-      "label": "F\u00edsica (54 lecciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L30",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_fisica",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "fisica (54 lecciones)"
-    },
-    {
-      "label": "Ingl\u00e9s A1-B1 (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L39",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_ingles",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "ingles a1-b1 (proximamente)"
-    },
-    {
-      "label": "Inteligencia artificial (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L38",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_inteligencia_artificial",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "inteligencia artificial (proximamente)"
-    },
-    {
-      "label": "Lectura (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L37",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_lectura",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "lectura (proximamente)"
-    },
-    {
-      "label": "Mandar\u00edn HSK 1-3 (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L40",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_mandarin",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "mandarin hsk 1-3 (proximamente)"
-    },
-    {
-      "label": "Matem\u00e1ticas (64 lecciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L29",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_matematicas",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "matematicas (64 lecciones)"
-    },
-    {
-      "label": "Ofim\u00e1tica (pr\u00f3ximamente)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L36",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_ofimatica",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "ofimatica (proximamente)"
-    },
-    {
-      "label": "Qu\u00edmica (44 lecciones)",
-      "file_type": "concept",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_quimica",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "quimica (44 lecciones)"
-    },
-    {
-      "label": "Temario (tabla de materias y estado)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L25",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "readme_temario",
-      "community": 6,
-      "community_name": "Free Learning project spec",
-      "norm_label": "temario (tabla de materias y estado)"
     }
   ],
   "links": [
@@ -6683,6 +6851,72 @@
       "target": "path"
     },
     {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_ck_12"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_khan_academy"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_medlineplus"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_oms"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_openstax"
+    },
+    {
+      "relation": "cites",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_phet"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".claude/skills/ui-ux-pro-max/scripts/core.py",
@@ -8038,13 +8272,57 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "lecciones/finanzas-personales/credito.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "lecciones_finanzas_personales_credito",
+      "target": "lecciones_finanzas_personales_credito_barras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lecciones/finanzas-personales/crisis.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "lecciones_finanzas_personales_crisis",
+      "target": "lecciones_finanzas_personales_crisis_barras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lecciones/finanzas-personales/deudas.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "lecciones_finanzas_personales_deudas",
+      "target": "lecciones_finanzas_personales_deudas_barras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lecciones/finanzas-personales/interes.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "lecciones_finanzas_personales_interes",
+      "target": "lecciones_finanzas_personales_interes_barras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "lecciones/finanzas-personales/presupuesto.js",
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "lecciones_finanzas_personales_presupuesto",
-      "target": "lecciones_finanzas_personales_presupuesto_barras",
-      "confidence_score": 1.0
+      "target": "lecciones_finanzas_personales_presupuesto_barras"
     },
     {
       "relation": "contains",
@@ -8053,9 +8331,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "lecciones_finanzas_personales_presupuesto",
-      "target": "lecciones_finanzas_personales_presupuesto_pastel",
-      "confidence_score": 1.0
+      "target": "lecciones_finanzas_personales_presupuesto_pastel"
     },
     {
       "relation": "contains",
@@ -8210,6 +8488,17 @@
       "confidence_score": 1.0,
       "source": "verificar",
       "target": "verificar_entemario"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_sqlbolt_style_exercises"
     },
     {
       "relation": "method",
@@ -9125,6 +9414,61 @@
       "target": "claude_skills_ui_ux_pro_max_scripts_validate_data_check_stack_freshness_contract"
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_carta_de_amor_a_la_humanidad",
+      "target": "readme_free_learning"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_contenido_confiable",
+      "target": "readme_free_learning"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_funciona_sin_internet",
+      "target": "readme_free_learning"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_gratis_para_siempre",
+      "target": "readme_free_learning"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_lector_objetivo_10_12",
+      "target": "readme_free_learning"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
@@ -9147,6 +9491,237 @@
       "target": "js_ejercicios_registrarleccion"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_estructura_de_leccion"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_imprimir_pdf"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_progreso_en_navegador"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_temario"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "claude"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "empaquetar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "verificar"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_free_learning",
+      "target": "readme_licencia_mit"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_matematicas"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_fisica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_quimica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_ciencias_naturales"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_finanzas_personales"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_finanzas_y_economia"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_autosuficiencia"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_ofimatica"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_lectura"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_inteligencia_artificial"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_ingles"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "readme_mandarin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_temario",
+      "target": "js_temario"
+    },
+    {
       "relation": "indirect_call",
       "context": "argument",
       "confidence": "INFERRED",
@@ -9157,6 +9732,39 @@
       "confidence_score": 0.5,
       "source": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_parse_decision_rules",
       "target": "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "empaquetar",
+      "target": "readme_funciona_sin_internet"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_html_css_js_puro",
+      "target": "readme_funciona_sin_internet"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_estructura_de_leccion",
+      "target": "readme_sqlbolt_style_exercises"
     },
     {
       "relation": "calls",
@@ -9729,366 +10337,6 @@
       "_origin": "semantic",
       "source": "readme_temario_status",
       "target": "claude_js_temario"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_ck_12"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_khan_academy"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_medlineplus"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_oms"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_openstax"
-    },
-    {
-      "relation": "cites",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_phet"
-    },
-    {
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_sqlbolt_style_exercises"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "readme_carta_de_amor_a_la_humanidad",
-      "target": "readme_free_learning"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "readme_contenido_confiable",
-      "target": "readme_free_learning"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "readme_funciona_sin_internet",
-      "target": "readme_free_learning"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "readme_gratis_para_siempre",
-      "target": "readme_free_learning"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "readme_lector_objetivo_10_12",
-      "target": "readme_free_learning"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_estructura_de_leccion"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_imprimir_pdf"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_progreso_en_navegador"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_temario"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "claude"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "empaquetar"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "verificar"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "readme_free_learning",
-      "target": "readme_licencia_mit"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_matematicas"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_fisica"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_quimica"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_ciencias_naturales"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_finanzas_personales"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_finanzas_y_economia"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L35",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_autosuficiencia"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_ofimatica"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_lectura"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_inteligencia_artificial"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_ingles"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "readme_mandarin"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "readme_temario",
-      "target": "js_temario"
-    },
-    {
-      "relation": "implements",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "README.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "empaquetar",
-      "target": "readme_funciona_sin_internet"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "readme_html_css_js_puro",
-      "target": "readme_funciona_sin_internet"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "readme_estructura_de_leccion",
-      "target": "readme_sqlbolt_style_exercises"
     }
   ],
   "hyperedges": [
@@ -10192,5 +10440,5 @@
       "source_file": ".claude/skills/ui-ux-pro-max/SKILL.md"
     }
   ],
-  "built_at_commit": "62dd2fb28959f109d7bbe37defe8a3c2fd063c29"
+  "built_at_commit": "002c31abf0a4cdeeb589d0d4c09f6a844a1ae0b0"
 }

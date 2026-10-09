@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791529926.7763085,
-    "ast_hash": "dbe63ce39bc7a5abba87fa97854868ab",
-    "semantic_hash": "dbe63ce39bc7a5abba87fa97854868ab"
+    "mtime": 1791572305.5404449,
+    "ast_hash": "ec16828f8c7d886ae418db05b3eb26ab",
+    "semantic_hash": "ec16828f8c7d886ae418db05b3eb26ab"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -353,5 +353,45 @@
     "mtime": 1791519055.598508,
     "ast_hash": "391b66008ae898ea809f19f170a24551",
     "semantic_hash": "391b66008ae898ea809f19f170a24551"
+  },
+  "lecciones/finanzas-personales/ahorro.js": {
+    "mtime": 1791531546.3273494,
+    "ast_hash": "7478f25b840db5d3a0ab1c78c5896015",
+    "semantic_hash": "7478f25b840db5d3a0ab1c78c5896015"
+  },
+  "lecciones/finanzas-personales/bancos.js": {
+    "mtime": 1791568804.6341758,
+    "ast_hash": "ac65841a61b26a64fd95b1776d040783",
+    "semantic_hash": "ac65841a61b26a64fd95b1776d040783"
+  },
+  "lecciones/finanzas-personales/credito.js": {
+    "mtime": 1791534652.551454,
+    "ast_hash": "b99774cf4c46ac676b155508e557e9cd",
+    "semantic_hash": "b99774cf4c46ac676b155508e557e9cd"
+  },
+  "lecciones/finanzas-personales/crisis.js": {
+    "mtime": 1791572537.0631166,
+    "ast_hash": "4107f0e20359c178f2cee4db29233799",
+    "semantic_hash": "4107f0e20359c178f2cee4db29233799"
+  },
+  "lecciones/finanzas-personales/deudas.js": {
+    "mtime": 1791568085.4684896,
+    "ast_hash": "8bf8454cd525253e7529ccbc8785f91c",
+    "semantic_hash": "8bf8454cd525253e7529ccbc8785f91c"
+  },
+  "lecciones/finanzas-personales/futuro.js": {
+    "mtime": 1791571094.408587,
+    "ast_hash": "5a5094cb8bd0d3018cb5bf8e87b2ab52",
+    "semantic_hash": "5a5094cb8bd0d3018cb5bf8e87b2ab52"
+  },
+  "lecciones/finanzas-personales/interes.js": {
+    "mtime": 1791533752.9748151,
+    "ast_hash": "4d051fd5a4e4d6ec3344e9a2649caa84",
+    "semantic_hash": "4d051fd5a4e4d6ec3344e9a2649caa84"
+  },
+  "lecciones/finanzas-personales/inversion.js": {
+    "mtime": 1791569649.1232023,
+    "ast_hash": "3660dc3a625294afc9c68ea97b206f6e",
+    "semantic_hash": "3660dc3a625294afc9c68ea97b206f6e"
   }
 }
