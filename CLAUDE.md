@@ -25,7 +25,7 @@ Sitio local-first y frontend-only con lecciones de lo que todo el mundo debería
   - `revisar.js <unidad.js>`: palabras, negritas, greps y títulos citados.
   - `render.js <unidad.js>`: gráficas a PNG.
   - `citas.js <ficha.md>`: URLs y citas de la ficha.
-- `.claude/agents/`: `investigador` (Haiku), `constructor` y `auditor` (Sonnet).
+- `.claude/agents/`: `investigador` (Sonnet), `constructor` y `auditor` (Sonnet).
 - `.claude/trabajo/<materia>/<unidad>/`: `plan.md`, `ficha.md` y `antes-auditoria.js` de cada unidad.
 
 ## Qué leer según la tarea (carga solo lo que necesites)

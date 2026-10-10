@@ -5,7 +5,7 @@ El Director es la sesión principal. **No lee fuentes ni escribe lecciones**: pl
 | Paso | Quién | Modelo | Entrega |
 |---|---|---|---|
 | 1. Plan | Director | sesión | `plan.md`, aprobado por el usuario |
-| 2. Investigación | `investigador` | Haiku | `ficha.md` con citas textuales |
+| 2. Investigación | `investigador` | Sonnet | `ficha.md` con citas textuales |
 | 3. Comprobar citas | `citas.js` | sin modelo | OK / FALLA / BLOQUEADA |
 | 4. Escritura | `constructor`, uno nuevo por unidad | Sonnet | `lecciones/<materia>/<unidad>.js` + `archivo:` en el temario |
 | 5. Auditoría | `auditor`, uno nuevo por unidad | Sonnet | cambios aplicados + reporte |

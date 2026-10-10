@@ -60,9 +60,9 @@
     "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
   },
   "js/temario.js": {
-    "mtime": 1791587832.995149,
-    "ast_hash": "14866ce8bb8211d839c141ae5b32e3c0",
-    "semantic_hash": "14866ce8bb8211d839c141ae5b32e3c0"
+    "mtime": 1791606215.1082995,
+    "ast_hash": "c67feb562c7af5a1404c4b3aa3669e52",
+    "semantic_hash": "c67feb562c7af5a1404c4b3aa3669e52"
   },
   "js/textos.js": {
     "mtime": 1791328133.276099,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791586812.4055734,
-    "ast_hash": "b40dd7aee741f92c3bf88ba09ab56ef8",
-    "semantic_hash": "b40dd7aee741f92c3bf88ba09ab56ef8"
+    "mtime": 1791590239.7876427,
+    "ast_hash": "26d98a82135b4575233b725c93f23758",
+    "semantic_hash": "26d98a82135b4575233b725c93f23758"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -430,9 +430,9 @@
     "semantic_hash": "d80bc7699efcd06100df1c78e3f8279d"
   },
   ".claude/agents/investigador.md": {
-    "mtime": 1791586216.9608262,
-    "ast_hash": "212c06059bbfd4856ec1c7ee4394eb62",
-    "semantic_hash": "212c06059bbfd4856ec1c7ee4394eb62"
+    "mtime": 1791589740.6592033,
+    "ast_hash": "a2f83ff0dab42b8a201ceaee481d8c86",
+    "semantic_hash": "a2f83ff0dab42b8a201ceaee481d8c86"
   },
   ".claude/docs/auditoria.md": {
     "mtime": 1791586167.4888442,
@@ -445,9 +445,9 @@
     "semantic_hash": "d613853d25fbc053d9ac8913f878069c"
   },
   ".claude/docs/flujo-unidad.md": {
-    "mtime": 1791586193.5953388,
-    "ast_hash": "462fdeab78fe55c6faf1a445c2c980c9",
-    "semantic_hash": "462fdeab78fe55c6faf1a445c2c980c9"
+    "mtime": 1791590216.3482785,
+    "ast_hash": "7957a2f4a0c0fbbeac6bd7f5efc0d706",
+    "semantic_hash": "7957a2f4a0c0fbbeac6bd7f5efc0d706"
   },
   ".claude/docs/formato-leccion.md": {
     "mtime": 1791586140.8935597,
@@ -455,8 +455,128 @@
     "semantic_hash": "f6896bb15473bfb39eb03f9aeac2cd64"
   },
   ".claude/docs/fuentes.md": {
-    "mtime": 1791587693.5668762,
-    "ast_hash": "454deefa22020eba5972e00fe2fe8758",
-    "semantic_hash": "454deefa22020eba5972e00fe2fe8758"
+    "mtime": 1791606416.6785629,
+    "ast_hash": "180de37073f4969ff88fa809b9e296b0",
+    "semantic_hash": "180de37073f4969ff88fa809b9e296b0"
+  },
+  ".claude/trabajo/ia/como-aprenden/antes-auditoria.js": {
+    "mtime": 1791590029.900553,
+    "ast_hash": "929aecf0e6e7369b1b0accddbc161cc3",
+    "semantic_hash": "929aecf0e6e7369b1b0accddbc161cc3"
+  },
+  ".claude/trabajo/ia/llms-locales/antes-auditoria.js": {
+    "mtime": 1791594109.2636602,
+    "ast_hash": "a749b9921e54f741a1dff35a7494a5a1",
+    "semantic_hash": "a749b9921e54f741a1dff35a7494a5a1"
+  },
+  ".claude/trabajo/ia/modelos-lenguaje/antes-auditoria.js": {
+    "mtime": 1791591592.2243807,
+    "ast_hash": "39ed508e1deb755ec25b4ac40b7b30cc",
+    "semantic_hash": "39ed508e1deb755ec25b4ac40b7b30cc"
+  },
+  ".claude/trabajo/ia/sociedad/antes-auditoria.js": {
+    "mtime": 1791606269.8835056,
+    "ast_hash": "b19e483ef7a79a73aa39d2d4c13e5bc3",
+    "semantic_hash": "b19e483ef7a79a73aa39d2d4c13e5bc3"
+  },
+  ".claude/trabajo/ia/usar-bien/antes-auditoria.js": {
+    "mtime": 1791592861.6400034,
+    "ast_hash": "927432b06fe182b2957def8d4797cde8",
+    "semantic_hash": "927432b06fe182b2957def8d4797cde8"
+  },
+  "lecciones/ia/como-aprenden.js": {
+    "mtime": 1791590120.7566478,
+    "ast_hash": "15195380c47ac196799ccd145c5d31c1",
+    "semantic_hash": "15195380c47ac196799ccd145c5d31c1"
+  },
+  "lecciones/ia/llms-locales.js": {
+    "mtime": 1791605341.660047,
+    "ast_hash": "813a1198b8c0a9763a13b50cfd79450b",
+    "semantic_hash": "813a1198b8c0a9763a13b50cfd79450b"
+  },
+  "lecciones/ia/modelos-lenguaje.js": {
+    "mtime": 1791591732.0406718,
+    "ast_hash": "68d40b1c16329fa7694216c6188b1752",
+    "semantic_hash": "68d40b1c16329fa7694216c6188b1752"
+  },
+  "lecciones/ia/sociedad.js": {
+    "mtime": 1791606381.2868013,
+    "ast_hash": "a85bc5225db12bd000887e8a48314de2",
+    "semantic_hash": "a85bc5225db12bd000887e8a48314de2"
+  },
+  "lecciones/ia/usar-bien.js": {
+    "mtime": 1791592917.8506532,
+    "ast_hash": "52bf312c55bf09f171f5881d32baa939",
+    "semantic_hash": "52bf312c55bf09f171f5881d32baa939"
+  },
+  ".claude/docs/materias/ia.md": {
+    "mtime": 1791586812.4057858,
+    "ast_hash": "7812e648d7ff459b7110df95a582e95d",
+    "semantic_hash": "7812e648d7ff459b7110df95a582e95d"
+  },
+  ".claude/docs/sitio.md": {
+    "mtime": 1791586331.5385983,
+    "ast_hash": "9098a40666532d9a370fa9c5e9f6e6f4",
+    "semantic_hash": "9098a40666532d9a370fa9c5e9f6e6f4"
+  },
+  ".claude/trabajo/ia/como-aprenden/ficha.md": {
+    "mtime": 1791589847.4267123,
+    "ast_hash": "25c6b434a0ebdac0f7ebd32339b05630",
+    "semantic_hash": "25c6b434a0ebdac0f7ebd32339b05630"
+  },
+  ".claude/trabajo/ia/como-aprenden/plan.md": {
+    "mtime": 1791588803.4939344,
+    "ast_hash": "8336f938abac4fdee71055c16dc40cbd",
+    "semantic_hash": "8336f938abac4fdee71055c16dc40cbd"
+  },
+  ".claude/trabajo/ia/llms-locales/ficha.md": {
+    "mtime": 1791593523.3181934,
+    "ast_hash": "3736d077be48cc821a97b7ef431d011e",
+    "semantic_hash": "3736d077be48cc821a97b7ef431d011e"
+  },
+  ".claude/trabajo/ia/llms-locales/plan.md": {
+    "mtime": 1791593238.1941197,
+    "ast_hash": "b2e320e0ac61230df7a119ba0cf1ccbb",
+    "semantic_hash": "b2e320e0ac61230df7a119ba0cf1ccbb"
+  },
+  ".claude/trabajo/ia/modelos-lenguaje/ficha.md": {
+    "mtime": 1791591225.0755932,
+    "ast_hash": "e8082c9311df0e65b37d3faae61a1b5e",
+    "semantic_hash": "e8082c9311df0e65b37d3faae61a1b5e"
+  },
+  ".claude/trabajo/ia/modelos-lenguaje/plan.md": {
+    "mtime": 1791590613.673005,
+    "ast_hash": "8b7f964d6f58698f64e031003e3c3658",
+    "semantic_hash": "8b7f964d6f58698f64e031003e3c3658"
+  },
+  ".claude/trabajo/ia/que-es/ficha.md": {
+    "mtime": 1791588213.1274285,
+    "ast_hash": "397489a1a17f5a3079ad9547910cb3d5",
+    "semantic_hash": "397489a1a17f5a3079ad9547910cb3d5"
+  },
+  ".claude/trabajo/ia/que-es/plan.md": {
+    "mtime": 1791586834.4059906,
+    "ast_hash": "7e312db9454a6c69be77473f86af6b0e",
+    "semantic_hash": "7e312db9454a6c69be77473f86af6b0e"
+  },
+  ".claude/trabajo/ia/sociedad/ficha.md": {
+    "mtime": 1791605995.4393733,
+    "ast_hash": "82105376c3d7d2da9e93b70e43eb7957",
+    "semantic_hash": "82105376c3d7d2da9e93b70e43eb7957"
+  },
+  ".claude/trabajo/ia/sociedad/plan.md": {
+    "mtime": 1791605536.7726014,
+    "ast_hash": "53766b066b262fe9cd3d0b837ca30f1b",
+    "semantic_hash": "53766b066b262fe9cd3d0b837ca30f1b"
+  },
+  ".claude/trabajo/ia/usar-bien/ficha.md": {
+    "mtime": 1791592654.4957545,
+    "ast_hash": "ea10020e5e1cb8da1458e45a606f7b06",
+    "semantic_hash": "ea10020e5e1cb8da1458e45a606f7b06"
+  },
+  ".claude/trabajo/ia/usar-bien/plan.md": {
+    "mtime": 1791592030.8194747,
+    "ast_hash": "4f6002e54113525422fb38c17702dc03",
+    "semantic_hash": "4f6002e54113525422fb38c17702dc03"
   }
 }

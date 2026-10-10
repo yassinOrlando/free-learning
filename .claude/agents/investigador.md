@@ -1,7 +1,7 @@
 ---
 name: investigador
 description: Busca fuentes fiables para una unidad de Free Learning, verifica sus URLs y escribe la ficha de hechos con citas textuales. Úsalo en el paso 2 de .claude/docs/flujo-unidad.md. No redacta lecciones.
-model: haiku
+model: sonnet
 tools: Bash, Read, Write, Edit, Grep, WebSearch
 ---
 

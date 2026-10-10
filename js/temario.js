@@ -289,13 +289,13 @@ window.TEMARIO = [
         'Breve historia de la IA',
         'La IA en tu vida diaria',
       ]},
-      { titulo: 'Cómo aprenden las máquinas', lecciones: [
+      { titulo: 'Cómo aprenden las máquinas', archivo: 'lecciones/ia/como-aprenden.js', lecciones: [
         'Los datos',
         'Aprendizaje automático',
         'Redes neuronales explicadas sin fórmulas',
         'Entrenar y evaluar un modelo',
       ]},
-      { titulo: 'Modelos de lenguaje (LLMs)', lecciones: [
+      { titulo: 'Modelos de lenguaje (LLMs)', archivo: 'lecciones/ia/modelos-lenguaje.js', lecciones: [
         'Qué es un modelo de lenguaje',
         'Tokens: cómo "lee" un LLM',
         'Cómo genera texto: predecir la siguiente palabra',
@@ -304,13 +304,13 @@ window.TEMARIO = [
         'Qué puede y qué no puede hacer',
         'Modelos de decisión: IA que elige en lugar de escribir',
       ]},
-      { titulo: 'Usar la IA bien', lecciones: [
+      { titulo: 'Usar la IA bien', archivo: 'lecciones/ia/usar-bien.js', lecciones: [
         'Escribir instrucciones claras',
         'Dar contexto y ejemplos',
         'Verificar lo que te responde',
         'Usar IA para estudiar sin hacer trampa',
       ]},
-      { titulo: 'LLMs locales: IA en tu propio equipo', lecciones: [
+      { titulo: 'LLMs locales: IA en tu propio equipo', archivo: 'lecciones/ia/llms-locales.js', lecciones: [
         'Qué es un LLM local y por qué usarlo',
         'Modelos abiertos: qué significa que se puedan descargar',
         'Qué necesita tu equipo: memoria, procesador y tarjeta gráfica',
@@ -324,7 +324,7 @@ window.TEMARIO = [
         'Velocidad y calidad: qué esperar de un modelo local',
         'Usar un modelo local con tus propios documentos',
       ]},
-      { titulo: 'IA y sociedad', lecciones: [
+      { titulo: 'IA y sociedad', archivo: 'lecciones/ia/sociedad.js', lecciones: [
         'Sesgos en la IA',
         'Privacidad: qué no compartir',
         'Deepfakes y contenido falso',
