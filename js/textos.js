@@ -44,6 +44,12 @@ window.TEXTOS = {
   solucionDisponible: 'Si quieres, ya puedes ver la solución.',
   faltaSimplificar: 'Vas bien: tu expresión es equivalente, pero todavía se puede simplificar o desarrollar más.',
   ayudaExpresion: 'Usa ^ para potencias (x^2) y * o nada para multiplicar (3x, 2(x+1)).',
+  ayudaPinyin: 'Escribe el tono con su marca (mā) o con un número al final de la sílaba (ma1). Para ü puedes escribir v.',
+  ayudaOrdenar: 'Pulsa una pieza para agregarla a tu respuesta. Púlsala otra vez para quitarla.',
+  // Audio
+  escuchar: 'Escuchar',
+  noPuedoEscuchar: '¿No puedes escuchar el audio?',
+  sinVoz: 'Este dispositivo no tiene una voz en chino. Guíate por el pinyin y sus marcas de tono.',
   comoUsarTitulo: 'Cómo usar Free Learning en tu computadora',
   comoUsarIntro: 'Puedes guardar este sitio completo en tu computadora y usarlo sin internet. No necesitas instalar nada: solo un navegador (Chrome, Firefox, Edge o Safari).',
   comoUsarPasos: [

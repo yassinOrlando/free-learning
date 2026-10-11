@@ -2,7 +2,9 @@
 // Comprueba el validador de respuestas y que cada lección esté completa y sea coherente con el temario.
 const assert = require('assert');
 const path = require('path');
+const fs = require('fs');
 globalThis.window = globalThis;
+require('./js/textos.js');
 require('./js/temario.js');
 require('./js/ejercicios.js');
 const { Ejercicios: E, TEMARIO, LECCIONES, slug } = globalThis;
@@ -45,6 +47,24 @@ assert(!simp('x^2 + 6x + 9', '(x+3)^2'), 'copiar el enunciado no debe valer');
 assert(!simp('x^6', 'x^5*x^3/x^2'), 'sin simplificar no debe valer');
 assert(simp('3/(2x)', '3/(2*x)') && simp('4x + 13', '13+4x'), 'formas simplificadas equivalentes');
 assert(E.esCorrecta({ tipo: 'texto', respuestas: ['Máximo común divisor'] }, '  maximo  COMUN divisor. '));
+// --- Pinyin con tonos (no usa normalizarTexto: ahí "ma" y "mā" valen lo mismo) ---
+const py = (esperado, escrito) => E.esCorrecta({ tipo: 'pinyin', respuestas: [esperado] }, escrito);
+[['mā', 'ma1'], ['mā', 'MĀ'], ['nǐ hǎo', 'ni3hao3'], ['nǐ hǎo', 'nǐhǎo'], ['nǐ hǎo', 'ni3 hao3'], ['lǜ', 'lv4'], ['lǜ', 'lu:4'], ['nǚ', 'nü3'],
+ ['mā ma', 'māma'], ['mā ma', 'ma1ma'], ['mā ma', 'ma1 ma5'], ['nǐ', 'nĭ'], ["xī ān", "xī'ān"]]
+  .forEach(([e, s]) => assert(py(e, s), `"${s}" debería valer el pinyin ${e}`));
+[['mā', 'ma'], ['mā', 'má'], ['mā', 'ma4'], ['nǐ hǎo', 'ni hao'], ['nǐ hǎo', 'ni3hao'], ['mā ma', 'mama1'], ['lǜ', 'lu4'], ['mā', '']]
+  .forEach(([e, s]) => assert(!py(e, s), `"${s}" no debería valer el pinyin ${e}`));
+assert(E.esCorrecta({ tipo: 'texto', respuestas: ['mā'] }, 'ma'), 'normalizarTexto sigue quitando acentos en las demás materias');
+// --- Ordenar ---
+const frase = { tipo: 'ordenar', respuesta: ['我', '是', '学生'], alternativas: [['学生', '是', '我']] };
+assert(E.esCorrecta(frase, '我|是|学生') && E.esCorrecta(frase, '学生|是|我') && !E.esCorrecta(frase, '是|我|学生') && !E.esCorrecta(frase, '我|是'), 'ordenar');
+[2, 3, 4, 7].forEach((n) => assert(E.barajar(n).length === n && new Set(E.barajar(n)).size === n && E.barajar(n).some((k, i) => k !== i), `barajar(${n})`));
+// --- Chino: zh() ---
+const han = globalThis.zh('你好', 'nǐ hǎo', { es: 'hola', audio: 'audio/zh/x.m4a' });
+assert(han.includes('<span class="zh__han" lang="zh-Hans">你好</span>') && han.includes('lang="zh-Latn-pinyin">nǐ hǎo<') && han.includes('data-oir="你好"')
+  && han.includes('data-audio="audio/zh/x.m4a"') && han.includes('aria-label="Escuchar nǐ hǎo"') && han.includes('<svg aria-hidden="true"'), 'zh() con lang, audio y etiqueta');
+assert(globalThis.zh('氵') === '<span class="zh__han" lang="zh-Hans">氵</span>', 'zh() sin pinyin: solo el carácter');
+assert(!globalThis.zh('', 'a').includes('<button') && globalThis.zh('', 'mā', { voz: '妈' }).includes('data-oir="妈"'), 'zh() sin caracteres');
 // --- Gráficas ---
 const svg = globalThis.grafica({ funciones: [{ f: (x) => Math.log(x) }], puntos: [{ x: 1, y: 0, etiqueta: 'A' }], descripcion: 'prueba "x"' });
 assert(svg.includes('<svg') && /<path[^>]+d="M[\d.]/.test(svg) && svg.includes('aria-label="prueba &quot;x&quot;"') && !svg.includes('NaN'), 'grafica() debe generar un SVG válido');
@@ -57,6 +77,7 @@ assert(!E.esCorrecta({ tipo: 'opciones', correcta: 2 }, '1'));
 
 // --- Lecciones ---
 let errores = 0;
+const audios = new Set();
 const falla = (msg) => { errores++; console.error('✗ ' + msg); };
 const enTemario = new Set();
 
@@ -93,9 +114,43 @@ for (const [clave, L] of Object.entries(LECCIONES)) {
       else if (!E.esCorrecta(ej, ej.respuesta)) falla(`${d}: no acepta su propia respuesta`);
     } else if (ej.tipo === 'texto') {
       if (!ej.respuestas?.length || !E.esCorrecta(ej, ej.respuestas[0])) falla(`${d}: respuestas inválidas`);
+    } else if (ej.tipo === 'pinyin') {
+      // Cada sílaba separada por espacio y con un tono como máximo: así el motor sabe a qué sílaba toca cada tono.
+      if (!ej.respuestas?.length) falla(`${d}: sin respuestas`);
+      (ej.respuestas || []).forEach((r) => {
+        const malas = r.trim().split(/\s+/).filter((s) => (s.normalize('NFD').match(/[\u0300\u0301\u0304\u030C]|[1-4]/g) || []).length > 1);
+        if (malas.length || !E.esCorrecta(ej, r)) falla(`${d}: pinyin "${r}" debe llevar las sílabas separadas por espacio`);
+      });
+    } else if (ej.tipo === 'ordenar') {
+      const listas = [ej.respuesta, ...(ej.alternativas || [])];
+      if (!listas.every((l) => Array.isArray(l) && l.length >= 2 && l.every((p) => typeof p === 'string' && p && !p.includes('|')))) falla(`${d}: piezas inválidas`);
+      else {
+        const piezas = (l) => [...l].sort().join('|');
+        if (listas.some((l) => piezas(l) !== piezas(ej.respuesta))) falla(`${d}: una alternativa usa piezas distintas`);
+        if (listas.some((l) => l.join('|') === E.barajar(ej.respuesta.length).map((k) => ej.respuesta[k]).join('|'))) falla(`${d}: el orden inicial ya es una respuesta correcta`);
+        if (ej.pinyin && ej.pinyin.length !== ej.respuesta.length) falla(`${d}: "pinyin" debe tener una entrada por pieza`);
+        if (/\p{Script=Han}/u.test(ej.respuesta.join('')) && ej.lang !== 'zh-Hans') falla(`${d}: piezas en chino sin lang: 'zh-Hans'`);
+      }
     } else falla(`${d}: tipo desconocido "${ej.tipo}"`);
+    // Escucha: nada depende solo del audio.
+    if (ej.escucha && (!(ej.escucha.voz || ej.escucha.audio) || typeof ej.sinAudio !== 'string' || ej.sinAudio.trim().length < 10)) falla(`${d}: "escucha" necesita voz o audio, y "sinAudio" con la alternativa escrita`);
+    if (ej.escucha?.audio) audios.add(ej.escucha.audio);
   });
+  const html = [L.objetivo, L.explicacion, L.ejemplo, L.vidaReal, ...(L.ejercicios || []).flatMap((e) => [e.enunciado, e.pista, e.solucion, e.sinAudio, ...(e.opciones || [])])].join('\n');
+  for (const [, ruta] of html.matchAll(/data-audio="([^"]+)"/g)) audios.add(ruta);
+  // Todo carácter chino va dentro de lang="zh-Hans" (lo pone zh()), para que el lector de pantalla cambie de voz.
+  if (/\p{Script=Han}/u.test(html.replace(/<span[^>]*lang="zh-Hans"[^>]*>[^<]*<\/span>/g, '').replace(/(data-oir|aria-label)="[^"]*"/g, ''))) falla(`${donde}: caracteres chinos fuera de zh()`);
 }
+
+// --- Grabaciones: existen, tienen crédito y no engordan el zip ---
+for (const ruta of audios) {
+  const creditos = path.join(__dirname, path.dirname(ruta), 'CREDITOS.md');
+  if (!fs.existsSync(path.join(__dirname, ruta))) falla(`audio: no existe ${ruta}`);
+  else if (!fs.existsSync(creditos) || !fs.readFileSync(creditos, 'utf8').includes(path.basename(ruta))) falla(`audio: ${ruta} sin crédito en ${path.dirname(ruta)}/CREDITOS.md`);
+}
+const peso = (dir) => !fs.existsSync(dir) ? 0 : fs.readdirSync(dir, { withFileTypes: true })
+  .reduce((n, f) => n + (f.isDirectory() ? peso(path.join(dir, f.name)) : fs.statSync(path.join(dir, f.name)).size), 0);
+if (peso(path.join(__dirname, 'audio')) > 2 * 1024 * 1024) falla('audio/: pasa de 2 MB');
 
 if (errores) { console.error(`\n${errores} problema(s).`); process.exit(1); }
 console.log(`✓ Validador OK · ${Object.keys(LECCIONES).length} lecciones revisadas sin problemas.`);

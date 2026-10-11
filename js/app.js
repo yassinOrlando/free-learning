@@ -42,6 +42,8 @@
   const leccionesDe = (m) => m.unidades.flatMap((u, iu) =>
     u.lecciones.map((titulo) => ({ titulo, id: slug(titulo), unidad: u.titulo, numUnidad: iu + 1 })));
   const hayLeccion = (m, id) => Boolean(LECCIONES[`${m.id}/${id}`]);
+  // Los títulos del temario son texto plano: los caracteres chinos se marcan aquí para que el lector de pantalla cambie de voz.
+  const conLang = (titulo) => titulo.replace(/\p{Script=Han}+/gu, '<span lang="zh-Hans">$&</span>');
 
   function vistaInicio() {
     const progreso = Progreso.leer();
@@ -70,15 +72,15 @@
     const unidades = m.unidades.map((u, i) => `
       <section class="unidad" aria-labelledby="u${i}">
         <p class="unidad__etiqueta">${T.unidad} ${i + 1}</p>
-        <h2 id="u${i}">${u.titulo}</h2>
+        <h2 id="u${i}">${conLang(u.titulo)}</h2>
         <ol class="lecciones">
           ${u.lecciones.map((l) => {
             const id = slug(l);
             return `
             <li class="${hechas.has(id) ? 'hecha' : ''}">
               ${hayLeccion(m, id)
-                ? `<a href="#/leccion/${m.id}/${id}">${l}</a>`
-                : `<span>${l}</span><span class="chip">${T.proximamente}</span>`}
+                ? `<a href="#/leccion/${m.id}/${id}">${conLang(l)}</a>`
+                : `<span>${conLang(l)}</span><span class="chip">${T.proximamente}</span>`}
             </li>`;
           }).join('')}
         </ol>
@@ -101,15 +103,15 @@
     const L = LECCIONES[`${m.id}/${id}`];
     const anterior = lista[pos - 1];
     const siguiente = lista[pos + 1];
-    const enlace = (l, txt, clase) => l ? `<a class="${clase}" href="#/leccion/${m.id}/${l.id}"><small>${txt}</small>${l.titulo}</a>` : '<span></span>';
+    const enlace = (l, txt, clase) => l ? `<a class="${clase}" href="#/leccion/${m.id}/${l.id}"><small>${txt}</small>${conLang(l.titulo)}</a>` : '<span></span>';
     const navegacion = `<nav class="lec-nav" aria-label="${T.navLecciones}">${enlace(anterior, T.anterior, 'lec-nav__ant')}${enlace(siguiente, T.siguiente, 'lec-nav__sig')}</nav>`;
     const hecha = (Progreso.leer()[m.id] || []).includes(id);
 
     const cabecera = `
       <a class="migas" href="#/materia/${m.id}">← ${m.nombre}</a>
       <header class="materia__cabecera" style="--color:${m.color}">
-        <p class="unidad__etiqueta">${T.unidad} ${info.numUnidad} · ${info.unidad}</p>
-        <h1>${info.titulo}</h1>
+        <p class="unidad__etiqueta">${T.unidad} ${info.numUnidad} · ${conLang(info.unidad)}</p>
+        <h1>${conLang(info.titulo)}</h1>
         ${L ? `<p class="lec-acciones">
           <button type="button" class="boton boton--secundario" id="imprimir">${T.imprimir}</button>
           ${hecha ? `<span class="chip chip--hecha">✓ ${T.leccionHecha}</span>` : ''}
@@ -128,7 +130,7 @@
         <section class="bloque"><h2>${T.practica}</h2><p class="tenue">${T.practicaIntro}</p><div id="ejercicios"></div>
           <div id="completada" class="completada" hidden tabindex="-1">
             <strong>${T.felicidades}</strong>
-            ${siguiente ? `<a class="boton" href="#/leccion/${m.id}/${siguiente.id}">${T.siguiente}: ${siguiente.titulo}</a>` : ''}
+            ${siguiente ? `<a class="boton" href="#/leccion/${m.id}/${siguiente.id}">${T.siguiente}: ${conLang(siguiente.titulo)}</a>` : ''}
           </div>
         </section>
         <section class="bloque bloque--fuentes"><h2>${T.fuentes}</h2>
@@ -139,7 +141,8 @@
   }
 
   function dibujar() {
-    const ruta = location.hash.replace(/^#\/?/, '').split('/');
+    // El navegador codifica los caracteres chinos del hash (不 llega como %E4%B8%8D): se decodifican para que coincidan con el id de la lección.
+    const ruta = location.hash.replace(/^#\/?/, '').split('/').map((p) => { try { return decodeURIComponent(p); } catch { return p; } });
     const materia = MATERIAS.find((m) => m.id === ruta[1]);
 
     // Las vistas de materia y lección necesitan sus archivos de lecciones cargados.

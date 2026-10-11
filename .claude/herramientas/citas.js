@@ -70,7 +70,8 @@ async function pagina(url) {
     for (const d of f.datos) {
       const cita = normalizar(d.cita);
       if (!cita) { fallas++; console.log(`  ${f.id}·${d.id} FALLA: sin cita`); }
-      else if (cita.split(' ').length < 8) { fallas++; console.log(`  ${f.id}·${d.id} FALLA: cita de menos de 8 palabras (no prueba el dato): "${d.cita.trim()}"`); }
+      // Una línea de una lista en chino (número, nivel, palabra, pinyin, categoría) son 5 piezas y ya identifica el dato.
+      else if (cita.split(' ').length < (/\p{Script=Han}/u.test(cita) ? 5 : 8)) { fallas++; console.log(`  ${f.id}·${d.id} FALLA: cita de menos de 8 palabras (5 si es una línea en chino; no prueba el dato): "${d.cita.trim()}"`); }
       else if (p.texto.includes(cita)) console.log(`  ${f.id}·${d.id} OK`);
       else { fallas++; console.log(`  ${f.id}·${d.id} FALLA: la cita no aparece en la página: "${d.cita.trim().slice(0, 80)}…"`); }
     }

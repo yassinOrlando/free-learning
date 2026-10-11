@@ -14,6 +14,9 @@ L('Porcentajes', {
     { tipo: 'opciones', enunciado, opciones: ['…'], correcta: 1, pista, solucion },
     { tipo: 'texto', enunciado, respuestas: ['…'], pista, solucion },
     { tipo: 'expresion', enunciado, respuesta: 'x^2 + 6x + 9', variables: ['x'], simplificar: true, pista, solucion },
+    { tipo: 'pinyin', enunciado, respuestas: ['nǐ hǎo'], pista, solucion },                        // compara letras y tonos
+    { tipo: 'ordenar', enunciado, respuesta: ['我', '是', '学生'], pinyin: ['wǒ', 'shì', 'xuésheng'], lang: 'zh-Hans', pista, solucion },
+    { tipo: 'opciones', escucha: { voz: '妈' }, sinAudio: `HTML`, enunciado, opciones, correcta, pista, solucion },  // escuchar y elegir
   ],
   fuentes: [{ nombre, url }],
 });
@@ -31,19 +34,26 @@ L('Porcentajes', {
    - Toda gráfica lleva una `descripcion` que diga lo que muestra (los valores o la forma), no solo "una gráfica".
    - El significado nunca depende solo del color: nombra cada curva o serie ("la recta y = 2x + 1"), no "la azul".
    - Las tablas llevan `<th>` en la fila o columna de encabezado.
-   - Texto en otro idioma: `<span lang="en">` o `<span lang="zh">`.
+   - Texto en otro idioma: inglés en `<span lang="en">`; chino siempre con `zh()` (punto 10).
    - No poner enlaces internos `href="#algo"`, porque el ruteo por hash los toma como página. Los enlaces externos (fuentes) sí van.
    - Sin emojis, ni como íconos ni como decoración.
 9. Comprobar las URLs de las fuentes (deben responder 200) y ejecutar `node verificar.js`.
+10. **Chino y audio** (`const zh = window.zh`):
+   - `${zh('你好', 'nǐ hǎo', { es: 'hola' })}` dibuja caracteres, pinyin y un botón de audio, con el `lang` correcto. Úsalo para **todo** carácter chino, también dentro de `opciones`, pistas y soluciones: `verificar.js` falla si hay un carácter fuera de `zh()`.
+   - Opciones: `es` (significado), `audio` (ruta de una grabación, p. ej. `'audio/zh/ma1.m4a'`; debe existir y estar en el `CREDITOS.md` de su carpeta) y `voz` (qué pronuncia la voz si no son los caracteres). Sílaba suelta sin carácter: `zh('', 'mā', { voz: '妈' })`. Sin caracteres, `voz` ni `audio` no hay botón. Una pieza que no se lee sola (un radical como 氵): `zh('氵')`, sin pinyin; sale solo el carácter con su `lang`.
+   - **`pinyin`**: acepta marcas o números (`mā` = `ma1`, `nǐ hǎo` = `ni3hao3`), `ü` = `v` = `u:`, y el tono neutro sin número (o con 5). Rechaza la sílaba sin tono o con otro tono. En `respuestas`, las sílabas van **separadas por espacio** (`'mā ma'`, no `'māma'`), aunque en el texto se escriba junto. El tipo `texto` no sirve para tonos: quita los acentos.
+   - **`ordenar`**: `respuesta` es la lista de piezas en el orden correcto (2 o más); `alternativas` (opcional) son otros órdenes válidos con las mismas piezas. El motor las muestra en un orden fijo distinto. `pinyin` (opcional) es una lista paralela a `respuesta`; `lang` es el idioma de las piezas (`'zh-Hans'` obligatorio si son caracteres chinos). También sirve para ordenar pasos en otras materias.
+   - **Escuchar y elegir**: cualquier ejercicio puede llevar `escucha: { voz: '妈', audio? }`; el motor pone un botón «Escuchar» bajo el enunciado. Es obligatorio `sinAudio`: HTML con lo mismo por escrito (pinyin y descripción del tono) para quien no tiene voz en chino o no puede oír. El enunciado no debe mostrar lo que se va a escuchar.
 
 ## Trampas conocidas
 - `${F(...)}` o `${G(...)}` dentro de comillas simples no se interpola: usa comillas invertidas.
 - Exponentes con Unicode (`x²`, `10⁹`); `<sup>` solo si no existe el carácter.
-- `texto` quita acentos y mayúsculas, pero no superíndices: agrega variantes razonables (sinónimos, con y sin artículo, el término en inglés si aplica, palabras regionales).
+- `texto` quita acentos y mayúsculas (por eso no evalúa tonos: usa `pinyin`), pero no superíndices: agrega variantes razonables (sinónimos, con y sin artículo, el término en inglés si aplica, palabras regionales).
 - "Vida real" se lee antes de la explicación: no puede usar términos que la lección aún no ha definido.
 - Cada viñeta es una frase completa. Máximo 3 términos nuevos en negritas por lección (no cuentan "Trampa común", "Error común" ni las líneas de fórmula).
 - `opciones`: exactamente una correcta, sin distractores absurdos, y los índices `correcta:` repartidos (no todos en 0).
 - Respuestas numéricas como la operación, con `tolerancia` cuando haya redondeo.
 - Etiquetas de ejes con 4 o más dígitos se recortan: usa unidades escaladas ("en miles").
 - No dupliques datos entre lecciones: remite ("como viste en \"Título exacto\"").
-- Títulos citados entre comillas deben existir en `js/temario.js`.
+- Títulos citados entre comillas deben existir en `js/temario.js`. Las frases de ejemplo van entre «», no entre comillas rectas.
+- `zh()` dentro de comillas simples no se interpola, igual que `F()` y `G()`. Dentro de `${…}` usa comillas dobles (`${zh("你", "nǐ")}`): con dos `zh('…')` en la misma línea, `revisar.js` da un falso aviso de comillas simples. Un botón de audio no puede ir dentro de una pieza de `ordenar`.

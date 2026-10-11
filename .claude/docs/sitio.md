@@ -17,6 +17,7 @@ Lo lee quien cambia `index.html`, `estilos.css` o `js/`. Para diseño de UI usa 
 
 ## Detalles técnicos
 - **Progreso**: `localStorage`, clave `free-learning:progreso:v1`, forma `{ idMateria: [idLeccion, ...] }`. El id de una lección es el slug de su título. Lecturas/escrituras dentro de `try/catch`; si falla, el sitio sigue sin progreso. API: `window.Progreso.completar(idMateria, idLeccion)`.
+- **Ruteo**: el id de una lección puede llevar caracteres chinos (`cambios-de-tono-el-tercer-tono-不-y-一`) y el navegador los entrega codificados en `location.hash`; `dibujar()` decodifica cada tramo. Al tocar el ruteo, prueba una lección con caracteres chinos en el título.
 - **PDF**: `window.print()` + `@media print` (fondo claro, sin navegación). Sin librerías.
 - **Fórmulas**: HTML y Unicode (`x²`, `√`, `·`, `<sup>`, `<sub>`). Si alguna vez hace falta KaTeX, copiarlo dentro del proyecto, nunca por CDN.
 - **i18n**: textos en `js/textos.js` y `js/temario.js`. Otro idioma = otra copia traducida de esos archivos.
@@ -24,7 +25,8 @@ Lo lee quien cambia `index.html`, `estilos.css` o `js/`. Para diseño de UI usa 
   - Bordes de campos y botones con contraste de 3:1 o más (token `--borde-control`). Nada que deba leerse por debajo de `.9rem`.
   - Encabezados sin saltos: H1 título, H2 secciones (los pone `app.js`) y, dentro de `explicacion`, `ejemplo` y `vidaReal`, solo `<h3>`.
   - En fórmulas clave, preferir `x²`/`x³` (Unicode, se leen "al cuadrado") sobre `<sup>`, o dar la lectura con `aria-label`.
-  - Texto en otro idioma dentro de una lección (Inglés, Mandarín): envolverlo en `<span lang="en">` o `<span lang="zh">` para que el lector de pantalla use la voz correcta.
+  - Texto en otro idioma dentro de una lección: inglés en `<span lang="en">`; chino siempre con el helper `zh()`, que pone `lang="zh-Hans"` a los caracteres y `lang="zh-Latn-pinyin"` al pinyin. Los caracteres chinos de los títulos del temario los marca `app.js` (`conLang`).
+  - **Audio**: botones `[data-oir]` (los genera `zh()` y el campo `escucha` de un ejercicio). Un solo listener en `js/ejercicios.js`: primero la grabación (`data-audio`, con `new Audio()`), si falla o no hay, `speechSynthesis` con una voz `zh-CN`, `zh-TW` o `cmn` (nunca `zh-HK`, que es cantonés). Sin voz, se muestra `TEXTOS.sinVoz`. Nada puede depender solo del audio. Los caracteres usan la fuente china del sistema; no se empaqueta ninguna.
   - Ejercicios: cada campo se describe con su enunciado (`aria-describedby`), marca `aria-invalid` al fallar y la retroalimentación se reanuncia aunque el texto se repita. No enlazar a `#id` dentro de la página: el ruteo por hash lo tomaría como ruta.
 
 ## Archivos del sitio
@@ -39,7 +41,8 @@ Estructura:
 - `estilos.css`: tokens de color en `:root`, tema oscuro, `@media print` para PDF.
 - `js/textos.js`: todos los textos de la interfaz (`window.TEXTOS`).
 - `js/temario.js`: temario (`window.TEMARIO`).
-- `js/ejercicios.js`: `slug()`, `registrarLeccion()`, `fraccion()` y el motor de ejercicios (validación y UI).
+- `js/ejercicios.js`: `slug()`, `registrarLeccion()`, `fraccion()`, `grafica()`, `zh()` y el motor de ejercicios (validación y UI).
+- `audio/<idioma>/`: grabaciones con licencia libre y su `CREDITOS.md` (cada archivo citado). `verificar.js` limita la carpeta a 2 MB.
 - `js/app.js`: ruteo, vistas, carga diferida de lecciones y progreso.
 - `lecciones/<materia>/<unidad>.js`: contenido de una unidad. Se carga al entrar a la materia.
 - `verificar.js`: revisión automática (`node verificar.js`). Prueba el validador de respuestas y que cada lección esté completa, coincida con el temario y acepte sus propias respuestas. `empaquetar.sh` lo ejecuta antes de generar el zip.

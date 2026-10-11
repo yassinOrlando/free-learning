@@ -39,7 +39,8 @@ for (const k of claves) {
   const html = [L.objetivo, L.explicacion, L.ejemplo, L.vidaReal, ...L.ejercicios.flatMap((e) => [e.enunciado, e.pista, e.solucion, ...(e.opciones || [])])].join('\n');
   for (const [re, msg] of PROHIBIDOS) if (re.test(html)) console.log('  ' + mal(msg));
   if (correctas.length > 2 && new Set(correctas).size === 1) console.log(`  ⚠ todas las opciones correctas en el índice ${correctas[0]}`);
-  for (const [, cita] of limpiar(html).matchAll(/"([A-ZÁÉÍÓÚÑ¿][^"]{3,90})"/g))
+  // Los <span> en línea (caracteres chinos con zh()) se quitan sin dejar espacio, para que el título citado siga coincidiendo con el temario.
+  for (const [, cita] of limpiar(html.replace(/<\/?span[^>]*>/g, '')).matchAll(/"([A-ZÁÉÍÓÚÑ¿][^"]{3,90})"/g))
     if (!titulos.has(cita) && /\s/.test(cita)) console.log(`  ⚠ ¿título citado? "${cita}" no está en el temario`);
 }
 const texto = fs.readFileSync(archivo, 'utf8');

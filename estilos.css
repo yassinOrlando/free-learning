@@ -272,6 +272,35 @@ td + td, th + th { padding-left: 14px; }
 .ayuda > div { padding: 2px 0 6px 16px; border-left: 2px solid var(--borde-fuerte); color: var(--texto-tenue); }
 .ayuda > div p:last-child { margin-bottom: 0; }
 .linea-respuesta { display: none; }
+
+/* Chino: caracteres, pinyin y audio. Los caracteres usan la fuente china del sistema (empaquetar una pesa de 5 a 15 MB). */
+[lang|="zh"] { font-family: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans SC', 'Source Han Sans SC', sans-serif; }
+/* El pinyin va en la fuente del sistema: tiene todas las vocales con marca de tono (ǎ, ǚ) con el mismo dibujo. */
+.pinyin { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.zh__han { font-size: 1.25em; }
+.zh__es { color: var(--texto-tenue); }
+.oir {
+  display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; margin-block: -12px;
+  vertical-align: middle; padding: 0; background: none; border: 0; border-radius: var(--radio); color: var(--acento); cursor: pointer;
+}
+.oir:hover { color: var(--acento-hover); }
+.oir:focus-visible { outline: 2px solid var(--anillo); outline-offset: -4px; }
+.oir__aviso { font-size: .9rem; color: var(--texto-tenue); }
+.escucha { margin: 0 0 4px; }
+.escucha .boton { gap: 8px; }
+.ordenar { flex: 1 1 100%; display: grid; gap: 10px; }
+.ordenar__frase, .ordenar__piezas { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; align-items: center; }
+.ordenar__frase { padding: 4px 8px; border-bottom: 1px solid var(--borde-control); }
+.ordenar small { font-size: .9rem; color: var(--texto-tenue); }
+.pieza {
+  display: inline-grid; justify-items: center; min-width: 44px; min-height: 44px; padding: 6px 12px; cursor: pointer;
+  font: 400 1.1rem var(--fuente); color: var(--texto); background: var(--fondo);
+  border: 1px solid var(--borde-control); border-radius: var(--radio); transition: border-color .15s ease;
+}
+.pieza:hover { border-color: var(--texto-tenue); }
+.pieza:focus-visible { outline: 2px solid var(--anillo); outline-offset: 2px; }
+.ordenar__frase .pieza { border-color: var(--acento); }
+.pieza .pinyin { font-size: .9rem; color: var(--texto-tenue); }
 .completada {
   display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   margin-top: 24px; padding: 4px 0 4px 20px;
@@ -330,7 +359,7 @@ td + td, th + th { padding-left: 14px; }
   :root { --fondo: #fff; --tarjeta: #fff; --apagado: #eee; --borde: #ccc; --borde-fuerte: #999; --texto: #000; --texto-tenue: #333; --acento: #000; --progreso: #000; --color: #000; }
   body { font-size: 11pt; }
   .encabezado, .pie, .saltar, .migas, .lec-acciones, .lec-nav, .completada,
-  .ejercicio form, .retro, .ayuda, .bloque > .tenue { display: none !important; }
+  .ejercicio form, .retro, .ayuda:not(.sin-audio), .oir, .escucha, .bloque > .tenue { display: none !important; }
   .tarjeta, .unidad, .pasos li, .bloque, .ejercicio { box-shadow: none; break-inside: avoid; background: none; }
   .linea-respuesta { display: block; height: 3em; border-bottom: 1px solid #999; }
   a { color: #000; }

@@ -133,6 +133,58 @@
     return `<span class="grafica"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${descripcion.replace(/"/g, '&quot;')}">${svg}</svg></span>`;
   }
 
+  // --- Otro idioma: caracteres chinos + pinyin + botón de audio ---
+
+  const ALTAVOZ = '<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+  const attr = (t) => String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+  const datosAudio = (voz, audio) => `data-oir="${attr(voz || '')}"${audio ? ` data-audio="${attr(audio)}"` : ''}`;
+
+  // Texto en chino para el HTML de una lección: ${zh('你好', 'nǐ hǎo', { es: 'hola' })}
+  // Pone el lang correcto a los caracteres y al pinyin, y un botón que lo pronuncia.
+  // Opciones: es (significado), audio (ruta de una grabación dentro del proyecto; si falla se usa la voz del sistema)
+  // y voz (qué decir si no son los caracteres; para sílabas sueltas: zh('', 'mā', { voz: '妈' })).
+  // Sin pinyin (zh('氵')) devuelve solo el carácter con su lang: para radicales y trazos que no se leen solos.
+  function zh(hanzi, pinyin, { es, audio, voz } = {}) {
+    const dice = voz || hanzi;
+    if (!pinyin) return `<span class="zh__han" lang="zh-Hans">${hanzi}</span>`; // pieza que no se pronuncia sola (un radical): sin pinyin ni botón
+    return '<span class="zh">' +
+      (hanzi ? `<span class="zh__han" lang="zh-Hans">${hanzi}</span> ` : '') +
+      `<span class="pinyin" lang="zh-Latn-pinyin">${pinyin}</span>` +
+      (dice || audio ? `<button type="button" class="oir" ${datosAudio(dice, audio)} aria-label="${attr(`${W.TEXTOS?.escuchar ?? ''} ${pinyin}`)}">${ALTAVOZ}</button>` : '') +
+      (es ? ` <span class="zh__es">${es}</span>` : '') + '</span>';
+  }
+
+  // Audio: un solo listener para todos los botones [data-oir]. Primero la grabación (data-audio), si no la voz del sistema.
+  if (W.document) {
+    // Mandarín: zh-CN, zh-TW o cmn. zh-HK y yue son cantonés.
+    const vozChina = () => (W.speechSynthesis ? W.speechSynthesis.getVoices() : [])
+      .filter((v) => /^(zh|cmn)/i.test(v.lang) && !/HK|yue/i.test(v.lang))
+      .sort((a, b) => /CN|cmn/i.test(b.lang) - /CN|cmn/i.test(a.lang))[0];
+    if (W.speechSynthesis) W.speechSynthesis.getVoices(); // algunos navegadores cargan las voces al primer pedido
+    const hablar = (boton) => {
+      const voz = vozChina();
+      if (!voz || !boton.dataset.oir) {
+        const tras = boton.closest('.zh') || boton; // después del significado, para no partir la frase
+        if (!tras.nextElementSibling?.classList.contains('oir__aviso')) {
+          tras.insertAdjacentHTML('afterend', ` <span class="oir__aviso" role="status">${W.TEXTOS.sinVoz}</span>`);
+        }
+        return;
+      }
+      const u = new SpeechSynthesisUtterance(boton.dataset.oir);
+      u.voice = voz; u.lang = voz.lang; u.rate = 0.8;
+      W.speechSynthesis.cancel();
+      W.speechSynthesis.speak(u);
+    };
+    W.document.addEventListener('click', (e) => {
+      const boton = e.target.closest ? e.target.closest('[data-oir]') : null;
+      if (!boton) return;
+      if (boton.dataset.audio) new Audio(boton.dataset.audio).play().catch(() => hablar(boton));
+      else hablar(boton);
+    });
+    // Al imprimir no hay audio: se abre la alternativa escrita de cada ejercicio de escucha.
+    W.addEventListener('beforeprint', () => W.document.querySelectorAll('details.sin-audio').forEach((d) => { d.open = true; }));
+  }
+
   // --- Validación ---
 
   // Convierte lo que escribió la persona en los números que pudo haber querido decir.
@@ -186,6 +238,38 @@
 
   const normalizarTexto = (texto) => String(texto).normalize('NFD').replace(/[̀-ͯ]/g, '')
     .toLowerCase().replace(/\s+/g, ' ').trim().replace(/[.。]$/, '').trim();
+
+  // Pinyin con tonos. Separa las letras de los tonos: { letras: 'nihao', tonos: { 1: 3, 4: 3 } } (índice de letra: tono).
+  // Acepta marcas (nǐ) y números (ni3); ü, v y u: son la misma letra. El tono neutro no lleva nada (o 5 o 0).
+  const MARCAS = { '\u0304': 1, '\u0301': 2, '\u030C': 3, '\u0306': 3, '\u0300': 4 };
+  function leerPinyin(texto) {
+    let letras = '';
+    const tonos = {};
+    for (const c of String(texto).normalize('NFD').toLowerCase().replace(/u\u0308|u:/g, 'v')) {
+      if (/[a-z]/.test(c)) letras += c;
+      else if (MARCAS[c] || /[1-4]/.test(c)) tonos[letras.length - 1] = MARCAS[c] || +c;
+    }
+    return { letras, tonos };
+  }
+  // ponytail: las sílabas de `esperado` van separadas por espacio ('nǐ hǎo'); así se sabe a qué sílaba toca cada tono
+  // sin un segmentador de pinyin. verificar.js exige ese formato en las respuestas.
+  function pinyinIgual(escrito, esperado) {
+    const silabas = String(esperado).trim().split(/[\s'’]+/).map(leerPinyin);
+    const u = leerPinyin(escrito);
+    if (u.letras !== silabas.map((s) => s.letras).join('')) return false;
+    let inicio = 0;
+    return silabas.every((s) => {
+      const fin = inicio + s.letras.length;
+      const escritos = Object.keys(u.tonos).filter((i) => i >= inicio && i < fin).map((i) => u.tonos[i]);
+      inicio = fin;
+      const esperados = Object.values(s.tonos);
+      return escritos.length === esperados.length && escritos[0] === esperados[0];
+    });
+  }
+
+  // Orden fijo (no aleatorio) en que se muestran las piezas de un ejercicio "ordenar": impares y luego pares al revés.
+  // Nunca coincide con el orden correcto si hay 2 piezas o más.
+  const barajar = (n) => [...Array(n).keys()].filter((i) => i % 2).concat([...Array(n).keys()].filter((i) => i % 2 === 0).reverse());
 
   // Convierte una expresión algebraica escrita por la persona en una función evaluable.
   // Sin eval: parser de descenso recursivo. Acepta + - * / ^ × · − ÷, paréntesis, x², coma decimal
@@ -282,6 +366,8 @@
     }
     if (ej.tipo === 'opciones') return Number(valor) === ej.correcta;
     if (ej.tipo === 'texto') return ej.respuestas.some((r) => normalizarTexto(r) === normalizarTexto(valor));
+    if (ej.tipo === 'pinyin') return ej.respuestas.some((r) => pinyinIgual(valor, r));
+    if (ej.tipo === 'ordenar') return [ej.respuesta, ...(ej.alternativas || [])].some((r) => r.join('|') === String(valor));
     return false;
   }
 
@@ -292,18 +378,31 @@
     const resueltos = new Set();
     contenedor.innerHTML = ejercicios.map((ej, i) => {
       const id = `ej${i}`;
+      const ayuda = { expresion: T.ayudaExpresion, pinyin: T.ayudaPinyin }[ej.tipo];
       const campo = ej.tipo === 'opciones'
         ? `<fieldset class="opciones" aria-describedby="${id}-e ${id}-r"><legend class="oculto">${T.tuRespuesta}</legend>${ej.opciones.map((o, j) => `
             <label class="opcion"><input type="radio" name="${id}" value="${j}"> <span>${o}</span></label>`).join('')}
           </fieldset>`
+        : ej.tipo === 'ordenar'
+        ? `<div class="ordenar" role="group" aria-label="${T.tuRespuesta}" aria-describedby="${id}-e ${id}-a ${id}-r">
+            <div class="ordenar__frase" aria-live="polite"></div>
+            <div class="ordenar__piezas">${barajar(ej.respuesta.length).map((k) => `
+              <button type="button" class="pieza" data-v="${attr(ej.respuesta[k])}"><span${ej.lang ? ` lang="${ej.lang}"` : ''}>${ej.respuesta[k]}</span>${ej.pinyin ? `<span class="pinyin" lang="zh-Latn-pinyin">${ej.pinyin[k]}</span>` : ''}</button>`).join('')}
+            </div>
+            <small id="${id}-a">${T.ayudaOrdenar}</small>
+          </div>`
         : `<label class="campo"><span>${T.tuRespuesta}</span>
             <input type="text" name="${id}" autocomplete="off" autocapitalize="off" spellcheck="false" ${ej.tipo === 'numero' ? 'inputmode="decimal"' : ''}
-              aria-describedby="${id}-e${ej.tipo === 'expresion' ? ` ${id}-a` : ''} ${id}-r">
-            ${ej.tipo === 'expresion' ? `<small id="${id}-a">${T.ayudaExpresion}</small>` : ''}</label>`;
+              aria-describedby="${id}-e${ayuda ? ` ${id}-a` : ''} ${id}-r">
+            ${ayuda ? `<small id="${id}-a">${ayuda}</small>` : ''}</label>`;
+      // Ejercicio de escucha: botón de audio y, para quien no puede oírlo, la misma información por escrito.
+      const escucha = ej.escucha ? `
+          <p class="escucha"><button type="button" class="boton boton--secundario" ${datosAudio(ej.escucha.voz, ej.escucha.audio)}>${ALTAVOZ} ${T.escuchar}</button></p>
+          <details class="ayuda sin-audio"><summary>${T.noPuedoEscuchar}</summary><div>${ej.sinAudio}</div></details>` : '';
       return `
         <article class="ejercicio" data-i="${i}" aria-labelledby="${id}-t">
           <h3 id="${id}-t">${T.ejercicio} ${i + 1}</h3>
-          <div class="enunciado" id="${id}-e">${ej.enunciado}</div>
+          <div class="enunciado" id="${id}-e">${ej.enunciado}</div>${escucha}
           <div class="linea-respuesta" aria-hidden="true"></div>
           <form novalidate>
             ${campo}
@@ -320,7 +419,15 @@
       const ej = ejercicios[i];
       const form = art.querySelector('form');
       const retro = art.querySelector('.retro');
-      const control = form.querySelector('fieldset') || form.querySelector('input');
+      const control = form.querySelector('fieldset, .ordenar') || form.querySelector('input');
+      // Ordenar: cada pieza es un botón que pasa del banco a la respuesta y de vuelta (sirve con teclado, sin arrastrar).
+      const frase = form.querySelector('.ordenar__frase');
+      if (frase) control.addEventListener('click', (e) => {
+        const pieza = e.target.closest('.pieza');
+        if (!pieza) return;
+        (pieza.parentElement === frase ? form.querySelector('.ordenar__piezas') : frase).appendChild(pieza);
+        pieza.focus();
+      });
       // aria-live solo habla si el texto cambia: vaciarlo primero hace que se anuncie también un segundo "Todavía no".
       const avisar = (clase, texto) => {
         retro.className = clase;
@@ -331,6 +438,7 @@
         e.preventDefault();
         const valor = ej.tipo === 'opciones'
           ? form.querySelector('input:checked')?.value
+          : frase ? [...frase.querySelectorAll('.pieza')].map((p) => p.dataset.v).join('|')
           : form.querySelector('input').value;
         if (valor === undefined || String(valor).trim() === '') {
           avisar('retro', T.escribeRespuesta);
@@ -357,5 +465,6 @@
   W.registrarLeccion = registrarLeccion;
   W.fraccion = fraccion;
   W.grafica = grafica;
-  W.Ejercicios = { normalizarNumero, normalizarTexto, parsearExpresion, expresionesIguales, esCorrecta, montar };
+  W.zh = zh;
+  W.Ejercicios = { normalizarNumero, normalizarTexto, parsearExpresion, expresionesIguales, pinyinIgual, barajar, esCorrecta, montar };
 })();

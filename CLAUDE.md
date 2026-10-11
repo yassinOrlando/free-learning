@@ -4,7 +4,7 @@ Sitio local-first y frontend-only con lecciones de lo que todo el mundo debería
 
 ## Alcance
 - Educación básica y media; educación superior queda fuera.
-- Idiomas que se enseñan: solo Inglés (A1 a B1 del MCER) y Mandarín (nuevo HSK 3.0, niveles 1 a 3). Pronunciación con `speechSynthesis`; sin voz del sistema, el ejercicio sigue siendo usable (pinyin o transcripción).
+- Idiomas que se enseñan: solo Inglés (A1 a B1 del MCER) y Mandarín (HSK 3.0, niveles 1 a 6, según el sílabo oficial de 2025). En Mandarín, pinyin con marcas de tono siempre junto a los caracteres. Pronunciación con `speechSynthesis` y, donde exista, una grabación dentro del proyecto (`audio/`); sin audio, el ejercicio sigue siendo usable (pinyin o transcripción).
 - Interfaz y contenido solo en español por ahora. La i18n está planeada: todo texto visible sale de `js/textos.js` o `js/temario.js`, nunca hardcodeado.
 - Materias: Autosuficiencia, Finanzas personales, Finanzas y economía, Inteligencia artificial, Matemáticas, Física, Química, Ciencias naturales, Ofimática, Lectura, Inglés, Mandarín.
 - El temario (materias, unidades y lecciones en orden) vive solo en `js/temario.js`, la única fuente de verdad. No duplicarlo.
@@ -18,8 +18,9 @@ Sitio local-first y frontend-only con lecciones de lo que todo el mundo debería
 
 ## Mapa
 - `index.html` (ruteo por hash: `#/`, `#/materia/<id>`, `#/leccion/<materia>/<idLeccion>`, `#/como-usar`), `estilos.css`, `tipografia/`.
-- `js/textos.js` (textos de la UI), `js/temario.js`, `js/ejercicios.js` (`slug()`, `registrarLeccion()`, `fraccion()`, `grafica()` y motor de ejercicios), `js/app.js` (vistas, carga diferida, progreso).
+- `js/textos.js` (textos de la UI), `js/temario.js`, `js/ejercicios.js` (`slug()`, `registrarLeccion()`, `fraccion()`, `grafica()`, `zh()` y motor de ejercicios), `js/app.js` (vistas, carga diferida, progreso).
 - `lecciones/<materia>/<unidad>.js`: contenido de una unidad, declarado con `archivo:` en el temario.
+- `audio/<idioma>/`: grabaciones de pronunciación con su `CREDITOS.md` (2 MB como máximo en total).
 - `verificar.js`: valida el motor y que cada lección esté completa, coincida con el temario y acepte sus propias respuestas.
 - `.claude/herramientas/`, scripts sin modelo:
   - `revisar.js <unidad.js>`: palabras, negritas, greps y títulos citados.
