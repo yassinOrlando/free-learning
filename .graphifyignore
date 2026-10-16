@@ -1,0 +1,6 @@
+# Grabaciones de pronunciación: sílabas sueltas, nada que extraer.
+audio/
+# Copias de trabajo: ficha.md ya une las fichas parciales y antes-auditoria*.js son copias de las lecciones.
+.claude/trabajo/**/ficha-*.md
+.claude/trabajo/**/antes-auditoria*.js
+descargar/

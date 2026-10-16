@@ -80,6 +80,8 @@ let errores = 0;
 const audios = new Set();
 const falla = (msg) => { errores++; console.error('✗ ' + msg); };
 const enTemario = new Set();
+// Lecciones de Mandarín que deben tener tabla de vocabulario (todas salvo la unidad 1, de sonidos y escritura).
+const conVocab = new Set(TEMARIO.find((m) => m.id === 'mandarin').unidades.slice(1).flatMap((u) => u.lecciones.map((t) => `mandarin/${slug(t)}`)));
 
 for (const m of TEMARIO) {
   for (const u of m.unidades) {
@@ -99,6 +101,9 @@ for (const [clave, L] of Object.entries(LECCIONES)) {
     if (typeof L[campo] !== 'string' || L[campo].trim().length < 20) falla(`${donde}: falta "${campo}"`);
   }
   if (!Array.isArray(L.fuentes) || !L.fuentes.length) falla(`${donde}: sin fuentes`);
+  // El modal de vocabulario lee la tabla con class="vocabulario": una sola por lección de idiomas.
+  const nVocab = (String(L.explicacion).match(/<table class="vocabulario"/g) || []).length;
+  if (conVocab.has(clave) ? nVocab !== 1 : nVocab > 1) falla(`${donde}: debe tener ${conVocab.has(clave) ? 'exactamente una' : 'como mucho una'} tabla class="vocabulario" (tiene ${nVocab})`);
   (L.fuentes || []).forEach((f) => { if (!f.nombre || !/^https:\/\//.test(f.url)) falla(`${donde}: fuente inválida ${JSON.stringify(f)}`); });
   if (!Array.isArray(L.ejercicios) || L.ejercicios.length < 3) falla(`${donde}: menos de 3 ejercicios`);
   (L.ejercicios || []).forEach((ej, i) => {

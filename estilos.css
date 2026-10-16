@@ -307,6 +307,41 @@ td + td, th + th { padding-left: 14px; }
   border-left: 2px solid var(--acento);
 }
 .completada[hidden] { display: none; }
+/* Vocabulario de idiomas: botón flotante y modal (<dialog>) */
+.vocab-boton { position: fixed; right: 24px; bottom: 24px; z-index: 10; }
+main.contenedor.con-vocab { padding-bottom: 104px; }
+dialog.vocab {
+  width: min(720px, calc(100% - 32px)); max-height: 85vh; padding: 0;
+  border: 1px solid var(--borde-fuerte); border-radius: var(--radio); background: var(--tarjeta); color: var(--texto);
+}
+dialog.vocab::backdrop { background: rgb(0 0 0 / .65); }
+.vocab__caja { padding: 0 24px 24px; }
+.vocab__cabecera {
+  position: sticky; top: 0; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 16px 0 10px; margin-bottom: 8px; background: var(--tarjeta); border-bottom: 1px solid var(--borde);
+}
+.vocab__cabecera h2 { margin: 0; font-size: 1.4rem; }
+.vocab__cerrar {
+  display: inline-flex; align-items: center; justify-content: center; flex: none; width: 44px; height: 44px; padding: 0;
+  background: none; border: 1px solid var(--borde-control); border-radius: var(--radio); color: var(--texto); cursor: pointer;
+}
+.vocab__cerrar:hover { border-color: var(--texto-tenue); }
+.vocab__cerrar:focus-visible, .vocab-boton:focus-visible { outline: 2px solid var(--anillo); outline-offset: 2px; }
+.vocab-grupo { border-bottom: 1px solid var(--borde); }
+.vocab-grupo > summary {
+  display: flex; align-items: center; gap: 8px; min-height: 48px; padding: 6px 0; cursor: pointer;
+  font: 600 1.1rem var(--serif); list-style: none;
+}
+.vocab-grupo > summary::-webkit-details-marker { display: none; }
+.vocab-grupo > summary::before { content: '▸' / ''; color: var(--acento); transition: transform .15s ease; }
+.vocab-grupo[open] > summary::before { transform: rotate(90deg); }
+.vocab-grupo > summary:focus-visible { outline: 2px solid var(--anillo); outline-offset: 2px; }
+.vocab-grupo > summary .tenue { font: 400 .92rem var(--fuente); }
+.vocab-grupo--leccion { margin-left: 18px; }
+.vocab-grupo--leccion > summary { font: 400 1rem var(--fuente); min-height: 44px; }
+.vocab-grupo--leccion:last-child { border-bottom: 0; }
+.vocab-grupo--leccion .tabla-wrap { margin-left: 18px; }
+.vocab table { width: 100%; }
 .oculto { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 .lec-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: var(--medida); margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--borde); }
@@ -353,13 +388,15 @@ td + td, th + th { padding-left: 14px; }
   .lec-nav { grid-template-columns: 1fr; }
   .lec-nav__sig { text-align: left; }
   .nav .boton { margin-left: 0; }
+  .vocab-boton { right: 16px; bottom: 16px; }
+  .vocab__caja { padding: 0 16px 16px; }
 }
 
 @media print {
   :root { --fondo: #fff; --tarjeta: #fff; --apagado: #eee; --borde: #ccc; --borde-fuerte: #999; --texto: #000; --texto-tenue: #333; --acento: #000; --progreso: #000; --color: #000; }
   body { font-size: 11pt; }
   .encabezado, .pie, .saltar, .migas, .lec-acciones, .lec-nav, .completada,
-  .ejercicio form, .retro, .ayuda:not(.sin-audio), .oir, .escucha, .bloque > .tenue { display: none !important; }
+  .ejercicio form, .retro, .ayuda:not(.sin-audio), .oir, .escucha, .vocab-boton, dialog.vocab, .bloque > .tenue { display: none !important; }
   .tarjeta, .unidad, .pasos li, .bloque, .ejercicio { box-shadow: none; break-inside: avoid; background: none; }
   .linea-respuesta { display: block; height: 3em; border-bottom: 1px solid #999; }
   a { color: #000; }

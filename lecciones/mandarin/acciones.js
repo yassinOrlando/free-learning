@@ -7,7 +7,7 @@
   const zh = window.zh;
   const L = (titulo, datos) => window.registrarLeccion('mandarin', titulo, datos);
   // Tabla de vocabulario: palabra con su botón y significado.
-  const tabla = (filas) => `<div class="tabla-wrap"><table><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map(([h, p, es]) => `<tr><td>${zh(h, p)}</td><td>${es}</td></tr>`).join('')}</table></div>`;
+  const tabla = (filas) => `<div class="tabla-wrap"><table class="vocabulario"><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map(([h, p, es]) => `<tr><td>${zh(h, p)}</td><td>${es}</td></tr>`).join('')}</table></div>`;
   const txt = (x, y, texto) => ({ tipo: 'texto', x, y, texto });
   const lin = (desde, hasta) => ({ tipo: 'linea', desde, hasta });
   const caja = (x1, y1, x2, y2) => ({ tipo: 'poligono', puntos: [[x1, y1], [x2, y1], [x2, y2], [x1, y2]] });

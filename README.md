@@ -37,7 +37,7 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 | Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
 | Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | Próximamente |
 | Inglés | Niveles A1, A2 y B1 | Próximamente |
-| Mandarín | HSK 1 a 6 (sílabo HSK 3.0 de 2025) | 30 de 138 lecciones listas (HSK 1 completo) |
+| Mandarín | HSK 1 a 6 (sílabo HSK 3.0 de 2025) | 62 de 140 lecciones listas (HSK 1 y 2 completos) (HSK 1 completo) |
 
 En total hay 313 lecciones listas en cinco materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
 

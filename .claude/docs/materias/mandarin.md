@@ -1,6 +1,6 @@
 # Materia: Mandarín (`mandarin`)
 
-18 unidades, 138 lecciones (títulos en `js/temario.js`). Archivos: `lecciones/mandarin/<unidad>.js`. Niveles 1 a 6 del HSK 3.0.
+18 unidades, 140 lecciones (títulos en `js/temario.js`). Archivos: `lecciones/mandarin/<unidad>.js`. Niveles 1 a 6 del HSK 3.0.
 
 ## Referencia
 - La referencia es el sílabo oficial **«HSK 考试大纲»** (Centro de Educación y Cooperación Lingüística, CLEC; publicado en noviembre de 2025, en vigor desde julio de 2026). Trae por nivel: tareas (任务大纲), temas (话题大纲), vocabulario (词汇大纲), caracteres (汉字大纲) y gramática (语法大纲). URL y cómo leerlo: `fuentes.md`.
@@ -14,7 +14,7 @@
 - **Pinyin siempre con marcas de tono** (`nǐ hǎo`) junto a los caracteres, en toda la materia y en todos los niveles. Nunca pinyin solo con números ni caracteres sin pinyin. El pinyin se copia del sílabo tal cual (`bàba`, sin espacio y sin corregir).
 - Todo carácter chino sale de `zh()` (ver `formato-leccion.md`, punto 10), que pone `lang="zh-Hans"` a los caracteres y `lang="zh-Latn-pinyin"` al pinyin. `verificar.js` falla si hay un carácter fuera de `zh()`. Los títulos del temario no se tocan: los marca `app.js`.
 - **Carga por lección**: HSK 1 y 2, hasta 12 palabras nuevas y 8 caracteres nuevos. HSK 3, hasta 15 palabras. HSK 4 a 6, hasta 20 palabras, sin tope de caracteres. La unidad 1 (sonidos y escritura) casi no enseña palabras: enseña el sistema.
-- Las palabras nuevas van en una tabla (carácter, pinyin, significado) dentro de `.tabla-wrap`, con `<th>`. No van en `<strong>`: los 3 términos en negritas son para conceptos (tono, radical, clasificador).
+- Las palabras nuevas van en **una** tabla de vocabulario (`table class="vocabulario"`, la pone el helper `tabla`; ver `formato-leccion.md`, punto 10), que alimenta el botón «Vocabulario» de la lección y de la materia (carácter, pinyin, significado) dentro de `.tabla-wrap`, con `<th>`. No van en `<strong>`: los 3 términos en negritas son para conceptos (tono, radical, clasificador).
 - **Cobertura honesta**: HSK 1 y 2 cubren casi toda su lista de palabras. De HSK 3 a 6 se enseña toda la gramática y todos los temas, con una selección de palabras. La primera lección de cada unidad de HSK 3 a 6 lo dice y enlaza el sílabo.
 - **Audio**: cada palabra nueva lleva su botón (lo pone `zh()`), que usa la voz del sistema. Nada depende solo del audio: todo ejercicio con `escucha` lleva `sinAudio` con el pinyin y la descripción del tono ("empieza alto y se mantiene"). Di una vez por unidad que la voz depende del dispositivo y que el pinyin manda.
 - **Grabaciones** (`audio/zh/`): **desde la unidad 4, solo voz del sistema; no se descargan más grabaciones** (decisión del usuario, 2026-10-10). Las lecciones nuevas no llevan `audio:` en `zh()` ni en `escucha`. Las 134 grabaciones existentes se conservan en las unidades 1 a 3 (sílabas de la unidad 1, tabla completa en la unidad 2, 6 por lección en la unidad 3), con su crédito en `audio/zh/CREDITOS.md`. Si alguna vez se retoma: voz humana nativa de mandarín (Proyecto Shtooka; Lingua Libre solo si el hablante declara mandarín como lengua materna).

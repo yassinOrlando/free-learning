@@ -879,7 +879,7 @@ window.TEMARIO = [
         'Arriba, abajo, dentro y fuera: 上, 下, 里 y 外',
         'En la escuela',
       ]},
-      { titulo: 'HSK 2 · Gramática', lecciones: [
+      { titulo: 'HSK 2 · Gramática', archivo: 'lecciones/mandarin/hsk2-gramatica.js', lecciones: [
         'Experiencias: 过',
         'Un estado que sigue: 着',
         'Comparar con 比',
@@ -893,15 +893,17 @@ window.TEMARIO = [
         'Destacar cuándo, dónde y cómo: 是…的',
         'En cuanto: 一…就…',
       ]},
-      { titulo: 'HSK 2 · Situaciones', lecciones: [
+      { titulo: 'HSK 2 · Situaciones', archivo: 'lecciones/mandarin/hsk2-situaciones.js', lecciones: [
         'Transporte y direcciones',
         'El clima',
         'En la tienda',
         'En el médico',
         'Pasatiempos',
         'Hablar por teléfono',
+        'La gente: familia y nombres',
+        'Un día completo: repaso de HSK 2',
       ]},
-      { titulo: 'HSK 3 · Gramática', lecciones: [
+      { titulo: 'HSK 3 · Gramática', archivo: 'lecciones/mandarin/hsk3-gramatica.js', lecciones: [
         'Más resultados: 到, 住 y 上',
         'Dirección con sentido figurado: 起来 y 下去',
         'Se puede o no se puede: 得 y 不 tras el verbo',

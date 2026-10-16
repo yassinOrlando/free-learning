@@ -50,24 +50,24 @@
     "semantic_hash": "0d3ae516c62b4703cd47e2a7a30abe3c"
   },
   "js/app.js": {
-    "mtime": 1791328133.2759,
-    "ast_hash": "4be0da8029c29e0e005b0d6c9f3af88c",
-    "semantic_hash": "4be0da8029c29e0e005b0d6c9f3af88c"
+    "mtime": 1792109978.1843784,
+    "ast_hash": "a6cdb189480a46ce0c0a1518ef9261e6",
+    "semantic_hash": "a6cdb189480a46ce0c0a1518ef9261e6"
   },
   "js/ejercicios.js": {
-    "mtime": 1791390036.998224,
-    "ast_hash": "e4ebf58fd55b7144c8c6437dc83bae08",
-    "semantic_hash": "e4ebf58fd55b7144c8c6437dc83bae08"
+    "mtime": 1791649953.3411994,
+    "ast_hash": "28638f59ac9d2a5bce224e6e7a557f6c",
+    "semantic_hash": "28638f59ac9d2a5bce224e6e7a557f6c"
   },
   "js/temario.js": {
-    "mtime": 1791606215.1082995,
-    "ast_hash": "c67feb562c7af5a1404c4b3aa3669e52",
-    "semantic_hash": "c67feb562c7af5a1404c4b3aa3669e52"
+    "mtime": 1792113051.211001,
+    "ast_hash": "a872245220c802987d24d81cfcf225bb",
+    "semantic_hash": "a872245220c802987d24d81cfcf225bb"
   },
   "js/textos.js": {
-    "mtime": 1791328133.276099,
-    "ast_hash": "cfef53c97b491b7ce1ad8155cef27540",
-    "semantic_hash": "cfef53c97b491b7ce1ad8155cef27540"
+    "mtime": 1792109912.755856,
+    "ast_hash": "de708e371249e34ff9b3f23eee57d007",
+    "semantic_hash": "de708e371249e34ff9b3f23eee57d007"
   },
   "lecciones/matematicas/aritmetica.js": {
     "mtime": 1791323201.6205635,
@@ -75,9 +75,9 @@
     "semantic_hash": "1204aaeb36c095fb06006ca76b99f0fd"
   },
   "verificar.js": {
-    "mtime": 1791390038.0315857,
-    "ast_hash": "e14f8efdc9a76dfacaeaf322127f3451",
-    "semantic_hash": "e14f8efdc9a76dfacaeaf322127f3451"
+    "mtime": 1792109295.086241,
+    "ast_hash": "368a4b27e3e30b2468a4ca4ebbcfefb9",
+    "semantic_hash": "368a4b27e3e30b2468a4ca4ebbcfefb9"
   },
   ".claude/skills/ui-ux-pro-max/SKILL.md": {
     "mtime": 1791267637.9331253,
@@ -95,9 +95,9 @@
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791590239.7876427,
-    "ast_hash": "26d98a82135b4575233b725c93f23758",
-    "semantic_hash": "26d98a82135b4575233b725c93f23758"
+    "mtime": 1791608322.9349322,
+    "ast_hash": "dee5489b5279b8415cf2820b0dae9620",
+    "semantic_hash": "dee5489b5279b8415cf2820b0dae9620"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
@@ -150,9 +150,9 @@
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1791530039.9628808,
-    "ast_hash": "c9da356fc6575d15d2720a7bea316f46",
-    "semantic_hash": "c9da356fc6575d15d2720a7bea316f46"
+    "mtime": 1792125606.0635118,
+    "ast_hash": "c0bdfe8a2ab7f0e7a236df175f286558",
+    "semantic_hash": "c0bdfe8a2ab7f0e7a236df175f286558"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
@@ -395,9 +395,9 @@
     "semantic_hash": "3660dc3a625294afc9c68ea97b206f6e"
   },
   ".claude/herramientas/citas.js": {
-    "mtime": 1791587877.4958022,
-    "ast_hash": "b6979abe66d463ca9e99604b6d1e587c",
-    "semantic_hash": "b6979abe66d463ca9e99604b6d1e587c"
+    "mtime": 1791608346.2758973,
+    "ast_hash": "840d4c6439f9ca985ae1307635e252dd",
+    "semantic_hash": "840d4c6439f9ca985ae1307635e252dd"
   },
   ".claude/herramientas/render.js": {
     "mtime": 1791586250.5229342,
@@ -405,14 +405,9 @@
     "semantic_hash": "9c0a58b952011e91d791ef06bb1beb44"
   },
   ".claude/herramientas/revisar.js": {
-    "mtime": 1791586250.5201707,
-    "ast_hash": "92097aff5e47b3520946c2455058e57a",
-    "semantic_hash": "92097aff5e47b3520946c2455058e57a"
-  },
-  ".claude/trabajo/ia/que-es/antes-auditoria.js": {
-    "mtime": 1791587871.058458,
-    "ast_hash": "cb9871e846e3dd618dcd9c6536d903a7",
-    "semantic_hash": "cb9871e846e3dd618dcd9c6536d903a7"
+    "mtime": 1791687476.0103753,
+    "ast_hash": "2517de9ce04d2af0acfa9c238d7f17e1",
+    "semantic_hash": "2517de9ce04d2af0acfa9c238d7f17e1"
   },
   "lecciones/ia/que-es.js": {
     "mtime": 1791588225.553098,
@@ -450,39 +445,14 @@
     "semantic_hash": "7957a2f4a0c0fbbeac6bd7f5efc0d706"
   },
   ".claude/docs/formato-leccion.md": {
-    "mtime": 1791586140.8935597,
-    "ast_hash": "f6896bb15473bfb39eb03f9aeac2cd64",
-    "semantic_hash": "f6896bb15473bfb39eb03f9aeac2cd64"
+    "mtime": 1792109471.3040223,
+    "ast_hash": "18dd1faa1b735e68ca729e26f6288660",
+    "semantic_hash": "18dd1faa1b735e68ca729e26f6288660"
   },
   ".claude/docs/fuentes.md": {
-    "mtime": 1791606416.6785629,
-    "ast_hash": "180de37073f4969ff88fa809b9e296b0",
-    "semantic_hash": "180de37073f4969ff88fa809b9e296b0"
-  },
-  ".claude/trabajo/ia/como-aprenden/antes-auditoria.js": {
-    "mtime": 1791590029.900553,
-    "ast_hash": "929aecf0e6e7369b1b0accddbc161cc3",
-    "semantic_hash": "929aecf0e6e7369b1b0accddbc161cc3"
-  },
-  ".claude/trabajo/ia/llms-locales/antes-auditoria.js": {
-    "mtime": 1791594109.2636602,
-    "ast_hash": "a749b9921e54f741a1dff35a7494a5a1",
-    "semantic_hash": "a749b9921e54f741a1dff35a7494a5a1"
-  },
-  ".claude/trabajo/ia/modelos-lenguaje/antes-auditoria.js": {
-    "mtime": 1791591592.2243807,
-    "ast_hash": "39ed508e1deb755ec25b4ac40b7b30cc",
-    "semantic_hash": "39ed508e1deb755ec25b4ac40b7b30cc"
-  },
-  ".claude/trabajo/ia/sociedad/antes-auditoria.js": {
-    "mtime": 1791606269.8835056,
-    "ast_hash": "b19e483ef7a79a73aa39d2d4c13e5bc3",
-    "semantic_hash": "b19e483ef7a79a73aa39d2d4c13e5bc3"
-  },
-  ".claude/trabajo/ia/usar-bien/antes-auditoria.js": {
-    "mtime": 1791592861.6400034,
-    "ast_hash": "927432b06fe182b2957def8d4797cde8",
-    "semantic_hash": "927432b06fe182b2957def8d4797cde8"
+    "mtime": 1792125606.0638475,
+    "ast_hash": "ed0e38956774ac5427dd35052e691e39",
+    "semantic_hash": "ed0e38956774ac5427dd35052e691e39"
   },
   "lecciones/ia/como-aprenden.js": {
     "mtime": 1791590120.7566478,
@@ -515,9 +485,9 @@
     "semantic_hash": "7812e648d7ff459b7110df95a582e95d"
   },
   ".claude/docs/sitio.md": {
-    "mtime": 1791586331.5385983,
-    "ast_hash": "9098a40666532d9a370fa9c5e9f6e6f4",
-    "semantic_hash": "9098a40666532d9a370fa9c5e9f6e6f4"
+    "mtime": 1792109995.697425,
+    "ast_hash": "ccf51ba50576678e1e4943f61e29c473",
+    "semantic_hash": "ccf51ba50576678e1e4943f61e29c473"
   },
   ".claude/trabajo/ia/como-aprenden/ficha.md": {
     "mtime": 1791589847.4267123,
@@ -578,5 +548,150 @@
     "mtime": 1791592030.8194747,
     "ast_hash": "4f6002e54113525422fb38c17702dc03",
     "semantic_hash": "4f6002e54113525422fb38c17702dc03"
+  },
+  "lecciones/mandarin/acciones.js": {
+    "mtime": 1792109267.2154188,
+    "ast_hash": "0fa6917b55af496e9e4ec7f972429744",
+    "semantic_hash": "0fa6917b55af496e9e4ec7f972429744"
+  },
+  "lecciones/mandarin/hsk2-gramatica.js": {
+    "mtime": 1792109267.2253535,
+    "ast_hash": "a912b10b117aec731901c4ae0d11f5ee",
+    "semantic_hash": "a912b10b117aec731901c4ae0d11f5ee"
+  },
+  "lecciones/mandarin/hsk2-situaciones.js": {
+    "mtime": 1792109267.2345212,
+    "ast_hash": "9b59f52e5d638da656c851b3e7c8df1d",
+    "semantic_hash": "9b59f52e5d638da656c851b3e7c8df1d"
+  },
+  "lecciones/mandarin/hsk3-gramatica.js": {
+    "mtime": 1792125497.610417,
+    "ast_hash": "6c8710e1ce9a25841924657045d61cee",
+    "semantic_hash": "6c8710e1ce9a25841924657045d61cee"
+  },
+  "lecciones/mandarin/primeras-frases.js": {
+    "mtime": 1792109267.1897614,
+    "ast_hash": "14e701ded01965858d32bec4330e7fd1",
+    "semantic_hash": "14e701ded01965858d32bec4330e7fd1"
+  },
+  "lecciones/mandarin/sonidos.js": {
+    "mtime": 1791660836.3777914,
+    "ast_hash": "1696cb32548c75bdb9e4664d878d1c91",
+    "semantic_hash": "1696cb32548c75bdb9e4664d878d1c91"
+  },
+  "lecciones/mandarin/vida-diaria.js": {
+    "mtime": 1792109267.2059646,
+    "ast_hash": "ffc6690bbe844a47650b04575fd13a60",
+    "semantic_hash": "ffc6690bbe844a47650b04575fd13a60"
+  },
+  ".claude/docs/materias/mandarin.md": {
+    "mtime": 1792109471.3047054,
+    "ast_hash": "46130bfd54c5a1cec0a9bfb3880cf296",
+    "semantic_hash": "46130bfd54c5a1cec0a9bfb3880cf296"
+  },
+  ".claude/trabajo/mandarin/acciones/ficha.md": {
+    "mtime": 1791692462.7379322,
+    "ast_hash": "47d67fa35b5ec5569737c7f30de770ed",
+    "semantic_hash": "47d67fa35b5ec5569737c7f30de770ed"
+  },
+  ".claude/trabajo/mandarin/acciones/notas-director.md": {
+    "mtime": 1791692919.3937624,
+    "ast_hash": "b7c99b5628b3f91695317faa50e21679",
+    "semantic_hash": "b7c99b5628b3f91695317faa50e21679"
+  },
+  ".claude/trabajo/mandarin/acciones/plan.md": {
+    "mtime": 1791692099.404279,
+    "ast_hash": "a7a1b2883fa4d7eeccfede27eb186e7e",
+    "semantic_hash": "a7a1b2883fa4d7eeccfede27eb186e7e"
+  },
+  ".claude/trabajo/mandarin/hsk2-gramatica/ficha.md": {
+    "mtime": 1791694519.0055668,
+    "ast_hash": "228352f1e750d90c3c6b29f5b6facf67",
+    "semantic_hash": "228352f1e750d90c3c6b29f5b6facf67"
+  },
+  ".claude/trabajo/mandarin/hsk2-gramatica/notas-director.md": {
+    "mtime": 1791846764.9329908,
+    "ast_hash": "b94a2f8269fccb34a82b8fb456f686c3",
+    "semantic_hash": "b94a2f8269fccb34a82b8fb456f686c3"
+  },
+  ".claude/trabajo/mandarin/hsk2-gramatica/plan.md": {
+    "mtime": 1791694309.9267542,
+    "ast_hash": "028ba8f3b61366207a263676b6b35900",
+    "semantic_hash": "028ba8f3b61366207a263676b6b35900"
+  },
+  ".claude/trabajo/mandarin/hsk2-situaciones/ficha.md": {
+    "mtime": 1792106344.2440088,
+    "ast_hash": "fd25ab3150ef292f56b755736d6e6e11",
+    "semantic_hash": "fd25ab3150ef292f56b755736d6e6e11"
+  },
+  ".claude/trabajo/mandarin/hsk2-situaciones/notas-director.md": {
+    "mtime": 1792106845.7560558,
+    "ast_hash": "b4eaa12d135455d3676cf5a968d70e6f",
+    "semantic_hash": "b4eaa12d135455d3676cf5a968d70e6f"
+  },
+  ".claude/trabajo/mandarin/hsk2-situaciones/plan.md": {
+    "mtime": 1791849995.1922877,
+    "ast_hash": "f5fb6f5b4620fee161dca5a8d87209d3",
+    "semantic_hash": "f5fb6f5b4620fee161dca5a8d87209d3"
+  },
+  ".claude/trabajo/mandarin/hsk3-gramatica/ficha.md": {
+    "mtime": 1792111823.1396365,
+    "ast_hash": "130bfde219bf9b688546171337639c42",
+    "semantic_hash": "130bfde219bf9b688546171337639c42"
+  },
+  ".claude/trabajo/mandarin/hsk3-gramatica/notas-director.md": {
+    "mtime": 1792124692.0913107,
+    "ast_hash": "006b4f623036c8a585d0a874dcfc27d4",
+    "semantic_hash": "006b4f623036c8a585d0a874dcfc27d4"
+  },
+  ".claude/trabajo/mandarin/hsk3-gramatica/plan.md": {
+    "mtime": 1792110002.140866,
+    "ast_hash": "fadf78de0e3caea4bc077098aaa78058",
+    "semantic_hash": "fadf78de0e3caea4bc077098aaa78058"
+  },
+  ".claude/trabajo/mandarin/primeras-frases/ficha.md": {
+    "mtime": 1791686495.8804781,
+    "ast_hash": "67eb0d17acb4301f04d3bc5b8997c5c6",
+    "semantic_hash": "67eb0d17acb4301f04d3bc5b8997c5c6"
+  },
+  ".claude/trabajo/mandarin/primeras-frases/notas-director.md": {
+    "mtime": 1791687476.0105457,
+    "ast_hash": "245f4f6f00b38906e3269c5c550ed248",
+    "semantic_hash": "245f4f6f00b38906e3269c5c550ed248"
+  },
+  ".claude/trabajo/mandarin/primeras-frases/plan.md": {
+    "mtime": 1791664390.564229,
+    "ast_hash": "5abb75509aa4b95f32a4829822269742",
+    "semantic_hash": "5abb75509aa4b95f32a4829822269742"
+  },
+  ".claude/trabajo/mandarin/sonidos/ficha.md": {
+    "mtime": 1791649456.2375674,
+    "ast_hash": "eec2d457e0c2f27fcb9055fcb3fa514b",
+    "semantic_hash": "eec2d457e0c2f27fcb9055fcb3fa514b"
+  },
+  ".claude/trabajo/mandarin/sonidos/notas-director.md": {
+    "mtime": 1791660794.9885817,
+    "ast_hash": "7104d0909fc6d29db11075500a73f78c",
+    "semantic_hash": "7104d0909fc6d29db11075500a73f78c"
+  },
+  ".claude/trabajo/mandarin/sonidos/plan.md": {
+    "mtime": 1791608731.1489582,
+    "ast_hash": "b9273f8dfd6f0ae946efe50a6c6ccab3",
+    "semantic_hash": "b9273f8dfd6f0ae946efe50a6c6ccab3"
+  },
+  ".claude/trabajo/mandarin/vida-diaria/ficha.md": {
+    "mtime": 1791690083.9319096,
+    "ast_hash": "5ce41f09020f106c1f2a366d72ad76af",
+    "semantic_hash": "5ce41f09020f106c1f2a366d72ad76af"
+  },
+  ".claude/trabajo/mandarin/vida-diaria/notas-director.md": {
+    "mtime": 1791691012.592004,
+    "ast_hash": "0d735c4574ad5040361cd5a97e6a85cb",
+    "semantic_hash": "0d735c4574ad5040361cd5a97e6a85cb"
+  },
+  ".claude/trabajo/mandarin/vida-diaria/plan.md": {
+    "mtime": 1791689658.1431556,
+    "ast_hash": "dcfb2c0a5223119530211ac6952e42d7",
+    "semantic_hash": "dcfb2c0a5223119530211ac6952e42d7"
   }
 }

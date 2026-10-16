@@ -46,6 +46,14 @@ window.TEXTOS = {
   ayudaExpresion: 'Usa ^ para potencias (x^2) y * o nada para multiplicar (3x, 2(x+1)).',
   ayudaPinyin: 'Escribe el tono con su marca (mā) o con un número al final de la sílaba (ma1). Para ü puedes escribir v.',
   ayudaOrdenar: 'Pulsa una pieza para agregarla a tu respuesta. Púlsala otra vez para quitarla.',
+  // Vocabulario de idiomas
+  vocabulario: 'Vocabulario',
+  vocabularioLeccion: 'Vocabulario de esta lección',
+  vocabularioMateria: 'Todo el vocabulario de la materia',
+  palabra: 'Palabra',
+  palabras: 'palabras',
+  significado: 'Significado',
+  cerrar: 'Cerrar',
   // Audio
   escuchar: 'Escuchar',
   noPuedoEscuchar: '¿No puedes escuchar el audio?',

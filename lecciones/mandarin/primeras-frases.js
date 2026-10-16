@@ -7,7 +7,7 @@
   const L = (titulo, datos) => window.registrarLeccion('mandarin', titulo, datos);
   // Fila de vocabulario: palabra con su botón (y grabación si hay) y significado.
   const fila = (hanzi, pinyin, es, archivo) => `<tr><td>${zh(hanzi, pinyin, { audio: archivo ? 'audio/zh/' + archivo : undefined })}</td><td>${es}</td></tr>`;
-  const tabla = (filas) => `<div class="tabla-wrap"><table><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map((f) => fila(...f)).join('')}</table></div>`;
+  const tabla = (filas) => `<div class="tabla-wrap"><table class="vocabulario"><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map((f) => fila(...f)).join('')}</table></div>`;
   const a = (archivo) => 'audio/zh/' + archivo;
 
   const SILABO = { nombre: 'Centro de Educación y Cooperación Lingüística (China), «HSK 考试大纲», sílabo del HSK 3.0 (2025)', url: 'https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf' };

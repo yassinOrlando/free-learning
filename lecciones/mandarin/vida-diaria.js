@@ -8,7 +8,7 @@
   const L = (titulo, datos) => window.registrarLeccion('mandarin', titulo, datos);
   // Fila de vocabulario: palabra con su botón (y grabación si hay) y significado.
   const fila = (hanzi, pinyin, es, archivo) => `<tr><td>${zh(hanzi, pinyin, { audio: archivo ? 'audio/zh/' + archivo : undefined })}</td><td>${es}</td></tr>`;
-  const tabla = (filas) => `<div class="tabla-wrap"><table><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map((f) => fila(...f)).join('')}</table></div>`;
+  const tabla = (filas) => `<div class="tabla-wrap"><table class="vocabulario"><tr><th scope="col">Palabra</th><th scope="col">Significado</th></tr>${filas.map((f) => fila(...f)).join('')}</table></div>`;
   const a = (archivo) => 'audio/zh/' + archivo;
   const txt = (x, y, texto) => ({ tipo: 'texto', x, y, texto });
   const lin = (desde, hasta) => ({ tipo: 'linea', desde, hasta });
@@ -413,11 +413,11 @@
         <tr><td>${zh("个", "gè")}</td><td>personas y cosas en general</td><td>${zh("三个人", "sān gè rén")}</td></tr>
         <tr><td>${zh("本", "běn")}</td><td>libros</td><td>${zh("两本书", "liǎng běn shū")}</td></tr>
         <tr><td>${zh("口", "kǒu")}</td><td>miembros de una familia</td><td>${zh("四口人", "sì kǒu rén")}</td></tr>
-        <tr><td>${zh("只", "zhī")}</td><td>ciertos animales</td><td>${zh("一只猫", "yì zhī māo")}</td></tr>
-        <tr><td>${zh("件", "jiàn")}</td><td>ropa y asuntos</td><td>${zh("一件衣服", "yí jiàn yīfu")}</td></tr>
+        <tr><td>${zh("只", "zhī")}</td><td>ciertos animales</td><td>${zh("一只猫", "yī zhī māo")}</td></tr>
+        <tr><td>${zh("件", "jiàn")}</td><td>ropa y asuntos</td><td>${zh("一件衣服", "yī jiàn yīfu")}</td></tr>
       </table></div>
-      <p>Avisos de sonido: ${zh("一", "yī")} cambia de tono, como viste en "Cambios de tono: el tercer tono, ${zh("不")} y ${zh("一")}". Ante cuarto tono se dice yí (${zh("一个", "yí gè")}) y ante los demás, yì (${zh("一本", "yì běn")}, ${zh("一只", "yì zhī")}). Para ${zh("椅子", "yǐzi")} y ${zh("桌子", "zhuōzi")} como recomendación de la lección, por ahora cuéntalos con ${zh("个", "gè")}.</p>
-      <p>Para contar, junta lo que ya sabes: ${zh("三个人", "sān gè rén")} cuenta personas, ${zh("两本书", "liǎng běn shū")} cuenta libros y ${zh("一只猫", "yì zhī māo")} cuenta un animal. Léelo siempre en el mismo orden: primero cuántos, después la palabra de medida y al final la cosa. Si dudas con un sustantivo, ${zh("个", "gè")} es la salida segura.</p>
+      <p>Avisos de sonido: ${zh("一", "yī")} cambia de tono, como viste en "Cambios de tono: el tercer tono, ${zh("不")} y ${zh("一")}". Ante cuarto tono se dice yí (${zh("一个", "yī gè")}) y ante los demás, yì (${zh("一本", "yī běn")}, ${zh("一只", "yī zhī")}). Para ${zh("椅子", "yǐzi")} y ${zh("桌子", "zhuōzi")} como recomendación de la lección, por ahora cuéntalos con ${zh("个", "gè")}.</p>
+      <p>Para contar, junta lo que ya sabes: ${zh("三个人", "sān gè rén")} cuenta personas, ${zh("两本书", "liǎng běn shū")} cuenta libros y ${zh("一只猫", "yī zhī māo")} cuenta un animal. Léelo siempre en el mismo orden: primero cuántos, después la palabra de medida y al final la cosa. Si dudas con un sustantivo, ${zh("个", "gè")} es la salida segura.</p>
       <h3>Dos es ${zh("两", "liǎng")}</h3>
       <p>Con un clasificador, «dos» se dice ${zh("两", "liǎng")}, no ${zh("二", "èr")}: ${zh("两个人", "liǎng gè rén")}. Según MIT, los números que terminan en dos, como 12 o 22, siguen con ${zh("二", "èr")}. Sobre los números, mira "Números del 0 al 100". Con los demás números sigue igual: ${zh("三个", "sān gè")}, ${zh("四本", "sì běn")}, ${zh("五口", "wǔ kǒu")}.</p>
       <h3>Este, ese, estos, esos</h3>
@@ -449,10 +449,10 @@
         opciones: [zh('只', 'zhī'), zh('件', 'jiàn'), zh('本', 'běn'), zh('口', 'kǒu')], correcta: 2,
         pista: '<p>Es el clasificador de los libros.</p>',
         solucion: `<p>${zh("三本书", "sān běn shū")}: ${zh("本", "běn")} cuenta libros.</p>` },
-      { tipo: 'opciones', enunciado: `<p>Elige el clasificador para «un gato»: ${zh("一___猫", "yì ___ māo")}.</p>`,
+      { tipo: 'opciones', enunciado: `<p>Elige el clasificador para «un gato»: ${zh("一___猫", "yī ___ māo")}.</p>`,
         opciones: [zh('口', 'kǒu'), zh('本', 'běn'), zh('只', 'zhī'), zh('件', 'jiàn')], correcta: 2,
         pista: '<p>Sirve para ciertos animales.</p>',
-        solucion: `<p>${zh("一只猫", "yì zhī māo")}.</p>` },
+        solucion: `<p>${zh("一只猫", "yī zhī māo")}.</p>` },
       { tipo: 'ordenar', enunciado: '<p>Ordena las piezas para decir «tengo dos libros».</p>',
         respuesta: ['我', '有', '两', '本', '书'], pinyin: ['wǒ', 'yǒu', 'liǎng', 'běn', 'shū'], lang: 'zh-Hans',
         pista: '<p>Número, clasificador y cosa.</p>',
@@ -465,7 +465,7 @@
         sinAudio: '<p>Se dice <strong>zhī</strong>: una sola sílaba, alta y plana (primer tono).</p>',
         enunciado: '<p>Escucha el clasificador. ¿Qué se cuenta con él?</p>',
         opciones: ['Libros', 'Ciertos animales', 'Prendas de ropa', 'Personas en general'], correcta: 1,
-        pista: '<p>Es el de ' + zh("一只猫", "yì zhī māo") + '.</p>',
+        pista: '<p>Es el de ' + zh("一只猫", "yī zhī māo") + '.</p>',
         solucion: `<p>Se oye ${zh("只", "zhī")}, que cuenta ciertos animales.</p>` },
       { tipo: 'pinyin', enunciado: `<p>Escribe el pinyin de ${zh("件", "jiàn")} con su marca de tono.</p>`,
         respuestas: ['jiàn'],
@@ -508,7 +508,7 @@
       <h3>La edad</h3>
       <p>${zh("岁", "suì")} cuenta los años de edad. ChinGram explica que ${zh("你几岁", "nǐ jǐ suì")} se usa con niños menores de diez años: ${zh("你妹妹几岁", "nǐ mèimei jǐ suì")}, y la respuesta es ${zh("她八岁", "tā bā suì")}. Su ejemplo termina con otra palabra que verás en la unidad 4; aquí la dejamos fuera. A los mayores se les pregunta ${zh("你多大", "nǐ duō dà")}, y se responde ${zh("我十一岁", "wǒ shíyī suì")}. Como simplificación de la lección, en ${zh("多大", "duō dà")} se lee ${zh("多", "duō")} como «cuán» y ${zh("大", "dà")} como «grande».</p>
       <h3>Mil y otras cosas que contar</h3>
-      <p>${zh("千", "qiān")} es «mil»: ${zh("一千", "yì qiān")} (${zh("一", "yī")} se dice yì ante primer tono). Como simplificación de la lección, ${zh("多", "duō")} y ${zh("少", "shǎo")}, «mucho» y «poco», son las dos mitades de ${zh("多少", "duōshao")}. Con ${zh("电话", "diànhuà")}, ${zh("房间", "fángjiān")} y ${zh("课", "kè")} ya puedes preguntar ${zh("你家有几个房间", "nǐ jiā yǒu jǐ gè fángjiān")} y decir ${zh("我今天有课", "wǒ jīntiān yǒu kè")}.</p>
+      <p>${zh("千", "qiān")} es «mil»: ${zh("一千", "yī qiān")} (${zh("一", "yī")} se dice yì ante primer tono). Como simplificación de la lección, ${zh("多", "duō")} y ${zh("少", "shǎo")}, «mucho» y «poco», son las dos mitades de ${zh("多少", "duōshao")}. Con ${zh("电话", "diànhuà")}, ${zh("房间", "fángjiān")} y ${zh("课", "kè")} ya puedes preguntar ${zh("你家有几个房间", "nǐ jiā yǒu jǐ gè fángjiān")} y decir ${zh("我今天有课", "wǒ jīntiān yǒu kè")}.</p>
       <p class="nota"><strong>Trampa común:</strong> decir ${zh("你有几书", "nǐ yǒu jǐ shū")}. ${zh("几", "jǐ")} nunca va sin clasificador: ${zh("你有几本书", "nǐ yǒu jǐ běn shū")}.</p>`,
     ejemplo: `
       <p>Las frases de ejemplo de la lección son nuestras, con palabras ya vistas. Ana conoce a Luis y quiere saber de su familia y su escuela.</p>
@@ -747,7 +747,7 @@
       <h3>Qué comer y qué beber</h3>
       <p>${zh("吃", "chī")} va con comida, y ${zh("喝", "hē")}, que ya conoces, con bebidas: ${zh("我想喝茶", "wǒ xiǎng hē chá")}, ${zh("你想喝什么", "nǐ xiǎng hē shénme")}. ${zh("饭", "fàn")} es la comida en general, y ${zh("米饭", "mǐfàn")} el arroz cocido. Con ${zh("鸡蛋", "jīdàn")} y ${zh("包子", "bāozi")} se puede contar: ${zh("我要一个鸡蛋", "wǒ yào yí gè jīdàn")}, ${zh("我要两个包子", "wǒ yào liǎng gè bāozi")}. Y ${zh("菜", "cài")} puede ser una verdura o un plato.</p>
       <h3>Medidas para beber</h3>
-      <p>Con las bebidas se usa ${zh("杯", "bēi")}, «vaso» o «taza», un recipiente con líquido. El sílabo la llama medida prestada, y ChinGram da ${zh("一杯茶", "yì bēi chá")}. Es un clasificador como los de "Clasificadores: ${zh("个")} y otros": ${zh("我要一杯水", "wǒ yào yì bēi shuǐ")}. Con ${zh("一", "yī")} ante ${zh("杯", "bēi")} se dice yì.</p>
+      <p>Con las bebidas se usa ${zh("杯", "bēi")}, «vaso» o «taza», un recipiente con líquido. El sílabo la llama medida prestada, y ChinGram da ${zh("一杯茶", "yī bēi chá")}. Es un clasificador como los de "Clasificadores: ${zh("个")} y otros": ${zh("我要一杯水", "wǒ yào yì bēi shuǐ")}. Con ${zh("一", "yī")} ante ${zh("杯", "bēi")} se dice yì.</p>
       <h3>Rechazar con cortesía</h3>
       <p>Para decir que no quieres, ChinGram recomienda ${zh("不想", "bù xiǎng")}: es la negativa habitual y más cortés que ${zh("不要", "búyào")}. Esa palabra existe, pero sobre todo para decir «no hagas»; solo anótala: ${zh("我不想吃米饭", "wǒ bù xiǎng chī mǐfàn")}. Se responde igual que se pregunta: ${zh("你想吃什么", "nǐ xiǎng chī shénme")} pide ${zh("我想吃面条儿", "wǒ xiǎng chī miàntiáor")}, y ${zh("你要什么", "nǐ yào shénme")} pide ${zh("我要牛奶", "wǒ yào niúnǎi")}. Para elogiar, ${zh("好吃", "hǎochī")}: ${zh("这个菜很好吃", "zhège cài hěn hǎochī")}.</p>
       <h3>Cierre de la unidad</h3>
@@ -788,7 +788,7 @@
         pista: '<p>' + zh("什么", "shénme") + ' ocupa el lugar de la comida.</p>',
         solucion: `<p>${zh("你想吃什么", "nǐ xiǎng chī shénme")}.</p>` },
       { tipo: 'ordenar', enunciado: '<p>Ordena las piezas para pedir «quiero una taza de té».</p>',
-        respuesta: ['我', '要', '一', '杯', '茶'], pinyin: ['wǒ', 'yào', 'yì', 'bēi', 'chá'], lang: 'zh-Hans',
+        respuesta: ['我', '要', '一', '杯', '茶'], pinyin: ['wǒ', 'yào', 'yī', 'bēi', 'chá'], lang: 'zh-Hans',
         pista: '<p>' + zh("杯", "bēi") + ' va entre el número y la bebida.</p>',
         solucion: `<p>${zh("我要一杯茶", "wǒ yào yì bēi chá")}.</p>` },
       { tipo: 'opciones', enunciado: '<p>Quieres pedir en un comedor, con decisión y de forma directa. ¿Qué palabra usas?</p>',

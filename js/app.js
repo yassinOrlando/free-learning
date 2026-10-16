@@ -43,6 +43,7 @@
     u.lecciones.map((titulo) => ({ titulo, id: slug(titulo), unidad: u.titulo, numUnidad: iu + 1 })));
   const hayLeccion = (m, id) => Boolean(LECCIONES[`${m.id}/${id}`]);
   // Los títulos del temario son texto plano: los caracteres chinos se marcan aquí para que el lector de pantalla cambie de voz.
+  // Ojo: si el título va dentro de un contenedor flex o grid, envuélvelo en un <span>; si no, los espacios alrededor de los caracteres desaparecen.
   const conLang = (titulo) => titulo.replace(/\p{Script=Han}+/gu, '<span lang="zh-Hans">$&</span>');
 
   function vistaInicio() {
@@ -67,6 +68,25 @@
       <div class="rejilla">${tarjetas}</div>`;
   }
 
+  // Vocabulario de idiomas. La única fuente es la tabla con class="vocabulario" de cada explicación:
+  // se leen sus filas tal cual (caracteres, pinyin y botón de audio) para el modal del botón flotante.
+  const vocabDe = (L) => {
+    if (!L) return [];
+    const t = document.createElement('template');
+    t.innerHTML = L.explicacion;
+    return [...t.content.querySelectorAll('table.vocabulario tr')].filter((tr) => tr.querySelector('td')).map((tr) => tr.outerHTML);
+  };
+  const ICONO_LIBRO = '<svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>';
+  const ICONO_X = '<svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+  const tablaVocab = (filas) => `<div class="tabla-wrap"><table><tr><th scope="col">${T.palabra}</th><th scope="col">${T.significado}</th></tr>${filas.join('')}</table></div>`;
+  const modalVocab = (titulo, cuerpo) => `
+      <button type="button" class="boton vocab-boton" id="vocab-abrir">${ICONO_LIBRO}<span>${T.vocabulario}</span></button>
+      <dialog class="vocab" id="vocab" aria-labelledby="vocab-t"><div class="vocab__caja">
+        <div class="vocab__cabecera"><h2 id="vocab-t">${titulo}</h2>
+          <button type="button" class="vocab__cerrar" id="vocab-cerrar" aria-label="${T.cerrar}">${ICONO_X}</button></div>
+        ${cuerpo}
+      </div></dialog>`;
+
   function vistaMateria(m) {
     const hechas = new Set(Progreso.leer()[m.id] || []);
     const unidades = m.unidades.map((u, i) => `
@@ -79,12 +99,22 @@
             return `
             <li class="${hechas.has(id) ? 'hecha' : ''}">
               ${hayLeccion(m, id)
-                ? `<a href="#/leccion/${m.id}/${id}">${conLang(l)}</a>`
-                : `<span>${conLang(l)}</span><span class="chip">${T.proximamente}</span>`}
+                ? `<a href="#/leccion/${m.id}/${id}"><span>${conLang(l)}</span></a>`
+                : `<span><span>${conLang(l)}</span></span><span class="chip">${T.proximamente}</span>`}
             </li>`;
           }).join('')}
         </ol>
       </section>`).join('');
+    // Todo el vocabulario de la materia en desplegables (<details>): unidades y, dentro, lecciones, todo cerrado.
+    const vocab = m.unidades.map((u) => {
+      let total = 0;
+      const lecciones = u.lecciones.map((l) => {
+        const filas = vocabDe(LECCIONES[`${m.id}/${slug(l)}`]);
+        total += filas.length;
+        return filas.length ? `<details class="vocab-grupo vocab-grupo--leccion"><summary>${conLang(l)} <span class="tenue">(${filas.length})</span></summary>${tablaVocab(filas)}</details>` : '';
+      }).join('');
+      return total ? `<details class="vocab-grupo"><summary>${conLang(u.titulo)} <span class="tenue">(${total} ${T.palabras})</span></summary>${lecciones}</details>` : '';
+    }).join('');
     return `
       <a class="migas" href="#/">← ${T.volver}</a>
       <header class="materia__cabecera" style="--color:${m.color}">
@@ -92,7 +122,8 @@
         <p>${m.descripcion}</p>
         <p class="tenue">${m.unidades.length} unidades · ${totalLecciones(m)} ${T.lecciones}</p>
       </header>
-      <div class="unidades" style="--color:${m.color}">${unidades}</div>`;
+      <div class="unidades" style="--color:${m.color}">${unidades}</div>
+      ${vocab ? modalVocab(T.vocabularioMateria, vocab) : ''}`;
   }
 
   function vistaLeccion(m, id) {
@@ -103,7 +134,7 @@
     const L = LECCIONES[`${m.id}/${id}`];
     const anterior = lista[pos - 1];
     const siguiente = lista[pos + 1];
-    const enlace = (l, txt, clase) => l ? `<a class="${clase}" href="#/leccion/${m.id}/${l.id}"><small>${txt}</small>${conLang(l.titulo)}</a>` : '<span></span>';
+    const enlace = (l, txt, clase) => l ? `<a class="${clase}" href="#/leccion/${m.id}/${l.id}"><small>${txt}</small><span>${conLang(l.titulo)}</span></a>` : '<span></span>';
     const navegacion = `<nav class="lec-nav" aria-label="${T.navLecciones}">${enlace(anterior, T.anterior, 'lec-nav__ant')}${enlace(siguiente, T.siguiente, 'lec-nav__sig')}</nav>`;
     const hecha = (Progreso.leer()[m.id] || []).includes(id);
 
@@ -119,6 +150,7 @@
       </header>`;
 
     if (!L) return `${cabecera}<p class="tenue">${T.leccionPendiente}</p>${navegacion}`;
+    const filasVocab = vocabDe(L);
 
     return `
       ${cabecera}
@@ -130,14 +162,15 @@
         <section class="bloque"><h2>${T.practica}</h2><p class="tenue">${T.practicaIntro}</p><div id="ejercicios"></div>
           <div id="completada" class="completada" hidden tabindex="-1">
             <strong>${T.felicidades}</strong>
-            ${siguiente ? `<a class="boton" href="#/leccion/${m.id}/${siguiente.id}">${T.siguiente}: ${conLang(siguiente.titulo)}</a>` : ''}
+            ${siguiente ? `<a class="boton" href="#/leccion/${m.id}/${siguiente.id}"><span>${T.siguiente}: ${conLang(siguiente.titulo)}</span></a>` : ''}
           </div>
         </section>
         <section class="bloque bloque--fuentes"><h2>${T.fuentes}</h2>
           <ul>${L.fuentes.map((f) => `<li><a href="${f.url}" target="_blank" rel="noopener">${f.nombre}</a></li>`).join('')}</ul>
         </section>
       </article>
-      ${navegacion}`;
+      ${navegacion}
+      ${filasVocab.length ? modalVocab(T.vocabularioLeccion, tablaVocab(filasVocab)) : ''}`;
   }
 
   function dibujar() {
@@ -168,6 +201,15 @@
         aviso.focus();
       });
     }
+
+    // Modal de vocabulario: <dialog> nativo (Esc, foco atrapado y vuelta del foco al botón los pone el navegador).
+    const dlg = document.getElementById('vocab');
+    if (dlg) {
+      document.getElementById('vocab-abrir').addEventListener('click', () => dlg.showModal());
+      document.getElementById('vocab-cerrar').addEventListener('click', () => dlg.close());
+      dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); }); // clic en el fondo oscuro
+    }
+    principal.classList.toggle('con-vocab', Boolean(dlg));
 
     const titulo = principal.querySelector('h1');
     document.title = ruta[0] === '' ? T.marca : `${titulo.textContent} · ${T.marca}`;
