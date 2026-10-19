@@ -917,14 +917,14 @@ window.TEMARIO = [
         'Elegir al afirmar: 或者',
         'Cualquiera y nadie: 谁都 y 什么都',
       ]},
-      { titulo: 'HSK 3 · Comunicación', lecciones: [
+      { titulo: 'HSK 3 · Comunicación', archivo: 'lecciones/mandarin/hsk3-comunicacion.js', lecciones: [
         'La escuela y el trabajo',
         'Planear un viaje',
         'Festividades y cultura china',
         'Leer textos cortos',
         'Escribir mensajes cortos en caracteres',
       ]},
-      { titulo: 'HSK 4 · Frases complejas', lecciones: [
+      { titulo: 'HSK 4 · Frases complejas', archivo: 'lecciones/mandarin/hsk4-frases.js', lecciones: [
         'Incluso: 连…也/都…',
         'No es…sino: 不是…而是…',
         'Además: 不仅…还…',
@@ -935,7 +935,7 @@ window.TEMARIO = [
         'Si no: 要是 y 否则',
         'Por eso: 由于…因此…',
       ]},
-      { titulo: 'HSK 4 · Estructuras', lecciones: [
+      { titulo: 'HSK 4 · Estructuras', archivo: 'lecciones/mandarin/hsk4-estructuras.js', lecciones: [
         'Más usos de 把',
         'La pasiva con 叫 y 让',
         'Hacer que alguien haga algo: 使 y 让',
@@ -945,7 +945,7 @@ window.TEMARIO = [
         'La doble negación',
         'Decimales, fracciones y porcentajes en chino',
       ]},
-      { titulo: 'HSK 4 · Vida y sociedad', lecciones: [
+      { titulo: 'HSK 4 · Vida y sociedad', archivo: 'lecciones/mandarin/hsk4-vida.js', lecciones: [
         'Trámites y pedir ayuda',
         'Sentimientos y opiniones',
         'Casa y vecindario',
@@ -955,14 +955,14 @@ window.TEMARIO = [
         'Ciencia y tecnología',
         'Internet y vida moderna',
       ]},
-      { titulo: 'HSK 4 · China y su cultura', lecciones: [
+      { titulo: 'HSK 4 · China y su cultura', archivo: 'lecciones/mandarin/hsk4-cultura.js', lecciones: [
         'Geografía de China: capital y provincias',
         'Fiestas tradicionales y costumbres',
         'La comida de cada región',
         'Arte y deporte',
         'Refranes y frases célebres',
       ]},
-      { titulo: 'HSK 5 · Gramática', lecciones: [
+      { titulo: 'HSK 5 · Gramática', archivo: 'lecciones/mandarin/hsk5-gramatica.js', lecciones: [
         'En cuanto pase: 一旦…就…',
         'Suponer: 假如 y 万一',
         'Aunque sea: 哪怕…也…',
@@ -973,7 +973,7 @@ window.TEMARIO = [
         'Decir lo que piensas: 毕竟, 居然, 反正 y 简直',
         'Como si: 似的 y 仿佛',
       ]},
-      { titulo: 'HSK 5 · Sociedad', lecciones: [
+      { titulo: 'HSK 5 · Sociedad', archivo: 'lecciones/mandarin/hsk5-sociedad.js', lecciones: [
         'Salud y bienestar emocional',
         'Consumo y compras',
         'Hablar de educación',
@@ -982,7 +982,7 @@ window.TEMARIO = [
         'Economía y comercio',
         'Naturaleza y recursos',
       ]},
-      { titulo: 'HSK 5 · Cultura y lectura', lecciones: [
+      { titulo: 'HSK 5 · Cultura y lectura', archivo: 'lecciones/mandarin/hsk5-cultura.js', lecciones: [
         'Modismos de cuatro caracteres: 成语',
         'Leyendas populares',
         'Pensamiento tradicional: Confucio y Laozi',
@@ -990,7 +990,7 @@ window.TEMARIO = [
         'Inventos de la China antigua',
         'Leer textos de opinión',
       ]},
-      { titulo: 'HSK 6 · Gramática y estilo', lecciones: [
+      { titulo: 'HSK 6 · Gramática y estilo', archivo: 'lecciones/mandarin/hsk6-gramatica.js', lecciones: [
         'Formar palabras: 超, 反, 无, 化 y 性',
         'La partícula 所',
         'Preposiciones formales: 于 y 至于',
@@ -1000,7 +1000,7 @@ window.TEMARIO = [
         'Hasta: 到…为止',
         'Lengua hablada y lengua escrita',
       ]},
-      { titulo: 'HSK 6 · Temas actuales', lecciones: [
+      { titulo: 'HSK 6 · Temas actuales', archivo: 'lecciones/mandarin/hsk6-temas.js', lecciones: [
         'Noticias y temas de actualidad',
         'Dinero: ahorro, inversión y consumo en chino',
         'Ciencia y tecnología de la información',
@@ -1009,7 +1009,7 @@ window.TEMARIO = [
         'Voluntariado y vida en comunidad',
         'Debates sobre educación',
       ]},
-      { titulo: 'HSK 6 · Cultura y textos', lecciones: [
+      { titulo: 'HSK 6 · Cultura y textos', archivo: 'lecciones/mandarin/hsk6-cultura.js', lecciones: [
         'Poesía clásica: leer un poema Tang',
         'Dinastías de China: una línea de tiempo',
         'Ideas de belleza en el arte tradicional',
