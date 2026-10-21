@@ -239,39 +239,39 @@ window.TEMARIO = [
     descripcion: 'Cómo funcionan los mercados, los bancos, las empresas y la economía de un país.',
     color: '#F59E0B',
     unidades: [
-      { titulo: 'Conceptos de economía', lecciones: [
+      { titulo: 'Conceptos de economía', archivo: 'lecciones/finanzas/conceptos-economia.js', lecciones: [
         'Escasez y costo de oportunidad',
         'Oferta y demanda',
         'Mercados y formación de precios',
         'Competencia y monopolios',
       ]},
-      { titulo: 'El sistema financiero', lecciones: [
+      { titulo: 'El sistema financiero', archivo: 'lecciones/finanzas/sistema-financiero.js', lecciones: [
         'Breve historia del dinero',
         'Qué hacen los bancos',
         'Bancos centrales y política monetaria',
         'Tasas de interés y su efecto en la economía',
       ]},
-      { titulo: 'La economía de un país', lecciones: [
+      { titulo: 'La economía de un país', archivo: 'lecciones/finanzas/economia-de-un-pais.js', lecciones: [
         'Producto Interno Bruto (PIB)',
         'Empleo y desempleo',
         'Crecimiento económico y ciclos',
         'Impuestos y gasto público',
         'Comercio internacional y tipo de cambio',
       ]},
-      { titulo: 'Empresas', lecciones: [
+      { titulo: 'Empresas', archivo: 'lecciones/finanzas/empresas.js', lecciones: [
         'Qué es una empresa',
         'Ingresos, costos y utilidad',
         'Estados financieros básicos',
         'Punto de equilibrio',
         'Cómo fijar un precio de venta',
       ]},
-      { titulo: 'Mercados financieros', lecciones: [
+      { titulo: 'Mercados financieros', archivo: 'lecciones/finanzas/mercados-financieros.js', lecciones: [
         'Acciones',
         'Bonos',
         'La bolsa de valores',
         'Burbujas y crisis financieras',
       ]},
-      { titulo: 'Emprender', lecciones: [
+      { titulo: 'Emprender', archivo: 'lecciones/finanzas/emprender.js', lecciones: [
         'De la idea al negocio',
         'Modelo de negocio',
         'Finanzas de un pequeño negocio',

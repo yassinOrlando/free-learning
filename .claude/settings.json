@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "ask": ["Bash(git commit:*)", "Bash(git push:*)"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/herramientas/plan.js hook-requiere"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/herramientas/plan.js hook-prompt"
+          }
+        ]
+      }
+    ]
+  }
+}

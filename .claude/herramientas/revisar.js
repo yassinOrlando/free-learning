@@ -24,6 +24,9 @@ const PROHIBIDOS = [[/<sup>|<sub>/, 'usa exponentes Unicode'], [/<h2|<h4/, 'solo
 
 let errores = 0;
 const mal = (msg) => { errores++; return `✗ ${msg}`; };
+// Prosa: el texto de una lección va con frases completas. Ubrales medidos sobre las lecciones
+// del repo (mediana 16,1 palabras por frase; mínimo 11,3; máximo de frases cortas 25 %).
+const PROSA = { palabras: 11, cortas: 0.25 };
 for (const k of claves) {
   const L = LECCIONES[k];
   const partes = Object.entries(RANGOS).map(([campo, [min, max]]) => {
@@ -34,6 +37,18 @@ for (const k of claves) {
   partes.push(t > 3 ? mal(`términos ${t} (máx. 3)`) : `términos ${t}`);
   const correctas = L.ejercicios.filter((e) => e.tipo === 'opciones').map((e) => e.correcta);
   partes.push(`ejercicios ${L.ejercicios.length}`, `correctas [${correctas.join(',')}]`);
+
+  // Frases completas: si el texto sale troceado, la lección no se puede leer.
+  const plano = limpiar([L.explicacion, L.ejemplo, L.vidaReal].join(' ')).trim();
+  const frases = plano.split(/(?<=[.!?])\s+/).filter((f) => f.trim().length > 1);
+  const nPalabras = plano.split(/\s+/).filter((w) => /[\p{L}\d]/u.test(w)).length;
+  if (frases.length >= 6) {
+    const porFrase = nPalabras / frases.length;
+    const cortas = frases.filter((f) => f.split(/\s+/).length < 6).length / frases.length;
+    partes.push(`frases ${porFrase.toFixed(1)} palabras`);
+    if (porFrase < PROSA.palabras) console.log('  ' + mal(`prosa troceada: ${porFrase.toFixed(1)} palabras por frase (mín. ${PROSA.palabras})`));
+    if (cortas > PROSA.cortas) console.log(`  ⚠ ${Math.round(cortas * 100)} % de frases de menos de 6 palabras (máx. ${Math.round(PROSA.cortas * 100)} %)`);
+  }
   console.log(`${k}\n  ${partes.join(' · ')}`);
 
   const html = [L.objetivo, L.explicacion, L.ejemplo, L.vidaReal, ...L.ejercicios.flatMap((e) => [e.enunciado, e.pista, e.solucion, ...(e.opciones || [])])].join('\n');

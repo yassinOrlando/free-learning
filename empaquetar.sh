@@ -8,7 +8,8 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
 # Copia limpia dentro de una carpeta "free-learning", sin herramientas de desarrollo.
-rsync -a --exclude descargar --exclude .claude --exclude .git --exclude design-system --exclude graphify-out \
+rsync -a --exclude descargar --exclude .claude --exclude .opencode --exclude .git --exclude design-system --exclude graphify-out \
+  --exclude AGENTS.md --exclude CLAUDE.md --exclude ESTADO.md --exclude .gitignore \
   --exclude .DS_Store "$RAIZ/" "$TMP/free-learning/"
 
 mkdir -p "$RAIZ/descargar"

@@ -16,6 +16,10 @@ El Director es la sesión principal. **No lee fuentes ni escribe lecciones**: pl
 - Busca remisiones en otras materias con grep sobre `js/temario.js` (no abras archivos de lecciones completos).
 - Escribe `plan.md`. Por lección: título exacto, términos nuevos (máximo 3), idea central, visual (diagrama, gráfica o tabla), ejemplo resuelto, remisiones y tipo de fuente buscada.
 - Muestra el plan al usuario en pocas líneas y **espera su aprobación**. Si un título del temario parece mal planteado, propón el cambio y espera.
+- Cuando el usuario apruebe, marca el plan como aprobado:
+  `node .claude/herramientas/plan.js aprobar <materia>/<unidad>`
+  (o pídele que use el comando `/aprobar-plan <materia>/<unidad>`). El hook `PreToolUse` bloquea la escritura de la unidad y de la ficha mientras el plan no esté aprobado, así que **investigación y construcción no pueden adelantarse al plan**. Si el plan cambia después de aprobarse, la aprobación caduca y hay que volver a pedirla.
+- El plan lo hace **el modelo de la sesión principal**, el que el usuario tiene delante. Los agentes baratos de los pasos 2, 4 y 5 no participan del plan.
 
 ## 2. Investigación
 Lanza `investigador` con: ruta de `plan.md`, ruta destino de `ficha.md` y la materia. Nada más; las reglas están en su definición.

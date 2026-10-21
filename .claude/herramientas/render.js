@@ -15,7 +15,8 @@ fs.rmSync(salida, { recursive: true, force: true });
 fs.mkdirSync(salida, { recursive: true });
 const antes = new Set(Object.keys(LECCIONES));
 require(archivo);
-const css = '<style>text{font:11px sans-serif;fill:#ddd}.graf-etq{font-weight:700;fill:#fff}line,path,polygon,circle{stroke:#e0a040}.graf-rejilla{stroke:#444}rect{fill:#1c1a17}</style>';
+// polyline va aparte: comparte clase .graf-fig con polygon y sin fill:none qlmanage lo pinta de negro.
+const css = '<style>text{font:11px sans-serif;fill:#ddd}.graf-etq{font-weight:700;fill:#fff}line,path,polygon,circle{stroke:#e0a040}.graf-rejilla{stroke:#444}rect{fill:#1c1a17}polyline{fill:none;stroke:#e0a040;stroke-width:2.25;stroke-linejoin:round}</style>';
 const svgs = [];
 for (const [k, L] of Object.entries(LECCIONES)) {
   if (antes.has(k)) continue;

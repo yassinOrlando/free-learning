@@ -4,3 +4,5 @@ audio/
 .claude/trabajo/**/ficha-*.md
 .claude/trabajo/**/antes-auditoria*.js
 descargar/
+.claude/trabajo/**/lineas-silabo.txt
+.claude/trabajo/**/encargo-investigadores.md

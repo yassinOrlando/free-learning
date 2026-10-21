@@ -30,19 +30,19 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 | Física | Bases, Movimiento, Fuerzas, Trabajo y energía, Fluidos, Calor, Ondas, sonido y luz, Electricidad y magnetismo, Física moderna | 54 lecciones listas |
 | Química | Materia, Átomo, Tabla periódica, Enlaces, Nomenclatura, Reacciones, Estequiometría, Disoluciones y ácidos, Química orgánica, Química en la vida diaria | 44 lecciones listas |
 | Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | 39 lecciones listas |
-| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | Próximamente |
-| Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | Próximamente |
+| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | 56 lecciones listas |
+| Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | 6 de 6 unidades (25 lecciones) |
 | Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad, Software libre | 112 lecciones listas |
 | Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | Próximamente |
 | Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
-| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | Próximamente |
+| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | 36 lecciones listas |
 | Inglés | Niveles A1, A2 y B1 | Próximamente |
 | Mandarín | HSK 1 a 6 (sílabo HSK 3.0 de 2025) | 140 de 140 lecciones listas (HSK 1 a 6 completos) |
 
-En total hay 313 lecciones listas en cinco materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
+En total hay 570 lecciones escritas en nueve materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
 
 ## Para quien quiera contribuir
 
-Es HTML, CSS y JavaScript puro, sin dependencias ni servidor. Las reglas del proyecto (formato de lección, estilo de redacción y auditoría) están en [`CLAUDE.md`](CLAUDE.md). Antes de entregar un cambio, ejecuta `node verificar.js` y `./empaquetar.sh`.
+Es HTML, CSS y JavaScript puro, sin dependencias ni servidor. Las reglas del proyecto (formato de lección, estilo de redacción y auditoría) están en [`AGENTS.md`](AGENTS.md). Antes de entregar un cambio, ejecuta `node verificar.js` y `./empaquetar.sh`.
 
 Licencia [MIT](LICENSE).

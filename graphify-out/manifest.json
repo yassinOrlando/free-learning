@@ -1,697 +1,1286 @@
 {
   ".claude/skills/ui-ux-pro-max/data/catalog-summary.json": {
     "mtime": 1791267637.9421813,
+    "seen": 1792563576.049349,
     "ast_hash": "6185a0fc8447d487988074b7f4eb4219",
     "semantic_hash": "6185a0fc8447d487988074b7f4eb4219"
   },
   ".claude/skills/ui-ux-pro-max/data/data-provenance.json": {
     "mtime": 1791267637.939464,
+    "seen": 1792563576.049349,
     "ast_hash": "4f0fbe5f16c919f87170d6f493fad5e3",
     "semantic_hash": "4f0fbe5f16c919f87170d6f493fad5e3"
   },
   ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json": {
     "mtime": 1791267637.9418666,
+    "seen": 1792563576.0493498,
     "ast_hash": "c6f70c775c4b6ac26441cf1b0022ad71",
     "semantic_hash": "c6f70c775c4b6ac26441cf1b0022ad71"
   },
   ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json": {
     "mtime": 1791267637.9416492,
+    "seen": 1792563576.0493498,
     "ast_hash": "933217ce321daf2458d12c41e5f19cb1",
     "semantic_hash": "933217ce321daf2458d12c41e5f19cb1"
   },
   ".claude/skills/ui-ux-pro-max/scripts/core.py": {
     "mtime": 1791267637.9320848,
+    "seen": 1792563576.049351,
     "ast_hash": "e6ca88523a7e0da644f3be0ca250b2be",
     "semantic_hash": "e6ca88523a7e0da644f3be0ca250b2be"
   },
   ".claude/skills/ui-ux-pro-max/scripts/design_system.py": {
     "mtime": 1791267637.922825,
+    "seen": 1792563576.049351,
     "ast_hash": "a93a39562922b44b2dc8963daa606678",
     "semantic_hash": "a93a39562922b44b2dc8963daa606678"
   },
   ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py": {
     "mtime": 1791267637.9323137,
+    "seen": 1792563576.049352,
     "ast_hash": "e03944fe11a921f4c13687774c97b09a",
     "semantic_hash": "e03944fe11a921f4c13687774c97b09a"
   },
   ".claude/skills/ui-ux-pro-max/scripts/search.py": {
     "mtime": 1791267637.9325454,
+    "seen": 1792563576.049352,
     "ast_hash": "c2ffc3e122e88c4855b857c118fe362d",
     "semantic_hash": "c2ffc3e122e88c4855b857c118fe362d"
   },
   ".claude/skills/ui-ux-pro-max/scripts/validate_data.py": {
     "mtime": 1791267637.9327936,
+    "seen": 1792563576.049353,
     "ast_hash": "0c5a3a29c6dc39190be1a0f2baca2a1c",
     "semantic_hash": "0c5a3a29c6dc39190be1a0f2baca2a1c"
   },
   "empaquetar.sh": {
-    "mtime": 1791270062.775136,
-    "ast_hash": "0d3ae516c62b4703cd47e2a7a30abe3c",
-    "semantic_hash": "0d3ae516c62b4703cd47e2a7a30abe3c"
+    "mtime": 1792436128.7467723,
+    "seen": 1792563576.049359,
+    "ast_hash": "cae3aec9aa37da5251813cf19d88e60c",
+    "semantic_hash": "cae3aec9aa37da5251813cf19d88e60c"
   },
   "js/app.js": {
     "mtime": 1792109978.1843784,
+    "seen": 1792563576.049359,
     "ast_hash": "a6cdb189480a46ce0c0a1518ef9261e6",
     "semantic_hash": "a6cdb189480a46ce0c0a1518ef9261e6"
   },
   "js/ejercicios.js": {
     "mtime": 1791649953.3411994,
+    "seen": 1792563576.0493598,
     "ast_hash": "28638f59ac9d2a5bce224e6e7a557f6c",
     "semantic_hash": "28638f59ac9d2a5bce224e6e7a557f6c"
   },
   "js/temario.js": {
-    "mtime": 1792113051.211001,
-    "ast_hash": "a872245220c802987d24d81cfcf225bb",
-    "semantic_hash": "a872245220c802987d24d81cfcf225bb"
+    "mtime": 1792560612.726333,
+    "seen": 1792563576.0493598,
+    "ast_hash": "573f9facad51cb9a021a59b0c5259d9c",
+    "semantic_hash": "573f9facad51cb9a021a59b0c5259d9c"
   },
   "js/textos.js": {
     "mtime": 1792109912.755856,
+    "seen": 1792563576.0493598,
     "ast_hash": "de708e371249e34ff9b3f23eee57d007",
     "semantic_hash": "de708e371249e34ff9b3f23eee57d007"
   },
   "lecciones/matematicas/aritmetica.js": {
     "mtime": 1791323201.6205635,
+    "seen": 1792563576.04939,
     "ast_hash": "1204aaeb36c095fb06006ca76b99f0fd",
     "semantic_hash": "1204aaeb36c095fb06006ca76b99f0fd"
   },
   "verificar.js": {
     "mtime": 1792109295.086241,
+    "seen": 1792563576.049397,
     "ast_hash": "368a4b27e3e30b2468a4ca4ebbcfefb9",
     "semantic_hash": "368a4b27e3e30b2468a4ca4ebbcfefb9"
   },
   ".claude/skills/ui-ux-pro-max/SKILL.md": {
     "mtime": 1791267637.9331253,
+    "seen": 1792564370.332461,
     "ast_hash": "b2a5611353ca5d5e270d14ec701b3f02",
     "semantic_hash": "b2a5611353ca5d5e270d14ec701b3f02"
   },
   ".claude/skills/ui-ux-pro-max/references/pro-rules.md": {
     "mtime": 1791267637.922254,
+    "seen": 1792564370.332461,
     "ast_hash": "42a2b0964fc17b5bf72078d292ae34db",
     "semantic_hash": "42a2b0964fc17b5bf72078d292ae34db"
   },
   ".claude/skills/ui-ux-pro-max/references/quick-reference.md": {
     "mtime": 1791267637.921897,
+    "seen": 1792564370.332462,
     "ast_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2",
     "semantic_hash": "1bfa0a6429977bdd596a1bc6a32fe4d2"
   },
   "CLAUDE.md": {
-    "mtime": 1791608322.9349322,
-    "ast_hash": "dee5489b5279b8415cf2820b0dae9620",
-    "semantic_hash": "dee5489b5279b8415cf2820b0dae9620"
+    "mtime": 1792436076.9468763,
+    "seen": 1792563576.049418,
+    "ast_hash": "ca63b7dc6be8b0604cb78d1b074738ba",
+    "semantic_hash": "ca63b7dc6be8b0604cb78d1b074738ba"
   },
   "LEEME.txt": {
     "mtime": 1791267948.9586005,
+    "seen": 1792564370.333025,
     "ast_hash": "8b4cfc9232e1340e6cfbaed4d57692c9",
     "semantic_hash": "8b4cfc9232e1340e6cfbaed4d57692c9"
   },
   "index.html": {
     "mtime": 1791268883.8633792,
+    "seen": 1792564370.333034,
     "ast_hash": "35de09cccf26d56480bdaebf0287e47a",
     "semantic_hash": "35de09cccf26d56480bdaebf0287e47a"
   },
   "lecciones/matematicas/algebra.js": {
     "mtime": 1791323126.0151525,
+    "seen": 1792563576.04939,
     "ast_hash": "5171596925b3c6b069e0e6f11a396202",
     "semantic_hash": "5171596925b3c6b069e0e6f11a396202"
   },
   "lecciones/matematicas/calculo.js": {
     "mtime": 1791323527.0633903,
+    "seen": 1792563576.049391,
     "ast_hash": "9f1edecbd5b3f340e9f4d5a5cf46ad85",
     "semantic_hash": "9f1edecbd5b3f340e9f4d5a5cf46ad85"
   },
   "lecciones/matematicas/estadistica.js": {
     "mtime": 1791324454.6965034,
+    "seen": 1792563576.049391,
     "ast_hash": "a0c9db2b31f9566d9ad50b59c48bef64",
     "semantic_hash": "a0c9db2b31f9566d9ad50b59c48bef64"
   },
   "lecciones/matematicas/funciones.js": {
     "mtime": 1791323208.1978056,
+    "seen": 1792563576.0493922,
     "ast_hash": "fb836d8e135f59617c1381e2b4d98b95",
     "semantic_hash": "fb836d8e135f59617c1381e2b4d98b95"
   },
   "lecciones/matematicas/geometria-analitica.js": {
     "mtime": 1791324484.4207063,
+    "seen": 1792563576.0493922,
     "ast_hash": "ae0957870c0fa507779cc9562bd5e2ca",
     "semantic_hash": "ae0957870c0fa507779cc9562bd5e2ca"
   },
   "lecciones/matematicas/geometria.js": {
     "mtime": 1791323280.9598322,
+    "seen": 1792563576.0493922,
     "ast_hash": "8237c5080eec9fd52f69102a53d4b1a6",
     "semantic_hash": "8237c5080eec9fd52f69102a53d4b1a6"
   },
   "lecciones/matematicas/trigonometria.js": {
     "mtime": 1791323291.328967,
+    "seen": 1792563576.049393,
     "ast_hash": "c00234a63044c64f4984d03bfee72d1d",
     "semantic_hash": "c00234a63044c64f4984d03bfee72d1d"
   },
   "lecciones/fisica/bases.js": {
     "mtime": 1791344489.6461039,
+    "seen": 1792563576.049376,
     "ast_hash": "08d078ccabb52a97e3ab751a2d7ab52f",
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1792125606.0635118,
-    "ast_hash": "c0bdfe8a2ab7f0e7a236df175f286558",
-    "semantic_hash": "c0bdfe8a2ab7f0e7a236df175f286558"
+    "mtime": 1792562036.0537481,
+    "seen": 1792563576.049419,
+    "ast_hash": "4a0901bd7c577d0b9724dc46e1a75a2b",
+    "semantic_hash": "4a0901bd7c577d0b9724dc46e1a75a2b"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
+    "seen": 1792563576.049376,
     "ast_hash": "6ca26af0c384e71bac0ec3dbaecbb238",
     "semantic_hash": "6ca26af0c384e71bac0ec3dbaecbb238"
   },
   "lecciones/fisica/electricidad.js": {
     "mtime": 1791389475.996809,
+    "seen": 1792563576.049377,
     "ast_hash": "ab8f17bc5dead61d3153ad8e548d4b06",
     "semantic_hash": "ab8f17bc5dead61d3153ad8e548d4b06"
   },
   "lecciones/fisica/energia.js": {
     "mtime": 1791346296.8841488,
+    "seen": 1792563576.049377,
     "ast_hash": "198fcce9dd89dac2d2d767da3ef9d21d",
     "semantic_hash": "198fcce9dd89dac2d2d767da3ef9d21d"
   },
   "lecciones/fisica/fluidos.js": {
     "mtime": 1791346926.035369,
+    "seen": 1792563576.0493782,
     "ast_hash": "86c77b03bf3dcdd3b16d2102ca091d42",
     "semantic_hash": "86c77b03bf3dcdd3b16d2102ca091d42"
   },
   "lecciones/fisica/fuerzas.js": {
     "mtime": 1791345736.6559637,
+    "seen": 1792563576.0493782,
     "ast_hash": "ccfe9b528ac4256fda1933b020e18f37",
     "semantic_hash": "ccfe9b528ac4256fda1933b020e18f37"
   },
   "lecciones/fisica/moderna.js": {
     "mtime": 1791389932.9148219,
+    "seen": 1792563576.0493782,
     "ast_hash": "0ac95c4633805564c4d075ae7fff21e8",
     "semantic_hash": "0ac95c4633805564c4d075ae7fff21e8"
   },
   "lecciones/fisica/movimiento.js": {
     "mtime": 1791345152.756811,
+    "seen": 1792563576.049379,
     "ast_hash": "7e7f97c5f0b7633cf281c987b03bdd13",
     "semantic_hash": "7e7f97c5f0b7633cf281c987b03bdd13"
   },
   "lecciones/fisica/ondas.js": {
     "mtime": 1791388913.6562998,
+    "seen": 1792563576.049379,
     "ast_hash": "43c838e5b13cc2e140a2dc9ff7367184",
     "semantic_hash": "43c838e5b13cc2e140a2dc9ff7367184"
   },
   "lecciones/quimica/atomo.js": {
     "mtime": 1791398731.169035,
+    "seen": 1792563576.049393,
     "ast_hash": "4635775839751b746a37d3f6706779cb",
     "semantic_hash": "4635775839751b746a37d3f6706779cb"
   },
   "lecciones/quimica/disoluciones.js": {
     "mtime": 1791404516.3880334,
+    "seen": 1792563576.049393,
     "ast_hash": "25c48ed8147a722d97f1fd9a1e9a8b8e",
     "semantic_hash": "25c48ed8147a722d97f1fd9a1e9a8b8e"
   },
   "lecciones/quimica/enlaces.js": {
     "mtime": 1791400734.3177884,
+    "seen": 1792563576.049394,
     "ast_hash": "6890d0907cdc3d93a15b1f0657508483",
     "semantic_hash": "6890d0907cdc3d93a15b1f0657508483"
   },
   "lecciones/quimica/estequiometria.js": {
     "mtime": 1791402323.322128,
+    "seen": 1792563576.049394,
     "ast_hash": "30ae86b9a7dd0bd23fbb5f3ffdcf9dd0",
     "semantic_hash": "30ae86b9a7dd0bd23fbb5f3ffdcf9dd0"
   },
   "lecciones/quimica/materia.js": {
     "mtime": 1791393145.4776032,
+    "seen": 1792563576.0493948,
     "ast_hash": "1607d97f7cc0f019e5959382e8e2d23b",
     "semantic_hash": "1607d97f7cc0f019e5959382e8e2d23b"
   },
   "lecciones/quimica/nomenclatura.js": {
     "mtime": 1791401206.315749,
+    "seen": 1792563576.0493948,
     "ast_hash": "7fab3cf3f9596308bb3143dcf3ea74cb",
     "semantic_hash": "7fab3cf3f9596308bb3143dcf3ea74cb"
   },
   "lecciones/quimica/organica.js": {
     "mtime": 1791424151.06036,
+    "seen": 1792563576.0493948,
     "ast_hash": "f4865a4c8b2665b930eca38754fb8fe5",
     "semantic_hash": "f4865a4c8b2665b930eca38754fb8fe5"
   },
   "lecciones/quimica/reacciones.js": {
     "mtime": 1791401805.9378717,
+    "seen": 1792563576.049396,
     "ast_hash": "2190df54163e7a05299df8ff9c2a4688",
     "semantic_hash": "2190df54163e7a05299df8ff9c2a4688"
   },
   "lecciones/quimica/tabla.js": {
     "mtime": 1791399507.9521472,
+    "seen": 1792563576.049396,
     "ast_hash": "bcd3073a3ac65412e1bc39b1cee7e911",
     "semantic_hash": "bcd3073a3ac65412e1bc39b1cee7e911"
   },
   "lecciones/quimica/vida-diaria.js": {
     "mtime": 1791424475.0042465,
+    "seen": 1792563576.049397,
     "ast_hash": "eb06cca57f15b250e0da70376642b813",
     "semantic_hash": "eb06cca57f15b250e0da70376642b813"
   },
   "lecciones/ciencias-naturales/cuerpo-humano.js": {
     "mtime": 1791430948.8500576,
+    "seen": 1792563576.049366,
     "ast_hash": "056ea751fdada990c8bf3776edef9bbe",
     "semantic_hash": "056ea751fdada990c8bf3776edef9bbe"
   },
   "lecciones/ciencias-naturales/ecologia.js": {
     "mtime": 1791433395.8351412,
+    "seen": 1792563576.049367,
     "ast_hash": "1c8b03bdb74f7cc80960f47155137b86",
     "semantic_hash": "1c8b03bdb74f7cc80960f47155137b86"
   },
   "lecciones/ciencias-naturales/herencia.js": {
     "mtime": 1791432614.827415,
+    "seen": 1792563576.049367,
     "ast_hash": "b3265c9951225dce86ae5af3faa9c301",
     "semantic_hash": "b3265c9951225dce86ae5af3faa9c301"
   },
   "lecciones/ciencias-naturales/salud.js": {
     "mtime": 1791431772.6167526,
+    "seen": 1792563576.0493681,
     "ast_hash": "812e591dbeb77ceabaae8342a8715ba5",
     "semantic_hash": "812e591dbeb77ceabaae8342a8715ba5"
   },
   "lecciones/ciencias-naturales/seres-vivos.js": {
     "mtime": 1791426299.5774515,
+    "seen": 1792563576.0493681,
     "ast_hash": "d8f5c0ac69c6835ace48ec79ab005bda",
     "semantic_hash": "d8f5c0ac69c6835ace48ec79ab005bda"
   },
   "lecciones/ciencias-naturales/tierra.js": {
     "mtime": 1791442208.412294,
+    "seen": 1792563576.049369,
     "ast_hash": "1dd91cb24876d11906fc8aa42495ae4c",
     "semantic_hash": "1dd91cb24876d11906fc8aa42495ae4c"
   },
   "lecciones/ciencias-naturales/universo.js": {
     "mtime": 1791442838.9180484,
+    "seen": 1792563576.049369,
     "ast_hash": "e9d07bafb9f387b27c4dff44127eead4",
     "semantic_hash": "e9d07bafb9f387b27c4dff44127eead4"
   },
   "lecciones/autosuficiencia/agua.js": {
     "mtime": 1791445554.9125319,
+    "seen": 1792563576.049361,
     "ast_hash": "26188da14d6caed2e2b2df885cfe8d12",
     "semantic_hash": "26188da14d6caed2e2b2df885cfe8d12"
   },
   "lecciones/autosuficiencia/alimentos.js": {
     "mtime": 1791493803.4519641,
+    "seen": 1792563576.049361,
     "ast_hash": "c8e94cec42b6be34522215cdc74351bc",
     "semantic_hash": "c8e94cec42b6be34522215cdc74351bc"
   },
   "lecciones/autosuficiencia/bases.js": {
     "mtime": 1791444274.38769,
+    "seen": 1792563576.049362,
     "ast_hash": "bb47521f78e30e55f387335ff603f0be",
     "semantic_hash": "bb47521f78e30e55f387335ff603f0be"
   },
   "lecciones/autosuficiencia/cultivos.js": {
     "mtime": 1791476798.3936813,
+    "seen": 1792563576.049362,
     "ast_hash": "8dcd6a9276173d516037fb1c1775fc1f",
     "semantic_hash": "8dcd6a9276173d516037fb1c1775fc1f"
   },
   "lecciones/autosuficiencia/energia.js": {
     "mtime": 1791511421.4212887,
+    "seen": 1792563576.049363,
     "ast_hash": "921944116a0895bb699e8c059df27f14",
     "semantic_hash": "921944116a0895bb699e8c059df27f14"
   },
   "lecciones/autosuficiencia/fuego.js": {
     "mtime": 1791495774.370228,
+    "seen": 1792563576.049363,
     "ast_hash": "baf8837cf66803ce5816878b55c45af2",
     "semantic_hash": "baf8837cf66803ce5816878b55c45af2"
   },
   "lecciones/autosuficiencia/guardar-semillas.js": {
     "mtime": 1791480156.5425706,
+    "seen": 1792563576.0493639,
     "ast_hash": "02b8f72aaead1c78532c5acc71a27428",
     "semantic_hash": "02b8f72aaead1c78532c5acc71a27428"
   },
   "lecciones/autosuficiencia/habilidades.js": {
     "mtime": 1791512481.7789068,
+    "seen": 1792563576.0493639,
     "ast_hash": "2c95bac5882e847f0dc070d73378a204",
     "semantic_hash": "2c95bac5882e847f0dc070d73378a204"
   },
   "lecciones/autosuficiencia/huerto.js": {
     "mtime": 1791446669.2051287,
+    "seen": 1792563576.049365,
     "ast_hash": "a1d615a47035cfe4664e6fa0fbe37e37",
     "semantic_hash": "a1d615a47035cfe4664e6fa0fbe37e37"
   },
   "lecciones/autosuficiencia/salud.js": {
     "mtime": 1791511681.5138924,
+    "seen": 1792563576.049365,
     "ast_hash": "bd8a03eae69b4aa3c43e319b6f0ef505",
     "semantic_hash": "bd8a03eae69b4aa3c43e319b6f0ef505"
   },
   "lecciones/autosuficiencia/semillas.js": {
     "mtime": 1791474173.7581348,
+    "seen": 1792563576.049365,
     "ast_hash": "1661a09f4824a3833701557220be1d02",
     "semantic_hash": "1661a09f4824a3833701557220be1d02"
   },
   "lecciones/autosuficiencia/vivienda.js": {
     "mtime": 1791501766.3346686,
+    "seen": 1792563576.049366,
     "ast_hash": "6056ba7138fc26191febb910a2b358f3",
     "semantic_hash": "6056ba7138fc26191febb910a2b358f3"
   },
   "lecciones/autosuficiencia/software.js": {
     "mtime": 1791530147.3234315,
+    "seen": 1792563576.049366,
     "ast_hash": "0070f3288de9b9e8020bcec41e0075c1",
     "semantic_hash": "0070f3288de9b9e8020bcec41e0075c1"
   },
   "lecciones/finanzas-personales/dinero.js": {
     "mtime": 1791513862.1313753,
+    "seen": 1792563576.0493708,
     "ast_hash": "442fedb39740876afa16645f9f0ec8fa",
     "semantic_hash": "442fedb39740876afa16645f9f0ec8fa"
   },
   "lecciones/finanzas-personales/presupuesto.js": {
     "mtime": 1791519055.598508,
+    "seen": 1792563576.049373,
     "ast_hash": "391b66008ae898ea809f19f170a24551",
     "semantic_hash": "391b66008ae898ea809f19f170a24551"
   },
   "lecciones/finanzas-personales/ahorro.js": {
     "mtime": 1791531546.3273494,
+    "seen": 1792563576.049369,
     "ast_hash": "7478f25b840db5d3a0ab1c78c5896015",
     "semantic_hash": "7478f25b840db5d3a0ab1c78c5896015"
   },
   "lecciones/finanzas-personales/bancos.js": {
     "mtime": 1791568804.6341758,
+    "seen": 1792563576.04937,
     "ast_hash": "ac65841a61b26a64fd95b1776d040783",
     "semantic_hash": "ac65841a61b26a64fd95b1776d040783"
   },
   "lecciones/finanzas-personales/credito.js": {
     "mtime": 1791534652.551454,
+    "seen": 1792563576.04937,
     "ast_hash": "b99774cf4c46ac676b155508e557e9cd",
     "semantic_hash": "b99774cf4c46ac676b155508e557e9cd"
   },
   "lecciones/finanzas-personales/crisis.js": {
     "mtime": 1791572537.0631166,
+    "seen": 1792563576.04937,
     "ast_hash": "4107f0e20359c178f2cee4db29233799",
     "semantic_hash": "4107f0e20359c178f2cee4db29233799"
   },
   "lecciones/finanzas-personales/deudas.js": {
     "mtime": 1791568085.4684896,
+    "seen": 1792563576.0493708,
     "ast_hash": "8bf8454cd525253e7529ccbc8785f91c",
     "semantic_hash": "8bf8454cd525253e7529ccbc8785f91c"
   },
   "lecciones/finanzas-personales/futuro.js": {
     "mtime": 1791571094.408587,
+    "seen": 1792563576.049372,
     "ast_hash": "5a5094cb8bd0d3018cb5bf8e87b2ab52",
     "semantic_hash": "5a5094cb8bd0d3018cb5bf8e87b2ab52"
   },
   "lecciones/finanzas-personales/interes.js": {
     "mtime": 1791533752.9748151,
+    "seen": 1792563576.049372,
     "ast_hash": "4d051fd5a4e4d6ec3344e9a2649caa84",
     "semantic_hash": "4d051fd5a4e4d6ec3344e9a2649caa84"
   },
   "lecciones/finanzas-personales/inversion.js": {
     "mtime": 1791569649.1232023,
+    "seen": 1792563576.049372,
     "ast_hash": "3660dc3a625294afc9c68ea97b206f6e",
     "semantic_hash": "3660dc3a625294afc9c68ea97b206f6e"
   },
   ".claude/herramientas/citas.js": {
     "mtime": 1791608346.2758973,
+    "seen": 1792563576.0493429,
     "ast_hash": "840d4c6439f9ca985ae1307635e252dd",
     "semantic_hash": "840d4c6439f9ca985ae1307635e252dd"
   },
   ".claude/herramientas/render.js": {
-    "mtime": 1791586250.5229342,
-    "ast_hash": "9c0a58b952011e91d791ef06bb1beb44",
-    "semantic_hash": "9c0a58b952011e91d791ef06bb1beb44"
+    "mtime": 1792522733.1909487,
+    "seen": 1792563576.0493472,
+    "ast_hash": "50521470436762a1145ac1c73ff4bc21",
+    "semantic_hash": "50521470436762a1145ac1c73ff4bc21"
   },
   ".claude/herramientas/revisar.js": {
-    "mtime": 1791687476.0103753,
-    "ast_hash": "2517de9ce04d2af0acfa9c238d7f17e1",
-    "semantic_hash": "2517de9ce04d2af0acfa9c238d7f17e1"
+    "mtime": 1792446774.1802893,
+    "seen": 1792563576.049348,
+    "ast_hash": "2b47edbb69a167c4dd11593dbe687351",
+    "semantic_hash": "2b47edbb69a167c4dd11593dbe687351"
   },
   "lecciones/ia/que-es.js": {
     "mtime": 1791588225.553098,
+    "seen": 1792563576.049381,
     "ast_hash": "e3596dcf36f341357bd27ad6675ad2cd",
     "semantic_hash": "e3596dcf36f341357bd27ad6675ad2cd"
   },
   ".claude/agents/auditor.md": {
-    "mtime": 1791586216.9657087,
-    "ast_hash": "bfa0c746f054fbc661b6593e0f1fb588",
-    "semantic_hash": "bfa0c746f054fbc661b6593e0f1fb588"
+    "mtime": 1792446650.334487,
+    "seen": 1792563576.049397,
+    "ast_hash": "7af75516592d67b555341037badceac1",
+    "semantic_hash": "7af75516592d67b555341037badceac1"
   },
   ".claude/agents/constructor.md": {
-    "mtime": 1791586216.963396,
-    "ast_hash": "d80bc7699efcd06100df1c78e3f8279d",
-    "semantic_hash": "d80bc7699efcd06100df1c78e3f8279d"
+    "mtime": 1792446631.7346385,
+    "seen": 1792563576.049398,
+    "ast_hash": "f65b5b369585f7486e6604f317306620",
+    "semantic_hash": "f65b5b369585f7486e6604f317306620"
   },
   ".claude/agents/investigador.md": {
-    "mtime": 1791589740.6592033,
-    "ast_hash": "a2f83ff0dab42b8a201ceaee481d8c86",
-    "semantic_hash": "a2f83ff0dab42b8a201ceaee481d8c86"
+    "mtime": 1792446668.8673465,
+    "seen": 1792563576.049398,
+    "ast_hash": "a4e9a39c38ba7e36da1fa66ba21b8326",
+    "semantic_hash": "a4e9a39c38ba7e36da1fa66ba21b8326"
   },
   ".claude/docs/auditoria.md": {
     "mtime": 1791586167.4888442,
+    "seen": 1792564370.332423,
     "ast_hash": "774c467cfb7340413319b84c91e4f953",
     "semantic_hash": "774c467cfb7340413319b84c91e4f953"
   },
   ".claude/docs/contenido.md": {
     "mtime": 1791586140.8934498,
+    "seen": 1792564370.332424,
     "ast_hash": "d613853d25fbc053d9ac8913f878069c",
     "semantic_hash": "d613853d25fbc053d9ac8913f878069c"
   },
   ".claude/docs/flujo-unidad.md": {
-    "mtime": 1791590216.3482785,
-    "ast_hash": "7957a2f4a0c0fbbeac6bd7f5efc0d706",
-    "semantic_hash": "7957a2f4a0c0fbbeac6bd7f5efc0d706"
+    "mtime": 1792446611.8478794,
+    "seen": 1792563576.0494,
+    "ast_hash": "29f815f010beaa9a31533323e14a65cc",
+    "semantic_hash": "29f815f010beaa9a31533323e14a65cc"
   },
   ".claude/docs/formato-leccion.md": {
     "mtime": 1792109471.3040223,
+    "seen": 1792564370.332436,
     "ast_hash": "18dd1faa1b735e68ca729e26f6288660",
     "semantic_hash": "18dd1faa1b735e68ca729e26f6288660"
   },
   ".claude/docs/fuentes.md": {
-    "mtime": 1792125606.0638475,
-    "ast_hash": "ed0e38956774ac5427dd35052e691e39",
-    "semantic_hash": "ed0e38956774ac5427dd35052e691e39"
+    "mtime": 1792562036.0737636,
+    "seen": 1792563576.049401,
+    "ast_hash": "e3e097197ea0af68957db62831767ff9",
+    "semantic_hash": "e3e097197ea0af68957db62831767ff9"
   },
   "lecciones/ia/como-aprenden.js": {
     "mtime": 1791590120.7566478,
+    "seen": 1792563576.04938,
     "ast_hash": "15195380c47ac196799ccd145c5d31c1",
     "semantic_hash": "15195380c47ac196799ccd145c5d31c1"
   },
   "lecciones/ia/llms-locales.js": {
     "mtime": 1791605341.660047,
+    "seen": 1792563576.04938,
     "ast_hash": "813a1198b8c0a9763a13b50cfd79450b",
     "semantic_hash": "813a1198b8c0a9763a13b50cfd79450b"
   },
   "lecciones/ia/modelos-lenguaje.js": {
     "mtime": 1791591732.0406718,
+    "seen": 1792563576.049381,
     "ast_hash": "68d40b1c16329fa7694216c6188b1752",
     "semantic_hash": "68d40b1c16329fa7694216c6188b1752"
   },
   "lecciones/ia/sociedad.js": {
     "mtime": 1791606381.2868013,
+    "seen": 1792563576.049381,
     "ast_hash": "a85bc5225db12bd000887e8a48314de2",
     "semantic_hash": "a85bc5225db12bd000887e8a48314de2"
   },
   "lecciones/ia/usar-bien.js": {
     "mtime": 1791592917.8506532,
+    "seen": 1792563576.049382,
     "ast_hash": "52bf312c55bf09f171f5881d32baa939",
     "semantic_hash": "52bf312c55bf09f171f5881d32baa939"
   },
   ".claude/docs/materias/ia.md": {
     "mtime": 1791586812.4057858,
+    "seen": 1792564370.332448,
     "ast_hash": "7812e648d7ff459b7110df95a582e95d",
     "semantic_hash": "7812e648d7ff459b7110df95a582e95d"
   },
   ".claude/docs/sitio.md": {
     "mtime": 1792109995.697425,
+    "seen": 1792564370.332461,
     "ast_hash": "ccf51ba50576678e1e4943f61e29c473",
     "semantic_hash": "ccf51ba50576678e1e4943f61e29c473"
   },
   ".claude/trabajo/ia/como-aprenden/ficha.md": {
     "mtime": 1791589847.4267123,
+    "seen": 1792564370.3326201,
     "ast_hash": "25c6b434a0ebdac0f7ebd32339b05630",
     "semantic_hash": "25c6b434a0ebdac0f7ebd32339b05630"
   },
   ".claude/trabajo/ia/como-aprenden/plan.md": {
     "mtime": 1791588803.4939344,
+    "seen": 1792564370.332621,
     "ast_hash": "8336f938abac4fdee71055c16dc40cbd",
     "semantic_hash": "8336f938abac4fdee71055c16dc40cbd"
   },
   ".claude/trabajo/ia/llms-locales/ficha.md": {
     "mtime": 1791593523.3181934,
+    "seen": 1792564370.332621,
     "ast_hash": "3736d077be48cc821a97b7ef431d011e",
     "semantic_hash": "3736d077be48cc821a97b7ef431d011e"
   },
   ".claude/trabajo/ia/llms-locales/plan.md": {
     "mtime": 1791593238.1941197,
+    "seen": 1792564370.332622,
     "ast_hash": "b2e320e0ac61230df7a119ba0cf1ccbb",
     "semantic_hash": "b2e320e0ac61230df7a119ba0cf1ccbb"
   },
   ".claude/trabajo/ia/modelos-lenguaje/ficha.md": {
     "mtime": 1791591225.0755932,
+    "seen": 1792564370.332622,
     "ast_hash": "e8082c9311df0e65b37d3faae61a1b5e",
     "semantic_hash": "e8082c9311df0e65b37d3faae61a1b5e"
   },
   ".claude/trabajo/ia/modelos-lenguaje/plan.md": {
     "mtime": 1791590613.673005,
+    "seen": 1792564370.332622,
     "ast_hash": "8b7f964d6f58698f64e031003e3c3658",
     "semantic_hash": "8b7f964d6f58698f64e031003e3c3658"
   },
   ".claude/trabajo/ia/que-es/ficha.md": {
     "mtime": 1791588213.1274285,
+    "seen": 1792564370.332623,
     "ast_hash": "397489a1a17f5a3079ad9547910cb3d5",
     "semantic_hash": "397489a1a17f5a3079ad9547910cb3d5"
   },
   ".claude/trabajo/ia/que-es/plan.md": {
     "mtime": 1791586834.4059906,
+    "seen": 1792564370.332623,
     "ast_hash": "7e312db9454a6c69be77473f86af6b0e",
     "semantic_hash": "7e312db9454a6c69be77473f86af6b0e"
   },
   ".claude/trabajo/ia/sociedad/ficha.md": {
     "mtime": 1791605995.4393733,
+    "seen": 1792564370.332623,
     "ast_hash": "82105376c3d7d2da9e93b70e43eb7957",
     "semantic_hash": "82105376c3d7d2da9e93b70e43eb7957"
   },
   ".claude/trabajo/ia/sociedad/plan.md": {
     "mtime": 1791605536.7726014,
+    "seen": 1792564370.332624,
     "ast_hash": "53766b066b262fe9cd3d0b837ca30f1b",
     "semantic_hash": "53766b066b262fe9cd3d0b837ca30f1b"
   },
   ".claude/trabajo/ia/usar-bien/ficha.md": {
     "mtime": 1791592654.4957545,
+    "seen": 1792564370.332624,
     "ast_hash": "ea10020e5e1cb8da1458e45a606f7b06",
     "semantic_hash": "ea10020e5e1cb8da1458e45a606f7b06"
   },
   ".claude/trabajo/ia/usar-bien/plan.md": {
     "mtime": 1791592030.8194747,
+    "seen": 1792564370.332625,
     "ast_hash": "4f6002e54113525422fb38c17702dc03",
     "semantic_hash": "4f6002e54113525422fb38c17702dc03"
   },
   "lecciones/mandarin/acciones.js": {
     "mtime": 1792109267.2154188,
+    "seen": 1792563576.049382,
     "ast_hash": "0fa6917b55af496e9e4ec7f972429744",
     "semantic_hash": "0fa6917b55af496e9e4ec7f972429744"
   },
   "lecciones/mandarin/hsk2-gramatica.js": {
     "mtime": 1792109267.2253535,
+    "seen": 1792563576.049383,
     "ast_hash": "a912b10b117aec731901c4ae0d11f5ee",
     "semantic_hash": "a912b10b117aec731901c4ae0d11f5ee"
   },
   "lecciones/mandarin/hsk2-situaciones.js": {
     "mtime": 1792109267.2345212,
+    "seen": 1792563576.049383,
     "ast_hash": "9b59f52e5d638da656c851b3e7c8df1d",
     "semantic_hash": "9b59f52e5d638da656c851b3e7c8df1d"
   },
   "lecciones/mandarin/hsk3-gramatica.js": {
     "mtime": 1792125497.610417,
+    "seen": 1792563576.0493839,
     "ast_hash": "6c8710e1ce9a25841924657045d61cee",
     "semantic_hash": "6c8710e1ce9a25841924657045d61cee"
   },
   "lecciones/mandarin/primeras-frases.js": {
     "mtime": 1792109267.1897614,
+    "seen": 1792563576.0493891,
     "ast_hash": "14e701ded01965858d32bec4330e7fd1",
     "semantic_hash": "14e701ded01965858d32bec4330e7fd1"
   },
   "lecciones/mandarin/sonidos.js": {
     "mtime": 1791660836.3777914,
+    "seen": 1792563576.0493891,
     "ast_hash": "1696cb32548c75bdb9e4664d878d1c91",
     "semantic_hash": "1696cb32548c75bdb9e4664d878d1c91"
   },
   "lecciones/mandarin/vida-diaria.js": {
     "mtime": 1792109267.2059646,
+    "seen": 1792563576.04939,
     "ast_hash": "ffc6690bbe844a47650b04575fd13a60",
     "semantic_hash": "ffc6690bbe844a47650b04575fd13a60"
   },
   ".claude/docs/materias/mandarin.md": {
-    "mtime": 1792109471.3047054,
-    "ast_hash": "46130bfd54c5a1cec0a9bfb3880cf296",
-    "semantic_hash": "46130bfd54c5a1cec0a9bfb3880cf296"
+    "mtime": 1792424519.0263305,
+    "seen": 1792563576.049401,
+    "ast_hash": "030c50f984515163aa4b4283bf5b6d85",
+    "semantic_hash": "030c50f984515163aa4b4283bf5b6d85"
   },
   ".claude/trabajo/mandarin/acciones/ficha.md": {
     "mtime": 1791692462.7379322,
+    "seen": 1792564370.332625,
     "ast_hash": "47d67fa35b5ec5569737c7f30de770ed",
     "semantic_hash": "47d67fa35b5ec5569737c7f30de770ed"
   },
   ".claude/trabajo/mandarin/acciones/notas-director.md": {
     "mtime": 1791692919.3937624,
+    "seen": 1792564370.332625,
     "ast_hash": "b7c99b5628b3f91695317faa50e21679",
     "semantic_hash": "b7c99b5628b3f91695317faa50e21679"
   },
   ".claude/trabajo/mandarin/acciones/plan.md": {
     "mtime": 1791692099.404279,
+    "seen": 1792564370.3326259,
     "ast_hash": "a7a1b2883fa4d7eeccfede27eb186e7e",
     "semantic_hash": "a7a1b2883fa4d7eeccfede27eb186e7e"
   },
   ".claude/trabajo/mandarin/hsk2-gramatica/ficha.md": {
     "mtime": 1791694519.0055668,
+    "seen": 1792564370.3326259,
     "ast_hash": "228352f1e750d90c3c6b29f5b6facf67",
     "semantic_hash": "228352f1e750d90c3c6b29f5b6facf67"
   },
   ".claude/trabajo/mandarin/hsk2-gramatica/notas-director.md": {
     "mtime": 1791846764.9329908,
+    "seen": 1792564370.3326259,
     "ast_hash": "b94a2f8269fccb34a82b8fb456f686c3",
     "semantic_hash": "b94a2f8269fccb34a82b8fb456f686c3"
   },
   ".claude/trabajo/mandarin/hsk2-gramatica/plan.md": {
     "mtime": 1791694309.9267542,
+    "seen": 1792564370.332627,
     "ast_hash": "028ba8f3b61366207a263676b6b35900",
     "semantic_hash": "028ba8f3b61366207a263676b6b35900"
   },
   ".claude/trabajo/mandarin/hsk2-situaciones/ficha.md": {
     "mtime": 1792106344.2440088,
+    "seen": 1792564370.332627,
     "ast_hash": "fd25ab3150ef292f56b755736d6e6e11",
     "semantic_hash": "fd25ab3150ef292f56b755736d6e6e11"
   },
   ".claude/trabajo/mandarin/hsk2-situaciones/notas-director.md": {
     "mtime": 1792106845.7560558,
+    "seen": 1792564370.332628,
     "ast_hash": "b4eaa12d135455d3676cf5a968d70e6f",
     "semantic_hash": "b4eaa12d135455d3676cf5a968d70e6f"
   },
   ".claude/trabajo/mandarin/hsk2-situaciones/plan.md": {
     "mtime": 1791849995.1922877,
+    "seen": 1792564370.332628,
     "ast_hash": "f5fb6f5b4620fee161dca5a8d87209d3",
     "semantic_hash": "f5fb6f5b4620fee161dca5a8d87209d3"
   },
   ".claude/trabajo/mandarin/hsk3-gramatica/ficha.md": {
     "mtime": 1792111823.1396365,
+    "seen": 1792564370.3326552,
     "ast_hash": "130bfde219bf9b688546171337639c42",
     "semantic_hash": "130bfde219bf9b688546171337639c42"
   },
   ".claude/trabajo/mandarin/hsk3-gramatica/notas-director.md": {
     "mtime": 1792124692.0913107,
+    "seen": 1792564370.3326561,
     "ast_hash": "006b4f623036c8a585d0a874dcfc27d4",
     "semantic_hash": "006b4f623036c8a585d0a874dcfc27d4"
   },
   ".claude/trabajo/mandarin/hsk3-gramatica/plan.md": {
     "mtime": 1792110002.140866,
+    "seen": 1792564370.3326561,
     "ast_hash": "fadf78de0e3caea4bc077098aaa78058",
     "semantic_hash": "fadf78de0e3caea4bc077098aaa78058"
   },
   ".claude/trabajo/mandarin/primeras-frases/ficha.md": {
     "mtime": 1791686495.8804781,
+    "seen": 1792564370.3329148,
     "ast_hash": "67eb0d17acb4301f04d3bc5b8997c5c6",
     "semantic_hash": "67eb0d17acb4301f04d3bc5b8997c5c6"
   },
   ".claude/trabajo/mandarin/primeras-frases/notas-director.md": {
     "mtime": 1791687476.0105457,
+    "seen": 1792564370.3329148,
     "ast_hash": "245f4f6f00b38906e3269c5c550ed248",
     "semantic_hash": "245f4f6f00b38906e3269c5c550ed248"
   },
   ".claude/trabajo/mandarin/primeras-frases/plan.md": {
     "mtime": 1791664390.564229,
+    "seen": 1792564370.332916,
     "ast_hash": "5abb75509aa4b95f32a4829822269742",
     "semantic_hash": "5abb75509aa4b95f32a4829822269742"
   },
   ".claude/trabajo/mandarin/sonidos/ficha.md": {
     "mtime": 1791649456.2375674,
+    "seen": 1792564370.332916,
     "ast_hash": "eec2d457e0c2f27fcb9055fcb3fa514b",
     "semantic_hash": "eec2d457e0c2f27fcb9055fcb3fa514b"
   },
   ".claude/trabajo/mandarin/sonidos/notas-director.md": {
     "mtime": 1791660794.9885817,
+    "seen": 1792564370.332917,
     "ast_hash": "7104d0909fc6d29db11075500a73f78c",
     "semantic_hash": "7104d0909fc6d29db11075500a73f78c"
   },
   ".claude/trabajo/mandarin/sonidos/plan.md": {
     "mtime": 1791608731.1489582,
+    "seen": 1792564370.332917,
     "ast_hash": "b9273f8dfd6f0ae946efe50a6c6ccab3",
     "semantic_hash": "b9273f8dfd6f0ae946efe50a6c6ccab3"
   },
   ".claude/trabajo/mandarin/vida-diaria/ficha.md": {
     "mtime": 1791690083.9319096,
+    "seen": 1792564370.332917,
     "ast_hash": "5ce41f09020f106c1f2a366d72ad76af",
     "semantic_hash": "5ce41f09020f106c1f2a366d72ad76af"
   },
   ".claude/trabajo/mandarin/vida-diaria/notas-director.md": {
     "mtime": 1791691012.592004,
+    "seen": 1792564370.332918,
     "ast_hash": "0d735c4574ad5040361cd5a97e6a85cb",
     "semantic_hash": "0d735c4574ad5040361cd5a97e6a85cb"
   },
   ".claude/trabajo/mandarin/vida-diaria/plan.md": {
     "mtime": 1791689658.1431556,
+    "seen": 1792564370.332918,
     "ast_hash": "dcfb2c0a5223119530211ac6952e42d7",
     "semantic_hash": "dcfb2c0a5223119530211ac6952e42d7"
+  },
+  ".claude/herramientas/plan.js": {
+    "mtime": 1792445803.5796378,
+    "seen": 1792563576.049346,
+    "ast_hash": "4dc4645e9b0b2eafaf8c4c953fdc3f61",
+    "semantic_hash": "4dc4645e9b0b2eafaf8c4c953fdc3f61"
+  },
+  ".claude/settings.json": {
+    "mtime": 1792446132.8578062,
+    "seen": 1792563576.049348,
+    "ast_hash": "d4a8aeeb4f28c6c83903e7571cc03f1a",
+    "semantic_hash": "d4a8aeeb4f28c6c83903e7571cc03f1a"
+  },
+  ".claude/trabajo/mandarin/hsk4-cultura/nivel.js": {
+    "mtime": 1792272606.0428362,
+    "seen": 1792563576.049353,
+    "ast_hash": "8bcc0602001ca9c0744c52fd962d0dd7",
+    "semantic_hash": "8bcc0602001ca9c0744c52fd962d0dd7"
+  },
+  ".claude/trabajo/mandarin/hsk4-estructuras/nivel.js": {
+    "mtime": 1792189282.047086,
+    "seen": 1792563576.049354,
+    "ast_hash": "0ab27b91f8091cbcd04c1bcd863f11e4",
+    "semantic_hash": "0ab27b91f8091cbcd04c1bcd863f11e4"
+  },
+  ".claude/trabajo/mandarin/hsk4-frases/nivel.js": {
+    "mtime": 1792182537.352202,
+    "seen": 1792563576.049354,
+    "ast_hash": "11221fb6cb256bfcb872d6a03e9df4e2",
+    "semantic_hash": "11221fb6cb256bfcb872d6a03e9df4e2"
+  },
+  ".claude/trabajo/mandarin/hsk4-vida/nivel.js": {
+    "mtime": 1792194351.0297816,
+    "seen": 1792563576.049355,
+    "ast_hash": "307f82d78c55ddc0a1e181155bf94192",
+    "semantic_hash": "307f82d78c55ddc0a1e181155bf94192"
+  },
+  ".claude/trabajo/mandarin/hsk5-cultura/nivel.js": {
+    "mtime": 1792372827.5738318,
+    "seen": 1792563576.049355,
+    "ast_hash": "ba20d334207e65efe61260177555d219",
+    "semantic_hash": "ba20d334207e65efe61260177555d219"
+  },
+  ".claude/trabajo/mandarin/hsk5-gramatica/nivel.js": {
+    "mtime": 1792346152.2680016,
+    "seen": 1792563576.049356,
+    "ast_hash": "bd57cb9c188c9f75aad60c4131b9f765",
+    "semantic_hash": "bd57cb9c188c9f75aad60c4131b9f765"
+  },
+  ".claude/trabajo/mandarin/hsk5-sociedad/nivel.js": {
+    "mtime": 1792366425.9725459,
+    "seen": 1792563576.049356,
+    "ast_hash": "8800c7c2b058cd0afe768bbbdca3c5fc",
+    "semantic_hash": "8800c7c2b058cd0afe768bbbdca3c5fc"
+  },
+  ".claude/trabajo/mandarin/hsk6-cultura/nivel.js": {
+    "mtime": 1792422705.1263525,
+    "seen": 1792563576.049357,
+    "ast_hash": "c60620c40f5444c4c998106e7b90bbca",
+    "semantic_hash": "c60620c40f5444c4c998106e7b90bbca"
+  },
+  ".claude/trabajo/mandarin/hsk6-gramatica/nivel.js": {
+    "mtime": 1792386354.7144606,
+    "seen": 1792563576.049357,
+    "ast_hash": "69795ba945775ff2bba505eb98eb7a51",
+    "semantic_hash": "69795ba945775ff2bba505eb98eb7a51"
+  },
+  ".claude/trabajo/mandarin/hsk6-temas/nivel.js": {
+    "mtime": 1792420477.2755673,
+    "seen": 1792563576.049357,
+    "ast_hash": "1f438e6257f0c89d4fa58886fbf94131",
+    "semantic_hash": "1f438e6257f0c89d4fa58886fbf94131"
+  },
+  ".opencode/opencode.json": {
+    "mtime": 1792436126.0206602,
+    "seen": 1792563576.0493581,
+    "ast_hash": "ba9e6410a8f2cfb193402d70e57dca8c",
+    "semantic_hash": "ba9e6410a8f2cfb193402d70e57dca8c"
+  },
+  ".opencode/plugins/plan-aprobado.ts": {
+    "mtime": 1792446367.1992388,
+    "seen": 1792563576.0493581,
+    "ast_hash": "9ea23978bb2cf5ff4b76fba042bbeb71",
+    "semantic_hash": "9ea23978bb2cf5ff4b76fba042bbeb71"
+  },
+  "lecciones/finanzas/conceptos-economia.js": {
+    "mtime": 1792446533.1733644,
+    "seen": 1792563576.049373,
+    "ast_hash": "be9f33b7d3e1c88b766de7ae976dff32",
+    "semantic_hash": "be9f33b7d3e1c88b766de7ae976dff32"
+  },
+  "lecciones/finanzas/economia-de-un-pais.js": {
+    "mtime": 1792523522.405056,
+    "seen": 1792563576.0493739,
+    "ast_hash": "33e061cba4f10acc0c54a1b5ee59a23e",
+    "semantic_hash": "33e061cba4f10acc0c54a1b5ee59a23e"
+  },
+  "lecciones/finanzas/emprender.js": {
+    "mtime": 1792561942.5350626,
+    "seen": 1792563576.0493739,
+    "ast_hash": "7a8311d280aaf9cf4232b05366cddfaf",
+    "semantic_hash": "7a8311d280aaf9cf4232b05366cddfaf"
+  },
+  "lecciones/finanzas/empresas.js": {
+    "mtime": 1792531549.735979,
+    "seen": 1792563576.049375,
+    "ast_hash": "a41bf116ecd4cdd487ecfdab788f0624",
+    "semantic_hash": "a41bf116ecd4cdd487ecfdab788f0624"
+  },
+  "lecciones/finanzas/mercados-financieros.js": {
+    "mtime": 1792541153.5403914,
+    "seen": 1792563576.049375,
+    "ast_hash": "635a58449344ae309c2ce55406e34e97",
+    "semantic_hash": "635a58449344ae309c2ce55406e34e97"
+  },
+  "lecciones/finanzas/sistema-financiero.js": {
+    "mtime": 1792456772.232597,
+    "seen": 1792563576.049375,
+    "ast_hash": "83d5bf44206850c32aaa489a8c1f556b",
+    "semantic_hash": "83d5bf44206850c32aaa489a8c1f556b"
+  },
+  "lecciones/mandarin/hsk3-comunicacion.js": {
+    "mtime": 1792171571.2426937,
+    "seen": 1792563576.049383,
+    "ast_hash": "eff5be55d67c391df0c2349fed1c3ecc",
+    "semantic_hash": "eff5be55d67c391df0c2349fed1c3ecc"
+  },
+  "lecciones/mandarin/hsk4-cultura.js": {
+    "mtime": 1792277997.4654176,
+    "seen": 1792563576.0493839,
+    "ast_hash": "a86f0c274adce52f269b44669bb87933",
+    "semantic_hash": "a86f0c274adce52f269b44669bb87933"
+  },
+  "lecciones/mandarin/hsk4-estructuras.js": {
+    "mtime": 1792193615.0004218,
+    "seen": 1792563576.049385,
+    "ast_hash": "b3724fad2f21db8de578412fcc70f55c",
+    "semantic_hash": "b3724fad2f21db8de578412fcc70f55c"
+  },
+  "lecciones/mandarin/hsk4-frases.js": {
+    "mtime": 1792187603.8290641,
+    "seen": 1792563576.049385,
+    "ast_hash": "49f772c60d88db1fe66209d48fdd9331",
+    "semantic_hash": "49f772c60d88db1fe66209d48fdd9331"
+  },
+  "lecciones/mandarin/hsk4-vida.js": {
+    "mtime": 1792278031.2748044,
+    "seen": 1792563576.049386,
+    "ast_hash": "47bbc5f9ed152273ad672d4f5f6a9525",
+    "semantic_hash": "47bbc5f9ed152273ad672d4f5f6a9525"
+  },
+  "lecciones/mandarin/hsk5-cultura.js": {
+    "mtime": 1792385904.1453433,
+    "seen": 1792563576.049386,
+    "ast_hash": "3dadd7062820efae8233e6338605a72c",
+    "semantic_hash": "3dadd7062820efae8233e6338605a72c"
+  },
+  "lecciones/mandarin/hsk5-gramatica.js": {
+    "mtime": 1792348518.6982648,
+    "seen": 1792563576.049387,
+    "ast_hash": "0b0a5375611d5b3230d0a1a3607b2e61",
+    "semantic_hash": "0b0a5375611d5b3230d0a1a3607b2e61"
+  },
+  "lecciones/mandarin/hsk5-sociedad.js": {
+    "mtime": 1792372548.8344502,
+    "seen": 1792563576.049387,
+    "ast_hash": "be34692e91c1d5ca775508943dea150b",
+    "semantic_hash": "be34692e91c1d5ca775508943dea150b"
+  },
+  "lecciones/mandarin/hsk6-cultura.js": {
+    "mtime": 1792424416.5977578,
+    "seen": 1792563576.049387,
+    "ast_hash": "19cd18f49b55b88a6de9ff2488d0c861",
+    "semantic_hash": "19cd18f49b55b88a6de9ff2488d0c861"
+  },
+  "lecciones/mandarin/hsk6-gramatica.js": {
+    "mtime": 1792394450.8753805,
+    "seen": 1792563576.049388,
+    "ast_hash": "fe725c18175c7464c88a592e9ab36fc5",
+    "semantic_hash": "fe725c18175c7464c88a592e9ab36fc5"
+  },
+  "lecciones/mandarin/hsk6-temas.js": {
+    "mtime": 1792422075.8728716,
+    "seen": 1792563576.049388,
+    "ast_hash": "6a5a25fe7ee220a4f14e4465e79490cd",
+    "semantic_hash": "6a5a25fe7ee220a4f14e4465e79490cd"
+  },
+  ".claude/commands/aprobar-plan.md": {
+    "mtime": 1792446115.1745603,
+    "seen": 1792563576.0493991,
+    "ast_hash": "5f00b3d31b20af3aa4b135efa86f082c",
+    "semantic_hash": "5f00b3d31b20af3aa4b135efa86f082c"
+  },
+  ".claude/trabajo/finanzas/conceptos-economia/ficha.md": {
+    "mtime": 1792440098.2801945,
+    "seen": 1792563576.049401,
+    "ast_hash": "71bb8c8bcde247d11b7c9334cc64181e",
+    "semantic_hash": "71bb8c8bcde247d11b7c9334cc64181e"
+  },
+  ".claude/trabajo/finanzas/conceptos-economia/plan.md": {
+    "mtime": 1792446160.1933246,
+    "seen": 1792563576.049402,
+    "ast_hash": "77e27216bf9d6e831bee3d9c5de1fe1c",
+    "semantic_hash": "77e27216bf9d6e831bee3d9c5de1fe1c"
+  },
+  ".claude/trabajo/finanzas/economia-de-un-pais/ficha.md": {
+    "mtime": 1792523395.5644016,
+    "seen": 1792563576.049402,
+    "ast_hash": "2d26911ceff984800c9621fd321c3c53",
+    "semantic_hash": "2d26911ceff984800c9621fd321c3c53"
+  },
+  ".claude/trabajo/finanzas/economia-de-un-pais/plan.md": {
+    "mtime": 1792483728.928209,
+    "seen": 1792563576.049402,
+    "ast_hash": "3b14d1673efc214b0b24f845fb18c09e",
+    "semantic_hash": "3b14d1673efc214b0b24f845fb18c09e"
+  },
+  ".claude/trabajo/finanzas/emprender/ficha.md": {
+    "mtime": 1792560198.8426309,
+    "seen": 1792563576.049403,
+    "ast_hash": "27b692fc8f280ccbadb5138bea14193b",
+    "semantic_hash": "27b692fc8f280ccbadb5138bea14193b"
+  },
+  ".claude/trabajo/finanzas/emprender/plan.md": {
+    "mtime": 1792559886.388336,
+    "seen": 1792563576.049403,
+    "ast_hash": "6e3eb893cc5840049b4843ee7cf489c5",
+    "semantic_hash": "6e3eb893cc5840049b4843ee7cf489c5"
+  },
+  ".claude/trabajo/finanzas/empresas/ficha.md": {
+    "mtime": 1792524387.710429,
+    "seen": 1792563576.049404,
+    "ast_hash": "281b6e793ef88ab4406e603fed573810",
+    "semantic_hash": "281b6e793ef88ab4406e603fed573810"
+  },
+  ".claude/trabajo/finanzas/empresas/plan.md": {
+    "mtime": 1792524087.0801783,
+    "seen": 1792563576.049404,
+    "ast_hash": "bff605910d2f48d7faebbadbd1096154",
+    "semantic_hash": "bff605910d2f48d7faebbadbd1096154"
+  },
+  ".claude/trabajo/finanzas/mercados-financieros/ficha.md": {
+    "mtime": 1792535456.0081935,
+    "seen": 1792563576.049404,
+    "ast_hash": "c281118deb4f0dde16a74a1cb3562e3a",
+    "semantic_hash": "c281118deb4f0dde16a74a1cb3562e3a"
+  },
+  ".claude/trabajo/finanzas/mercados-financieros/plan.md": {
+    "mtime": 1792534992.0492973,
+    "seen": 1792563576.0494049,
+    "ast_hash": "a9d719d10780902a3be9e46649ee5ee4",
+    "semantic_hash": "a9d719d10780902a3be9e46649ee5ee4"
+  },
+  ".claude/trabajo/finanzas/sistema-financiero/ficha.md": {
+    "mtime": 1792456236.4617543,
+    "seen": 1792563576.0494049,
+    "ast_hash": "693fbb8426cd449e9508742b7497dfef",
+    "semantic_hash": "693fbb8426cd449e9508742b7497dfef"
+  },
+  ".claude/trabajo/finanzas/sistema-financiero/plan.md": {
+    "mtime": 1792449200.0151756,
+    "seen": 1792563576.049406,
+    "ast_hash": "6aae74d8e6800bdd1d33f19e34062daa",
+    "semantic_hash": "6aae74d8e6800bdd1d33f19e34062daa"
+  },
+  ".claude/trabajo/mandarin/hsk3-comunicacion/ficha.md": {
+    "mtime": 1792170211.6325536,
+    "seen": 1792563576.049406,
+    "ast_hash": "3dd9443e20f9e7df48c257e8f79d30c7",
+    "semantic_hash": "3dd9443e20f9e7df48c257e8f79d30c7"
+  },
+  ".claude/trabajo/mandarin/hsk3-comunicacion/plan.md": {
+    "mtime": 1792169246.9131007,
+    "seen": 1792563576.049406,
+    "ast_hash": "14c459b7f3c5a9f470be9e7db0fbb966",
+    "semantic_hash": "14c459b7f3c5a9f470be9e7db0fbb966"
+  },
+  ".claude/trabajo/mandarin/hsk4-cultura/ficha.md": {
+    "mtime": 1792276022.036086,
+    "seen": 1792563576.049407,
+    "ast_hash": "5adadf991059700d22d0bf3a2cfd9197",
+    "semantic_hash": "5adadf991059700d22d0bf3a2cfd9197"
+  },
+  ".claude/trabajo/mandarin/hsk4-cultura/plan.md": {
+    "mtime": 1792272606.0011268,
+    "seen": 1792563576.049407,
+    "ast_hash": "127396eeb1256438dac18ae84331ef6d",
+    "semantic_hash": "127396eeb1256438dac18ae84331ef6d"
+  },
+  ".claude/trabajo/mandarin/hsk4-estructuras/ficha.md": {
+    "mtime": 1792190022.7876074,
+    "seen": 1792563576.049408,
+    "ast_hash": "1e22f643a1d37505f43b4fb3958f4b82",
+    "semantic_hash": "1e22f643a1d37505f43b4fb3958f4b82"
+  },
+  ".claude/trabajo/mandarin/hsk4-estructuras/plan.md": {
+    "mtime": 1792189250.351745,
+    "seen": 1792563576.049408,
+    "ast_hash": "ede9a6db8f853ed60e52680ff3974f8b",
+    "semantic_hash": "ede9a6db8f853ed60e52680ff3974f8b"
+  },
+  ".claude/trabajo/mandarin/hsk4-frases/ficha.md": {
+    "mtime": 1792182085.922494,
+    "seen": 1792563576.049408,
+    "ast_hash": "67ee504e5c469955193c0eba95988ac8",
+    "semantic_hash": "67ee504e5c469955193c0eba95988ac8"
+  },
+  ".claude/trabajo/mandarin/hsk4-frases/plan.md": {
+    "mtime": 1792181215.4367354,
+    "seen": 1792563576.049409,
+    "ast_hash": "570bc0a64d3111cb596b4be0586df336",
+    "semantic_hash": "570bc0a64d3111cb596b4be0586df336"
+  },
+  ".claude/trabajo/mandarin/hsk4-vida/plan.md": {
+    "mtime": 1792194350.9748585,
+    "seen": 1792563576.049409,
+    "ast_hash": "eee4fd21f223194770695ab0d1d17e87",
+    "semantic_hash": "eee4fd21f223194770695ab0d1d17e87"
+  },
+  ".claude/trabajo/mandarin/hsk5-cultura/ficha.md": {
+    "mtime": 1792374117.7975569,
+    "seen": 1792563576.04941,
+    "ast_hash": "2ced8ebbfd657ad11b160cee30619d1a",
+    "semantic_hash": "2ced8ebbfd657ad11b160cee30619d1a"
+  },
+  ".claude/trabajo/mandarin/hsk5-cultura/plan.md": {
+    "mtime": 1792372827.5141015,
+    "seen": 1792563576.04941,
+    "ast_hash": "71471ac4484de659690874ee2418a1d7",
+    "semantic_hash": "71471ac4484de659690874ee2418a1d7"
+  },
+  ".claude/trabajo/mandarin/hsk5-gramatica/plan.md": {
+    "mtime": 1792346151.919022,
+    "seen": 1792563576.04941,
+    "ast_hash": "271aeba4e9d244935a1e08a7c10e7300",
+    "semantic_hash": "271aeba4e9d244935a1e08a7c10e7300"
+  },
+  ".claude/trabajo/mandarin/hsk5-sociedad/plan.md": {
+    "mtime": 1792366425.9178855,
+    "seen": 1792563576.049411,
+    "ast_hash": "c0ef7898013559f4d2f1dfa4c4a77fe8",
+    "semantic_hash": "c0ef7898013559f4d2f1dfa4c4a77fe8"
+  },
+  ".claude/trabajo/mandarin/hsk6-cultura/ficha.md": {
+    "mtime": 1792423583.054101,
+    "seen": 1792563576.049411,
+    "ast_hash": "8e029ab89098c663ca87dba313bd9feb",
+    "semantic_hash": "8e029ab89098c663ca87dba313bd9feb"
+  },
+  ".claude/trabajo/mandarin/hsk6-cultura/notas-director.md": {
+    "mtime": 1792424271.3921902,
+    "seen": 1792563576.049412,
+    "ast_hash": "13353fbdf6cd36a33207ddf95a11540e",
+    "semantic_hash": "13353fbdf6cd36a33207ddf95a11540e"
+  },
+  ".claude/trabajo/mandarin/hsk6-cultura/plan.md": {
+    "mtime": 1792422705.0576408,
+    "seen": 1792563576.049412,
+    "ast_hash": "7dad04d77b80e406817f051ee627d2ca",
+    "semantic_hash": "7dad04d77b80e406817f051ee627d2ca"
+  },
+  ".claude/trabajo/mandarin/hsk6-gramatica/ficha.md": {
+    "mtime": 1792386918.1819913,
+    "seen": 1792563576.049412,
+    "ast_hash": "565edcdb0d6ec2d3c9c90f865651853f",
+    "semantic_hash": "565edcdb0d6ec2d3c9c90f865651853f"
+  },
+  ".claude/trabajo/mandarin/hsk6-gramatica/notas-director.md": {
+    "mtime": 1792393904.2445319,
+    "seen": 1792563576.0494132,
+    "ast_hash": "c23b800e2184aa70a1412632467673b6",
+    "semantic_hash": "c23b800e2184aa70a1412632467673b6"
+  },
+  ".claude/trabajo/mandarin/hsk6-gramatica/plan.md": {
+    "mtime": 1792386354.6467795,
+    "seen": 1792563576.0494132,
+    "ast_hash": "4a20a5dd76d51580ad75e9dee5d442c6",
+    "semantic_hash": "4a20a5dd76d51580ad75e9dee5d442c6"
+  },
+  ".claude/trabajo/mandarin/hsk6-temas/ficha.md": {
+    "mtime": 1792420971.010506,
+    "seen": 1792563576.0494132,
+    "ast_hash": "74fbb99d65f15629938cc8e27313de6a",
+    "semantic_hash": "74fbb99d65f15629938cc8e27313de6a"
+  },
+  ".claude/trabajo/mandarin/hsk6-temas/notas-director.md": {
+    "mtime": 1792421697.9400308,
+    "seen": 1792563576.049414,
+    "ast_hash": "4ee77f75b2e0ca54d8e73a5886e9214b",
+    "semantic_hash": "4ee77f75b2e0ca54d8e73a5886e9214b"
+  },
+  ".claude/trabajo/mandarin/hsk6-temas/plan.md": {
+    "mtime": 1792420477.2077868,
+    "seen": 1792563576.049414,
+    "ast_hash": "712ed3747a1a1f7589451e26da784724",
+    "semantic_hash": "712ed3747a1a1f7589451e26da784724"
+  },
+  ".opencode/agents/auditor.md": {
+    "mtime": 1792446702.08366,
+    "seen": 1792563576.0494149,
+    "ast_hash": "fa1c283164b0d5f56d1832c6222ba03c",
+    "semantic_hash": "fa1c283164b0d5f56d1832c6222ba03c"
+  },
+  ".opencode/agents/constructor.md": {
+    "mtime": 1792446681.5638697,
+    "seen": 1792563576.0494149,
+    "ast_hash": "c276a9b6dffc90b276fcf84793f8aec2",
+    "semantic_hash": "c276a9b6dffc90b276fcf84793f8aec2"
+  },
+  ".opencode/agents/director.md": {
+    "mtime": 1792446597.3257146,
+    "seen": 1792563576.0494149,
+    "ast_hash": "375d2c70e1a97bf4d0b75c0787ab0cff",
+    "semantic_hash": "375d2c70e1a97bf4d0b75c0787ab0cff"
+  },
+  ".opencode/agents/investigador.md": {
+    "mtime": 1792446732.9473653,
+    "seen": 1792563576.0494158,
+    "ast_hash": "4f4fc3e60e6bfdabb3271d29c20629cf",
+    "semantic_hash": "4f4fc3e60e6bfdabb3271d29c20629cf"
+  },
+  ".opencode/commands/aprobar-plan.md": {
+    "mtime": 1792446108.9433334,
+    "seen": 1792563576.0494158,
+    "ast_hash": "faa44870877560608eb07d99852455d5",
+    "semantic_hash": "faa44870877560608eb07d99852455d5"
+  },
+  ".opencode/commands/continuar.md": {
+    "mtime": 1792440307.9527001,
+    "seen": 1792563576.049417,
+    "ast_hash": "7cee1025ebd3eb012475118230c3a078",
+    "semantic_hash": "7cee1025ebd3eb012475118230c3a078"
+  },
+  ".opencode/commands/estado.md": {
+    "mtime": 1792436117.111491,
+    "seen": 1792563576.049417,
+    "ast_hash": "1efb93cf631cd9410bd18d54f827901c",
+    "semantic_hash": "1efb93cf631cd9410bd18d54f827901c"
+  },
+  ".opencode/commands/unidad.md": {
+    "mtime": 1792440314.9345572,
+    "seen": 1792563576.049417,
+    "ast_hash": "ddffc4dd0341f7d013c561f24f2a84dc",
+    "semantic_hash": "ddffc4dd0341f7d013c561f24f2a84dc"
+  },
+  "AGENTS.md": {
+    "mtime": 1792446816.3049316,
+    "seen": 1792563576.049418,
+    "ast_hash": "49bfb2e9648e7f3b840d19f4c410e562",
+    "semantic_hash": "49bfb2e9648e7f3b840d19f4c410e562"
   }
 }

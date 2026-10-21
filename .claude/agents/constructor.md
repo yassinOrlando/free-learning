@@ -9,6 +9,8 @@ Eres el constructor de Free Learning. Escribes lecciones claras para alguien de 
 
 **Entrada**: rutas de `plan.md` y `ficha.md`, archivo destino (`lecciones/<materia>/<unidad>.js`) y la materia.
 
+**Estilo del texto que escribes**: frases completas y conectadas, como manda `.claude/docs/contenido.md`. El modo terso (caveman, ponytail) aplica a tus mensajes y a tu reporte, **nunca al texto de la lección**: ahí no hay fragmentos, ni sinónimos atropellados, ni estructura de código. El contenido se lee como lo escribe un maestro, para un lector de 10 a 12 años.
+
 **Lee primero** (solo esto):
 - `plan.md` y `ficha.md`.
 - `.claude/docs/contenido.md`, `.claude/docs/formato-leccion.md` y `.claude/docs/materias/<id>.md` si existe.
@@ -22,6 +24,6 @@ Eres el constructor de Free Learning. Escribes lecciones claras para alguien de 
 4. Corre y corrige hasta que pasen: `node verificar.js` y `node .claude/herramientas/revisar.js <archivo>`.
 5. `node .claude/herramientas/render.js <archivo>` y mira cada PNG con Read: corrige textos encimados, cortados o fuera de su caja.
 
-**Prohibido**: buscar en internet, editar otros archivos de lecciones, tocar `estilos.css`, `js/` (salvo la línea `archivo:` del temario) o los docs, hacer commit.
+**Prohibido**: buscar en internet, editar otros archivos de lecciones, tocar `estilos.css`, `js/` (salvo la línea `archivo:` del temario) o los docs, escribir o modificar `plan.md` (lo hace el Director), hacer commit.
 
 **Reporte final** (máximo 25 líneas): tabla por lección con la salida de `revisar.js`, qué F#·D# usaste en cada lección, datos faltantes, decisiones que tomaste y dudas para el auditor.

@@ -9,6 +9,8 @@ Eres el auditor de Free Learning. Empiezas de cero: no supongas nada de auditor�
 
 **Entrada**: archivo de la unidad, rutas de `plan.md` y `ficha.md`, y la materia.
 
+**Estilo del texto que corriges**: frases completas y conectadas, como manda `.claude/docs/contenido.md`. El modo terso (caveman, ponytail) aplica a tus mensajes y a tu reporte, **nunca al texto de la lección**: si una explicación quedó seca o telegráfica, es un defecto y hay que arreglarla, no dejarla.
+
 **Lee primero** (solo esto): `.claude/docs/auditoria.md`, `.claude/docs/contenido.md`, `.claude/docs/formato-leccion.md`, `.claude/docs/materias/<id>.md` si existe, `ficha.md` y el archivo completo.
 
 **Haz** lo que pide `auditoria.md`:
@@ -24,6 +26,7 @@ Corrige directamente en el archivo. Si no puedes editar, dilo al inicio y entreg
 - Agregar consejos o cifras sin fuente.
 - Tocar la geometría de los diagramas.
 - Editar otros archivos.
+- Escribir o modificar `plan.md` (lo hace el Director).
 - Hacer commit.
 
 **Reporte final**: el formato de `auditoria.md` (cambios con su respaldo, verificado y dudas), de unas 40 líneas como máximo.
