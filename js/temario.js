@@ -694,19 +694,19 @@ window.TEMARIO = [
     descripcion: 'Entender lo que lees, pensar críticamente y escribir con claridad.',
     color: '#F472B6',
     unidades: [
-      { titulo: 'Fundamentos', lecciones: [
+      { titulo: 'Fundamentos', archivo: 'lecciones/lectura/fundamentos.js', lecciones: [
         'Por qué leer',
         'Cómo crear el hábito de la lectura',
         'Tipos de texto: narrativo, expositivo, argumentativo e instructivo',
       ]},
-      { titulo: 'Comprensión lectora', lecciones: [
+      { titulo: 'Comprensión lectora', archivo: 'lecciones/lectura/comprension-lectora.js', lecciones: [
         'Idea principal e ideas secundarias',
         'Deducir palabras por el contexto',
         'Inferencias: leer entre líneas',
         'Hacer un resumen',
         'Mapas conceptuales',
       ]},
-      { titulo: 'Pensamiento crítico', lecciones: [
+      { titulo: 'Pensamiento crítico', archivo: 'lecciones/lectura/pensamiento-critico.js', lecciones: [
         'Hechos y opiniones',
         'La intención del autor',
         'Cómo se construye un argumento',
@@ -714,20 +714,20 @@ window.TEMARIO = [
         'Sesgos cognitivos',
         'Verificar noticias y detectar desinformación',
       ]},
-      { titulo: 'Lectura práctica', lecciones: [
+      { titulo: 'Lectura práctica', archivo: 'lecciones/lectura/lectura-practica.js', lecciones: [
         'Leer instructivos y manuales',
         'Leer contratos y letras pequeñas',
         'Leer gráficas e infografías',
         'Lectura rápida y escaneo',
       ]},
-      { titulo: 'Literatura', lecciones: [
+      { titulo: 'Literatura', archivo: 'lecciones/lectura/literatura.js', lecciones: [
         'Géneros literarios',
         'Elementos de la narración',
         'Figuras retóricas',
         'Poesía',
         'Teatro',
       ]},
-      { titulo: 'Escribir con claridad', lecciones: [
+      { titulo: 'Escribir con claridad', archivo: 'lecciones/lectura/escribir-con-claridad.js', lecciones: [
         'Estructura de un texto',
         'Acentuación',
         'Puntuación',

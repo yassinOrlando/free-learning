@@ -72,10 +72,10 @@
     "semantic_hash": "28638f59ac9d2a5bce224e6e7a557f6c"
   },
   "js/temario.js": {
-    "mtime": 1792560612.726333,
-    "seen": 1792563576.0493598,
-    "ast_hash": "573f9facad51cb9a021a59b0c5259d9c",
-    "semantic_hash": "573f9facad51cb9a021a59b0c5259d9c"
+    "mtime": 1792630945.726835,
+    "seen": 1792634448.475662,
+    "ast_hash": "612d134e495bf4ed5e62f3d7db0b1b33",
+    "semantic_hash": "612d134e495bf4ed5e62f3d7db0b1b33"
   },
   "js/textos.js": {
     "mtime": 1792109912.755856,
@@ -1282,5 +1282,185 @@
     "seen": 1792563576.049418,
     "ast_hash": "49bfb2e9648e7f3b840d19f4c410e562",
     "semantic_hash": "49bfb2e9648e7f3b840d19f4c410e562"
+  },
+  "lecciones/lectura/comprension-lectora.js": {
+    "mtime": 1792611492.5682359,
+    "seen": 1792634448.475688,
+    "ast_hash": "e84db2113042203a89134b5e68fbe296",
+    "semantic_hash": "e84db2113042203a89134b5e68fbe296"
+  },
+  "lecciones/lectura/escribir-con-claridad.js": {
+    "mtime": 1792633771.709769,
+    "seen": 1792634448.475688,
+    "ast_hash": "7937dcba784aa7824ec1ac77f26babc6",
+    "semantic_hash": "7937dcba784aa7824ec1ac77f26babc6"
+  },
+  "lecciones/lectura/fundamentos.js": {
+    "mtime": 1792569219.4120584,
+    "seen": 1792634448.475689,
+    "ast_hash": "247af59ce9d4f32930016eb02331bc3e",
+    "semantic_hash": "247af59ce9d4f32930016eb02331bc3e"
+  },
+  "lecciones/lectura/lectura-practica.js": {
+    "mtime": 1792621403.9418583,
+    "seen": 1792634448.475689,
+    "ast_hash": "20a45eedd3a7382ed45aef9fcea0279d",
+    "semantic_hash": "20a45eedd3a7382ed45aef9fcea0279d"
+  },
+  "lecciones/lectura/literatura.js": {
+    "mtime": 1792627713.5745173,
+    "seen": 1792634448.47569,
+    "ast_hash": "ac3d8ac5961fdbdee05d0f9cf3910142",
+    "semantic_hash": "ac3d8ac5961fdbdee05d0f9cf3910142"
+  },
+  "lecciones/lectura/pensamiento-critico.js": {
+    "mtime": 1792615746.3771987,
+    "seen": 1792634448.47569,
+    "ast_hash": "562caf0c913a5e65f183339cb880ace3",
+    "semantic_hash": "562caf0c913a5e65f183339cb880ace3"
+  },
+  ".claude/trabajo/lectura/comprension-lectora/ficha.md": {
+    "mtime": 1792609648.2346354,
+    "seen": 1792634448.475709,
+    "ast_hash": "842320846d72a3d738a4ecd001403831",
+    "semantic_hash": "842320846d72a3d738a4ecd001403831"
+  },
+  ".claude/trabajo/lectura/comprension-lectora/plan.md": {
+    "mtime": 1792608491.5872273,
+    "seen": 1792634448.475709,
+    "ast_hash": "70e767dca3169c2eaf4ae5d010d502c9",
+    "semantic_hash": "70e767dca3169c2eaf4ae5d010d502c9"
+  },
+  ".claude/trabajo/lectura/escribir-con-claridad/ficha.md": {
+    "mtime": 1792630283.3481133,
+    "seen": 1792634448.47571,
+    "ast_hash": "a7fb47a7e56e10596adde510160f6e8e",
+    "semantic_hash": "a7fb47a7e56e10596adde510160f6e8e"
+  },
+  ".claude/trabajo/lectura/escribir-con-claridad/plan.md": {
+    "mtime": 1792628498.8805003,
+    "seen": 1792634448.47571,
+    "ast_hash": "c0c7ce6cbe236acee18d3bb6c519cb49",
+    "semantic_hash": "c0c7ce6cbe236acee18d3bb6c519cb49"
+  },
+  ".claude/trabajo/lectura/fundamentos/ficha.md": {
+    "mtime": 1792567178.4097815,
+    "seen": 1792634448.4757109,
+    "ast_hash": "34e74acdb0b6d17d20c44fa0fc24e923",
+    "semantic_hash": "34e74acdb0b6d17d20c44fa0fc24e923"
+  },
+  ".claude/trabajo/lectura/fundamentos/plan.md": {
+    "mtime": 1792566977.22765,
+    "seen": 1792634448.4757109,
+    "ast_hash": "3c02d36a93f51cabb28a333e72894162",
+    "semantic_hash": "3c02d36a93f51cabb28a333e72894162"
+  },
+  ".claude/trabajo/lectura/fundamentos/reglas-materia.md": {
+    "mtime": 1792633867.3914344,
+    "seen": 1792634448.475712,
+    "ast_hash": "7fb59e603ce7c52affaca66ea7d2344b",
+    "semantic_hash": "7fb59e603ce7c52affaca66ea7d2344b"
+  },
+  ".claude/trabajo/lectura/lectura-practica/ficha.md": {
+    "mtime": 1792617995.0207956,
+    "seen": 1792634448.475712,
+    "ast_hash": "c5a84e655846673009322f0e1d463b55",
+    "semantic_hash": "c5a84e655846673009322f0e1d463b55"
+  },
+  ".claude/trabajo/lectura/lectura-practica/plan.md": {
+    "mtime": 1792616278.9199672,
+    "seen": 1792634448.475712,
+    "ast_hash": "bcd5c29883fc3d07b33578c21baa313a",
+    "semantic_hash": "bcd5c29883fc3d07b33578c21baa313a"
+  },
+  ".claude/trabajo/lectura/literatura/ficha.md": {
+    "mtime": 1792624845.6970856,
+    "seen": 1792634448.475713,
+    "ast_hash": "59006701fdb4483e1421d4e5dc22107e",
+    "semantic_hash": "59006701fdb4483e1421d4e5dc22107e"
+  },
+  ".claude/trabajo/lectura/literatura/plan.md": {
+    "mtime": 1792622213.5338345,
+    "seen": 1792634448.475713,
+    "ast_hash": "db775beb79ee40531f287930a0cd58f4",
+    "semantic_hash": "db775beb79ee40531f287930a0cd58f4"
+  },
+  ".claude/trabajo/lectura/pensamiento-critico/ficha.md": {
+    "mtime": 1792612333.3398845,
+    "seen": 1792634448.475713,
+    "ast_hash": "cf2784cc7424c976b37b842f2ad58d69",
+    "semantic_hash": "cf2784cc7424c976b37b842f2ad58d69"
+  },
+  ".claude/trabajo/lectura/pensamiento-critico/plan.md": {
+    "mtime": 1792611866.4440556,
+    "seen": 1792634448.475714,
+    "ast_hash": "2195c52b271b482f0835fbc477074548",
+    "semantic_hash": "2195c52b271b482f0835fbc477074548"
+  },
+  ".claude/trabajo/mandarin/hsk3-comunicacion/notas-director.md": {
+    "mtime": 1792171053.829712,
+    "seen": 1792634448.475714,
+    "ast_hash": "2368d4686976f55f102fde6b6b66c08a",
+    "semantic_hash": "2368d4686976f55f102fde6b6b66c08a"
+  },
+  ".claude/trabajo/mandarin/hsk4-cultura/notas-director.md": {
+    "mtime": 1792276567.151638,
+    "seen": 1792634448.4757152,
+    "ast_hash": "386b5cd48692e61d013d246f9e698313",
+    "semantic_hash": "386b5cd48692e61d013d246f9e698313"
+  },
+  ".claude/trabajo/mandarin/hsk4-estructuras/notas-director.md": {
+    "mtime": 1792193309.1305518,
+    "seen": 1792634448.4757152,
+    "ast_hash": "c41ace4251d36b8d1ffd7da1496a6a4e",
+    "semantic_hash": "c41ace4251d36b8d1ffd7da1496a6a4e"
+  },
+  ".claude/trabajo/mandarin/hsk4-frases/notas-director.md": {
+    "mtime": 1792187248.2278705,
+    "seen": 1792634448.4757152,
+    "ast_hash": "c77a4f35abbb08b7e01dbf810b3e28f3",
+    "semantic_hash": "c77a4f35abbb08b7e01dbf810b3e28f3"
+  },
+  ".claude/trabajo/mandarin/hsk4-vida/ficha.md": {
+    "mtime": 1792196141.5483308,
+    "seen": 1792634448.475716,
+    "ast_hash": "f139c3abba68f7e441a3bd10e5123d31",
+    "semantic_hash": "f139c3abba68f7e441a3bd10e5123d31"
+  },
+  ".claude/trabajo/mandarin/hsk4-vida/notas-director.md": {
+    "mtime": 1792271694.3019085,
+    "seen": 1792634448.475716,
+    "ast_hash": "aa86dd2a29a7645894cab9b3e135bb9a",
+    "semantic_hash": "aa86dd2a29a7645894cab9b3e135bb9a"
+  },
+  ".claude/trabajo/mandarin/hsk5-cultura/notas-director.md": {
+    "mtime": 1792385714.9478655,
+    "seen": 1792634448.475717,
+    "ast_hash": "aba0cb2790c60f7468024535a7471cfd",
+    "semantic_hash": "aba0cb2790c60f7468024535a7471cfd"
+  },
+  ".claude/trabajo/mandarin/hsk5-gramatica/ficha.md": {
+    "mtime": 1792346966.4312017,
+    "seen": 1792634448.475717,
+    "ast_hash": "caee2d38d60aecb520f24e0f2f0778e1",
+    "semantic_hash": "caee2d38d60aecb520f24e0f2f0778e1"
+  },
+  ".claude/trabajo/mandarin/hsk5-gramatica/notas-director.md": {
+    "mtime": 1792347979.096223,
+    "seen": 1792634448.475717,
+    "ast_hash": "079824d32f0df815ce3249318a6500c4",
+    "semantic_hash": "079824d32f0df815ce3249318a6500c4"
+  },
+  ".claude/trabajo/mandarin/hsk5-sociedad/ficha.md": {
+    "mtime": 1792367037.1995418,
+    "seen": 1792634448.4757178,
+    "ast_hash": "a32452fa6b0ed6ea106b9a62753a27eb",
+    "semantic_hash": "a32452fa6b0ed6ea106b9a62753a27eb"
+  },
+  ".claude/trabajo/mandarin/hsk5-sociedad/notas-director.md": {
+    "mtime": 1792372136.1024313,
+    "seen": 1792634448.4757178,
+    "ast_hash": "a089ba288fac2a42b14ce4fc058e3a49",
+    "semantic_hash": "a089ba288fac2a42b14ce4fc058e3a49"
   }
 }
