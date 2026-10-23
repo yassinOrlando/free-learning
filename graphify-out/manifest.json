@@ -60,10 +60,10 @@
     "semantic_hash": "cae3aec9aa37da5251813cf19d88e60c"
   },
   "js/app.js": {
-    "mtime": 1792109978.1843784,
-    "seen": 1792563576.049359,
-    "ast_hash": "a6cdb189480a46ce0c0a1518ef9261e6",
-    "semantic_hash": "a6cdb189480a46ce0c0a1518ef9261e6"
+    "mtime": 1792743439.455384,
+    "seen": 1792743929.2039092,
+    "ast_hash": "d5dd32cd2e4b91683e5e7c3dfbe4f61b",
+    "semantic_hash": "d5dd32cd2e4b91683e5e7c3dfbe4f61b"
   },
   "js/ejercicios.js": {
     "mtime": 1791649953.3411994,
@@ -72,10 +72,10 @@
     "semantic_hash": "28638f59ac9d2a5bce224e6e7a557f6c"
   },
   "js/temario.js": {
-    "mtime": 1792707730.295596,
-    "seen": 1792715954.096927,
-    "ast_hash": "ae7fe058f01be23252bb2534ef362f05",
-    "semantic_hash": "ae7fe058f01be23252bb2534ef362f05"
+    "mtime": 1792743561.779255,
+    "seen": 1792743929.2039099,
+    "ast_hash": "f32f216cb4567c448c9033adf0e4d1ca",
+    "semantic_hash": "f32f216cb4567c448c9033adf0e4d1ca"
   },
   "js/textos.js": {
     "mtime": 1792109912.755856,
@@ -180,10 +180,10 @@
     "semantic_hash": "08d078ccabb52a97e3ab751a2d7ab52f"
   },
   "README.md": {
-    "mtime": 1792562036.0537481,
-    "seen": 1792563576.049419,
-    "ast_hash": "4a0901bd7c577d0b9724dc46e1a75a2b",
-    "semantic_hash": "4a0901bd7c577d0b9724dc46e1a75a2b"
+    "mtime": 1792743633.8536184,
+    "seen": 1792743929.203955,
+    "ast_hash": "b1e7eb41721f914705fe8d7e1e7c9f35",
+    "semantic_hash": "b1e7eb41721f914705fe8d7e1e7c9f35"
   },
   "lecciones/fisica/calor.js": {
     "mtime": 1791388288.0931761,
@@ -1600,5 +1600,47 @@
     "seen": 1792715954.098018,
     "ast_hash": "54b22e631ac4edc4c9c946bacb406d7d",
     "semantic_hash": "54b22e631ac4edc4c9c946bacb406d7d"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d01.svg.png": {
+    "mtime": 1792640072.0418816,
+    "seen": 1792743929.203956,
+    "ast_hash": "f9e31766babbbb594ade9e366faf71f9",
+    "semantic_hash": "f9e31766babbbb594ade9e366faf71f9"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d02.svg.png": {
+    "mtime": 1792640072.0586922,
+    "seen": 1792743929.203957,
+    "ast_hash": "aedd57293cc8308cccb20d14c76b69de",
+    "semantic_hash": "aedd57293cc8308cccb20d14c76b69de"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d03.svg.png": {
+    "mtime": 1792640072.072536,
+    "seen": 1792743929.203958,
+    "ast_hash": "43a75a178906129e774f72a6e1c09e3e",
+    "semantic_hash": "43a75a178906129e774f72a6e1c09e3e"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d04.svg.png": {
+    "mtime": 1792640072.0864208,
+    "seen": 1792743929.203958,
+    "ast_hash": "871e0922b52a475f87d2b240536fdac8",
+    "semantic_hash": "871e0922b52a475f87d2b240536fdac8"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d05.svg.png": {
+    "mtime": 1792640072.0509315,
+    "seen": 1792743929.203958,
+    "ast_hash": "43de14c570892dfcc5d5d5f1b4d08646",
+    "semantic_hash": "43de14c570892dfcc5d5d5f1b4d08646"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d06.svg.png": {
+    "mtime": 1792640072.065634,
+    "seen": 1792743929.203959,
+    "ast_hash": "58ca24c61e9e21ea314abb2adba5059f",
+    "semantic_hash": "58ca24c61e9e21ea314abb2adba5059f"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d07.svg.png": {
+    "mtime": 1792640072.0799968,
+    "seen": 1792743929.203959,
+    "ast_hash": "d3ca6a19c895dcf1bfafba7c587c2499",
+    "semantic_hash": "d3ca6a19c895dcf1bfafba7c587c2499"
   }
 }
