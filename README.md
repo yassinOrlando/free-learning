@@ -1,6 +1,6 @@
 # Free Learning
 
-Lecciones gratuitas sobre lo esencial que toda persona debería aprender: matemáticas, ciencias, finanzas, computación, lectura, inteligencia artificial, inglés y mandarín. Cada tema se explica con palabras simples y se practica con ejercicios interactivos en la misma página, al estilo de [SQLBolt](https://sqlbolt.com/).
+Lecciones gratuitas sobre lo esencial que toda persona debería aprender: matemáticas, ciencias, finanzas, ofimática, lectura, inteligencia artificial, inglés y mandarín. Cada tema se explica con palabras simples y se practica con ejercicios interactivos en la misma página, al estilo de [SQLBolt](https://sqlbolt.com/).
 
 ## Por qué existe
 
@@ -24,22 +24,24 @@ Tu progreso se guarda en tu navegador. Cualquier lección se puede imprimir o gu
 
 ## Temario
 
+En la portada las materias se agrupan por tema: Vida práctica, Finanzas y economía, Tecnología, Ciencias y Lengua y lectura.
+
 | Materia | Unidades | Estado |
 |---|---|---|
+| Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad, Software libre | 112 lecciones listas |
+| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | 56 lecciones listas |
+| Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | 25 lecciones listas |
+| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | 36 lecciones listas |
+| Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | 35 lecciones listas |
 | Matemáticas | Aritmética, Álgebra, Funciones, Geometría, Trigonometría, Geometría analítica, Estadística y probabilidad, Introducción al cálculo | 64 lecciones listas |
 | Física | Bases, Movimiento, Fuerzas, Trabajo y energía, Fluidos, Calor, Ondas, sonido y luz, Electricidad y magnetismo, Física moderna | 54 lecciones listas |
 | Química | Materia, Átomo, Tabla periódica, Enlaces, Nomenclatura, Reacciones, Estequiometría, Disoluciones y ácidos, Química orgánica, Química en la vida diaria | 44 lecciones listas |
 | Ciencias naturales | Seres vivos, Cuerpo humano, Salud, Herencia y evolución, Ecología, La Tierra, El universo | 39 lecciones listas |
-| Finanzas personales | Tú y el dinero, Presupuesto, Ahorro, Interés e inflación, Crédito, Deudas, Bancos y seguridad, Inversión, Proteger tu futuro, Prepararse para una crisis | 56 lecciones listas |
-| Finanzas y economía | Conceptos de economía, Sistema financiero, Economía de un país, Empresas, Mercados financieros, Emprender | 6 de 6 unidades (25 lecciones) |
-| Autosuficiencia | Bases, Agua, El suelo y el huerto, Semillas y germinación, Cultivos básicos, Guardar tus propias semillas, Alimentos, Fuego y calor, Energía, Vivienda digna, Salud y primeros auxilios, Habilidades y comunidad, Software libre | 112 lecciones listas |
-| Ofimática | La computadora, Procesador de textos, Hojas de cálculo, Presentaciones, Trabajo en la nube | Próximamente |
-| Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | Próximamente |
-| Inteligencia artificial | Qué es la IA, Cómo aprenden las máquinas, Modelos de lenguaje, Usar la IA bien, LLMs locales, IA y sociedad | 36 lecciones listas |
+| Lectura | Fundamentos, Comprensión lectora, Pensamiento crítico, Lectura práctica, Literatura, Escribir con claridad | 28 lecciones listas |
 | Inglés | Niveles A1, A2 y B1 | Próximamente |
-| Mandarín | HSK 1 a 6 (sílabo HSK 3.0 de 2025) | 140 de 140 lecciones listas (HSK 1 a 6 completos) |
+| Mandarín | HSK 1 a 6 (sílabo HSK 3.0 de 2025) | 140 lecciones listas (HSK 1 a 6 completos) |
 
-En total hay 570 lecciones escritas en nueve materias. La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
+En total hay 633 lecciones escritas en once materias; el temario completo son 697, y falta por escribir Inglés (64 lecciones). La lista completa de lecciones vive en [`js/temario.js`](js/temario.js).
 
 ## Para quien quiera contribuir
 

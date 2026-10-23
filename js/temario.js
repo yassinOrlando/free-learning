@@ -2,12 +2,22 @@
 // Orden progresivo: cada unidad y lección asume solo lo visto antes.
 // Para un nuevo idioma: copiar este archivo como temario.<idioma>.js y traducir los textos.
 
+// Grupos que ordenan las materias en la portada. El orden de esta lista es el orden en que se ven.
+window.GRUPOS = [
+  { id: 'vida', nombre: 'Vida práctica' },
+  { id: 'dinero', nombre: 'Finanzas y economía' },
+  { id: 'tecnologia', nombre: 'Tecnología' },
+  { id: 'ciencias', nombre: 'Ciencias' },
+  { id: 'lenguas', nombre: 'Lengua y lectura' },
+];
+
 window.TEMARIO = [
   {
     id: 'autosuficiencia',
     nombre: 'Autosuficiencia',
     descripcion: 'Agua, comida, energía, salud y vivienda: lo necesario para valerte por ti mismo en la ciudad o en el campo.',
     color: '#A3E635',
+    grupo: 'vida',
     unidades: [
       { titulo: 'Bases de la autosuficiencia', archivo: 'lecciones/autosuficiencia/bases.js', lecciones: [
         'Qué es ser autosuficiente (y qué no)',
@@ -154,6 +164,7 @@ window.TEMARIO = [
     nombre: 'Finanzas personales',
     descripcion: 'Cómo administrar tu dinero, ahorrar, evitar deudas malas y hacer crecer lo que tienes.',
     color: '#FBBF24',
+    grupo: 'dinero',
     unidades: [
       { titulo: 'Tú y el dinero', archivo: 'lecciones/finanzas-personales/dinero.js', lecciones: [
         'Qué es el dinero',
@@ -238,6 +249,7 @@ window.TEMARIO = [
     nombre: 'Finanzas y economía',
     descripcion: 'Cómo funcionan los mercados, los bancos, las empresas y la economía de un país.',
     color: '#F59E0B',
+    grupo: 'dinero',
     unidades: [
       { titulo: 'Conceptos de economía', archivo: 'lecciones/finanzas/conceptos-economia.js', lecciones: [
         'Escasez y costo de oportunidad',
@@ -283,6 +295,7 @@ window.TEMARIO = [
     nombre: 'Inteligencia artificial',
     descripcion: 'Qué es la IA, cómo funcionan los modelos de lenguaje y cómo usarlos con criterio.',
     color: '#22D3EE',
+    grupo: 'tecnologia',
     unidades: [
       { titulo: 'Qué es la IA', archivo: 'lecciones/ia/que-es.js', lecciones: [
         'Qué es la inteligencia artificial',
@@ -339,6 +352,7 @@ window.TEMARIO = [
     nombre: 'Matemáticas',
     descripcion: 'De contar y repartir a resolver ecuaciones, medir el mundo y entender los datos.',
     color: '#60A5FA',
+    grupo: 'ciencias',
     unidades: [
       { titulo: 'Aritmética', archivo: 'lecciones/matematicas/aritmetica.js', lecciones: [
         'Números naturales y valor posicional',
@@ -427,6 +441,7 @@ window.TEMARIO = [
     nombre: 'Física',
     descripcion: 'Por qué las cosas se mueven, caen, se calientan, suenan y brillan.',
     color: '#A78BFA',
+    grupo: 'ciencias',
     unidades: [
       { titulo: 'Bases de la física', archivo: 'lecciones/fisica/bases.js', lecciones: [
         'Qué es la física y el método científico',
@@ -507,6 +522,7 @@ window.TEMARIO = [
     nombre: 'Química',
     descripcion: 'De qué está hecho todo y cómo se transforma.',
     color: '#34D399',
+    grupo: 'ciencias',
     unidades: [
       { titulo: 'La materia', archivo: 'lecciones/quimica/materia.js', lecciones: [
         'Qué es la química',
@@ -579,6 +595,7 @@ window.TEMARIO = [
     nombre: 'Ciencias naturales',
     descripcion: 'Los seres vivos, tu cuerpo, el planeta y el universo.',
     color: '#4ADE80',
+    grupo: 'ciencias',
     unidades: [
       { titulo: 'Los seres vivos', archivo: 'lecciones/ciencias-naturales/seres-vivos.js', lecciones: [
         'Qué distingue a un ser vivo',
@@ -640,6 +657,7 @@ window.TEMARIO = [
     nombre: 'Ofimática',
     descripcion: 'Usar la computadora, documentos, hojas de cálculo y presentaciones con confianza.',
     color: '#38BDF8',
+    grupo: 'tecnologia',
     unidades: [
       { titulo: 'La computadora', archivo: 'lecciones/ofimatica/computadora.js', lecciones: [
         'Partes de una computadora',
@@ -693,6 +711,7 @@ window.TEMARIO = [
     nombre: 'Lectura',
     descripcion: 'Entender lo que lees, pensar críticamente y escribir con claridad.',
     color: '#F472B6',
+    grupo: 'lenguas',
     unidades: [
       { titulo: 'Fundamentos', archivo: 'lecciones/lectura/fundamentos.js', lecciones: [
         'Por qué leer',
@@ -742,6 +761,7 @@ window.TEMARIO = [
     nombre: 'Inglés',
     descripcion: 'Del primer "hello" a conversar, leer y escribir con soltura: niveles A1, A2 y B1.',
     color: '#FB923C',
+    grupo: 'lenguas',
     unidades: [
       { titulo: 'A1 · Primeros pasos', lecciones: [
         'El alfabeto y la pronunciación',
@@ -840,6 +860,7 @@ window.TEMARIO = [
     nombre: 'Mandarín',
     descripcion: 'Pinyin, tonos, caracteres, gramática y conversación, del nivel elemental al intermedio del HSK 3.0 (niveles 1 a 6).',
     color: '#F87171',
+    grupo: 'lenguas',
     unidades: [
       { titulo: 'HSK 1 · Sonidos y escritura', archivo: 'lecciones/mandarin/sonidos.js', lecciones: [
         'Qué es el mandarín y cómo se escribe',

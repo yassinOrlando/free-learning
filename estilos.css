@@ -128,14 +128,16 @@ main:focus { outline: none; }
 .portada p { font-size: 1.2rem; line-height: 1.6; color: var(--texto-tenue); max-width: 40rem; }
 
 /* Materias: entradas planas separadas por líneas finas, sin cajas */
+.grupo + .grupo { margin-top: 44px; }
+.grupo__titulo { font-size: 1.25rem; color: var(--texto-tenue); margin-bottom: .3em; }
 .rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); column-gap: 40px; row-gap: 8px; }
 .tarjeta {
   display: flex; flex-direction: column; gap: 10px;
   padding: 22px 0 26px; border-top: 1px solid var(--borde);
   color: var(--texto); text-decoration: none;
 }
-.tarjeta h2 { margin: 0; font-size: 1.6rem; transition: color .15s ease; }
-.tarjeta:hover h2 { color: var(--acento); }
+.tarjeta h3 { margin: 0; font-size: 1.6rem; transition: color .15s ease; }
+.tarjeta:hover h3 { color: var(--acento); }
 .tarjeta p { margin: 0; color: var(--texto-tenue); flex: 1; line-height: 1.55; }
 .tarjeta__dato { font-size: .85rem; color: var(--texto-tenue); font-variant-numeric: tabular-nums; }
 

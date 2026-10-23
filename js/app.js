@@ -48,24 +48,34 @@
 
   function vistaInicio() {
     const progreso = Progreso.leer();
-    const tarjetas = MATERIAS.map((m) => {
+    const tarjeta = (m) => {
       const total = totalLecciones(m);
       const hechas = (progreso[m.id] || []).length;
       const pct = Math.round((hechas / total) * 100);
       return `
         <a class="tarjeta" href="#/materia/${m.id}" style="--color:${m.color}">
-          <h2>${m.nombre}</h2>
+          <h3>${m.nombre}</h3>
           <p>${m.descripcion}</p>
           <div class="barra" role="progressbar" aria-label="Progreso en ${m.nombre}" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100"><span style="width:${pct}%"></span></div>
           <span class="tarjeta__dato">${hechas} / ${total} ${T.lecciones} ${T.completadas}</span>
         </a>`;
-    }).join('');
+    };
+    // Las materias se agrupan por tema. Si alguna no declara `grupo`, cae en «Otras materias» para que no desaparezca.
+    const grupos = [
+      ...window.GRUPOS.map((g) => ({ ...g, materias: MATERIAS.filter((m) => m.grupo === g.id) })),
+      { id: 'otras', nombre: 'Otras materias', materias: MATERIAS.filter((m) => !window.GRUPOS.some((g) => g.id === m.grupo)) },
+    ].filter((g) => g.materias.length);
+    const secciones = grupos.map((g) => `
+      <section class="grupo" aria-labelledby="g-${g.id}">
+        <h2 class="grupo__titulo" id="g-${g.id}">${g.nombre}</h2>
+        <div class="rejilla">${g.materias.map(tarjeta).join('')}</div>
+      </section>`).join('');
     return `
       <section class="portada">
         <h1>${T.lema}</h1>
         <p>${T.intro}</p>
       </section>
-      <div class="rejilla">${tarjetas}</div>`;
+      ${secciones}`;
   }
 
   // Vocabulario de idiomas. La única fuente es la tabla con class="vocabulario" de cada explicación:
