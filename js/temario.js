@@ -641,7 +641,7 @@ window.TEMARIO = [
     descripcion: 'Usar la computadora, documentos, hojas de cálculo y presentaciones con confianza.',
     color: '#38BDF8',
     unidades: [
-      { titulo: 'La computadora', lecciones: [
+      { titulo: 'La computadora', archivo: 'lecciones/ofimatica/computadora.js', lecciones: [
         'Partes de una computadora',
         'El sistema operativo',
         'Archivos y carpetas',
@@ -650,7 +650,7 @@ window.TEMARIO = [
         'Correo electrónico',
         'Seguridad digital: contraseñas y fraudes en línea',
       ]},
-      { titulo: 'Procesador de textos', lecciones: [
+      { titulo: 'Procesador de textos', archivo: 'lecciones/ofimatica/procesador-de-textos.js', lecciones: [
         'Crear, guardar y abrir documentos',
         'Formato de texto y de párrafo',
         'Estilos y títulos',
@@ -661,7 +661,7 @@ window.TEMARIO = [
         'Ortografía, comentarios y control de cambios',
         'Exportar a PDF e imprimir',
       ]},
-      { titulo: 'Hojas de cálculo', lecciones: [
+      { titulo: 'Hojas de cálculo', archivo: 'lecciones/ofimatica/hojas-de-calculo.js', lecciones: [
         'Celdas, filas y columnas',
         'Tipos de datos',
         'Fórmulas básicas',
@@ -675,13 +675,13 @@ window.TEMARIO = [
         'Tablas dinámicas',
         'Proyecto: tu presupuesto personal en una hoja de cálculo',
       ]},
-      { titulo: 'Presentaciones', lecciones: [
+      { titulo: 'Presentaciones', archivo: 'lecciones/ofimatica/presentaciones.js', lecciones: [
         'Diseño de diapositivas',
         'Menos texto, más ideas',
         'Imágenes y gráficos en presentaciones',
         'Cómo presentar en público',
       ]},
-      { titulo: 'Trabajo en la nube', lecciones: [
+      { titulo: 'Trabajo en la nube', archivo: 'lecciones/ofimatica/trabajo-en-la-nube.js', lecciones: [
         'Almacenamiento en la nube',
         'Documentos compartidos y colaboración',
         'Videollamadas',

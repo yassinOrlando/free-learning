@@ -1,7 +1,7 @@
 ---
 description: Busca fuentes fiables para una unidad de Free Learning, verifica sus URLs y escribe la ficha de hechos con citas textuales. Úsalo en el paso 2 del flujo de unidad. No redacta lecciones.
 mode: subagent
-model: opencode/beam-free
+model: opencode/nemotron-3.5-super-vl-free
 permissions:
   - action: webfetch
     resource: "*"

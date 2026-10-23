@@ -1,7 +1,7 @@
 ---
 description: Audita el archivo de una unidad de Free Learning contra su ficha de hechos y las reglas de contenido, y corrige directamente. Úsalo en el paso 5 del flujo de unidad, uno nuevo por unidad.
 mode: subagent
-model: opencode/deepseek-v4.1-flash-free
+model: opencode/mimo-v2.6-flash-free
 permissions:
   - action: edit
     resource: "*"

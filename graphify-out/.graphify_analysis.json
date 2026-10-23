@@ -1,0 +1,2143 @@
+{
+  "communities": {
+    "0": [
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f1",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f3",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f3_ampliacion",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f4_ampliacion",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f5",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f6",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_f7",
+      "claude_trabajo_finanzas_conceptos_economia_ficha_fact_sheet",
+      "claude_trabajo_finanzas_conceptos_economia_plan_competencia_y_monopolios",
+      "claude_trabajo_finanzas_conceptos_economia_plan_conceptos_economia_unit",
+      "claude_trabajo_finanzas_conceptos_economia_plan_escasez_y_costo_de_oportunidad",
+      "claude_trabajo_finanzas_conceptos_economia_plan_mercados_y_formacion_de_precios",
+      "claude_trabajo_finanzas_conceptos_economia_plan_oferta_y_demanda",
+      "claude_trabajo_finanzas_emprender_ficha_f1",
+      "claude_trabajo_finanzas_emprender_ficha_f2",
+      "claude_trabajo_finanzas_emprender_ficha_f3",
+      "claude_trabajo_finanzas_emprender_ficha_f5",
+      "claude_trabajo_finanzas_emprender_ficha_f7",
+      "claude_trabajo_finanzas_emprender_ficha_f8",
+      "claude_trabajo_finanzas_emprender_ficha_f9",
+      "claude_trabajo_finanzas_emprender_ficha_fact_sheet",
+      "claude_trabajo_finanzas_emprender_plan_de_la_idea_al_negocio",
+      "claude_trabajo_finanzas_emprender_plan_emprender_unit",
+      "claude_trabajo_finanzas_emprender_plan_finanzas_de_un_pequeno_negocio",
+      "claude_trabajo_finanzas_emprender_plan_modelo_de_negocio",
+      "claude_trabajo_finanzas_empresas_ficha_f1",
+      "claude_trabajo_finanzas_empresas_ficha_f10",
+      "claude_trabajo_finanzas_empresas_ficha_f11",
+      "claude_trabajo_finanzas_empresas_ficha_f12",
+      "claude_trabajo_finanzas_empresas_ficha_f13",
+      "claude_trabajo_finanzas_empresas_ficha_f14",
+      "claude_trabajo_finanzas_empresas_ficha_f2",
+      "claude_trabajo_finanzas_empresas_ficha_f3",
+      "claude_trabajo_finanzas_empresas_ficha_f4",
+      "claude_trabajo_finanzas_empresas_ficha_f5",
+      "claude_trabajo_finanzas_empresas_ficha_f6",
+      "claude_trabajo_finanzas_empresas_ficha_f7",
+      "claude_trabajo_finanzas_empresas_ficha_f8",
+      "claude_trabajo_finanzas_empresas_ficha_f9",
+      "claude_trabajo_finanzas_empresas_ficha_fact_sheet",
+      "claude_trabajo_finanzas_empresas_plan_como_fijar_un_precio_de_venta",
+      "claude_trabajo_finanzas_empresas_plan_empresas_unit",
+      "claude_trabajo_finanzas_empresas_plan_estados_financieros_basicos",
+      "claude_trabajo_finanzas_empresas_plan_ingresos_costos_y_utilidad",
+      "claude_trabajo_finanzas_empresas_plan_punto_de_equilibrio",
+      "claude_trabajo_finanzas_empresas_plan_que_es_una_empresa",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f1",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f10",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f11",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f12",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f13",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f14",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f15",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f2",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f3",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f5",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f6",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f7",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f8",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_f9",
+      "claude_trabajo_finanzas_sistema_financiero_ficha_fact_sheet",
+      "claude_trabajo_finanzas_sistema_financiero_plan_bancos_centrales_y_politica_monetaria",
+      "claude_trabajo_finanzas_sistema_financiero_plan_breve_historia_del_dinero",
+      "claude_trabajo_finanzas_sistema_financiero_plan_que_hacen_los_bancos",
+      "claude_trabajo_finanzas_sistema_financiero_plan_sistema_financiero_unit",
+      "claude_trabajo_finanzas_sistema_financiero_plan_tasas_de_interes_y_su_efecto_en_la_economia"
+    ],
+    "1": [
+      "_claude_trabajo_mandarin_acciones_ficha",
+      "_claude_trabajo_mandarin_acciones_notas_director",
+      "_claude_trabajo_mandarin_acciones_plan",
+      "_claude_trabajo_mandarin_acciones_plan_accion_en_curso_zai_zhengzai",
+      "_claude_trabajo_mandarin_acciones_plan_accion_terminada_le",
+      "_claude_trabajo_mandarin_acciones_plan_algo_cambio_le_final",
+      "_claude_trabajo_mandarin_acciones_plan_en_la_escuela",
+      "_claude_trabajo_mandarin_acciones_plan_poder_saber_hui_neng_keyi",
+      "_claude_trabajo_mandarin_acciones_plan_posiciones_shang_xia_li_wai",
+      "_claude_trabajo_mandarin_acciones_plan_solo_voz_del_sistema",
+      "_claude_trabajo_mandarin_hsk2_gramatica_ficha",
+      "_claude_trabajo_mandarin_hsk2_gramatica_notas_director",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_aunque_suiran_danshi",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_causa_efecto_yinwei_suoyi",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_comparar_bi",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_complemento_direccional_lai_qu",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_complemento_grado_de",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_complemento_resultado",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_destacar_shi_de",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_elegir_haishi",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_en_cuanto_yi_jiu",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_estado_zhe",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_experiencias_guo",
+      "_claude_trabajo_mandarin_hsk2_gramatica_plan_por_pasar_yao_le",
+      "_claude_trabajo_mandarin_vida_diaria_ficha",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_chingram",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_commons_shtooka_recordings",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_hsk_kaoshi_dagang",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_kapiolani_chn101",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_mit_ocw_wheatley",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_msu_elementary_chinese",
+      "_claude_trabajo_mandarin_vida_diaria_ficha_wku_chinese101",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director_formato_extension",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director_maximo_6_grabaciones",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director_palabras_ya_ensenadas",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director_pinyin_del_silabo",
+      "_claude_trabajo_mandarin_vida_diaria_notas_director_respaldo_parcial",
+      "_claude_trabajo_mandarin_vida_diaria_plan",
+      "_claude_trabajo_mandarin_vida_diaria_plan_clasificadores",
+      "_claude_trabajo_mandarin_vida_diaria_plan_comida_bebida_xiang_yao",
+      "_claude_trabajo_mandarin_vida_diaria_plan_comprar_duoshao_qian",
+      "_claude_trabajo_mandarin_vida_diaria_plan_donde_esta_zai",
+      "_claude_trabajo_mandarin_vida_diaria_plan_familia",
+      "_claude_trabajo_mandarin_vida_diaria_plan_fechas_dias_semana",
+      "_claude_trabajo_mandarin_vida_diaria_plan_hora",
+      "_claude_trabajo_mandarin_vida_diaria_plan_preguntar_cantidades_ji_duoshao",
+      "_claude_trabajo_mandarin_vida_diaria_plan_tener_you_meiyou",
+      "lecciones_mandarin_acciones",
+      "lecciones_mandarin_hsk2_gramatica",
+      "lecciones_mandarin_primeras_frases",
+      "lecciones_mandarin_vida_diaria"
+    ],
+    "2": [
+      "claude_trabajo_ofimatica_computadora_reglas_materia",
+      "claude_trabajo_ofimatica_computadora_reglas_materia_libreoffice_referencia",
+      "claude_trabajo_ofimatica_computadora_reglas_materia_regla_concepto_generico",
+      "claude_trabajo_ofimatica_computadora_reglas_materia_sin_capturas",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_buscarv_buscarx",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_celda_y_rango",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_formato_condicional",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_formula",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_funcion_si",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_funciones_estadisticas",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_grafico",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_ordenar_y_filtrar",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_presupuesto",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_referencia_absoluta",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_tabla_dinamica",
+      "claude_trabajo_ofimatica_hojas_de_calculo_ficha_tipos_de_datos",
+      "claude_trabajo_ofimatica_hojas_de_calculo_plan",
+      "claude_trabajo_ofimatica_presentaciones_ficha",
+      "claude_trabajo_ofimatica_presentaciones_ficha_contraste",
+      "claude_trabajo_ofimatica_presentaciones_ficha_ensayo",
+      "claude_trabajo_ofimatica_presentaciones_ficha_notas_del_orador",
+      "claude_trabajo_ofimatica_presentaciones_ficha_plantilla_y_patron",
+      "claude_trabajo_ofimatica_presentaciones_ficha_relacion_de_aspecto",
+      "claude_trabajo_ofimatica_presentaciones_ficha_resolucion_de_imagen",
+      "claude_trabajo_ofimatica_presentaciones_ficha_texto_alternativo",
+      "claude_trabajo_ofimatica_presentaciones_ficha_wcag_2_2",
+      "claude_trabajo_ofimatica_presentaciones_plan",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_anclaje",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_campo",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_control_de_cambios",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_copia_de_seguridad",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_estilo",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_exportar_pdf",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_indice_automatico",
+      "claude_trabajo_ofimatica_procesador_de_textos_ficha_texto_alternativo",
+      "claude_trabajo_ofimatica_procesador_de_textos_plan",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_ancho_de_banda",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_compartir_pantalla",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_computacion_en_la_nube",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_copia_de_seguridad",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_edicion_simultanea",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_historial_de_versiones",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_permisos",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_sala_de_espera",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_sincronizacion",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_subtitulos",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_ficha_videollamada",
+      "claude_trabajo_ofimatica_trabajo_en_la_nube_plan"
+    ],
+    "3": [
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha",
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha_chingram",
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha_hsk_syllabus_2025",
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha_kapiolani_chn101",
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha_mit_ocw_wheatley",
+      "_claude_trabajo_mandarin_hsk2_situaciones_ficha_msu_elementary_chinese",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_bie_buyao",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_complemento_duracion",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_gei_preposicion",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_hai_todavia_ademas",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_hua_dos_sentidos",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_li_distancia",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_pinyin_del_silabo",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_rang_dejar",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_simplificacion_de_la_leccion",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_solo_voz_del_sistema",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_wan_diez_mil",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_wang_hacia",
+      "_claude_trabajo_mandarin_hsk2_situaciones_notas_director_xing_apellido",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_dia_completo_repaso_hsk2",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_el_clima",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_en_el_medico",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_en_la_tienda",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_hablar_por_telefono",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_la_gente_familia_nombres",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_pasatiempos",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_transporte_direcciones",
+      "_claude_trabajo_mandarin_hsk2_situaciones_plan_unidad_hsk2_situaciones",
+      "_claude_trabajo_mandarin_hsk3_gramatica_ficha",
+      "_claude_trabajo_mandarin_hsk3_gramatica_ficha_oxford_ctcfl",
+      "_claude_trabajo_mandarin_hsk3_gramatica_ficha_princeton_chinese_characters",
+      "_claude_trabajo_mandarin_hsk3_gramatica_ficha_usc_li_chinese_ba",
+      "_claude_trabajo_mandarin_hsk3_gramatica_notas_director",
+      "_claude_trabajo_mandarin_hsk3_gramatica_notas_director_nivel_por_palabra",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_budan_erqie",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_complemento_direccional_figurado",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_complemento_posibilidad",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_complemento_resultado",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_estructura_ba",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_huozhe",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_interrogativo_dou",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_pasiva_bei",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_ruguo_jiu",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_unidad_hsk3_gramatica",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_yibian_yibian",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_yuelaiyue",
+      "_claude_trabajo_mandarin_hsk3_gramatica_plan_zhiyou_zhiyao"
+    ],
+    "4": [
+      "claude_skills_ui_ux_pro_max_references_pro_rules",
+      "claude_skills_ui_ux_pro_max_references_pro_rules_dark_mode_contrast",
+      "claude_skills_ui_ux_pro_max_references_pro_rules_no_emoji_icons",
+      "claude_skills_ui_ux_pro_max_references_quick_reference",
+      "claude_skills_ui_ux_pro_max_references_quick_reference_accessibility",
+      "claude_skills_ui_ux_pro_max_skill",
+      "claude_skills_ui_ux_pro_max_skill_design_system_workflow",
+      "claude_skills_ui_ux_pro_max_skill_priority_categories",
+      "index_html",
+      "index_html_classic_scripts",
+      "js_app",
+      "js_app_cargarmateria",
+      "js_app_completar",
+      "js_app_dibujar",
+      "js_app_leer",
+      "js_app_reiniciar",
+      "js_app_vistacomousar",
+      "js_app_vistainicio",
+      "js_app_vistaleccion",
+      "js_app_vistamateria",
+      "js_ejercicios",
+      "js_ejercicios_escorrecta",
+      "js_ejercicios_expresionesiguales",
+      "js_ejercicios_grafica",
+      "js_ejercicios_leerpinyin",
+      "js_ejercicios_montar",
+      "js_ejercicios_normalizarnumero",
+      "js_ejercicios_parsearexpresion",
+      "js_ejercicios_pinyinigual",
+      "js_ejercicios_registrarleccion",
+      "js_ejercicios_zh",
+      "js_temario",
+      "js_textos",
+      "leeme_txt",
+      "readme_autosuficiencia",
+      "readme_ciencias_naturales",
+      "readme_finanzas_personales",
+      "readme_finanzas_y_economia",
+      "readme_fisica",
+      "readme_ingles",
+      "readme_inteligencia_artificial",
+      "readme_lectura",
+      "readme_mandarin",
+      "readme_matematicas",
+      "readme_ofimatica",
+      "readme_quimica",
+      "readme_temario"
+    ],
+    "5": [
+      "claude_skills_ui_ux_pro_max_scripts_core",
+      "claude_skills_ui_ux_pro_max_scripts_core_contains_phrase",
+      "claude_skills_ui_ux_pro_max_scripts_core_detect_domain",
+      "claude_skills_ui_ux_pro_max_scripts_core_domain_keywords",
+      "claude_skills_ui_ux_pro_max_scripts_core_exact_match_diagnostic",
+      "claude_skills_ui_ux_pro_max_scripts_core_exact_stack_identifier",
+      "claude_skills_ui_ux_pro_max_scripts_core_file_signature",
+      "claude_skills_ui_ux_pro_max_scripts_core_get_bm25",
+      "claude_skills_ui_ux_pro_max_scripts_core_legacy_successor_guidance",
+      "claude_skills_ui_ux_pro_max_scripts_core_load_csv",
+      "claude_skills_ui_ux_pro_max_scripts_core_load_csv_snapshot",
+      "claude_skills_ui_ux_pro_max_scripts_core_load_product_keywords",
+      "claude_skills_ui_ux_pro_max_scripts_core_load_rows_or_empty",
+      "claude_skills_ui_ux_pro_max_scripts_core_normalize",
+      "claude_skills_ui_ux_pro_max_scripts_core_passes_threshold",
+      "claude_skills_ui_ux_pro_max_scripts_core_project_row",
+      "claude_skills_ui_ux_pro_max_scripts_core_query_coverage",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_274",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_364",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_382",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_387",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_417",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_467",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_484",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_539",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_596",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_629",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_665",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_706",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_737",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_756",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_849",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_889",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_926",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_939",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_952",
+      "claude_skills_ui_ux_pro_max_scripts_core_rewrite_query_for_domain",
+      "claude_skills_ui_ux_pro_max_scripts_core_search",
+      "claude_skills_ui_ux_pro_max_scripts_core_search_csv",
+      "claude_skills_ui_ux_pro_max_scripts_core_search_csv_detailed",
+      "claude_skills_ui_ux_pro_max_scripts_core_search_stack",
+      "claude_skills_ui_ux_pro_max_scripts_core_stack_query_requests_legacy",
+      "claude_skills_ui_ux_pro_max_scripts_core_stack_row_filter",
+      "claude_skills_ui_ux_pro_max_scripts_core_style_identity",
+      "claude_skills_ui_ux_pro_max_scripts_core_style_search_destination",
+      "claude_skills_ui_ux_pro_max_scripts_core_suggest_terms",
+      "claude_skills_ui_ux_pro_max_scripts_core_valid_max_results"
+    ],
+    "6": [
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_object_without_duplicates",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_parse_decision_rules",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_68",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_validate_action",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_catalog_date",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_app_interface_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_catalog_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_catalog_summary",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_chart_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_color_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_core_data_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_file",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_font_catalog",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_icon_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_landing_claims",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_motion_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_phosphor_catalog",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_provenance",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_react_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_reasoning_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_stack_freshness_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_style_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_typography_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_check_ux_contract",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_configured_font_names",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_contrast_ratio",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_declared_weights",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_font_families",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_font_names",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_imported_weights",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_load_catalog_json",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_main",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_1004",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_158",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_rationale_806",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_read_rows",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_relative_luminance",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_split",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_catalog_source_key",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_confidence",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_dataset_source_key",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_date",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_google_fonts_exclusion_source",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_valid_provenance_source",
+      "claude_skills_ui_ux_pro_max_scripts_validate_data_validate"
+    ],
+    "7": [
+      "agents_accessibility_rule",
+      "agents_audio_policy",
+      "agents_content_rules",
+      "agents_free_learning_project_rules",
+      "agents_local_first_rule",
+      "agents_model_policy",
+      "agents_no_commit_rule",
+      "agents_verification_tools",
+      "claude_claude_code_notes",
+      "claude_trabajo_mandarin_hsk6_cultura_ficha_hsk6_cultura_fact_sheet",
+      "claude_trabajo_mandarin_hsk6_cultura_notas_director_director_notes_cultura",
+      "claude_trabajo_mandarin_hsk6_cultura_plan_hsk6_cultura_unit",
+      "claude_trabajo_mandarin_hsk6_gramatica_ficha_hsk6_gramatica_fact_sheet",
+      "claude_trabajo_mandarin_hsk6_gramatica_notas_director_director_notes_gramatica",
+      "claude_trabajo_mandarin_hsk6_gramatica_plan_hsk6_gramatica_unit",
+      "claude_trabajo_mandarin_hsk6_temas_ficha_hsk6_temas_fact_sheet",
+      "claude_trabajo_mandarin_hsk6_temas_notas_director_director_notes_temas",
+      "claude_trabajo_mandarin_hsk6_temas_plan_hsk6_temas_unit",
+      "mandarin_allset_learning",
+      "mandarin_dartmouth_chinese",
+      "mandarin_hsk6_ba_construction",
+      "mandarin_hsk6_bu_x_bu_yi_x",
+      "mandarin_hsk6_fixed_expressions",
+      "mandarin_hsk6_formal_prepositions",
+      "mandarin_hsk6_measure_words_fan_zhi_juan",
+      "mandarin_hsk6_particle_suo",
+      "mandarin_hsk6_themes_unit",
+      "mandarin_hsk6_word_formation",
+      "mandarin_hsk_syllabus_2025",
+      "mandarin_nivel_js",
+      "mandarin_oxford_ctcfl",
+      "mandarin_university_of_iowa_reader",
+      "mandarin_usc_chinese",
+      "opencode_agents_auditor_auditor_agent",
+      "opencode_agents_constructor_constructor_agent",
+      "opencode_agents_director_director_agent",
+      "opencode_agents_investigador_investigador_agent",
+      "opencode_commands_aprobar_plan_aprobar_plan_command",
+      "opencode_commands_continuar_continuar_command",
+      "opencode_commands_estado_estado_command",
+      "opencode_commands_unidad_unidad_command",
+      "opencode_director_unit_workflow",
+      "opencode_estado_tracking",
+      "opencode_plan_approval_gate"
+    ],
+    "8": [
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_fiestas_datos",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_artes",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_chengyu_lunyu",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_cierre_hsk4",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_cocinas",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_fuentes_apoyo",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_geografia",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_modelo_hsk4_vida",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_taiwan_d68",
+      "_claude_trabajo_mandarin_hsk4_cultura_notas_director_vetos_contenido",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_chengyu_hsk5",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_cierre_hsk5",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_clasicos",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_fuentes_apoyo",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_leyendas",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_modelo_hsk5",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk5_cultura_notas_director_trad_simp",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_allset",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_bijing_juran",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_chigram",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_dartmouth",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_de_largo",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_faner",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_ficha",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_jiaru_wanyi",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_mit",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_napa",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_oxford",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_qilai_xiaqu",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_sishi",
+      "_claude_trabajo_mandarin_hsk5_gramatica_ficha_yidan",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_allset_apoyo",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_cierre_texto",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_decision_usuario",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_ejemplos_vetados",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_modelo_hsk4_cultura",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_remisiones_lectura"
+    ],
+    "9": [
+      "claude_trabajo_ofimatica_computadora_render_d01_almacenamiento",
+      "claude_trabajo_ofimatica_computadora_render_d01_entrada",
+      "claude_trabajo_ofimatica_computadora_render_d01_modelo_entrada_procesamiento_salida_almacenamiento",
+      "claude_trabajo_ofimatica_computadora_render_d01_procesamiento",
+      "claude_trabajo_ofimatica_computadora_render_d01_salida",
+      "claude_trabajo_ofimatica_computadora_render_d02_aplicaciones",
+      "claude_trabajo_ofimatica_computadora_render_d02_capas_hardware_so_aplicaciones_persona",
+      "claude_trabajo_ofimatica_computadora_render_d02_hardware",
+      "claude_trabajo_ofimatica_computadora_render_d02_la_persona",
+      "claude_trabajo_ofimatica_computadora_render_d02_sistema_operativo",
+      "claude_trabajo_ofimatica_computadora_render_d03_arbol_de_carpetas",
+      "claude_trabajo_ofimatica_computadora_render_d03_documentos",
+      "claude_trabajo_ofimatica_computadora_render_d03_plan_de_estudios",
+      "claude_trabajo_ofimatica_computadora_render_d03_plan_docx",
+      "claude_trabajo_ofimatica_computadora_render_d03_trabajo",
+      "claude_trabajo_ofimatica_computadora_render_d04_alt",
+      "claude_trabajo_ofimatica_computadora_render_d04_ctrl",
+      "claude_trabajo_ofimatica_computadora_render_d04_enter",
+      "claude_trabajo_ofimatica_computadora_render_d04_espacio",
+      "claude_trabajo_ofimatica_computadora_render_d04_esquema_del_teclado",
+      "claude_trabajo_ofimatica_computadora_render_d04_letras",
+      "claude_trabajo_ofimatica_computadora_render_d04_mayus",
+      "claude_trabajo_ofimatica_computadora_render_d05_aviso_de_descarga",
+      "claude_trabajo_ofimatica_computadora_render_d05_barra_de_direcciones",
+      "claude_trabajo_ofimatica_computadora_render_d05_botones_navegacion",
+      "claude_trabajo_ofimatica_computadora_render_d05_pagina_visible",
+      "claude_trabajo_ofimatica_computadora_render_d05_pestana",
+      "claude_trabajo_ofimatica_computadora_render_d05_ventana_del_navegador",
+      "claude_trabajo_ofimatica_computadora_render_d06_anatomia_de_un_correo",
+      "claude_trabajo_ofimatica_computadora_render_d06_archivo_adjunto",
+      "claude_trabajo_ofimatica_computadora_render_d06_asunto",
+      "claude_trabajo_ofimatica_computadora_render_d06_cuerpo_del_mensaje",
+      "claude_trabajo_ofimatica_computadora_render_d06_destinatario",
+      "claude_trabajo_ofimatica_computadora_render_d06_remitente",
+      "claude_trabajo_ofimatica_computadora_render_d07_cadena_del_fraude",
+      "claude_trabajo_ofimatica_computadora_render_d07_enlace",
+      "claude_trabajo_ofimatica_computadora_render_d07_mensaje",
+      "claude_trabajo_ofimatica_computadora_render_d07_sitio_falso",
+      "claude_trabajo_ofimatica_computadora_render_d07_tus_datos"
+    ],
+    "10": [
+      "empaquetar",
+      "empaquetar_sh__entry",
+      "readme_carta_de_amor_a_la_humanidad",
+      "readme_ck_12",
+      "readme_contenido_confiable",
+      "readme_estructura_de_leccion",
+      "readme_free_learning",
+      "readme_funciona_sin_internet",
+      "readme_gratis_para_siempre",
+      "readme_html_css_js_puro",
+      "readme_imprimir_pdf",
+      "readme_khan_academy",
+      "readme_lector_objetivo_10_12",
+      "readme_licencia_mit",
+      "readme_medlineplus",
+      "readme_oms",
+      "readme_openstax",
+      "readme_phet",
+      "readme_progreso_en_navegador",
+      "verificar",
+      "verificar_acepta",
+      "verificar_assert",
+      "verificar_audios",
+      "verificar_convocab",
+      "verificar_entemario",
+      "verificar_expr",
+      "verificar_falla",
+      "verificar_fig",
+      "verificar_frase",
+      "verificar_fs",
+      "verificar_han",
+      "verificar_path",
+      "verificar_peso",
+      "verificar_py",
+      "verificar_rechaza",
+      "verificar_simp",
+      "verificar_svg"
+    ],
+    "11": [
+      "claude_skills_ui_ux_pro_max_scripts_design_system",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_ansi_ljust",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_detect_page_type",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_format_ascii_box",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_format_markdown",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_format_master_md",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_format_page_override_md",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_generate_design_system",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_generate_intelligent_overrides",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_hex_to_ansi",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_mode_support_labels",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_persist_design_system",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1022",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1102",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1407",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1516",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_1622",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_258",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_637",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_651",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_659",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_666",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_818",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_948",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_987",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_998",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_safe_slug",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_section_header",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_write_persisted_file",
+      "claude_skills_ui_ux_pro_max_scripts_search",
+      "claude_skills_ui_ux_pro_max_scripts_search_format_output",
+      "claude_skills_ui_ux_pro_max_scripts_search_rationale_45",
+      "path"
+    ],
+    "12": [
+      "claude_trabajo_mandarin_hsk3_comunicacion_ficha_fuente_chingram",
+      "claude_trabajo_mandarin_hsk3_comunicacion_ficha_fuente_mit",
+      "claude_trabajo_mandarin_hsk3_comunicacion_ficha_fuente_silabo",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_unidad_8",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_fuente_allset",
+      "claude_trabajo_mandarin_hsk4_estructuras_ficha_fuente_princeton",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_7",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_8",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_7",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_8",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_unidad_10"
+    ],
+    "13": [
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_build_style_lookup",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_extract_results",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_generate",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_init",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_landing_patterns",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_reasoning",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_load_styles",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_resolve_style",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_designsystemgenerator_select_best_match",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_filter_anti_patterns_for_mode",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_247",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_284",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_293",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_346",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_383",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_391",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_434",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_471",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_476",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_91",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_dial",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_apply_decision_rules",
+      "claude_skills_ui_ux_pro_max_scripts_reasoning_contract_rationale_102"
+    ],
+    "14": [
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f1",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f10",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f12",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f13",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f14",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f15",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f16",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f17",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f18",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f2",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f3",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f4",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f5",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f6",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f7",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f8",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_f9",
+      "claude_trabajo_finanzas_economia_de_un_pais_ficha_fact_sheet",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_comercio_internacional_y_tipo_de_cambio",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_crecimiento_economico_y_ciclos",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_economia_de_un_pais_unit",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_empleo_y_desempleo",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_impuestos_y_gasto_publico",
+      "claude_trabajo_finanzas_economia_de_un_pais_plan_producto_interno_bruto_pib"
+    ],
+    "15": [
+      "_claude_docs_sitio_accesibilidad_aa",
+      "_claude_docs_sitio_boton_vocabulario",
+      "_claude_docs_sitio_pdf_window_print",
+      "_claude_docs_sitio_progreso_localstorage",
+      "_claude_docs_sitio_ruteo_hash_chino",
+      "_claude_docs_sitio_sitio",
+      "_claude_trabajo_mandarin_primeras_frases_ficha_chingram",
+      "_claude_trabajo_mandarin_primeras_frases_ficha_ficha",
+      "_claude_trabajo_mandarin_primeras_frases_ficha_kapiolani",
+      "_claude_trabajo_mandarin_primeras_frases_notas_director_notas",
+      "_claude_trabajo_mandarin_primeras_frases_plan_lecciones_gramatica",
+      "_claude_trabajo_mandarin_primeras_frases_plan_plan",
+      "_claude_trabajo_mandarin_sonidos_ficha_commons_grabaciones",
+      "_claude_trabajo_mandarin_sonidos_ficha_esquema_pinyin_1958",
+      "_claude_trabajo_mandarin_sonidos_ficha_ficha",
+      "_claude_trabajo_mandarin_sonidos_ficha_polyu_tonos",
+      "_claude_trabajo_mandarin_sonidos_ficha_princeton_trazos_radicales",
+      "_claude_trabajo_mandarin_sonidos_notas_director_notas",
+      "_claude_trabajo_mandarin_sonidos_notas_director_respaldo_parcial",
+      "_claude_trabajo_mandarin_sonidos_plan_cambios_de_tono",
+      "_claude_trabajo_mandarin_sonidos_plan_plan",
+      "_claude_trabajo_mandarin_sonidos_plan_radicales"
+    ],
+    "16": [
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_confucio",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_cuatroinventos",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_duiniutanqin",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_huashetianzu",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_laozi",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_shouzhudaitu",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_zixiangmaodun",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_eno",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_moe",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_stanford",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_ucsd",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_wikisource",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_fuente_wiktionary",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_unidad_15"
+    ],
+    "17": [
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f1",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f10",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f11",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f12",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f13",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f14",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f15",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f16",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f2",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f3",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f4",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f6",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f7",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f8",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_f9",
+      "claude_trabajo_finanzas_mercados_financieros_ficha_fact_sheet",
+      "claude_trabajo_finanzas_mercados_financieros_plan_acciones",
+      "claude_trabajo_finanzas_mercados_financieros_plan_bonos",
+      "claude_trabajo_finanzas_mercados_financieros_plan_burbujas_y_crisis_financieras",
+      "claude_trabajo_finanzas_mercados_financieros_plan_la_bolsa_de_valores",
+      "claude_trabajo_finanzas_mercados_financieros_plan_mercados_financieros_unit"
+    ],
+    "18": [
+      "claude_trabajo_mandarin_hsk4_frases_ficha_fuente_kapiolani",
+      "claude_trabajo_mandarin_hsk4_frases_ficha_fuente_msu",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_7",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_8",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_7",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_8",
+      "claude_trabajo_mandarin_hsk4_frases_plan_unidad_9",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_3"
+    ],
+    "19": [
+      "claude_trabajo_ofimatica_computadora_ficha",
+      "claude_trabajo_ofimatica_computadora_ficha_atajo_de_teclado",
+      "claude_trabajo_ofimatica_computadora_ficha_autenticacion_multifactor",
+      "claude_trabajo_ofimatica_computadora_ficha_contrasena",
+      "claude_trabajo_ofimatica_computadora_ficha_correo_basura",
+      "claude_trabajo_ofimatica_computadora_ficha_correo_electronico",
+      "claude_trabajo_ofimatica_computadora_ficha_gestor_de_contrasenas",
+      "claude_trabajo_ofimatica_computadora_ficha_hardware",
+      "claude_trabajo_ofimatica_computadora_ficha_interfaz_grafica_de_usuario",
+      "claude_trabajo_ofimatica_computadora_ficha_navegador_web",
+      "claude_trabajo_ofimatica_computadora_ficha_papelera_de_reciclaje",
+      "claude_trabajo_ofimatica_computadora_ficha_periferico",
+      "claude_trabajo_ofimatica_computadora_ficha_proceso",
+      "claude_trabajo_ofimatica_computadora_ficha_sistema_de_archivos",
+      "claude_trabajo_ofimatica_computadora_ficha_sistema_de_nombres_de_dominio",
+      "claude_trabajo_ofimatica_computadora_ficha_sistema_operativo",
+      "claude_trabajo_ofimatica_computadora_ficha_software",
+      "claude_trabajo_ofimatica_computadora_ficha_suplantacion_phishing",
+      "claude_trabajo_ofimatica_computadora_ficha_unidad_central_de_procesamiento",
+      "claude_trabajo_ofimatica_computadora_plan"
+    ],
+    "20": [
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25",
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25_fit",
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25_init",
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25_score",
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25_tokenize",
+      "claude_skills_ui_ux_pro_max_scripts_core_bm25_vocabulary",
+      "claude_skills_ui_ux_pro_max_scripts_core_exact_row_identity",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_283",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_297",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_303",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_324",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_346",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_505",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_526",
+      "claude_skills_ui_ux_pro_max_scripts_core_rationale_696",
+      "claude_skills_ui_ux_pro_max_scripts_core_row_identities",
+      "claude_skills_ui_ux_pro_max_scripts_core_suggest_identities"
+    ],
+    "21": [
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_9",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_9",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_7",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_8",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_gramatica_9",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_7",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_8",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_leccion_9",
+      "claude_trabajo_mandarin_hsk5_gramatica_plan_unidad_13"
+    ],
+    "22": [
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_7",
+      "claude_trabajo_mandarin_hsk4_vida_plan_gramatica_8",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_7",
+      "claude_trabajo_mandarin_hsk4_vida_plan_leccion_8",
+      "claude_trabajo_mandarin_hsk4_vida_plan_unidad_11"
+    ],
+    "23": [
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_dartmouth_principal",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_allset",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_anzhao",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_chigram",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_clasificadores",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_csbsju",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_dartmouth",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_duiyu",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_ficha",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_kongpa",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_mit",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_oxford",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_si_le",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_silabo",
+      "_claude_trabajo_mandarin_hsk4_vida_ficha_yexu",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_allset_unidad"
+    ],
+    "24": [
+      "claude_herramientas_revisar",
+      "claude_herramientas_revisar_antes",
+      "claude_herramientas_revisar_archivo",
+      "claude_herramientas_revisar_claves",
+      "claude_herramientas_revisar_fs",
+      "claude_herramientas_revisar_limpiar",
+      "claude_herramientas_revisar_mal",
+      "claude_herramientas_revisar_palabras",
+      "claude_herramientas_revisar_path",
+      "claude_herramientas_revisar_prohibidos",
+      "claude_herramientas_revisar_prosa",
+      "claude_herramientas_revisar_raiz",
+      "claude_herramientas_revisar_rangos",
+      "claude_herramientas_revisar_terminos",
+      "claude_herramientas_revisar_texto",
+      "claude_herramientas_revisar_titulos"
+    ],
+    "25": [
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_allset",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_ba_gei",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_bei_gei",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_bi_cantidad",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_chigram",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_clasificadores_campo",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_dartmouth",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_ficha",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_gewai",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_ju_genju",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_laoshi",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_oxford",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_potential",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_shizhong_yizhi",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_silabo"
+    ],
+    "26": [
+      "claude_herramientas_plan",
+      "claude_herramientas_plan_aprobar",
+      "claude_herramientas_plan_crypto",
+      "claude_herramientas_plan_estado",
+      "claude_herramientas_plan_fs",
+      "claude_herramientas_plan_hash",
+      "claude_herramientas_plan_leerstdin",
+      "claude_herramientas_plan_path",
+      "claude_herramientas_plan_plande",
+      "claude_herramientas_plan_raiz",
+      "claude_herramientas_plan_requiere",
+      "claude_herramientas_plan_trabajo",
+      "claude_herramientas_plan_unidadactual",
+      "claude_herramientas_plan_unidadde",
+      "ref_crypto"
+    ],
+    "27": [
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_cocinas",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_operapekin",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_pingpong",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_taiji",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_fuente_govcn",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_fuente_unesco",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_unidad_12",
+      "claude_trabajo_mandarin_hsk4_estructuras_ficha_fuente_dartmouth",
+      "claude_trabajo_mandarin_hsk4_estructuras_ficha_fuente_oxford"
+    ],
+    "28": [
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_5",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_6",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_gramatica_7",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_1",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_2",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_3",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_5",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_6",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_leccion_7",
+      "claude_trabajo_mandarin_hsk5_sociedad_plan_unidad_14"
+    ],
+    "29": [
+      "claude_trabajo_mandarin_hsk6_cultura_nivel",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_avisos",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_cortar",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_fs",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_han",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_largo",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_nivel",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_nivel6",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_os",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_path",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_raiz",
+      "claude_trabajo_mandarin_hsk6_cultura_nivel_texto"
+    ],
+    "30": [
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_avisos",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_cortar",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_fs",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_han",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_largo",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_nivel",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_nivel6",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_os",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_path",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_raiz",
+      "claude_trabajo_mandarin_hsk6_gramatica_nivel_texto"
+    ],
+    "31": [
+      "claude_trabajo_mandarin_hsk6_temas_nivel",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_avisos",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_cortar",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_fs",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_han",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_largo",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_nivel",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_nivel6",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_os",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_path",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_raiz",
+      "claude_trabajo_mandarin_hsk6_temas_nivel_texto"
+    ],
+    "32": [
+      "_claude_docs_materias_ia_formula_memoria",
+      "_claude_docs_materias_ia_marcas_solo_u5",
+      "_claude_trabajo_ia_llms_locales_ficha",
+      "_claude_trabajo_ia_llms_locales_ficha_gguf",
+      "_claude_trabajo_ia_llms_locales_ficha_safetensors",
+      "_claude_trabajo_ia_llms_locales_plan",
+      "_claude_trabajo_ia_llms_locales_plan_cuantizacion",
+      "_claude_trabajo_ia_llms_locales_plan_descarga_segura",
+      "_claude_trabajo_ia_llms_locales_plan_documentos_propios",
+      "_claude_trabajo_ia_llms_locales_plan_llm_local",
+      "_claude_trabajo_ia_llms_locales_plan_lm_studio",
+      "_claude_trabajo_ia_llms_locales_plan_modelos_abiertos",
+      "_claude_trabajo_ia_llms_locales_plan_ollama",
+      "_claude_trabajo_ia_llms_locales_plan_tamano_parametros"
+    ],
+    "33": [
+      "claude_trabajo_mandarin_hsk4_cultura_nivel",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_avisos",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_cortar",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_fs",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_han",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_largo",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_nivel",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_os",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_path",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_raiz",
+      "claude_trabajo_mandarin_hsk4_cultura_nivel_texto",
+      "ref_fs"
+    ],
+    "34": [
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_avisos",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_cortar",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_fs",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_han",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_largo",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_nivel",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_os",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_path",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_raiz",
+      "claude_trabajo_mandarin_hsk4_estructuras_nivel_texto",
+      "ref_path"
+    ],
+    "35": [
+      "claude_trabajo_mandarin_hsk5_cultura_nivel",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_avisos",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_cortar",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_fs",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_han",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_largo",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_nivel",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_os",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_path",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_raiz",
+      "claude_trabajo_mandarin_hsk5_cultura_nivel_texto"
+    ],
+    "36": [
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_avisos",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_cortar",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_fs",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_han",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_largo",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_nivel",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_os",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_path",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_raiz",
+      "claude_trabajo_mandarin_hsk5_gramatica_nivel_texto"
+    ],
+    "37": [
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_avisos",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_cortar",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_fs",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_han",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_largo",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_nivel",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_nivel5",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_os",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_path",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_raiz",
+      "claude_trabajo_mandarin_hsk5_sociedad_nivel_texto"
+    ],
+    "38": [
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_tabla_vocabulario",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_auditoria",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_graficas",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_lecciones",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_modelo_hsk4_estructuras",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_vetos_tema",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_auditoria",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_formato",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_lecciones",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_modelo_hsk5",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_vetos"
+    ],
+    "39": [
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_allset_limite",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_ba",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_buru_xiangbi",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_causativos",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_de_liao",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_doble_negacion",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_ejemplos_vetados",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_fuentes",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_nandao",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_numeros",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_pasiva_jiao_rang",
+      "_claude_trabajo_mandarin_hsk4_estructuras_notas_director_vetos"
+    ],
+    "40": [
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_allset_l2",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_buguan",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_bujin",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_bushi_ershi",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_f32_descarte",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_jinguan",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_jiran",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_jishi",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_lian_ye_dou",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_vetos",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_yaoshi_fouze",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_youyu_yushi"
+    ],
+    "41": [
+      "claude_trabajo_mandarin_hsk4_frases_nivel",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_avisos",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_cortar",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_fs",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_han",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_largo",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_nivel",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_os",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_path",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_raiz",
+      "claude_trabajo_mandarin_hsk4_frases_nivel_texto"
+    ],
+    "42": [
+      "claude_trabajo_mandarin_hsk4_vida_nivel",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_avisos",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_cortar",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_fs",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_han",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_largo",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_nivel",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_nivel3",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_nivel4",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_os",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_path",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_raiz",
+      "claude_trabajo_mandarin_hsk4_vida_nivel_texto"
+    ],
+    "43": [
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_cierre_hsk3",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_contraste_gang",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_contraste_you_zai",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_extension",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_marcas_atribucion",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_nivel_palabra",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_notas",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_pinyin_silabo",
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_voz_sistema",
+      "_claude_trabajo_mandarin_hsk4_frases_notas_director_contrastes",
+      "_claude_trabajo_mandarin_hsk4_vida_notas_director_jerarquia",
+      "_claude_trabajo_mandarin_hsk5_gramatica_notas_director_niveles"
+    ],
+    "44": [
+      "claude_herramientas_citas",
+      "claude_herramientas_citas_cache",
+      "claude_herramientas_citas_crypto",
+      "claude_herramientas_citas_entidades",
+      "claude_herramientas_citas_execfilesync",
+      "claude_herramientas_citas_fs",
+      "claude_herramientas_citas_fuentes",
+      "claude_herramientas_citas_normalizar",
+      "claude_herramientas_citas_os",
+      "claude_herramientas_citas_pagina",
+      "claude_herramientas_citas_path",
+      "pdfkit"
+    ],
+    "45": [
+      "claude_herramientas_render",
+      "claude_herramientas_render_antes",
+      "claude_herramientas_render_archivo",
+      "claude_herramientas_render_execfilesync",
+      "claude_herramientas_render_fs",
+      "claude_herramientas_render_os",
+      "claude_herramientas_render_path",
+      "claude_herramientas_render_raiz",
+      "claude_herramientas_render_salida",
+      "claude_herramientas_render_svgs",
+      "ref_child_process",
+      "ref_os"
+    ],
+    "46": [
+      "claude_skills_ui_ux_pro_max_scripts_design_system_button_outline_text_color",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_contrast_ratio",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_derive_dark_palette",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_palette_is_dark",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_130",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_148",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_154",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_194",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_222",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_274",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_relative_luminance",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_select_palette_for_mode"
+    ],
+    "47": [
+      "_claude_trabajo_lectura_comprension_lectora_ficha_cbc_lengua",
+      "_claude_trabajo_lectura_comprension_lectora_ficha_idea_principal",
+      "_claude_trabajo_lectura_comprension_lectora_ficha_inferencia_lexica",
+      "_claude_trabajo_lectura_comprension_lectora_ficha_mapa_conceptual",
+      "_claude_trabajo_lectura_comprension_lectora_ficha_resumen",
+      "_claude_trabajo_lectura_comprension_lectora_plan_filtro_resumen",
+      "_claude_trabajo_lectura_comprension_lectora_plan_mapa_dibujo",
+      "_claude_trabajo_lectura_comprension_lectora_plan_metodo_dos_pasos",
+      "_claude_trabajo_lectura_comprension_lectora_plan_pistas_contexto",
+      "_claude_trabajo_lectura_escribir_con_claridad_plan_resumen_sin_original",
+      "_claude_trabajo_lectura_fundamentos_reglas_materia_remisiones"
+    ],
+    "48": [
+      "_claude_docs_materias_ia_remisiones",
+      "_claude_trabajo_ia_como_aprenden_ficha",
+      "_claude_trabajo_ia_como_aprenden_ficha_google_ml_crash_course",
+      "_claude_trabajo_ia_como_aprenden_plan",
+      "_claude_trabajo_ia_como_aprenden_plan_aprendizaje_automatico",
+      "_claude_trabajo_ia_como_aprenden_plan_datos_etiquetas",
+      "_claude_trabajo_ia_como_aprenden_plan_entrenar_evaluar",
+      "_claude_trabajo_ia_como_aprenden_plan_redes_neuronales",
+      "_claude_trabajo_ia_sociedad_plan_deepfakes",
+      "_claude_trabajo_ia_sociedad_plan_sesgos"
+    ],
+    "49": [
+      "opencode_plugins_plan_aprobado",
+      "opencode_plugins_plan_aprobado_estado",
+      "opencode_plugins_plan_aprobado_hash",
+      "opencode_plugins_plan_aprobado_raizproyecto",
+      "opencode_plugins_plan_aprobado_rutasbloqueadas",
+      "opencode_plugins_plan_aprobado_setup",
+      "opencode_plugins_plan_aprobado_unidadde",
+      "ref_node_crypto",
+      "ref_node_fs",
+      "ref_node_path"
+    ],
+    "50": [
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_acentuacion",
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_tilde_diacritica",
+      "_claude_trabajo_lectura_escribir_con_claridad_plan_metodo_tilde",
+      "_claude_trabajo_lectura_fundamentos_ficha_tipos_de_texto",
+      "_claude_trabajo_lectura_fundamentos_plan_clasificacion_proposito",
+      "_claude_trabajo_lectura_fundamentos_reglas_materia_fuentes_bloqueadas",
+      "_claude_trabajo_lectura_fundamentos_reglas_materia_limite_terminos",
+      "_claude_trabajo_lectura_fundamentos_reglas_materia_reglas",
+      "_claude_trabajo_lectura_literatura_plan_dos_ejes"
+    ],
+    "51": [
+      "_claude_trabajo_ia_modelos_lenguaje_ficha",
+      "_claude_trabajo_ia_modelos_lenguaje_ficha_mata_v_avianca",
+      "_claude_trabajo_ia_modelos_lenguaje_ficha_typesafe_ai",
+      "_claude_trabajo_ia_modelos_lenguaje_plan",
+      "_claude_trabajo_ia_modelos_lenguaje_plan_alucinaciones",
+      "_claude_trabajo_ia_modelos_lenguaje_plan_contexto_memoria",
+      "_claude_trabajo_ia_modelos_lenguaje_plan_tokens",
+      "_claude_trabajo_ia_usar_bien_plan_verificar_respuestas"
+    ],
+    "52": [
+      "_claude_trabajo_ia_sociedad_ficha",
+      "_claude_trabajo_ia_sociedad_ficha_aepd",
+      "_claude_trabajo_ia_sociedad_ficha_ley_ia_ue",
+      "_claude_trabajo_ia_sociedad_plan",
+      "_claude_trabajo_ia_sociedad_plan_derechos_autor",
+      "_claude_trabajo_ia_sociedad_plan_futuro_trabajo",
+      "_claude_trabajo_ia_sociedad_plan_impacto_ambiental",
+      "_claude_trabajo_ia_sociedad_plan_privacidad"
+    ],
+    "53": [
+      "_claude_trabajo_lectura_lectura_practica_ficha_clausula",
+      "_claude_trabajo_lectura_lectura_practica_ficha_contrato",
+      "_claude_trabajo_lectura_lectura_practica_plan_cinco_preguntas_contrato",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_argumento",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_hecho_opinion",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_intencion_autor",
+      "_claude_trabajo_lectura_pensamiento_critico_plan_desmontar_argumento",
+      "_claude_trabajo_lectura_pensamiento_critico_plan_tres_preguntas_intencion"
+    ],
+    "54": [
+      "_claude_docs_materias_ia",
+      "_claude_docs_materias_ia_datos_con_fecha",
+      "_claude_docs_materias_ia_jev",
+      "_claude_docs_materias_ia_laya",
+      "_claude_docs_materias_ia_lector_10_12",
+      "_claude_docs_materias_ia_modelos_sistema_uno",
+      "_claude_trabajo_ia_modelos_lenguaje_plan_modelos_decision"
+    ],
+    "55": [
+      "_claude_trabajo_lectura_comprension_lectora_plan_metodo_inferencia",
+      "_claude_trabajo_lectura_literatura_ficha_generos_literarios",
+      "_claude_trabajo_lectura_literatura_ficha_narrador",
+      "_claude_trabajo_lectura_literatura_ficha_personaje",
+      "_claude_trabajo_lectura_literatura_ficha_trama",
+      "_claude_trabajo_lectura_literatura_plan_elementos_narracion",
+      "_claude_trabajo_lectura_pensamiento_critico_plan_comprobar_negar"
+    ],
+    "56": [
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_cohesion",
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_parrafo",
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_texto_argumentativo",
+      "_claude_trabajo_lectura_escribir_con_claridad_plan_ensayo_argumentativo",
+      "_claude_trabajo_lectura_escribir_con_claridad_plan_estructura_texto",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_falacia",
+      "_claude_trabajo_lectura_pensamiento_critico_plan_cinco_falacias"
+    ],
+    "57": [
+      "_claude_trabajo_lectura_escribir_con_claridad_ficha_puntuacion",
+      "_claude_trabajo_lectura_escribir_con_claridad_plan_puntuacion_voz_alta",
+      "_claude_trabajo_lectura_literatura_ficha_caupolican",
+      "_claude_trabajo_lectura_literatura_ficha_poesia",
+      "_claude_trabajo_lectura_literatura_ficha_romance_luna_luna",
+      "_claude_trabajo_lectura_literatura_ficha_verso_estrofa_rima",
+      "_claude_trabajo_lectura_literatura_plan_leer_poema_voz_alta"
+    ],
+    "58": [
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_barcodragon",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_hongbao",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_mediootono",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_qingming",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_yuebing",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_leccion_2"
+    ],
+    "59": [
+      "_claude_docs_formato_leccion_expresion_simplificar",
+      "_claude_docs_formato_leccion_formato_leccion",
+      "_claude_docs_formato_leccion_helpers_copiados",
+      "_claude_docs_formato_leccion_respuesta_como_operacion",
+      "_claude_docs_formato_leccion_tipos_ejercicio",
+      "_claude_docs_formato_leccion_trampas_conocidas"
+    ],
+    "60": [
+      "_claude_trabajo_ia_modelos_lenguaje_plan_predecir_siguiente_palabra",
+      "_claude_trabajo_ia_que_es_ficha",
+      "_claude_trabajo_ia_que_es_ficha_attention_is_all_you_need",
+      "_claude_trabajo_ia_que_es_plan",
+      "_claude_trabajo_ia_que_es_plan_historia_ia",
+      "_claude_trabajo_ia_que_es_plan_que_es_ia"
+    ],
+    "61": [
+      "_claude_trabajo_lectura_lectura_practica_ficha_infografia",
+      "_claude_trabajo_lectura_lectura_practica_ficha_leyenda",
+      "_claude_trabajo_lectura_lectura_practica_ficha_manual",
+      "_claude_trabajo_lectura_lectura_practica_ficha_prospecto",
+      "_claude_trabajo_lectura_lectura_practica_plan_anatomia_grafico",
+      "_claude_trabajo_lectura_lectura_practica_plan_recorrido_manual"
+    ],
+    "62": [
+      "_claude_trabajo_lectura_literatura_ficha_acotacion",
+      "_claude_trabajo_lectura_literatura_ficha_acto_escena",
+      "_claude_trabajo_lectura_literatura_ficha_la_celestina",
+      "_claude_trabajo_lectura_literatura_ficha_subtexto",
+      "_claude_trabajo_lectura_literatura_ficha_teatro",
+      "_claude_trabajo_lectura_literatura_plan_teatro_guion"
+    ],
+    "63": [
+      "claude_agents_auditor_auditor_agent",
+      "claude_agents_constructor_constructor_agent",
+      "claude_agents_investigador_investigador_agent",
+      "claude_commands_aprobar_plan_aprobar_plan_command",
+      "claude_docs_flujo_unidad_unit_writing_workflow",
+      "claude_docs_fuentes_source_policy"
+    ],
+    "64": [
+      "claude_skills_ui_ux_pro_max_scripts_design_system_query_wants_dark",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_165",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_181",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_rationale_187",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_resolve_color_mode",
+      "claude_skills_ui_ux_pro_max_scripts_design_system_style_is_dark_primary"
+    ],
+    "65": [
+      "_claude_trabajo_ia_usar_bien_ficha",
+      "_claude_trabajo_ia_usar_bien_plan",
+      "_claude_trabajo_ia_usar_bien_plan_contexto_ejemplos",
+      "_claude_trabajo_ia_usar_bien_plan_estudiar_sin_trampa",
+      "_claude_trabajo_ia_usar_bien_plan_instrucciones_claras"
+    ],
+    "66": [
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_pekin",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_putonghua",
+      "claude_trabajo_mandarin_hsk4_cultura_ficha_cultura_rios",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk4_cultura_plan_leccion_1"
+    ],
+    "67": [
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_changebanyue",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_niulangzhinv",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_qixi",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_2",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_2"
+    ],
+    "68": [
+      "_claude_trabajo_lectura_lectura_practica_ficha_brysbaert",
+      "_claude_trabajo_lectura_lectura_practica_ficha_escaneo",
+      "_claude_trabajo_lectura_lectura_practica_ficha_lectura_veloz",
+      "_claude_trabajo_lectura_lectura_practica_plan_esaneo_vs_escaneo"
+    ],
+    "69": [
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_anclaje",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_desinformacion",
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_sesgo_confirmacion",
+      "_claude_trabajo_lectura_pensamiento_critico_plan_seis_preguntas_verificacion"
+    ],
+    "70": [
+      "_claude_trabajo_mandarin_hsk3_comunicacion_notas_director_veto_reglas",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_jiao",
+      "_claude_trabajo_mandarin_hsk5_sociedad_ficha_wiktionary",
+      "_claude_trabajo_mandarin_hsk5_sociedad_notas_director_sin_fuente"
+    ],
+    "71": [
+      "claude_docs_materias_mandarin_hsk_syllabus",
+      "claude_docs_materias_mandarin_mandarin_subject",
+      "claude_docs_materias_mandarin_pinyin_rule",
+      "claude_docs_materias_mandarin_simplified_characters"
+    ],
+    "72": [
+      "claude_trabajo_mandarin_hsk3_comunicacion_ficha_cultura_anionuevo",
+      "claude_trabajo_mandarin_hsk3_comunicacion_ficha_cultura_mediootono3",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_gramatica_3",
+      "claude_trabajo_mandarin_hsk3_comunicacion_plan_leccion_3"
+    ],
+    "73": [
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk4_estructuras_plan_leccion_4",
+      "claude_trabajo_mandarin_hsk4_frases_plan_gramatica_1",
+      "claude_trabajo_mandarin_hsk4_frases_plan_leccion_1"
+    ],
+    "74": [
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_calligrafia",
+      "claude_trabajo_mandarin_hsk5_cultura_ficha_cultura_sello",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_gramatica_4",
+      "claude_trabajo_mandarin_hsk5_cultura_plan_leccion_4"
+    ],
+    "75": [
+      "lecciones_matematicas_estadistica",
+      "lecciones_matematicas_estadistica_barras",
+      "lecciones_matematicas_estadistica_histograma",
+      "lecciones_matematicas_estadistica_pastel"
+    ],
+    "76": [
+      "_claude_trabajo_lectura_fundamentos_ficha_habito_lectura",
+      "_claude_trabajo_lectura_fundamentos_ficha_lectura_por_gusto",
+      "_claude_trabajo_lectura_fundamentos_plan_ciclo_habito"
+    ],
+    "77": [
+      "_claude_trabajo_lectura_literatura_ficha_figuras_retoricas",
+      "_claude_trabajo_lectura_literatura_ficha_metafora_simil",
+      "_claude_trabajo_lectura_literatura_plan_metafora_vs_comparacion"
+    ],
+    "78": [
+      "claude_docs_contenido",
+      "concept_estructura_leccion",
+      "concept_lecciones_referencia"
+    ],
+    "79": [
+      "lecciones_finanzas_personales_presupuesto",
+      "lecciones_finanzas_personales_presupuesto_barras",
+      "lecciones_finanzas_personales_presupuesto_pastel"
+    ],
+    "80": [
+      "opencode_opencode",
+      "opencode_opencode_permissions",
+      "opencode_opencode_schema"
+    ],
+    "81": [
+      "claude_docs_auditoria",
+      "concept_accesibilidad_contenido"
+    ],
+    "82": [
+      "claude_trabajo_ia_llms_locales_antes_auditoria",
+      "claude_trabajo_ia_llms_locales_antes_auditoria_barras"
+    ],
+    "83": [
+      "claude_trabajo_ia_modelos_lenguaje_antes_auditoria",
+      "claude_trabajo_ia_modelos_lenguaje_antes_auditoria_barras"
+    ],
+    "84": [
+      "claude_trabajo_ia_sociedad_antes_auditoria",
+      "claude_trabajo_ia_sociedad_antes_auditoria_barras"
+    ],
+    "85": [
+      "lecciones_autosuficiencia_agua",
+      "lecciones_autosuficiencia_agua_barras"
+    ],
+    "86": [
+      "lecciones_autosuficiencia_guardar_semillas",
+      "lecciones_autosuficiencia_guardar_semillas_barras"
+    ],
+    "87": [
+      "lecciones_autosuficiencia_semillas",
+      "lecciones_autosuficiencia_semillas_barras"
+    ],
+    "88": [
+      "lecciones_ciencias_naturales_cuerpo_humano",
+      "lecciones_ciencias_naturales_cuerpo_humano_barras"
+    ],
+    "89": [
+      "lecciones_ciencias_naturales_ecologia",
+      "lecciones_ciencias_naturales_ecologia_barras"
+    ],
+    "90": [
+      "lecciones_ciencias_naturales_herencia",
+      "lecciones_ciencias_naturales_herencia_barras"
+    ],
+    "91": [
+      "lecciones_ciencias_naturales_salud",
+      "lecciones_ciencias_naturales_salud_barras"
+    ],
+    "92": [
+      "lecciones_ciencias_naturales_seres_vivos",
+      "lecciones_ciencias_naturales_seres_vivos_barras"
+    ],
+    "93": [
+      "lecciones_finanzas_conceptos_economia",
+      "lecciones_finanzas_conceptos_economia_barras"
+    ],
+    "94": [
+      "lecciones_finanzas_economia_de_un_pais",
+      "lecciones_finanzas_economia_de_un_pais_barras"
+    ],
+    "95": [
+      "lecciones_finanzas_empresas",
+      "lecciones_finanzas_empresas_barras"
+    ],
+    "96": [
+      "lecciones_finanzas_personales_credito",
+      "lecciones_finanzas_personales_credito_barras"
+    ],
+    "97": [
+      "lecciones_finanzas_personales_crisis",
+      "lecciones_finanzas_personales_crisis_barras"
+    ],
+    "98": [
+      "lecciones_finanzas_personales_deudas",
+      "lecciones_finanzas_personales_deudas_barras"
+    ],
+    "99": [
+      "lecciones_finanzas_personales_interes",
+      "lecciones_finanzas_personales_interes_barras"
+    ],
+    "100": [
+      "lecciones_ia_llms_locales",
+      "lecciones_ia_llms_locales_barras"
+    ],
+    "101": [
+      "lecciones_ia_modelos_lenguaje",
+      "lecciones_ia_modelos_lenguaje_barras"
+    ],
+    "102": [
+      "lecciones_ia_sociedad",
+      "lecciones_ia_sociedad_barras"
+    ],
+    "103": [
+      "lecciones_lectura_lectura_practica",
+      "lecciones_lectura_lectura_practica_barras"
+    ],
+    "104": [
+      "lecciones_mandarin_hsk2_situaciones",
+      "lecciones_mandarin_hsk2_situaciones_barras"
+    ],
+    "105": [
+      "lecciones_mandarin_hsk3_gramatica",
+      "lecciones_mandarin_hsk3_gramatica_barras"
+    ],
+    "106": [
+      "lecciones_quimica_vida_diaria",
+      "lecciones_quimica_vida_diaria_barras"
+    ],
+    "107": [
+      "_claude_trabajo_lectura_pensamiento_critico_ficha_dunning_kruger"
+    ],
+    "108": [
+      "claude_docs_fuentes_blocked_sources"
+    ],
+    "109": [
+      "claude_trabajo_ia_como_aprenden_antes_auditoria"
+    ],
+    "110": [
+      "claude_trabajo_ia_usar_bien_antes_auditoria"
+    ],
+    "111": [
+      "lecciones_autosuficiencia_alimentos"
+    ],
+    "112": [
+      "lecciones_autosuficiencia_bases"
+    ],
+    "113": [
+      "lecciones_autosuficiencia_cultivos"
+    ],
+    "114": [
+      "lecciones_autosuficiencia_energia"
+    ],
+    "115": [
+      "lecciones_autosuficiencia_fuego"
+    ],
+    "116": [
+      "lecciones_autosuficiencia_habilidades"
+    ],
+    "117": [
+      "lecciones_autosuficiencia_huerto"
+    ],
+    "118": [
+      "lecciones_autosuficiencia_salud"
+    ],
+    "119": [
+      "lecciones_autosuficiencia_software"
+    ],
+    "120": [
+      "lecciones_autosuficiencia_vivienda"
+    ],
+    "121": [
+      "lecciones_ciencias_naturales_tierra"
+    ],
+    "122": [
+      "lecciones_ciencias_naturales_universo"
+    ],
+    "123": [
+      "lecciones_finanzas_emprender"
+    ],
+    "124": [
+      "lecciones_finanzas_mercados_financieros"
+    ],
+    "125": [
+      "lecciones_finanzas_personales_ahorro"
+    ],
+    "126": [
+      "lecciones_finanzas_personales_bancos"
+    ],
+    "127": [
+      "lecciones_finanzas_personales_dinero"
+    ],
+    "128": [
+      "lecciones_finanzas_personales_futuro"
+    ],
+    "129": [
+      "lecciones_finanzas_personales_inversion"
+    ],
+    "130": [
+      "lecciones_finanzas_sistema_financiero"
+    ],
+    "131": [
+      "lecciones_fisica_bases"
+    ],
+    "132": [
+      "lecciones_fisica_calor"
+    ],
+    "133": [
+      "lecciones_fisica_electricidad"
+    ],
+    "134": [
+      "lecciones_fisica_energia"
+    ],
+    "135": [
+      "lecciones_fisica_fluidos"
+    ],
+    "136": [
+      "lecciones_fisica_fuerzas"
+    ],
+    "137": [
+      "lecciones_fisica_moderna"
+    ],
+    "138": [
+      "lecciones_fisica_movimiento"
+    ],
+    "139": [
+      "lecciones_fisica_ondas"
+    ],
+    "140": [
+      "lecciones_ia_como_aprenden"
+    ],
+    "141": [
+      "lecciones_ia_que_es"
+    ],
+    "142": [
+      "lecciones_ia_usar_bien"
+    ],
+    "143": [
+      "lecciones_lectura_comprension_lectora"
+    ],
+    "144": [
+      "lecciones_lectura_escribir_con_claridad"
+    ],
+    "145": [
+      "lecciones_lectura_fundamentos"
+    ],
+    "146": [
+      "lecciones_lectura_literatura"
+    ],
+    "147": [
+      "lecciones_lectura_pensamiento_critico"
+    ],
+    "148": [
+      "lecciones_mandarin_hsk3_comunicacion"
+    ],
+    "149": [
+      "lecciones_mandarin_hsk4_cultura"
+    ],
+    "150": [
+      "lecciones_mandarin_hsk4_estructuras"
+    ],
+    "151": [
+      "lecciones_mandarin_hsk4_frases"
+    ],
+    "152": [
+      "lecciones_mandarin_hsk4_vida"
+    ],
+    "153": [
+      "lecciones_mandarin_hsk5_cultura"
+    ],
+    "154": [
+      "lecciones_mandarin_hsk5_gramatica"
+    ],
+    "155": [
+      "lecciones_mandarin_hsk5_sociedad"
+    ],
+    "156": [
+      "lecciones_mandarin_hsk6_cultura"
+    ],
+    "157": [
+      "lecciones_mandarin_hsk6_gramatica"
+    ],
+    "158": [
+      "lecciones_mandarin_hsk6_temas"
+    ],
+    "159": [
+      "lecciones_mandarin_sonidos"
+    ],
+    "160": [
+      "lecciones_matematicas_algebra"
+    ],
+    "161": [
+      "lecciones_matematicas_aritmetica"
+    ],
+    "162": [
+      "lecciones_matematicas_calculo"
+    ],
+    "163": [
+      "lecciones_matematicas_funciones"
+    ],
+    "164": [
+      "lecciones_matematicas_geometria"
+    ],
+    "165": [
+      "lecciones_matematicas_geometria_analitica"
+    ],
+    "166": [
+      "lecciones_matematicas_trigonometria"
+    ],
+    "167": [
+      "lecciones_ofimatica_computadora"
+    ],
+    "168": [
+      "lecciones_ofimatica_hojas_de_calculo"
+    ],
+    "169": [
+      "lecciones_ofimatica_presentaciones"
+    ],
+    "170": [
+      "lecciones_ofimatica_procesador_de_textos"
+    ],
+    "171": [
+      "lecciones_ofimatica_trabajo_en_la_nube"
+    ],
+    "172": [
+      "lecciones_quimica_atomo"
+    ],
+    "173": [
+      "lecciones_quimica_disoluciones"
+    ],
+    "174": [
+      "lecciones_quimica_enlaces"
+    ],
+    "175": [
+      "lecciones_quimica_estequiometria"
+    ],
+    "176": [
+      "lecciones_quimica_materia"
+    ],
+    "177": [
+      "lecciones_quimica_nomenclatura"
+    ],
+    "178": [
+      "lecciones_quimica_organica"
+    ],
+    "179": [
+      "lecciones_quimica_reacciones"
+    ],
+    "180": [
+      "lecciones_quimica_tabla"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06526806526806526,
+    "1": 0.05878084179970972,
+    "2": 0.1011764705882353,
+    "3": 0.08816326530612245,
+    "4": 0.05550416281221091,
+    "5": 0.08603145235892692,
+    "6": 0.09158186864014801,
+    "7": 0.0507399577167019,
+    "8": 0.0782051282051282,
+    "9": 0.08232118758434548,
+    "10": 0.05855855855855856,
+    "11": 0.09090909090909091,
+    "12": 0.07389162561576355,
+    "13": 0.10541310541310542,
+    "14": 0.15217391304347827,
+    "15": 0.12554112554112554,
+    "16": 0.09090909090909091,
+    "17": 0.18571428571428572,
+    "18": 0.10476190476190476,
+    "19": 0.21052631578947367,
+    "20": 0.1323529411764706,
+    "21": 0.11764705882352941,
+    "22": 0.11764705882352941,
+    "23": 0.20833333333333334,
+    "24": 0.13333333333333333,
+    "25": 0.26666666666666666,
+    "26": 0.17142857142857143,
+    "27": 0.13333333333333333,
+    "28": 0.13333333333333333,
+    "29": 0.1619047619047619,
+    "30": 0.1619047619047619,
+    "31": 0.1619047619047619,
+    "32": 0.18681318681318682,
+    "33": 0.17582417582417584,
+    "34": 0.17582417582417584,
+    "35": 0.17582417582417584,
+    "36": 0.17582417582417584,
+    "37": 0.17582417582417584,
+    "38": 0.16666666666666666,
+    "39": 0.23076923076923078,
+    "40": 0.20512820512820512,
+    "41": 0.19230769230769232,
+    "42": 0.19230769230769232,
+    "43": 0.22727272727272727,
+    "44": 0.18181818181818182,
+    "45": 0.16666666666666666,
+    "46": 0.18181818181818182,
+    "47": 0.23636363636363636,
+    "48": 0.2,
+    "49": 0.3333333333333333,
+    "50": 0.25,
+    "51": 0.2857142857142857,
+    "52": 0.2857142857142857,
+    "53": 0.25,
+    "54": 0.47619047619047616,
+    "55": 0.2857142857142857,
+    "56": 0.38095238095238093,
+    "57": 0.2857142857142857,
+    "58": 0.2857142857142857,
+    "59": 0.3333333333333333,
+    "60": 0.3333333333333333,
+    "61": 0.4,
+    "62": 0.4666666666666667,
+    "63": 0.3333333333333333,
+    "64": 0.3333333333333333,
+    "65": 0.4,
+    "66": 0.4,
+    "67": 0.4,
+    "68": 0.6666666666666666,
+    "69": 0.6666666666666666,
+    "70": 0.5,
+    "71": 0.5,
+    "72": 0.5,
+    "73": 0.5,
+    "74": 0.5,
+    "75": 0.5,
+    "76": 1.0,
+    "77": 0.6666666666666666,
+    "78": 0.6666666666666666,
+    "79": 0.6666666666666666,
+    "80": 0.6666666666666666,
+    "81": 1.0,
+    "82": 1.0,
+    "83": 1.0,
+    "84": 1.0,
+    "85": 1.0,
+    "86": 1.0,
+    "87": 1.0,
+    "88": 1.0,
+    "89": 1.0,
+    "90": 1.0,
+    "91": 1.0,
+    "92": 1.0,
+    "93": 1.0,
+    "94": 1.0,
+    "95": 1.0,
+    "96": 1.0,
+    "97": 1.0,
+    "98": 1.0,
+    "99": 1.0,
+    "100": 1.0,
+    "101": 1.0,
+    "102": 1.0,
+    "103": 1.0,
+    "104": 1.0,
+    "105": 1.0,
+    "106": 1.0,
+    "107": 1.0,
+    "108": 1.0,
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0,
+    "176": 1.0,
+    "177": 1.0,
+    "178": 1.0,
+    "179": 1.0,
+    "180": 1.0
+  },
+  "gods": [
+    {
+      "id": "claude_skills_ui_ux_pro_max_scripts_core_search",
+      "label": "search()",
+      "degree": 20
+    },
+    {
+      "id": "claude_trabajo_ofimatica_computadora_ficha",
+      "label": "Ficha U1 La computadora (fuentes y datos citados)",
+      "degree": 20
+    },
+    {
+      "id": "claude_trabajo_finanzas_economia_de_un_pais_ficha_fact_sheet",
+      "label": "Ficha de hechos: La economía de un país",
+      "degree": 19
+    },
+    {
+      "id": "_claude_trabajo_mandarin_hsk5_sociedad_ficha_ficha",
+      "label": "Ficha: Mandarín unidad 14 (HSK 5 · Sociedad)",
+      "degree": 19
+    },
+    {
+      "id": "claude_trabajo_ofimatica_hojas_de_calculo_plan",
+      "label": "Plan U3 Hojas de calculo (12 lecciones)",
+      "degree": 17
+    },
+    {
+      "id": "claude_trabajo_finanzas_sistema_financiero_ficha_fact_sheet",
+      "label": "Ficha de hechos: El sistema financiero",
+      "degree": 16
+    },
+    {
+      "id": "_claude_trabajo_mandarin_hsk2_gramatica_plan",
+      "label": "Plan Unidad 5: HSK 2 · Gramática",
+      "degree": 16
+    },
+    {
+      "id": "claude_trabajo_finanzas_mercados_financieros_ficha_fact_sheet",
+      "label": "Ficha de hechos: Mercados financieros",
+      "degree": 16
+    },
+    {
+      "id": "_claude_trabajo_mandarin_hsk3_gramatica_notas_director",
+      "label": "Notas del Director U7",
+      "degree": 16
+    },
+    {
+      "id": "claude_trabajo_mandarin_hsk4_frases_plan_unidad_9",
+      "label": "Mandarín · Unidad 9: HSK 4 · Frases complejas",
+      "degree": 16
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Notas Claude Code",
+      "target": "Director (OpenCode)",
+      "source_files": [
+        "CLAUDE.md",
+        ".opencode/agents/director.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Notas Claude Code` unexpectedly reaches hub `Director (OpenCode)`"
+    },
+    {
+      "source": "index.html SPA shell",
+      "target": "Accessibility rules (WCAG, contrast, focus, reduced motion)",
+      "source_files": [
+        "index.html",
+        ".claude/skills/ui-ux-pro-max/references/quick-reference.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Accessibility rules (WCAG, contrast, focus, reduced motion)` unexpectedly reaches hub `index.html SPA shell`"
+    },
+    {
+      "source": "Notas del Director, Mandarín unidad 2",
+      "target": "Respaldo parcial: escribe solo lo que la cita dice",
+      "source_files": [
+        ".claude/trabajo/mandarin/primeras-frases/notas-director.md",
+        ".claude/trabajo/mandarin/sonidos/notas-director.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; semantically similar concepts with no structural link; peripheral node `Respaldo parcial: escribe solo lo que la cita dice` unexpectedly reaches hub `Notas del Director, Mandarín unidad 2`"
+    },
+    {
+      "source": "Modelo de lección: lecciones/mandarin/hsk4-vida.js",
+      "target": "Ficha: Mandarín unidad 11 (HSK 4 · Vida y sociedad)",
+      "source_files": [
+        ".claude/trabajo/mandarin/hsk4-cultura/notas-director.md",
+        ".claude/trabajo/mandarin/hsk4-vida/ficha.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "shares_data_with",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `Modelo de lección: lecciones/mandarin/hsk4-vida.js` unexpectedly reaches hub `Ficha: Mandarín unidad 11 (HSK 4 · Vida y sociedad)`"
+    },
+    {
+      "source": "Modelos: hsk5-sociedad.js y hsk4-cultura.js",
+      "target": "Ficha: Mandarín unidad 14 (HSK 5 · Sociedad)",
+      "source_files": [
+        ".claude/trabajo/mandarin/hsk5-cultura/notas-director.md",
+        ".claude/trabajo/mandarin/hsk5-sociedad/ficha.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `Modelos: hsk5-sociedad.js y hsk4-cultura.js` unexpectedly reaches hub `Ficha: Mandarín unidad 14 (HSK 5 · Sociedad)`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Free Learning` connect `Community 10` to `Community 4`, `Community 7`?",
+      "why": "High betweenness centrality (0.006) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Autosuficiencia (112 lecciones)`, `Ciencias naturales (39 lecciones)`, `Finanzas personales (próximamente)` to the rest of the system?",
+      "why": "184 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.06526806526806526 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Mandarín · Unidad 9: HSK 4 · Frases complejas` connect `Community 18` to `Community 73`, `Community 27`, `Community 12`, `Community 21`?",
+      "why": "High betweenness centrality (0.005) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.05878084179970972 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Mandarín · Unidad 15: HSK 5 · Cultura y lectura` connect `Community 16` to `Community 67`, `Community 27`, `Community 12`, `Community 74`?",
+      "why": "High betweenness centrality (0.005) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1011764705882353 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

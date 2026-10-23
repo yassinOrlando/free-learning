@@ -1,7 +1,7 @@
 ---
 description: Escribe el archivo de una unidad de Free Learning a partir de plan.md y ficha.md, corre las revisiones automáticas y revisa los diagramas. Úsalo en el paso 4 del flujo de unidad, uno nuevo por fragmento de 2-3 lecciones.
 mode: subagent
-model: opencode/minimax-m3.1-flash-free
+model: opencode/deepseek-v4.1-flash-free
 permissions:
   - action: edit
     resource: "*"

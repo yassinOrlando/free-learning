@@ -72,10 +72,10 @@
     "semantic_hash": "28638f59ac9d2a5bce224e6e7a557f6c"
   },
   "js/temario.js": {
-    "mtime": 1792630945.726835,
-    "seen": 1792634448.475662,
-    "ast_hash": "612d134e495bf4ed5e62f3d7db0b1b33",
-    "semantic_hash": "612d134e495bf4ed5e62f3d7db0b1b33"
+    "mtime": 1792707730.295596,
+    "seen": 1792715954.096927,
+    "ast_hash": "ae7fe058f01be23252bb2534ef362f05",
+    "semantic_hash": "ae7fe058f01be23252bb2534ef362f05"
   },
   "js/textos.js": {
     "mtime": 1792109912.755856,
@@ -1230,16 +1230,16 @@
     "semantic_hash": "712ed3747a1a1f7589451e26da784724"
   },
   ".opencode/agents/auditor.md": {
-    "mtime": 1792446702.08366,
-    "seen": 1792563576.0494149,
-    "ast_hash": "fa1c283164b0d5f56d1832c6222ba03c",
-    "semantic_hash": "fa1c283164b0d5f56d1832c6222ba03c"
+    "mtime": 1792702470.5334537,
+    "seen": 1792715954.0980139,
+    "ast_hash": "e6ecc80e58048a481cf0b23c2b705c00",
+    "semantic_hash": "e6ecc80e58048a481cf0b23c2b705c00"
   },
   ".opencode/agents/constructor.md": {
-    "mtime": 1792446681.5638697,
-    "seen": 1792563576.0494149,
-    "ast_hash": "c276a9b6dffc90b276fcf84793f8aec2",
-    "semantic_hash": "c276a9b6dffc90b276fcf84793f8aec2"
+    "mtime": 1792702470.5300782,
+    "seen": 1792715954.098015,
+    "ast_hash": "ce22cd21a2137a56cb6aadb6c55bf073",
+    "semantic_hash": "ce22cd21a2137a56cb6aadb6c55bf073"
   },
   ".opencode/agents/director.md": {
     "mtime": 1792446597.3257146,
@@ -1248,10 +1248,10 @@
     "semantic_hash": "375d2c70e1a97bf4d0b75c0787ab0cff"
   },
   ".opencode/agents/investigador.md": {
-    "mtime": 1792446732.9473653,
-    "seen": 1792563576.0494158,
-    "ast_hash": "4f4fc3e60e6bfdabb3271d29c20629cf",
-    "semantic_hash": "4f4fc3e60e6bfdabb3271d29c20629cf"
+    "mtime": 1792687550.8577857,
+    "seen": 1792715954.098015,
+    "ast_hash": "92e7ebac628a6b0f3163f1caafb1defd",
+    "semantic_hash": "92e7ebac628a6b0f3163f1caafb1defd"
   },
   ".opencode/commands/aprobar-plan.md": {
     "mtime": 1792446108.9433334,
@@ -1462,5 +1462,143 @@
     "seen": 1792634448.4757178,
     "ast_hash": "a089ba288fac2a42b14ce4fc058e3a49",
     "semantic_hash": "a089ba288fac2a42b14ce4fc058e3a49"
+  },
+  "lecciones/ofimatica/computadora.js": {
+    "mtime": 1792640686.0835054,
+    "seen": 1792715954.097883,
+    "ast_hash": "d0958b27061044cec2f092bcfc2e98a7",
+    "semantic_hash": "d0958b27061044cec2f092bcfc2e98a7"
+  },
+  "lecciones/ofimatica/hojas-de-calculo.js": {
+    "mtime": 1792686761.1045554,
+    "seen": 1792715954.097884,
+    "ast_hash": "9c1bc4128f78ca37072676acecfbd412",
+    "semantic_hash": "9c1bc4128f78ca37072676acecfbd412"
+  },
+  "lecciones/ofimatica/presentaciones.js": {
+    "mtime": 1792702203.850929,
+    "seen": 1792715954.097885,
+    "ast_hash": "a90455e5d53b8d05ac364597de473d5c",
+    "semantic_hash": "a90455e5d53b8d05ac364597de473d5c"
+  },
+  "lecciones/ofimatica/procesador-de-textos.js": {
+    "mtime": 1792648262.5464168,
+    "seen": 1792715954.097885,
+    "ast_hash": "d4789577732655bc4b86ea163d0cf0db",
+    "semantic_hash": "d4789577732655bc4b86ea163d0cf0db"
+  },
+  "lecciones/ofimatica/trabajo-en-la-nube.js": {
+    "mtime": 1792711137.6881309,
+    "seen": 1792715954.0978858,
+    "ast_hash": "56ae3421b69a44b3ad8e9ea0ad00f2a3",
+    "semantic_hash": "56ae3421b69a44b3ad8e9ea0ad00f2a3"
+  },
+  ".claude/trabajo/ofimatica/computadora/ficha.md": {
+    "mtime": 1792638161.1196797,
+    "seen": 1792715954.098009,
+    "ast_hash": "31e15db0c33058588a6c0df24279dd87",
+    "semantic_hash": "31e15db0c33058588a6c0df24279dd87"
+  },
+  ".claude/trabajo/ofimatica/computadora/plan.md": {
+    "mtime": 1792635199.6087377,
+    "seen": 1792715954.09801,
+    "ast_hash": "900e8a294ade6b671b55229fb7d4685c",
+    "semantic_hash": "900e8a294ade6b671b55229fb7d4685c"
+  },
+  ".claude/trabajo/ofimatica/computadora/reglas-materia.md": {
+    "mtime": 1792648460.2579358,
+    "seen": 1792715954.09801,
+    "ast_hash": "46fb34f18581e9446298af2313ec64aa",
+    "semantic_hash": "46fb34f18581e9446298af2313ec64aa"
+  },
+  ".claude/trabajo/ofimatica/hojas-de-calculo/ficha.md": {
+    "mtime": 1792656600.638865,
+    "seen": 1792715954.0980108,
+    "ast_hash": "ef4c4d0bbb6694674a9a587b1e324593",
+    "semantic_hash": "ef4c4d0bbb6694674a9a587b1e324593"
+  },
+  ".claude/trabajo/ofimatica/hojas-de-calculo/plan.md": {
+    "mtime": 1792649966.8431005,
+    "seen": 1792715954.0980108,
+    "ast_hash": "7807386e45d1b0dded86c0451c858397",
+    "semantic_hash": "7807386e45d1b0dded86c0451c858397"
+  },
+  ".claude/trabajo/ofimatica/presentaciones/ficha.md": {
+    "mtime": 1792697114.0947235,
+    "seen": 1792715954.0980108,
+    "ast_hash": "bb903dc5c93ca27f07f1fa7a798917e0",
+    "semantic_hash": "bb903dc5c93ca27f07f1fa7a798917e0"
+  },
+  ".claude/trabajo/ofimatica/presentaciones/plan.md": {
+    "mtime": 1792687633.4913144,
+    "seen": 1792715954.098012,
+    "ast_hash": "9ca932b66eca575477810fb338daa543",
+    "semantic_hash": "9ca932b66eca575477810fb338daa543"
+  },
+  ".claude/trabajo/ofimatica/procesador-de-textos/ficha.md": {
+    "mtime": 1792643272.8409085,
+    "seen": 1792715954.098013,
+    "ast_hash": "8aa44cfa5159915ba23f085c1b781b78",
+    "semantic_hash": "8aa44cfa5159915ba23f085c1b781b78"
+  },
+  ".claude/trabajo/ofimatica/procesador-de-textos/plan.md": {
+    "mtime": 1792642020.632501,
+    "seen": 1792715954.098013,
+    "ast_hash": "a86d0b7aaa4d51dc82efe8fb20f3596d",
+    "semantic_hash": "a86d0b7aaa4d51dc82efe8fb20f3596d"
+  },
+  ".claude/trabajo/ofimatica/trabajo-en-la-nube/ficha.md": {
+    "mtime": 1792706698.5270286,
+    "seen": 1792715954.0980139,
+    "ast_hash": "48a9e35f3c71b9d2bf68f92a55426280",
+    "semantic_hash": "48a9e35f3c71b9d2bf68f92a55426280"
+  },
+  ".claude/trabajo/ofimatica/trabajo-en-la-nube/plan.md": {
+    "mtime": 1792702531.6323438,
+    "seen": 1792715954.0980139,
+    "ast_hash": "a8f2450411d61e489e45b747f03d0777",
+    "semantic_hash": "a8f2450411d61e489e45b747f03d0777"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d01.svg": {
+    "mtime": 1792640071.9628713,
+    "seen": 1792715954.098016,
+    "ast_hash": "45fb81b47c928083bd79a66a42b23f4d",
+    "semantic_hash": "45fb81b47c928083bd79a66a42b23f4d"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d02.svg": {
+    "mtime": 1792640071.962996,
+    "seen": 1792715954.098016,
+    "ast_hash": "eb76e651eabe9d0beda252b5be8102ef",
+    "semantic_hash": "eb76e651eabe9d0beda252b5be8102ef"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d03.svg": {
+    "mtime": 1792640071.9632401,
+    "seen": 1792715954.098017,
+    "ast_hash": "404a72a9afb0bbe6fd8507a8998c2d7b",
+    "semantic_hash": "404a72a9afb0bbe6fd8507a8998c2d7b"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d04.svg": {
+    "mtime": 1792640071.9634,
+    "seen": 1792715954.098017,
+    "ast_hash": "ecce33395a04b4cb2fb1eed09805f7cb",
+    "semantic_hash": "ecce33395a04b4cb2fb1eed09805f7cb"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d05.svg": {
+    "mtime": 1792640071.9634688,
+    "seen": 1792715954.098018,
+    "ast_hash": "5958bfe1ba3f5c7d57f09385c405c233",
+    "semantic_hash": "5958bfe1ba3f5c7d57f09385c405c233"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d06.svg": {
+    "mtime": 1792640071.963529,
+    "seen": 1792715954.098018,
+    "ast_hash": "daf0f128af11a614935e9859d23337b3",
+    "semantic_hash": "daf0f128af11a614935e9859d23337b3"
+  },
+  ".claude/trabajo/ofimatica/computadora/render/d07.svg": {
+    "mtime": 1792640071.9635963,
+    "seen": 1792715954.098018,
+    "ast_hash": "54b22e631ac4edc4c9c946bacb406d7d",
+    "semantic_hash": "54b22e631ac4edc4c9c946bacb406d7d"
   }
 }
